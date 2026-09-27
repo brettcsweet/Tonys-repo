@@ -1,0 +1,833 @@
+{
+  "as_of": "2026-09-27",
+  "peer_set": "Top 50 private national universities, U.S. News & World Report 2027 (overall rank shown). Four privates tie at No. 90 across the 50th slot, so 51 schools are listed.",
+  "ranking_confidence": "Ranks 1-39 verified from school or press sources; 40-51 single-source, and privates ranked ~60-90 may be missing. Confirm against usnews.com/best-colleges/rankings/national-universities/top-private.",
+  "units": "Market value in $ billions at fiscal year end; return % net of fees as reported by the school.",
+  "schools": [
+    {
+      "private_rank": 1,
+      "school": "Massachusetts Institute of Technology",
+      "short": "MIT",
+      "usnews_rank": "1",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 27.4,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://news.mit.edu/2025/mit-releases-financials-and-endowment-figures-1010"
+      ],
+      "notes": "FY25 return 14.8%. Usually reports mid-October."
+    },
+    {
+      "private_rank": 2,
+      "school": "Princeton University",
+      "short": "Princeton",
+      "usnews_rank": "2",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 36.4,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://paw.princeton.edu/article/princeton-endowment-earns-11-return-reaches-364-billion"
+      ],
+      "notes": "FY25 return 11.0%."
+    },
+    {
+      "private_rank": 3,
+      "school": "Harvard University",
+      "short": "Harvard",
+      "usnews_rank": "3",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 56.9,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.hmc.harvard.edu/wp-content/uploads/2025/10/FY25_HMC_Annual_Report.pdf"
+      ],
+      "notes": "FY25 return 11.9%. Usually reports mid-October."
+    },
+    {
+      "private_rank": 4,
+      "school": "Yale University",
+      "short": "Yale",
+      "usnews_rank": "4",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 44.1,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://news.yale.edu/2025/10/24/yale-reports-investment-return-fiscal-2025"
+      ],
+      "notes": "FY25 return 11.1%. Usually reports late October."
+    },
+    {
+      "private_rank": 5,
+      "school": "California Institute of Technology",
+      "short": "Caltech",
+      "usnews_rank": "T-5",
+      "fy_end": "Sep 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 4.32,
+      "fy25_confidence": "weak",
+      "status": "pending",
+      "sources": [
+        "https://investments.caltech.edu/documents/34559/Caltech_Endowment_Report_FY25_Final_Pages.pdf"
+      ],
+      "notes": "FY ends Sep 30. FY25 value from secondary source; verify."
+    },
+    {
+      "private_rank": 6,
+      "school": "Stanford University",
+      "short": "Stanford",
+      "usnews_rank": "T-5",
+      "fy_end": "Jun 30 (Merged Pool)",
+      "fy26_return": 31.7,
+      "fy26_value": 61.5,
+      "fy25_value": 47.7,
+      "fy25_confidence": "reported",
+      "status": "reported",
+      "sources": [
+        "https://news.stanford.edu/stories/2026/09/annual-financial-return-merged-pool",
+        "https://news.stanford.edu/stories/2025/10/report-investment-portfolio-value-endowment"
+      ],
+      "notes": "Merged Pool return and value (not total endowment; endowment was $40.8B at 8/31/25)."
+    },
+    {
+      "private_rank": 7,
+      "school": "University of Pennsylvania",
+      "short": "Penn",
+      "usnews_rank": "7",
+      "fy_end": "Jun 30",
+      "fy26_return": 27.4,
+      "fy26_value": 31.1,
+      "fy25_value": 24.8,
+      "fy25_confidence": "reported",
+      "status": "reported",
+      "sources": [
+        "https://www.thedp.com/article/2026/09/penn-endowment-return-record-high-fiscal-year-2026",
+        "https://www.ai-cio.com/news/penn-endowment-surges-27-4-in-fiscal-2026/"
+      ],
+      "notes": "Record $6.3B gain."
+    },
+    {
+      "private_rank": 8,
+      "school": "Duke University",
+      "short": "Duke",
+      "usnews_rank": "8",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 12.3,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-duke-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return ~9%."
+    },
+    {
+      "private_rank": 9,
+      "school": "Johns Hopkins University",
+      "short": "Johns Hopkins",
+      "usnews_rank": "T-9",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 13.7,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.nacubo.org/Research/2025/Public-NCSE-Tables"
+      ],
+      "notes": "FY25 value per NACUBO."
+    },
+    {
+      "private_rank": 10,
+      "school": "Northwestern University",
+      "short": "Northwestern",
+      "usnews_rank": "T-9",
+      "fy_end": "Aug 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 15.2,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://evanstonroundtable.com/2026/02/16/northwestern-university-endowment-growth/"
+      ],
+      "notes": "FY ends Aug 31; reports late in year."
+    },
+    {
+      "private_rank": 11,
+      "school": "University of Chicago",
+      "short": "UChicago",
+      "usnews_rank": "T-9",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 10.9,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.ai-cio.com/news/university-of-chicago-endowment-rises-10-2-to-10-9b/"
+      ],
+      "notes": "FY25 return 10.2%."
+    },
+    {
+      "private_rank": 12,
+      "school": "Columbia University",
+      "short": "Columbia",
+      "usnews_rank": "T-12",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 15.9,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.columbiaspectator.com/news/2025/10/23/columbias-endowment-rises-to-159-billion-as-operating-surplus-plummets-to-1126-million/"
+      ],
+      "notes": "FY25 return 12.4%."
+    },
+    {
+      "private_rank": 13,
+      "school": "Dartmouth College",
+      "short": "Dartmouth",
+      "usnews_rank": "T-12",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 9.0,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.ai-cio.com/news/dartmouth-endowment-returns-10-8-in-fiscal-2025/"
+      ],
+      "notes": "FY25 return 10.8%."
+    },
+    {
+      "private_rank": 14,
+      "school": "Carnegie Mellon University",
+      "short": "Carnegie Mellon",
+      "usnews_rank": "T-14",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 3.5,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-carnegie-mellon-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 10.9%."
+    },
+    {
+      "private_rank": 15,
+      "school": "Cornell University",
+      "short": "Cornell",
+      "usnews_rank": "T-14",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 11.8,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://statements.cornell.edu/2025/20251028-university-endowment.cfm"
+      ],
+      "notes": "FY25 return 12.3%. Usually reports late October."
+    },
+    {
+      "private_rank": 16,
+      "school": "Brown University",
+      "short": "Brown",
+      "usnews_rank": "T-16",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 8.0,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.brown.edu/news/2025-10-17/brown-endowment-return-2025"
+      ],
+      "notes": "FY25 return 11.9%."
+    },
+    {
+      "private_rank": 17,
+      "school": "Rice University",
+      "short": "Rice",
+      "usnews_rank": "T-16",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 8.5,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-rice-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 11.4%. $8.5B total incl. directly held real estate ($7.9B managed by RMC)."
+    },
+    {
+      "private_rank": 18,
+      "school": "Vanderbilt University",
+      "short": "Vanderbilt",
+      "usnews_rank": "T-16",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 10.86,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://vanderbilthustler.com/2025/12/01/vanderbilt-endowment-up-9-9-to-10-9b-in-2025-financial-report/"
+      ],
+      "notes": "FY25 return 9.9%."
+    },
+    {
+      "private_rank": 19,
+      "school": "Washington University in St. Louis",
+      "short": "WashU",
+      "usnews_rank": "T-16",
+      "fy_end": "Jun 30",
+      "fy26_return": 37.3,
+      "fy26_value": null,
+      "fy25_value": 14.5,
+      "fy25_confidence": "reported",
+      "status": "reported",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-09-25/spacex-stake-helps-drives-37-3-return-for-washington-university",
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-washington-university-st-louis-2025-fiscal-year-return/"
+      ],
+      "notes": "FY26 value not yet stated; SpaceX stake drove return. One source gives FY25 $13.4B; verify."
+    },
+    {
+      "private_rank": 20,
+      "school": "University of Notre Dame",
+      "short": "Notre Dame",
+      "usnews_rank": "T-20",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 20.1,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-university-notre-dame-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 13.6%. Reports Nov-Dec."
+    },
+    {
+      "private_rank": 21,
+      "school": "Emory University",
+      "short": "Emory",
+      "usnews_rank": "T-23",
+      "fy_end": "Aug 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 12.0,
+      "fy25_confidence": "weak",
+      "status": "pending",
+      "sources": [
+        "https://finance.emory.edu/home/financedivision/_includes/documents/audit-fy25.pdf"
+      ],
+      "notes": "FY ends Aug 31. FY25 value low confidence; verify."
+    },
+    {
+      "private_rank": 22,
+      "school": "Georgetown University",
+      "short": "Georgetown",
+      "usnews_rank": "T-23",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 3.95,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://georgetownvoice.com/2026/09/13/georgetown-explained-how-the-university-spends-its-money-overseas/"
+      ],
+      "notes": "Reports late (Feb)."
+    },
+    {
+      "private_rank": 23,
+      "school": "University of Southern California",
+      "short": "USC",
+      "usnews_rank": "T-27",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 8.77,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://dailytrojan.com/2026/02/06/usc-cfo-really-optimistic-after-fiscal-year-25-report-releases/"
+      ],
+      "notes": "Reports in financial statements (early following year)."
+    },
+    {
+      "private_rank": 24,
+      "school": "Boston College",
+      "short": "Boston College",
+      "usnews_rank": "T-31",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 4.3,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://bcheights.com/224841/news/bcs-assets-totaled-7-7-billion-in-2025-records-show/"
+      ],
+      "notes": "FY ends May 31."
+    },
+    {
+      "private_rank": 25,
+      "school": "New York University",
+      "short": "NYU",
+      "usnews_rank": "T-31",
+      "fy_end": "Aug 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 7.4,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.nyu.edu/about/leadership-university-administration/organization-directory/investment-office.html"
+      ],
+      "notes": "FY ends Aug 31."
+    },
+    {
+      "private_rank": 26,
+      "school": "Tufts University",
+      "short": "Tufts",
+      "usnews_rank": "T-31",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.8,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://alumniandfriends.tufts.edu/sites/default/files/2025-12/Tufts-Endowment-Brochure-FY25.pdf"
+      ],
+      "notes": "FY25 return 10.0%."
+    },
+    {
+      "private_rank": 27,
+      "school": "Boston University",
+      "short": "Boston University",
+      "usnews_rank": "T-34",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 4.05,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-boston-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 14.8%."
+    },
+    {
+      "private_rank": 28,
+      "school": "Wake Forest University",
+      "short": "Wake Forest",
+      "usnews_rank": "T-34",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.15,
+      "fy25_confidence": "weak",
+      "status": "pending",
+      "sources": [
+        "https://pipelineroad.com/directory/wake-forest-endowment"
+      ],
+      "notes": "FY25 value from aggregator; verify."
+    },
+    {
+      "private_rank": 29,
+      "school": "Northeastern University",
+      "short": "Northeastern",
+      "usnews_rank": "T-42",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": 2.302,
+      "fy25_value": 2.1,
+      "fy25_confidence": "weak",
+      "status": "pending",
+      "sources": [
+        "https://finance.northeastern.edu/wp-content/uploads/Northeastern-University-Financial-Statements-FY25-Final.pdf"
+      ],
+      "notes": "FY26 value from internal fund file (Summary_ComprehensiveFundHistory.xlsx, 1,799 funds). FY25 public value approx.; verify against FY25 statements."
+    },
+    {
+      "private_rank": 30,
+      "school": "Villanova University",
+      "short": "Villanova",
+      "usnews_rank": "T-42",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.41,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://delco.today/2026/01/college-endowements-surge-investments-up/"
+      ],
+      "notes": "FY ends May 31. Another source says $1.47B."
+    },
+    {
+      "private_rank": 31,
+      "school": "Case Western Reserve University",
+      "short": "Case Western",
+      "usnews_rank": "T-44",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.52,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-case-western-reserve-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 8.5%."
+    },
+    {
+      "private_rank": 32,
+      "school": "Lehigh University",
+      "short": "Lehigh",
+      "usnews_rank": "T-44",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.4,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-lehigh-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 10.4%. Another source says $2.0B."
+    },
+    {
+      "private_rank": 33,
+      "school": "University of Rochester",
+      "short": "Rochester",
+      "usnews_rank": "T-49",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 3.8,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.rochester.edu/endowment/fiscal-2025-report/"
+      ],
+      "notes": "LTIP market value. FY25 return 12.0%."
+    },
+    {
+      "private_rank": 34,
+      "school": "University of Miami",
+      "short": "Miami",
+      "usnews_rank": "T-55",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.71,
+      "fy25_confidence": "weak",
+      "status": "pending",
+      "sources": [
+        "https://controller.miami.edu/web-new-04-faqs-quicklinks-and-policies/quick-links/financial-statements/fy25-afs.pdf"
+      ],
+      "notes": "FY ends May 31. Verify value."
+    },
+    {
+      "private_rank": 35,
+      "school": "Santa Clara University",
+      "short": "Santa Clara",
+      "usnews_rank": "T-55",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": null,
+      "fy25_confidence": "missing",
+      "status": "pending",
+      "sources": [
+        "https://www.scu.edu/media/offices/finance-office/2025-Santa-Clara-University-Audited-Financial-Statements-secured.pdf"
+      ],
+      "notes": "Rank single-source. FY24 value $1.56B; FY25 not found."
+    },
+    {
+      "private_rank": 36,
+      "school": "Brandeis University",
+      "short": "Brandeis",
+      "usnews_rank": "T-59",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.36,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.brandeis.edu/investment-management/"
+      ],
+      "notes": "FY25 return 12.2%."
+    },
+    {
+      "private_rank": 37,
+      "school": "George Washington University",
+      "short": "George Washington",
+      "usnews_rank": "T-59",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.81,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://gwhatchet.com/2025/10/20/gw-closed-fy2025-with-2-8-billion-endowment-significant-budget-deficit-trustees/",
+        "https://gwhatchet.com/2026/05/18/gws-endowment-climbs-to-3-4-billion-trustees-report/"
+      ],
+      "notes": "$3.4B at 3/31/26 (interim)."
+    },
+    {
+      "private_rank": 38,
+      "school": "Stevens Institute of Technology",
+      "short": "Stevens",
+      "usnews_rank": "T-59",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 0.388,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stevens_Institute_of_Technology"
+      ],
+      "notes": ""
+    },
+    {
+      "private_rank": 39,
+      "school": "Tulane University",
+      "short": "Tulane",
+      "usnews_rank": "T-59",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.9,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-tulane-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 9%. Other sources say $2.47B (total)."
+    },
+    {
+      "private_rank": 40,
+      "school": "Rensselaer Polytechnic Institute",
+      "short": "RPI",
+      "usnews_rank": "69",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.02,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://giving.rpi.edu/donor-impact/fiscal-year-2025-by-the-numbers/"
+      ],
+      "notes": ""
+    },
+    {
+      "private_rank": 41,
+      "school": "Syracuse University",
+      "short": "Syracuse",
+      "usnews_rank": "72",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.2,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-syracuse-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 10.2%."
+    },
+    {
+      "private_rank": 42,
+      "school": "Howard University",
+      "short": "Howard",
+      "usnews_rank": "T-73",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.12,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Howard_University"
+      ],
+      "notes": "Rank tie unconfirmed."
+    },
+    {
+      "private_rank": 43,
+      "school": "Worcester Polytechnic Institute",
+      "short": "WPI",
+      "usnews_rank": "T-73",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 0.734,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Worcester_Polytechnic_Institute"
+      ],
+      "notes": "Rank single-source."
+    },
+    {
+      "private_rank": 44,
+      "school": "Drexel University",
+      "short": "Drexel",
+      "usnews_rank": "T-80",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.13,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://drexel.edu/comptroller/"
+      ],
+      "notes": ""
+    },
+    {
+      "private_rank": 45,
+      "school": "Pepperdine University",
+      "short": "Pepperdine",
+      "usnews_rank": "T-80",
+      "fy_end": "Jul 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": null,
+      "fy25_confidence": "missing",
+      "status": "pending",
+      "sources": [
+        "https://www.pepperdine.edu/investmentmanagement/"
+      ],
+      "notes": "FY ends Jul 31. FY25 value not found (~$1.3B in 2024). Rank single-source."
+    },
+    {
+      "private_rank": 46,
+      "school": "Southern Methodist University",
+      "short": "SMU",
+      "usnews_rank": "T-85",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": null,
+      "fy25_confidence": "missing",
+      "status": "pending",
+      "sources": [
+        "https://www.smu.edu/investments"
+      ],
+      "notes": "FY ends May 31. FY25 value not confirmed (~$2.7B incl. minerals, undated)."
+    },
+    {
+      "private_rank": 47,
+      "school": "Fordham University",
+      "short": "Fordham",
+      "usnews_rank": "T-85",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.1,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://www.top1000funds.com/2025/10/fordham-university-dials-up-growth-equity-cools-on-private-credit/"
+      ],
+      "notes": ""
+    },
+    {
+      "private_rank": 48,
+      "school": "Baylor University",
+      "short": "Baylor",
+      "usnews_rank": "T-90",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 2.17,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://baylorlariat.com/2026/03/30/endowment-stays-resilient-amid-troublesome-markets-nears-2-5-billion/"
+      ],
+      "notes": "FY ends May 31. ~$2.5-2.6B in mid-2026 (indicative)."
+    },
+    {
+      "private_rank": 49,
+      "school": "Marquette University",
+      "short": "Marquette",
+      "usnews_rank": "T-90",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 1.13,
+      "fy25_confidence": "reported",
+      "status": "pending",
+      "sources": [
+        "https://www.pionline.com/institutional-investors/endowments-foundations/pi-marquette-university-2025-fiscal-year-return/"
+      ],
+      "notes": "FY25 return 15.3%."
+    },
+    {
+      "private_rank": 50,
+      "school": "Texas Christian University",
+      "short": "TCU",
+      "usnews_rank": "T-90",
+      "fy_end": "May 31",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": null,
+      "fy25_confidence": "missing",
+      "status": "pending",
+      "sources": [
+        "https://endowment.tcu.edu"
+      ],
+      "notes": "FY25 value not found (~$2.7B per TCU site, undated)."
+    },
+    {
+      "private_rank": 51,
+      "school": "Yeshiva University",
+      "short": "Yeshiva",
+      "usnews_rank": "T-90",
+      "fy_end": "Jun 30",
+      "fy26_return": null,
+      "fy26_value": null,
+      "fy25_value": 0.714,
+      "fy25_confidence": "secondary",
+      "status": "pending",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yeshiva_University"
+      ],
+      "notes": ""
+    }
+  ],
+  "placeholder": {
+    "return": 18.9,
+    "label": "Wilshire TUCS median, endowments over $500M, year to June 30, 2026 (gross)",
+    "source": "https://www.wilshire.com/"
+  }
+}

@@ -32,10 +32,11 @@ def load():
     d = json.loads(DATA.read_text())
     schools = d["schools"]
     reported = [s["fy26_return"] for s in schools if s.get("fy26_return") is not None]
-    median = statistics.median(reported) if reported else 10.0
+    median = statistics.median(reported) if reported else None
+    ph = d["placeholder"]["return"]
     for s in schools:
         s["ret_est"] = s.get("fy26_return") is None
-        s["ret"] = median if s["ret_est"] else s["fy26_return"]
+        s["ret"] = ph if s["ret_est"] else s["fy26_return"]
         s["v25_est"] = s.get("fy25_value") is None
         s["v25"] = s.get("fy25_value")
         s["v26_est"] = s.get("fy26_value") is None
@@ -67,7 +68,7 @@ def table_rows(rows):
             f"<td class=\"name\">{esc(s['short'])}</td>"
             f"<td class=\"num\">{fmt_ret(s)}</td>"
             f"<td class=\"num\">{fmt_b(s['v25'], s['v25_est'])}</td>"
-            f"<td class=\"num\">{fmt_b(s['v26'], s['v26_est'] or s['ret_est'])}</td></tr>"
+            f"<td class=\"num\">{fmt_b(s['v26'], s['v26_est'])}</td></tr>"
         )
     return "\n".join(out)
 
@@ -81,10 +82,10 @@ def table_block(rows):
 </tbody></table>"""
 
 
-def chart_svg(schools, median):
+def chart_svg(schools, median, ph):
     rows = sorted(schools, key=lambda s: (-s["ret"], s["ret_est"], s["short"]))
     W, H = 1200, 520
-    left, right, top, bottom = 48, 16, 36, 150
+    left, right, top, bottom = 48, 16, 24, 118
     pw, ph = W - left - right, H - top - bottom
     hi = max(s["ret"] for s in rows)
     lo = min(0.0, min(s["ret"] for s in rows))
@@ -115,9 +116,11 @@ def chart_svg(schools, median):
             f"<title>{esc(tip)}</title></rect>"
         )
         if not s["ret_est"]:
-            ly = ytop - 5 if s["ret"] >= 0 else ytop + h + 12
+            inside = h > 18
+            ly = (ytop + 12 if inside else ytop - 5) if s["ret"] >= 0 else ytop + h + 12
+            vcls = "val val-in" if inside else "val"
             parts.append(
-                f'<text x="{x + bw / 2:.1f}" y="{ly:.1f}" class="val" text-anchor="middle">{s["ret"]:.1f}</text>'
+                f'<text x="{x + bw / 2:.1f}" y="{ly:.1f}" class="{vcls}" text-anchor="middle">{s["ret"]:.1f}</text>'
             )
         lx, lyy = x + bw / 2, y(min(0, vmin if s["ret"] < 0 else 0)) + 10
         lyy = y(vmin) + 10 if vmin < 0 else y(0) + 10
@@ -126,11 +129,17 @@ def chart_svg(schools, median):
             f'<text transform="translate({lx + 3:.1f},{lyy:.1f}) rotate(-60)" class="{name_cls}" text-anchor="end">{esc(s["short"])}</text>'
         )
     parts.append(f'<line x1="{left}" x2="{W - right}" y1="{y(0):.1f}" y2="{y(0):.1f}" class="axis"/>')
+    if median is None:
+        return svg_wrap(W, H, parts)
     ym = y(median)
     parts.append(f'<line x1="{left}" x2="{W - right}" y1="{ym:.1f}" y2="{ym:.1f}" class="median"/>')
     parts.append(
         f'<text x="{W - right - 4}" y="{ym - 6:.1f}" class="median-lbl" text-anchor="end">Median of reported: {median:.1f}%</text>'
     )
+    return svg_wrap(W, H, parts)
+
+
+def svg_wrap(W, H, parts):
     return (
         f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="FY26 endowment returns, highest to lowest">'
         + "".join(parts)
@@ -140,6 +149,8 @@ def chart_svg(schools, median):
 
 def build():
     d, schools, median, n_rep = load()
+    ph = d["placeholder"]["return"]
+    ph_label = esc(d["placeholder"]["label"])
     schools.sort(key=lambda s: s["private_rank"])
     n = len(schools)
     rep = [s for s in schools if not s["ret_est"]]
@@ -154,12 +165,12 @@ def build():
     home_line = ""
     if home:
         if home["ret_est"]:
-            home_line = "<li>Northeastern FY26 return not yet published; shown at the peer median as a placeholder.</li>"
+            home_line = "<li>Northeastern FY26 return not yet published; shown at the placeholder rate.</li>"
         else:
             pos = sorted(rep, key=lambda s: -s["fy26_return"]).index(home) + 1
             home_line = f"<li>Northeastern returned <b>{home['fy26_return']:.1f}%</b>, No. {pos} of {n_rep} reported.</li>"
     bullets = [
-        f"<li><b>{n_rep} of {n}</b> schools have reported FY26 returns; the rest are placeholders set at the reported median ({median:.1f}%).</li>"
+        f"<li><b>{n_rep} of {n}</b> schools have reported FY26 returns; the rest show a placeholder of {ph:.1f}% ({ph_label}).</li>"
     ]
     if best and worst:
         bullets.append(
@@ -174,7 +185,7 @@ def build():
 <style>
 :root {{
   --red: #C8102E; --ink: #000; --ink2: #3a3a3a; --muted: #6b6b6b; --rule: #000;
-  --hair: #d9d9d9; --paper: #fff; --gold: #A4804A; --est: #bdbdbd; --canvas: #efefef;
+  --hair: #d9d9d9; --paper: #fff; --gold: #A4804A; --est: #8f8f8f; --canvas: #efefef;
   color-scheme: light;
 }}
 body {{ background: var(--canvas); color: var(--ink); font-family: Lato, "Helvetica Neue", Arial, sans-serif;
@@ -206,9 +217,10 @@ ul.pts {{ margin: 0; padding-left: 18px; font-size: 15px; line-height: 1.5; disp
 .bar {{ fill: #262626; }}
 .bar:hover {{ fill: #555; }}
 .home-bar {{ fill: var(--red); }}
-.est-bar {{ fill: var(--paper); stroke: var(--est); stroke-width: 1; stroke-dasharray: 3 2; }}
+.est-bar {{ fill: #f4f4f4; stroke: var(--est); stroke-width: 1; stroke-dasharray: 3 2; }}
 .home-est {{ fill: var(--paper); stroke: var(--red); stroke-width: 1.5; stroke-dasharray: 3 2; }}
 .val {{ font-size: 9.5px; fill: var(--ink2); font-weight: 700; }}
+.val-in {{ fill: #fff; }}
 .lbl {{ font-size: 10.5px; fill: var(--ink2); }}
 .est-lbl {{ fill: var(--muted); font-style: italic; }}
 .home-lbl {{ fill: var(--red); font-weight: 900; }}
@@ -219,7 +231,7 @@ ul.pts {{ margin: 0; padding-left: 18px; font-size: 15px; line-height: 1.5; disp
 .note {{ font-size: 11px; color: var(--muted); margin: 0; line-height: 1.45; }}
 footer {{ display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--rule);
   padding-top: 8px; font-size: 11px; color: var(--ink2); flex-wrap: wrap; }}
-footer b {{ color: var(--ink); }}
+footer b {{ color: var(--ink); white-space: nowrap; margin-left: auto; }}
 @media (max-width: 900px) {{ .tables {{ grid-template-columns: 1fr; }} .slide {{ padding: 24px 18px 14px; }} h1 {{ font-size: 22px; }} }}
 </style>
 
@@ -231,7 +243,7 @@ footer b {{ color: var(--ink); }}
     <div>{table_block(schools[:half])}</div>
     <div>{table_block(schools[half:])}</div>
   </div>
-  <p class="note">* Grey italic = placeholder until the school publishes. Placeholder return = median of reported FY26 returns ({median:.1f}%); placeholder FY26 value = FY25 value &times; (1 + placeholder return &minus; {SPEND * 100:.1f}% assumed payout). Returns are net of fees as reported by each school; some schools report a pooled fund (e.g., Stanford Merged Pool). Details and source links: data/endowments.json.</p>
+  <p class="note">* Grey italic = placeholder until the school publishes. Placeholder return = {ph:.1f}%, the {ph_label}; placeholder FY26 value = FY25 value &times; (1 + placeholder return &minus; {SPEND * 100:.1f}% assumed payout). Returns are net of fees as reported by each school; some schools report a pooled fund (e.g., Stanford Merged Pool). Northeastern FY26 value is from the internal fund file (1,799 funds). Details and source links: data/endowments.json.</p>
   <footer><span>Source: university reports and press releases; Bloomberg; Chief Investment Officer; Pensions &amp; Investments; student newspapers; U.S. News 2027.</span><b>{HOME}</b></footer>
 </section>
 
@@ -245,12 +257,12 @@ footer b {{ color: var(--ink); }}
     <span><i class="sw" style="background:#fff;border:1px dashed var(--est)"></i>Placeholder (not yet reported)</span>
     <span><i class="sw" style="height:0;border-top:2px dashed var(--gold)"></i>Median of reported</span>
   </div>
-  <div class="chart">{chart_svg(schools, median)}</div>
-  <footer><span>Source: university reports and press releases; Bloomberg; Chief Investment Officer; Pensions &amp; Investments. Placeholders set at reported median. As of {as_of_txt}.</span><b>{HOME}</b></footer>
+  <div class="chart">{chart_svg(schools, median, ph)}</div>
+  <footer><span>Source: university reports and press releases; Bloomberg; Chief Investment Officer; Pensions &amp; Investments. As of {as_of_txt}.</span><b>{HOME}</b></footer>
 </section>
 """
     OUT.write_text(page)
-    print(f"wrote {OUT.relative_to(ROOT)}: {n} schools, {n_rep} reported, median {median:.1f}%")
+    print(f"wrote {OUT.relative_to(ROOT)}: {n} schools, {n_rep} reported, median {median}")
 
 
 if __name__ == "__main__":
