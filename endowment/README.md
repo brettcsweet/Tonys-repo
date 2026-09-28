@@ -2,8 +2,8 @@
 
 Tracks officially reported FY26 endowment returns (1-year, 5-year annualized, 10-year annualized)
 for the U.S. News & World Report 2027 Best National Universities top 50, public and private
-(51 institutions including ties at No. 49). A daily cloud routine updates the data, rebuilds the
-deck and workbook, commits them here, and emails Brett a summary.
+(51 institutions including ties at No. 49). A weekly cloud routine (Friday mornings) updates the
+data, rebuilds the deck and workbook, commits them here, and emails Brett a summary.
 
 | Path | What it is |
 |---|---|
@@ -42,7 +42,7 @@ Build: `pip install -r endowment/requirements.txt` then `python3 endowment/scrip
   Bloomberg, Pensions & Investments, WSJ, NYT, Chronicle of Higher Education, Inside Higher Ed,
   Higher Ed Dive, Institutional Investor, ai-cio.com, Charles Skorina; then campus newspapers.
 
-## Daily routine
+## Weekly routine (Friday mornings)
 
 1. For each institution with a null metric, search for a newly released FY26 figure (respecting `fyEnd`).
 2. Update `data/top50.json`: new values, `notes` with source, `lastChecked` = today for every row
@@ -51,9 +51,15 @@ Build: `pip install -r endowment/requirements.txt` then `python3 endowment/scrip
 4. Render check: convert the deck to PDF with LibreOffice and look at slides 1-3. Northeastern's bar is
    red, every bar has a school label and a value, nothing overlaps or leaves the slide.
 5. Commit data and outputs, push to the working branch.
-6. Email brettcsweet@gmail.com, subject `FY26 Endowment Tracker — Daily Update YYYY-MM-DD`:
+6. Email brettcsweet@gmail.com, subject `FY26 Endowment Tracker — Weekly Update YYYY-MM-DD`:
    new disclosures (school, metric, value, source), other changes, how many of 51 remain unreported
    per metric, GitHub links to both files, and the .xlsx attached. If nothing changed, send one line
    saying so with the remaining counts.
-7. When every institution has a 1-year return, say so and suggest turning off the daily schedule or
-   moving to a weekly cadence for the 5- and 10-year figures.
+7. When every institution has a 1-year return, say so and suggest turning off the schedule or
+   moving to a monthly cadence for the 5- and 10-year figures.
+
+Note on attachments: the Gmail send tool has an undocumented attachment size ceiling somewhere
+between ~9,900 and ~10,200 raw bytes (~13,200-13,600 base64 characters) — see the investigation
+notes in the session history around 2026-09-28. `FY26_Endowment_Data_Top50.xlsx` (~12.7KB) is over
+this ceiling, so it currently cannot be attached; link it instead and note the issue in the email
+until the tool is fixed or the workbook is shrunk below the threshold.
