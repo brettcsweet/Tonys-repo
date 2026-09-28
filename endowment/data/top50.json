@@ -94,13 +94,13 @@
       "control": "private",
       "fyEnd": "08-31",
       "fy26Return": 31.7,
-      "fy26Return5yr": null,
-      "fy26Return10yr": null,
+      "fy26Return5yr": 10.3,
+      "fy26Return10yr": 12.5,
       "spacexPts": null,
       "fy25M": 40800,
       "fy26M": 61500,
       "returnBasis": "reported",
-      "notes": "FY26: Stanford Report (Sept 2026), 31.7% return, Merged Pool $61.5B as of 8/31/26 (Stanford FYE = Aug 31, not June 30). FY25 return 14.3%.",
+      "notes": "FY26: Stanford Report (Sept 2026), 31.7% return, Merged Pool $61.5B as of 8/31/26 (Stanford FYE = Aug 31, not June 30). FY25 return 14.3%. FY26 5-yr annualized 10.3%, 10-yr annualized 12.5% (Stanford Report, Sept 2026).",
       "lastChecked": "2026-09-28"
     },
     {
@@ -116,7 +116,7 @@
       "fy25M": 24800,
       "fy26M": 31100,
       "returnBasis": "reported",
-      "notes": "FY26: Daily Pennsylvanian (Sept 24, 2026), 27.4% return, $24.8B\u2192$31.1B, largest single-year gain on record.",
+      "notes": "FY26: Daily Pennsylvanian (Sept 24, 2026), 27.4% return, $24.8B→$31.1B, largest single-year gain on record.",
       "lastChecked": "2026-09-28"
     },
     {
@@ -415,12 +415,12 @@
       "fyEnd": "06-30",
       "fy26Return": 27,
       "fy26Return5yr": null,
-      "fy26Return10yr": null,
+      "fy26Return10yr": 12,
       "spacexPts": null,
       "fy25M": 15500,
       "fy26M": 18800,
       "returnBasis": "reported",
-      "notes": "FY26: Cavalier Daily (Sept 19, 2026), UVIMCO 27% return vs. 9.8% benchmark, $15.5B\u2192$18.8B.",
+      "notes": "FY26: Cavalier Daily (Sept 19, 2026), UVIMCO 27% return vs. 9.8% benchmark, $15.5B→$18.8B. 10-yr annualized approximately 12% ('approximately 12 percent annually' over the past 10 years), per UVIMCO CEO/CIO Robert Durden at the Sept 2026 Finance Committee meeting (Cavalier Daily); stated as an approximate figure, not to a decimal. No FY26 5-yr figure reported yet.",
       "lastChecked": "2026-09-28"
     },
     {
@@ -430,13 +430,13 @@
       "control": "public",
       "fyEnd": "06-30",
       "fy26Return": 37.8,
-      "fy26Return5yr": null,
-      "fy26Return10yr": null,
+      "fy26Return5yr": 12.5,
+      "fy26Return10yr": 13.5,
       "spacexPts": 18.9,
       "fy25M": 12500,
       "fy26M": 17000,
       "returnBasis": "reported",
-      "notes": "FY26: Bloomberg (Sept 19, 2026), 37.8% return, UNC Investment Fund $12.5B\u2192$17.0B, driven by legacy SpaceX stake. (UNC-CH Foundation portion: $6.04B\u2192$8.16B.)",
+      "notes": "FY26: Bloomberg (Sept 19, 2026), 37.8% return, UNC Investment Fund $12.5B→$17.0B, driven by legacy SpaceX stake (about half of FY26 growth, per UNC Management Company president Stefan Strein). (UNC-CH Foundation portion: $6.04B→$8.16B.) 5-yr annualized 12.5%, 10-yr annualized 13.5% (Bloomberg/WRAL/Investing.com/Hoodline, Sept 19-22, 2026).",
       "lastChecked": "2026-09-28"
     },
     {
@@ -708,7 +708,7 @@
       "fy25M": 2500,
       "fy26M": null,
       "returnBasis": null,
-      "notes": "New to top 50 in 2027 US News edition. FY25 (FYE 6/30/25): CWRU Endowment Report / Pensions & Investments, ~$2.5B, 8.53% FY25 return (vs 9.58% policy benchmark) \u2014 this is the FY25 return, not FY26. FY26 not yet released.",
+      "notes": "New to top 50 in 2027 US News edition. FY25 (FYE 6/30/25): CWRU Endowment Report / Pensions & Investments, ~$2.5B, 8.53% FY25 return (vs 9.58% policy benchmark) — this is the FY25 return, not FY26. FY26 not yet released.",
       "lastChecked": "2026-09-28"
     },
     {
