@@ -201,9 +201,9 @@
   {
    "short": "Northeastern",
    "name": "Northeastern University",
-   "sw": 1045135178,
+   "sw": 1080145804,
    "sw_basis": "reported-other",
-   "sw_source": "IRS Form 990 Part IX lines 5+6+7 (audited statements show salary and benefits combined); 990 lines 5-10 are 96.8% of the audited combined line",
+   "sw_source": "audited 'Salary and benefits' $1,341,049,000 x 80.54% S&W share of the Form 990 (lines 5+6+7 / lines 5-10; FY25 990 S&W $1,045,135,178 on lines 5-10 $1,297,581,752); 990 lines 5-10 are 96.8% of the audited combined line",
    "combined_comp": 1341049000,
    "benefits": null,
    "total_opex": 2388249000,

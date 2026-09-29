@@ -133,7 +133,7 @@ notes = {"Yale": "Yale reports depreciation, amortization and interest as ONE op
          "Duke": "Depreciation and amortization are one line ($471.7M). Health system acquired the physician practice July 1, 2023 (FY23 not comparable; FY25 fine).",
          "Penn": "Statements show 'compensation and benefits' combined only. S&W ESTIMATED = combined / (1 + 35% assumed fringe rate), per Northeastern. Columns F-G (Form 990, narrower scope) are shown for reference only. D&A one line.",
          "Stanford": "Statements show salaries and benefits combined only. S&W ESTIMATED = combined / (1 + 35% assumed fringe rate), per Northeastern. Columns F-G (Form 990, narrower scope) are reference only. Interest is net and embedded in other operating expenses. Includes SLAC and the hospitals.",
-         "Northeastern": "Audited statements show 'Salary and benefits' combined ($1,341.0M). S&W from Form 990 lines 5+6+7 (990 lines 5-10 are 96.8% of the audited combined line). Interest ($49.9M) is below the debt-note figure ($60.0M).",
+         "Northeastern": "Audited statements show 'Salary and benefits' combined ($1,341.0M). S&W = audited combined x the Form 990 S&W share (lines 5+6+7 / lines 5-10 = 80.54%), because the 990 covers only 96.8% of the audited line; as filed the 990 S&W is $1,045.1M (column F). See S3_Sensitivity G. Interest ($49.9M) is below the debt-note figure ($60.0M).",
          "Northwestern": "Audited statements show salaries, wages and benefits combined. Form 990 lines 5-10 tie to that line to the dollar, so 990 S&W is on the audited basis.",
          "Vanderbilt": "Audited statements show salaries, wages and benefits combined ($976.4M). S&W from the MD&A expense chart ($M precision). VUMC is not consolidated.",
          "Boston University": "Separate S&W line in the audited statements. Boston Medical Center is not consolidated. Right-of-use amortization (~$15M) not removed.",
@@ -157,7 +157,8 @@ for short in ORDER:
     elif short in ("Northeastern", "Northwestern"):
         f990 = n990[short]
         put(ws, r, 5, d["combined_comp"], "#,##0"); put(ws, r, 6, f990["sw"], "#,##0"); put(ws, r, 7, f990["lines_5_10"], "#,##0")
-        put(ws, r, 3, f"=F{r}", "#,##0"); put(ws, r, 4, "Form 990 (ties to audited)" if short == "Northwestern" else "Form 990 (96.8% of audited combined)")
+        if short == "Northwestern": put(ws, r, 3, f"=F{r}", "#,##0"); put(ws, r, 4, "Form 990 (ties to audited)")
+        else: put(ws, r, 3, f"=E{r}*F{r}/G{r}", "#,##0"); put(ws, r, 4, "audited combined x Form 990 S&W share (80.5%)")
     elif short == "Vanderbilt":
         put(ws, r, 5, d["combined_comp"], "#,##0"); put(ws, r, 3, d["sw"], "#,##0"); put(ws, r, 4, "MD&A expense chart")
     else:
@@ -230,6 +231,33 @@ for k, (b_, sv, note) in enumerate([("CDS 2024-25 + Extension School degree stud
                                     ("IPEDS fall 2023 total", 30386, "Adds non-degree Extension course takers (not in the Fact Book); fall 2024 IPEDS not yet posted")], q + 2):
     put(ws2, k, 1, b_); put(ws2, k, 2, sv, "#,##0"); put(ws2, k, 3, f"=S3_FY25!C{hr}/B{k}", '"$"#,##0'); put(ws2, k, 4, f"=S3_FY25!L{hr}/B{k}", '"$"#,##0'); put(ws2, k, 5, note)
 put(ws2, q + 6, 1, "Harvard stays well above Northeastern ($26K) on every basis.", color="6B6B70")
+
+q += 8
+put(ws2, q, 1, "F. Salaries + benefits (combined compensation) per student: the like-for-like basis for the audited 'salary and benefits' line", bold=True)
+header(ws2, q + 1, ["Institution", "Salaries + benefits ($)", "Students used", "Compensation per student", "Rank low-to-high"])
+qF0 = q + 2
+for k_, short in enumerate(ORDER):
+    p_ = pos[short]; rr2 = qF0 + k_
+    put(ws2, rr2, 1, short); put(ws2, rr2, 2, f"=S3_FY25!E{p_}", "#,##0"); put(ws2, rr2, 3, f"=S3_FY25!M{p_}", "#,##0")
+    put(ws2, rr2, 4, f"=B{rr2}/C{rr2}", '"$"#,##0'); put(ws2, rr2, 5, f"=RANK(D{rr2},D${qF0}:D${qF0 + len(ORDER) - 1},1)", "0")
+qF1 = qF0 + len(ORDER)
+put(ws2, qF1, 1, "Northeastern is lowest on compensation per student as well ($33.7K vs Boston University $43.1K). Penn and Stanford combined figures are audited; only their S&W split is estimated.", color="6B6B70")
+q = qF1 + 3
+put(ws2, q, 1, "G. Northeastern: which numerator? (check of the '$1.3 billion / about 40,000 students' expectation)", bold=True)
+header(ws2, q + 1, ["Basis", "Amount ($)", "Per student (CDS 39,774)", "Share of core operating expenses", "Students x per-student (check)", "Comparable with peers' S&W?", "Note"])
+nr_ = pos["Northeastern"]
+G = [("Audited 'Salary and benefits' x Form 990 S&W share (USED on slide)", f"=S3_FY25!C{nr_}", "Yes", "Audited FY25 combined line x 80.54%; same consolidated scope as core operating expenses"),
+     ("Form 990 S&W as filed (lines 5+6+7)", f"=S3_FY25!F{nr_}", "Yes, narrower scope", "The value used in the first FY25 draft; university-only, 96.8% of the audited line's scope"),
+     ("Audited combined line / 1.35 (35% fringe, as for Penn and Stanford)", f"=S3_FY25!E{nr_}/1.35", "Yes (assumption)", "Northeastern's own 990 fringe rate is 24.2%, below 35%"),
+     ("Audited 'Salary and benefits' (combined)", f"=S3_FY25!E{nr_}", "NO: includes benefits", "This is the roughly $1.3 billion; it is salaries AND benefits (about $261M of benefits)"),
+     ("Form 990 lines 5-10 (combined, university only)", f"=S3_FY25!G{nr_}", "NO: includes benefits", "Also about $1.3 billion; 3.2% below the audited line")]
+for k_, (lab, f_, comp, note) in enumerate(G, q + 2):
+    put(ws2, k_, 1, lab); put(ws2, k_, 2, f_, "#,##0"); put(ws2, k_, 3, f"=B{k_}/S3_FY25!M{nr_}", '"$"#,##0')
+    put(ws2, k_, 4, f"=B{k_}/S3_FY25!L{nr_}", "0.0%"); put(ws2, k_, 5, f"=S3_FY25!M{nr_}*C{k_}", "#,##0"); put(ws2, k_, 6, comp); put(ws2, k_, 7, note)
+kq = q + 2 + len(G) + 1
+put(ws2, kq, 1, "Check: 40,000 students x S&W per student used", bold=True); put(ws2, kq, 2, f"=40000*C{q + 2}", "#,##0")
+put(ws2, kq + 1, 1, "Audited 'Salary and benefits' less that product = implied benefits", bold=True); put(ws2, kq + 1, 2, f"=S3_FY25!E{nr_}-B{kq}", "#,##0")
+put(ws2, kq + 2, 1, "So 40,000 x $27K is about $1.09 billion of salaries and wages; the roughly $1.3 billion in the statements includes about $0.25 billion of benefits.", color="6B6B70")
 
 # ============================================================== S3_FY23_Recalc
 ws3 = wb.create_sheet("S3_FY23_Recalc")
@@ -329,9 +357,10 @@ C = [
     ("3", "S&W not separately reported in audited statements", "Northeastern, Northwestern, Penn, Stanford, Vanderbilt combine salaries and benefits. Northeastern and Northwestern use Form 990 S&W; Vanderbilt uses the MD&A expense chart. Penn and Stanford (light-blue markers) use S&W = combined / 1.35, a 35% fringe benefit rate assumed per Northeastern's direction (74.1% S&W share).", "Decided / caveat"),
     ("3", "35% fringe rate vs observed rates", "Schools that report both lines have fringe rates (benefits / S&W) of 22.8% to 33.8% (Chicago 22.8%, Duke 23.6%, Emory 23.9%, Rice 23.9%, Harvard 27.4%, Princeton 30.3%, BU 31.5%, Yale 31.5%, MIT 33.8%). 35% is above all of them, so the Penn and Stanford estimates lean low: using each school's own Form 990 S&W share instead would raise S&W per student by about 4% (Penn) and 8% (Stanford) (S3_Sensitivity C). Neither changes the ranking of Penn or Stanford or any conclusion about Northeastern.", "Caveat"),
     ("3", "Student counts", "One instrument for all: Common Data Set 2024-25 B1 total all students (fall 2024). The original mixed fall 2021 (Rice), fall 2022 (Vanderbilt), degree-seeking counts (Harvard, Penn) and round estimates (Emory, Northwestern). CDS differs materially from IPEDS for Northeastern (+24%), Chicago (-14%), Penn (-17%) and Harvard (-30%).", "Handled / caveat"),
-    ("3", "Northeastern student count is the key sensitivity", "CDS 39,774 (used, per Northeastern's direction) -> S&W per student $26.3K; IPEDS-style 32,553 -> $32.1K; Facts and Figures 48,812 -> $21.4K. Northeastern is lowest in the peer set on all three (S3_Sensitivity A, B).", "Decided"),
+    ("3", "Northeastern student count is the key sensitivity", "CDS 39,774 (used, per Northeastern's direction) -> S&W per student $27.2K; IPEDS-style 32,553 -> $33.2K; Facts and Figures 48,812 -> $22.1K. Northeastern is lowest in the peer set on all three (S3_Sensitivity A, B).", "Decided"),
     ("3", "Headcount vs FTE", "Northeastern and BU headcounts include large graduate, online and co-op populations (BU reports 29.6K FTE against 37.7K headcount), so S&W per headcount student understates S&W per FTE student for both.", "Caveat"),
-    ("3", "Northeastern S&W scope", "Form 990 (university) lines 5-10 are 96.8% of the audited combined line; S&W may be understated by about 3% against the consolidated core expenses.", "Caveat"),
+    ("3", "Northeastern S&W scope", "Form 990 (university only) lines 5-10 are 96.8% of the audited combined line. To keep S&W on the same consolidated scope as core operating expenses, S&W = audited 'Salary and benefits' $1,341.0M x the 990 S&W share of lines 5-10 (80.54%) = $1,080.1M, which moves the point from $26.3K and 47.8% (990 as filed) to $27.2K and 49.4%. The x value ($55.0K) is unchanged (S3_Sensitivity G).", "Handled"),
+    ("3", "Northeastern: '40,000 students x S&W per student = about $1.3 billion'", "Does not hold for S&W. The audited statements show one line, 'Salary and benefits' $1,341.0M, which includes benefits (the Form 990 puts benefits at $252M, 24.2% of S&W). 39,774 x $27.2K = $1,080M of S&W. $1,341.0M / 39,774 = $33.7K is salary-plus-benefits per student: not comparable with the peers' S&W, but on that like-for-like basis Northeastern is still lowest (Boston University $43.1K; S3_Sensitivity F, G).", "Finding"),
     ("3", "FY23 to FY24 comparability", "Duke's FY24 includes the July 1, 2023 physician-practice acquisition (S&W +29.5%); FY25 is unaffected. Rice's FY25 scholarship presentation changed (total and core not strictly comparable with FY24). Emory FY25 includes three months of Houston Healthcare. Northeastern FY25 includes two weeks of Marymount Manhattan College.", "Info"),
     ("3", "Entities inside the numbers", "Consolidated: hospitals at Chicago, Duke, Emory, Penn, Stanford; Lincoln Laboratory (MIT), Plasma Physics Laboratory (Princeton), SLAC (Stanford). Not consolidated: Northwestern Medicine, VUMC, Yale New Haven Hospital, Boston Medical Center, Argonne, Fermilab. Footnoted on the slide.", "Handled"),
     ("3", "Arithmetic", "For every school, core = total - depreciation - amortization - interest (formula), S&W per student = x * y (column Q = 0), and the natural-classification lines sum to total operating expenses in every year (as reported by the extraction). Key rows for Northeastern, BU and MIT re-checked against the PDFs.", "Pass"),
