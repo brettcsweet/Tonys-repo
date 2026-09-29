@@ -165,9 +165,9 @@
   {
    "short": "Penn",
    "name": "University of Pennsylvania",
-   "sw": 6919259832,
+   "sw": 6680940741,
    "sw_basis": "est",
-   "sw_source": "ESTIMATE: audited combined salaries and benefits $9,019,270,000 x 76.72% S&W share of the institution's Form 990 (990 covers a narrower scope than the consolidated statements)",
+   "sw_source": "ESTIMATE: audited combined salaries and benefits $9,019,270,000 / (1 + 35% assumed fringe benefit rate) = 74.07% S&W share (Form 990 share for reference: 76.72%; 990 covers a narrower scope than the consolidated statements)",
    "combined_comp": 9019270000,
    "benefits": null,
    "total_opex": 16445321000,
@@ -183,9 +183,9 @@
   {
    "short": "Stanford",
    "name": "Stanford University",
-   "sw": 9337601648,
+   "sw": 8627440741,
    "sw_basis": "est",
-   "sw_source": "ESTIMATE: audited combined salaries and benefits $11,647,045,000 x 80.17% S&W share of the institution's Form 990 (990 covers a narrower scope than the consolidated statements)",
+   "sw_source": "ESTIMATE: audited combined salaries and benefits $11,647,045,000 / (1 + 35% assumed fringe benefit rate) = 74.07% S&W share (Form 990 share for reference: 80.17%; 990 covers a narrower scope than the consolidated statements)",
    "combined_comp": 11647045000,
    "benefits": null,
    "total_opex": 18935447000,
@@ -277,5 +277,6 @@
    "lines_5_10": 5963697901,
    "share": 0.801714224357053
   }
- }
+ },
+ "fringe": 0.35
 }
