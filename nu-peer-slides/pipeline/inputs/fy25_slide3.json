@@ -75,16 +75,16 @@
   {
    "short": "Harvard",
    "name": "Harvard University",
-   "sw": null,
+   "sw": 2758560000,
    "sw_basis": "audited",
    "sw_source": "audited statements (separate salaries and wages line)",
    "combined_comp": null,
-   "benefits": null,
-   "total_opex": null,
-   "depreciation": null,
+   "benefits": 755895000,
+   "total_opex": 6794371000,
+   "depreciation": 459031000,
    "amortization": null,
-   "interest": null,
-   "core_opex": null,
+   "interest": 262546000,
+   "core_opex": 6072794000,
    "students": 21189,
    "students_source": "Common Data Set 2024-25, B1 total all students (fall 2024)",
    "health_system": null,
@@ -253,9 +253,7 @@
    "fy_end": "June 30, 2025"
   }
  ],
- "missing": [
-  "Harvard"
- ],
+ "missing": [],
  "n990": {
   "Northeastern": {
    "sw": 1045135178,

@@ -1,122 +1,97 @@
 {
-  "institution": "Harvard University",
-  "fiscal_year_end_fy25": "June 30, 2025",
-  "documents": [
-    {
-      "label": "FY25 Harvard University Financial Report (located, NOT retrieved: 403)",
-      "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-report.pdf",
-      "local_file": null,
-      "pages": null
-    },
-    {
-      "label": "FY25 Financial Overview from the VP for Finance and the Treasurer (located, NOT retrieved: 403)",
-      "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-overview.pdf",
-      "local_file": null,
-      "pages": null
-    },
-    {
-      "label": "FY24 Harvard University Financial Report (located, NOT retrieved: 403)",
-      "url": "https://www.finance.harvard.edu/files/fad/files/fy24_harvard_financial_report.pdf",
-      "local_file": null,
-      "pages": null
-    },
-    {
-      "label": "FY25 Harvard Gazette interview with EVP Weenick and VP Kalra on the FY25 report (opened; contains no natural-classification expense figures)",
-      "url": "https://news.harvard.edu/gazette/story/2025/10/harvard-reports-operating-deficit-amid-federal-funding-cuts/",
-      "local_file": null,
-      "pages": "article text: 'We closed the year with a $113 million operating deficit on a $6.7 billion revenue base.'"
-    }
-  ],
-  "years": {
-    "FY25": {
-      "salaries_and_wages": null,
-      "sw_combined_with_benefits": null,
-      "employee_benefits": null,
-      "total_operating_expenses": null,
-      "depreciation": null,
-      "depreciation_in_opex": null,
-      "amortization": null,
-      "amortization_in_opex": null,
-      "interest_expense": null,
-      "interest_in_opex": null,
-      "core_opex": null,
-      "core_opex_arithmetic": null,
-      "evidence": {
-        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
-      }
-    },
-    "FY24": {
-      "salaries_and_wages": null,
-      "sw_combined_with_benefits": null,
-      "employee_benefits": null,
-      "total_operating_expenses": null,
-      "depreciation": null,
-      "depreciation_in_opex": null,
-      "amortization": null,
-      "amortization_in_opex": null,
-      "interest_expense": null,
-      "interest_in_opex": null,
-      "core_opex": null,
-      "core_opex_arithmetic": null,
-      "evidence": {
-        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
-      }
-    },
-    "FY23": {
-      "salaries_and_wages": null,
-      "sw_combined_with_benefits": null,
-      "employee_benefits": null,
-      "total_operating_expenses": null,
-      "depreciation": null,
-      "depreciation_in_opex": null,
-      "amortization": null,
-      "amortization_in_opex": null,
-      "interest_expense": null,
-      "interest_in_opex": null,
-      "core_opex": null,
-      "core_opex_arithmetic": null,
-      "evidence": {
-        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
-        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
-      }
-    }
+ "institution": "Harvard University",
+ "fiscal_year_end_fy25": "June 30, 2025",
+ "documents": [
+  {
+   "label": "Harvard University Financial Report, Fiscal Year 2025 (audited consolidated financial statements with unqualified opinion; supplied by Brett Sweet, file fy25-financial-report.pdf, 46 pages)",
+   "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-report.pdf",
+   "local_file": "scratchpad/data/fin/Harvard_University/hu_fy25.pdf (text: hu_fy25.txt)",
+   "pages": "Statement of changes in net assets with GOA detail: PDF p.18 (printed p.17); Note 17 functional and natural classification of operating expenses: PDF p.43 (FY25) and p.44 (FY24), printed pp.42-43"
+  }
+ ],
+ "years": {
+  "FY25": {
+   "salaries_and_wages": 2758560000,
+   "sw_combined_with_benefits": null,
+   "employee_benefits": 755895000,
+   "total_operating_expenses": 6794371000,
+   "depreciation": 459031000,
+   "depreciation_in_opex": true,
+   "amortization": null,
+   "amortization_in_opex": null,
+   "interest_expense": 262546000,
+   "interest_in_opex": true,
+   "dep_amort_note": "Harvard's operating expense lines are 'Depreciation (Note 7)' and 'Interest (Note 10)'; no separate amortization line appears among operating expenses (the only 'amortiz' hits in the report concern investment accounting, bond premium and lease terms), so amortization is null.",
+   "core_opex": 6072794000,
+   "core_opex_arithmetic": "total 6,794,371,000 - depreciation 459,031,000 - interest 262,546,000 = 6,072,794,000",
+   "evidence": {
+    "salaries_and_wages": "'Salaries and wages 2,758,560' (Consolidated Statements of Changes in Net Assets with General Operating Account Detail, operating expenses; $ thousands; columns: without donor restrictions, with donor restrictions, 2025 total, 2024 total). Statement of changes in net assets, PDF p.18 (printed p.17). Same figure in Note 17 natural classification, PDF p.43 (printed p.42).",
+    "total_operating_expenses": "'TOTAL OPERATING EXPENSES 6,794,371' (Statement of changes in net assets, PDF p.18 (printed p.17)). The nine natural-classification lines (salaries and wages, employee benefits, services purchased, depreciation, space and occupancy, supplies and equipment, interest, scholarships and other student awards, other expenses) sum to 6,794,371; Note 17 total also 6,794,371 (PDF p.43 (printed p.42)).",
+    "depreciation": "'Depreciation (Note 7) 459,031' (Statement of changes in net assets, PDF p.18 (printed p.17)); Note 17: 'Depreciation ... 459,031'.",
+    "interest_expense": "'Interest (Note 10) 262,546' (Statement of changes in net assets, PDF p.18 (printed p.17)); Note 17: 'Interest ... 262,546'."
+   }
   },
-  "entities_included": {
-    "health_system": null,
-    "health_system_expense": null,
-    "ffrdc": null,
-    "other": "Not verified: no Harvard financial statement was opened, so consolidation scope (e.g. any hospital, FFRDC or other large non-instructional enterprise) is unknown and left null."
+  "FY24": {
+   "salaries_and_wages": 2631642000,
+   "sw_combined_with_benefits": null,
+   "employee_benefits": 690638000,
+   "total_operating_expenses": 6426911000,
+   "depreciation": 440257000,
+   "depreciation_in_opex": true,
+   "amortization": null,
+   "amortization_in_opex": null,
+   "interest_expense": 226405000,
+   "interest_in_opex": true,
+   "dep_amort_note": "Harvard's operating expense lines are 'Depreciation (Note 7)' and 'Interest (Note 10)'; no separate amortization line appears among operating expenses (the only 'amortiz' hits in the report concern investment accounting, bond premium and lease terms), so amortization is null.",
+   "core_opex": 5760249000,
+   "core_opex_arithmetic": "total 6,426,911,000 - depreciation 440,257,000 - interest 226,405,000 = 5,760,249,000",
+   "evidence": {
+    "salaries_and_wages": "'Salaries and wages 2,631,642' (Consolidated Statements of Changes in Net Assets with General Operating Account Detail, operating expenses; $ thousands; columns: without donor restrictions, with donor restrictions, 2025 total, 2024 total). FY24 comparative column of the FY25 report's statement of changes in net assets, PDF p.18 (printed p.17). Same figure in Note 17 natural classification, FY24 table, PDF p.44 (printed p.43).",
+    "total_operating_expenses": "'TOTAL OPERATING EXPENSES 6,426,911' (FY24 comparative column of the FY25 report's statement of changes in net assets, PDF p.18 (printed p.17)). The nine natural-classification lines (salaries and wages, employee benefits, services purchased, depreciation, space and occupancy, supplies and equipment, interest, scholarships and other student awards, other expenses) sum to 6,426,911; Note 17 total also 6,426,911 (FY24 table, PDF p.44 (printed p.43)).",
+    "depreciation": "'Depreciation (Note 7) 440,257' (FY24 comparative column of the FY25 report's statement of changes in net assets, PDF p.18 (printed p.17)); Note 17: 'Depreciation ... 440,257'.",
+    "interest_expense": "'Interest (Note 10) 226,405' (FY24 comparative column of the FY25 report's statement of changes in net assets, PDF p.18 (printed p.17)); Note 17: 'Interest ... 226,405'."
+   }
   },
-  "calibration_fy23": {
-    "ref_sw": 2421076000,
-    "ref_core_opex": 5911797000,
-    "sw_diff_pct": null,
-    "core_opex_diff_pct": null,
-    "explanation": "Calibration not performed: FY23 figures could not be extracted because the Harvard Financial Report PDFs were inaccessible. Reference values (S&W 2,421,076,000; core opex 5,911,797,000) are carried from the request only."
-  },
-  "student_counts_in_official_docs": null,
-  "caveats": [
-    "OPEN ISSUE: all Harvard financial values are null. The FY25 and FY24 Financial Report PDFs on finance.harvard.edu return HTTP 403 'Access Denied' (Akamai edge, reference id in body) to curl with a Chrome User-Agent, with and without Accept/Accept-Language headers, a Referer from finance.harvard.edu/annual-report, and HTTP/2. The same host, www.finance.harvard.edu, otm.finance.harvard.edu and ofsp.finance.harvard.edu all return 403. WebFetch returns EGRESS_BLOCKED for finance.harvard.edu. Per SPEC I did not route around the block.",
-    "Only opened Harvard document with any FY25 figure: Harvard Gazette FY25 interview (news.harvard.edu, Oct 16, 2025): $113 million operating deficit on a $6.7 billion revenue base; endowment distributions $2.5 billion; $1.2 billion new debt issued in FY25. No S&W, depreciation or interest figures.",
-    "Unverified leads only (they appeared in search-result snippets summarizing the FY25 Financial Overview; NOT extracted from an opened document and NOT to be used as data): S&W about $2.8 billion (+5% / +$127 million), employee benefits $756 million (+9%), total operating expenses $6.8 billion (+6%, +$367 million). Sanity check only: implies FY25 S&W roughly 15-16% above the $2.421B FY23 reference, which is plausible for two years of growth.",
-    "Alternative official hosting attempted: EMMA (emma.msrb.org) is reachable but serves documents only after accepting the MSRB terms-of-use click-through, which I did not accept on the user's behalf. muniOS (www.munios.com) is reachable but its data API (api.munios.com) returned CONNECT 502 and the site is a sign-in SPA; it would in any case only hold the April 2025 Series 2025B offering document (FY24 and FY23 statements), not FY25. web.archive.org and bpb-us-e1.wpmucdn.com tunnels closed mid-exchange; the wpmucdn Harvard-domain PDFs found are Faculty of Arts and Sciences managerial reports, not University statements. Scribd copies exist but are unofficial and were not used.",
-    "Suggested next steps: (1) user or a machine with normal browser access downloads fy25-financial-report.pdf and fy24_harvard_financial_report.pdf (FY23 comparative is inside the FY24 report; the FY23 report is also needed for a like-for-like FY23 calibration) into fin/Harvard_University/ and this extraction is rerun, or (2) allow finance.harvard.edu through the egress proxy so WebFetch can be used, or (3) approve EMMA access and pull the Harvard FY25 annual financial information filing."
-  ],
-  "blocked_hosts": [
-    "finance.harvard.edu (Akamai 403 to curl; WebFetch: blocked by network egress proxy)",
-    "www.finance.harvard.edu (403)",
-    "otm.finance.harvard.edu (403)",
-    "ofsp.finance.harvard.edu (403)",
-    "api.munios.com (CONNECT 502)",
-    "web.archive.org (tunnel closed)",
-    "bpb-us-e1.wpmucdn.com (tunnel closed)"
-  ]
+  "FY23": {
+   "salaries_and_wages": null,
+   "sw_combined_with_benefits": null,
+   "employee_benefits": null,
+   "total_operating_expenses": null,
+   "depreciation": null,
+   "depreciation_in_opex": null,
+   "amortization": null,
+   "amortization_in_opex": null,
+   "interest_expense": null,
+   "interest_in_opex": null,
+   "core_opex": null,
+   "core_opex_arithmetic": null,
+   "evidence": {
+    "note": "FY23 is not in the FY25 report (it shows FY25 and FY24 only). The FY24 or FY23 Financial Report has not been supplied, so FY23 is not extracted and no FY23 calibration is claimed."
+   }
+  }
+ },
+ "entities_included": {
+  "health_system": false,
+  "health_system_expense": null,
+  "ffrdc": null,
+  "other": "Consolidated statements (Note 1, PDF p.21, printed p.20) cover Harvard Management Company (wholly owned subsidiary), the Faculty of Arts and Sciences, SEAS, the Division of Continuing Education (Harvard Extension School), ten graduate and professional Schools, Radcliffe, museums and the library system. No teaching hospital is consolidated: the report refers to the 'Harvard-affiliated teaching hospitals' as separate organizations (PDF p.23). Sponsored support revenue is $973M in FY25."
+ },
+ "calibration_fy23": {
+  "ref_sw": 2421076000,
+  "ref_core_opex": 5911797000,
+  "sw_diff_pct": null,
+  "core_opex_diff_pct": null,
+  "explanation": "FY23 not extracted (FY23 is not in the FY25 report). Only a sanity check is possible: FY24 S&W from the FY25 report is $2,631,642K, +8.7% above the original slide's FY23 figure of $2,421,076K; FY24 core opex under our definition ($5,760,249K) is 2.6% BELOW the original slide's FY23 'core opex' of $5,911,797K, which is consistent with the original slide having used total operating expenses (depreciation and interest left in) rather than the stated definition, the same issue found for the other institutions."
+ },
+ "student_counts_in_official_docs": "FY25 Financial Report, Note 1, PDF p.21 (printed p.20): 'approximately 7,000 undergraduate and 14,000 graduate students in fiscal year 2025, as compared to 7,100 undergraduate and 13,900 graduate students in fiscal year 2024' = about 21,000 in each year; consistent with the CDS 2024-25 grand total of 21,189 used on the slide.",
+ "caveats": [
+  "Provided by the user, not downloaded: finance.harvard.edu returns Akamai 403 to non-browser clients, so the audited PDF was supplied by Brett. All figures were read from that PDF (pdftotext -layout) and tie: the nine natural-classification lines sum to total operating expenses in both years ($6,794,371K FY25; $6,426,911K FY24).",
+  "Students: 21,189 is the Common Data Set fall 2024 grand total, which excludes the Harvard Extension School (Division of Continuing Education), while the expenses include Continuing Education. The FY25 report's own count (about 7,000 + 14,000 = 21,000) matches the CDS. Adding Extension degree students (about 3,600 in fall 2023 per the OIRA fact book) would lower S&W per student by roughly 14%; see the S3_Sensitivity sheet.",
+  "Harvard's S&W and benefits lines are clean, separate lines (benefits are 27.4% of S&W in FY25, 26.2% in FY24), so no assumed fringe rate is needed.",
+  "Interest ($262.5M) and depreciation ($459.0M) are separate operating lines; 'Fixed asset impairments' ($20.9M FY25) sit inside Other expenses and are NOT removed (the definition removes only depreciation, amortization and interest).",
+  "Harvard's total operating expenses are before non-operating items; the FY25 operating deficit is $112.6M (general operating account basis)."
+ ],
+ "blocked_hosts": [
+  "finance.harvard.edu (Akamai 403 to curl and headless browser; the PDF was supplied by the user)"
+ ]
 }
