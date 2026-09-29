@@ -201,9 +201,9 @@
   {
    "short": "Northeastern",
    "name": "Northeastern University",
-   "sw": 1080145804,
+   "sw": 1008307519,
    "sw_basis": "reported-other",
-   "sw_source": "audited 'Salary and benefits' $1,341,049,000 x 80.54% S&W share of the Form 990 (lines 5+6+7 / lines 5-10; FY25 990 S&W $1,045,135,178 on lines 5-10 $1,297,581,752); 990 lines 5-10 are 96.8% of the audited combined line",
+   "sw_source": "audited 'Salary and benefits' $1,341,049,000 / (1 + 33% fringe benefit rate, per Northeastern) = 75.19% S&W share. For reference the Form 990 (university only, 96.8% of the audited line) shows S&W $1,045,135,178 on lines 5-10 $1,297,581,752",
    "combined_comp": 1341049000,
    "benefits": null,
    "total_opex": 2388249000,
@@ -276,5 +276,6 @@
    "share": 0.801714224357053
   }
  },
- "fringe": 0.35
+ "fringe": 0.35,
+ "fringe_neu": 0.33
 }

@@ -7,7 +7,7 @@ import overlay_labels as OL
 FRAME_BOTTOM = 6.02
 ISO_LEVELS = [40, 80, 120, 160, 200, 240, 280, 320, 400, 480, 560]   # $K of S&W per student
 XMIN, XSTEP = 0, 10_000
-YMIN, YMAX = 0.20, 0.70      # y axis range (S&W share of core operating expenses)
+YMIN, YMAX = 0.30, 0.60      # y axis range (S&W share of core operating expenses)
 
 
 def fmt_k(v): return f"${v/1000:,.0f}K"
@@ -74,7 +74,7 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
     set_plot_layout(ch, il / fw, it / fh, iw / fw, ih / fh)
     plot = ch.plots[0]; plot.vary_by_categories = False
     style_axis(ch.category_axis, XMIN, xmax, 100_000, '"$"#,##0,"K"', grid=False, size=9)
-    style_axis(ch.value_axis, ymin, ymax, 0.1, '0%', grid=True, grid_color="E4E4E6", size=9)
+    style_axis(ch.value_axis, ymin, ymax, 0.05, '0%', grid=False, size=9)      # no horizontal gridlines
     axis_title(ch.category_axis, [("Core unlevered cash operating expenses (excluding depreciation, amortization and interest) per student ($K)", {})], size=10)
     axis_title(ch.value_axis, [("S&W as % of core operating expenses", {})], size=10, rot=-5400000)
 
@@ -110,7 +110,13 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
         near = [k2 for k2, (mx, my) in pts.items() if k2 != k and math.hypot(mx - it_['px'], my - it_['py']) < 0.16]
         it_['min_r'] = 0.30 if near else 0.16      # every label sits off its marker and is tied to it by a leader line
     for k, h in (hints or {}).items():      # per-label placement hints, e.g. {'Harvard': dict(dirs=[(0, 1)], max_r=0.45)}
-        if k in items: items[k].update(h)
+        if k not in items: continue
+        h = dict(h)
+        if "at" in h:      # explicit placement: label centre offset (dx, dy) in inches from its marker
+            dx, dy = h.pop("at"); it_ = items[k]
+            cx, cy = it_["px"] + dx, it_["py"] + dy
+            h.update(dirs=[], extra=[(cx - it_["w"] / 2, cy - it_["h"] / 2, it_["w"], it_["h"])])
+        items[k].update(h)
     bounds = (IL + 0.02, IT + 0.02, IL + iw - 0.02, IT + ih - 0.02)
     if focus and focus in items:        # focus label: below and to the left of its marker, clear of the neighbours' leaders
         fx_, fy_ = pts[focus]; fw_, fh_ = items[focus]["w"], items[focus]["h"]
@@ -120,7 +126,7 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
         fi = {focus: dict(items[focus], max_r=9, min_r=0.20)}
         pf = OL.place(fi, np.zeros((0, 2)), bounds, fixed=[], marker_pts=pts, ms=0.11, marker_clear=0.13, allowed_radii=RADII_ALL)
         rest = {k: v for k, v in items.items() if k != focus}
-        po = OL.place(rest, np.zeros((0, 2)), bounds, fixed=[OL.infl(pf[focus][0], 0.02)], marker_pts=pts, ms=0.11, marker_clear=0.10, allowed_radii=RADII_ALL)
+        po = OL.place(rest, np.zeros((0, 2)), bounds, fixed=[OL.infl(pf[focus][0], 0.02)], marker_pts=pts, ms=0.11, marker_clear=0.14, allowed_radii=RADII_ALL)
         placed = dict(po); placed[focus] = pf[focus]
     else:
         placed = OL.place(items, np.zeros((0, 2)), bounds, fixed=[], marker_pts=pts, ms=0.11, marker_clear=0.10, allowed_radii=RADII_ALL)
@@ -128,9 +134,6 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
     add_legend_row(slide, [("dot", BLACK, "No health system", {"d": 0.115}), ("dot", ROYAL, "Health system consolidated (1)", {"d": 0.115}),
                            ("dot", LIGHT_BLUE, "Health system, S&W estimated (1) (4)", {"d": 0.115}), ("dot", RED, "Northeastern", {"d": 0.16})],
                    x_right=IL + iw, y=top + 0.03, size=9.5)
-    cap_x = X(iso_levels[-1] * 1000 / ymax) + 0.42
-    add_textbox(slide, cap_x, IT - 0.235, 2.3, 0.2, [[("S&W per student", {"bold": True}), (" (dashed iso-lines)", {})]],
-                size=8.5, color=MUTED, wrap=False, name="Iso-line caption")
     blocks = [None] * n_iso + [[r["name"] for r in g_] for n, g_, c in groups] + ([[focus]] if focus else [])
     write_names_to_workbook(ch, blocks)
     annotate_workbook(ch, {"E1": "Reading guide: column A = core operating expense per student ($); column B = S&W as share of core operating expense; column C = institution. Iso-line blocks: S&W per student = A x B = constant."})

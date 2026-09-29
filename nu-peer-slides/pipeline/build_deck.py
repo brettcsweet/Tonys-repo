@@ -103,10 +103,12 @@ neu3 = next(r for r in rows3 if r["name"] == "Northeastern")
 peers3 = [r for r in rows3 if r["name"] != "Northeastern"]
 share_lo, share_hi = min(r["share"] for r in rows3), max(r["share"] for r in rows3)
 lowest = min(rows3, key=lambda r: r["swps"])
+import statistics
+peer_med_share = statistics.median(r["share"] for r in peers3)
 s3_title = (f"Northeastern\u2019s S&W per student is ${neu3['swps']/1000:,.0f}K, "
-            f"{'the lowest' if lowest['name'] == 'Northeastern' else 'among the lowest'} in the peer set, at a typical {neu3['share']:.0%} share of expenses")
+            f"{'the lowest' if lowest['name'] == 'Northeastern' else 'among the lowest'} in the peer set, at a {neu3['share']:.0%} share of expenses vs a {peer_med_share:.0%} peer median")
 s3_notes = ["(1) Blue markers: consolidates a health care system (academic medical center): Chicago, Duke, Emory, Penn, Stanford.  (2) Consolidates a federal laboratory: MIT (Lincoln Laboratory), Princeton (Plasma Physics Laboratory), Stanford (SLAC).",
-            "(3) Audited statements report salaries and benefits combined: Northeastern S&W = audited line \u00d7 80.5% S&W share on its Form 990; Northwestern S&W from its Form 990; Vanderbilt from the MD&A expense chart.  (4) Light blue: Penn and Stanford S&W estimated from combined salaries and benefits, assuming a 35% fringe benefit rate (S&W = combined \u00f7 1.35).",
+            "(3) Audited statements report salaries and benefits combined: Northeastern S&W = audited line \u00f7 1.33 (33% fringe benefit rate); Northwestern S&W from its Form 990; Vanderbilt from the MD&A expense chart.  (4) Light blue: Penn and Stanford S&W estimated from combined salaries and benefits, assuming a 35% fringe benefit rate (S&W = combined \u00f7 1.35).",
             "Note: FY25 audited financial statements (fiscal years end June 30; Emory, Northwestern, Stanford August 31). Core operating expenses = total operating expenses less depreciation, amortization and interest. Students = fall 2024 total enrollment"
             " per Common Data Set 2024\u201325 (Princeton: Report of the Treasurer); Harvard\u2019s count includes Extension School degree students." + (f" {', '.join(missing_names)}: FY25 report not yet available." if missing_names else "")]
 s3_source = "Source: University FY25 audited financial statements, IRS Form 990 filings, Common Data Sets; Northeastern analysis."
@@ -116,14 +118,14 @@ s3_speaker = f"""WHAT CHANGED FROM THE ORIGINAL
 - 'Core operating expenses' now follow the axis definition: total operating expenses less depreciation, amortization and interest. The original FY23 figures did NOT: they equal each school's total operating expenses to the dollar (for Rice, Vanderbilt, Northwestern, Princeton, Harvard, Duke and Penn they are the IPEDS FY23 'total expenses' field). Restated on the stated definition, FY23 core expenses are 5-15% lower, so FY25 positions are not comparable with the earlier chart along the x axis. S&W per student (the iso-lines) does not depend on this definition.
 - S&W: the original S&W for Penn, Stanford and Northwestern equals exactly 72.80% of each school's combined salaries-and-benefits line, an undisclosed assumption. Peers that report both lines run 74.8% to 81.4%. Northwestern is now actual (its Form 990 ties to the audited combined line to the dollar: S&W = 77.9%). Penn and Stanford are estimates, shown in light blue: per Northeastern's direction S&W = audited combined salaries and benefits / 1.35 (a 35% fringe benefit rate, i.e. a 74.1% S&W share). For reference the schools that report both lines have fringe rates of 23%-34% (74.8%-81.4% S&W share), so 35% is above every observed peer and these two estimates lean low; their own Form 990 shares (76.7%, 80.2%) would give S&W per student about 4% (Penn) and 8% (Stanford) higher.
 - Markers: universities that consolidate a health system (footnote 1) are blue: royal blue for Chicago, Duke and Emory, lighter blue for Penn and Stanford (S&W estimated, footnote 4). Everyone else is black; Northeastern is red. Markers are one size larger than the first draft.
-- Y axis now runs 20% to 70% (was 0% to 80%): all 14 S&W shares fall between 43% and 54%, so the tighter range spreads the points. Dashed iso-lines are drawn to the plot edges and labelled where they enter along the top edge.
+- Y axis now runs 30% to 60% (was 0% to 80%) with no horizontal gridlines: all 14 S&W shares fall between 43% and 54%, so the tighter range spreads the points and the chart is less busy. Dashed iso-lines are drawn to the plot edges and labelled in $K where they enter along the top edge.
 - Student counts: the original mixed sources (Rice = fall 2021, Vanderbilt = fall 2022, Emory 16,000 and Northwestern 23,000 were round estimates; Harvard and Penn used degree-seeking counts while others used IPEDS). All FY25 counts are now fall 2024 total enrollment from each school's Common Data Set.
 
 NORTHEASTERN
 - S&W ${neu3['sw']/1e6:,.0f}M on core operating expenses ${neu3['opex']/1e6:,.0f}M = {neu3['share']:.1%}; {neu3['students']:,} students => ${neu3['swps']/1000:,.1f}K S&W per student and ${neu3['opex_ps']/1000:,.1f}K core expense per student (x axis $55.0K is unchanged: total operating expenses $2,388.2M less depreciation $151.3M and interest $49.9M = $2,187.1M).
-- CHECK OF THE $1.3B: the audited statements show only 'Salary and benefits' of $1,341.0M, which is salaries AND benefits. 39,774 students x $27.2K S&W per student = $1,080M; the $1.3B is reached only by adding benefits (about $261M). $1,341.0M / 39,774 = $33.7K is salary-plus-benefits per student, not S&W per student, and is not comparable with the peers' S&W (the nine peers that report both lines exclude benefits). On the like-for-like salary-plus-benefits basis Northeastern is still lowest ($33.7K vs Boston University $43.1K).
-- How S&W is derived: neither the audited statements nor any footnote split the line. The Form 990 does (S&W $1,045.1M, benefits $252.4M, so S&W = 80.54% of lines 5-10 and benefits = 24.2% of S&W, inside the 23%-34% peer range), but it covers 96.8% of the audited line. The 80.54% share is applied to the audited $1,341.0M so S&W is on the same consolidated scope as core expenses. As filed the 990 S&W alone would give $1,045M, $26.3K and 47.8%.
-- Student count: per Northeastern's direction the Common Data Set fall 2024 headcount (39,774) is used. It is about 22% above the IPEDS-style headcount (about 32.5K) and Facts and Figures shows 48,812; S&W per student would be $27.2K, $33.2K or $22.1K respectively. Northeastern is lowest in the peer set on all three.
+- CHECK OF THE $1.3B: the audited statements show only 'Salary and benefits' of $1,341.0M, which is salaries AND benefits. At Northeastern's 33% fringe benefit rate S&W is $1,008M and benefits are $333M, so 39,774 students x $25.4K S&W per student = $1,008M, not $1.3B. $1,341.0M / 39,774 = $33.7K is salary-plus-benefits per student, not S&W per student, and is not comparable with the peers' S&W (the nine peers that report both lines exclude benefits). On the like-for-like salary-plus-benefits basis Northeastern is still lowest ($33.7K vs Boston University $43.1K).
+- How S&W is derived: neither the audited statements nor any footnote split the line, so S&W = audited $1,341.0M / (1 + 33% fringe rate, per Northeastern) = $1,008.3M. For reference the Form 990 (university only, 96.8% of the audited line) shows S&W $1,045.1M and benefits $252.4M (24.2% of S&W); using the 990 as filed would give $26.3K and 47.8%, and scaling its S&W share to the audited line $27.2K and 49.4%.
+- Student count: per Northeastern's direction the Common Data Set fall 2024 headcount (39,774) is used. It is about 22% above the IPEDS-style headcount (about 32.5K) and Facts and Figures shows 48,812; S&W per student would be $25.4K, $31.0K or $20.7K respectively. Northeastern is lowest in the peer set on all three.
 - Northeastern and BU headcounts include large graduate, online and co-op populations; per-headcount measures understate S&W per FTE student.
 
 OTHER CHECKS AND CAVEATS
@@ -153,10 +155,14 @@ build_slide2(prs, s2, years, title="Is there a dangerous disconnect in perceptio
              draft_tag=tag2, notes_text=s2_speaker, frame_bottom=6.42, extra_label="Trustees only (2025\u201326 item)",
              star_years={"F": (2016, 2017)})
 build_slide3(prs, rows3, "FY25", title=s3_title,
-             subtitle="Core operating expense per student and S&W share of that expense; dashed lines mark constant S&W per student",
+             subtitle="Core operating expense per student and S&W share of that expense; dashed lines, labelled at top, mark constant S&W per student",
              notes_paras=s3_notes, source=s3_source, draft_tag=tag3, notes_text=s3_speaker, focus="Northeastern", health_system=HEALTH,
              frame_bottom=6.05, foot_marks=foot_marks,
-             hints={"Harvard": dict(dirs=[(0, 1), (1, 1), (-1, 1)], min_r=0.2, max_r=0.5)})
+             hints={"Boston University": dict(dirs=[(0, -1)], min_r=0.16, max_r=0.5),      # above its marker
+                    "Rice": dict(at=(0.87, 0.0)),                                          # right of its marker
+                    "Vanderbilt": dict(at=(0.0, 1.07)),                                    # straight below, clear of the Northeastern label
+                    "Northwestern": dict(at=(1.31, 0.93)),                                 # lower right
+                    "Harvard": dict(at=(0.87, 0.38))})                                     # lower right of its marker
 
 prs.core_properties.title = "Peer comparison: return on investment, perceptions and salaries per student"
 import datetime

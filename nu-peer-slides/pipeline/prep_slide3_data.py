@@ -23,6 +23,7 @@ F990 = {
     "Penn": dict(sw=4515553000, lines_5_10=5886033000, share=4515553000 / 5886033000),
     "Stanford": dict(sw=4781181437, lines_5_10=5963697901, share=4781181437 / 5963697901),
 }
+FRINGE_NEU = 0.33   # Northeastern's own fringe benefit rate (benefits / S&W), per Northeastern
 FRINGE = 0.35   # assumed fringe benefit rate (benefits / S&W) for schools whose audited statements combine salaries and benefits and no 990 ties (Penn, Stanford), per Northeastern's direction
 CDS_OVERRIDE = {"Princeton": (9050, "Report of the Treasurer FY25 / financial statements: 5,726 undergraduates + 3,324 graduate students (term not named; CDS host not reachable)")}
 rows, missing = [], []
@@ -44,10 +45,10 @@ for short, f in ORDER:
         sw, basis = F990[short]["sw"], "reported-other"
         sw_src = "IRS Form 990 Part IX lines 5+6+7 (audited statements show salary and benefits combined); 990 lines 5-10 tie to the audited combined line to the dollar"
     elif short == "Northeastern":
-        # audited statements give only 'Salary and benefits' ($1,341.0M, consolidated). The Form 990 (university only) covers 96.8% of it; its S&W share of lines 5-10 (80.54%) is applied to the audited line so S&W is on the same consolidated scope as core opex.
-        sw, basis = round(comb * F990[short]["share"]), "reported-other"
-        sw_src = (f"audited 'Salary and benefits' ${comb:,.0f} x {F990[short]['share']:.2%} S&W share of the Form 990 (lines 5+6+7 / lines 5-10; FY25 990 S&W ${F990[short]['sw']:,.0f} on lines 5-10 ${F990[short]['lines_5_10']:,.0f}); "
-                  "990 lines 5-10 are 96.8% of the audited combined line")
+        # audited statements give only 'Salary and benefits' ($1,341.0M, consolidated). Northeastern's fringe benefit rate is 33% (per Northeastern), so S&W = combined / 1.33.
+        sw, basis = round(comb / (1 + FRINGE_NEU)), "reported-other"
+        sw_src = (f"audited 'Salary and benefits' ${comb:,.0f} / (1 + {FRINGE_NEU:.0%} fringe benefit rate, per Northeastern) = {1/(1+FRINGE_NEU):.2%} S&W share. "
+                  f"For reference the Form 990 (university only, 96.8% of the audited line) shows S&W ${F990[short]['sw']:,.0f} on lines 5-10 ${F990[short]['lines_5_10']:,.0f}")
     elif short in ("Penn", "Stanford"):
         sw = round(comb / (1 + FRINGE)); basis = "est"
         sw_src = f"ESTIMATE: audited combined salaries and benefits ${comb:,.0f} / (1 + {FRINGE:.0%} assumed fringe benefit rate) = {1/(1+FRINGE):.2%} S&W share (Form 990 share for reference: {F990[short]['share']:.2%}; 990 covers a narrower scope than the consolidated statements)"
@@ -55,7 +56,7 @@ for short, f in ORDER:
                      total_opex=tot, depreciation=y.get("depreciation"), amortization=y.get("amortization"), interest=y.get("interest_expense"),
                      core_opex=core, students=st, students_source=st_src, health_system=HEALTH.get(short), fy_end=fin.get("fiscal_year_end_fy25")))
     if sw is None or core is None or st is None: missing.append(short)
-json.dump(dict(rows=rows, missing=missing, n990=F990, fringe=FRINGE), open("inputs/fy25_slide3.json", "w"), indent=1)
+json.dump(dict(rows=rows, missing=missing, n990=F990, fringe=FRINGE, fringe_neu=FRINGE_NEU), open("inputs/fy25_slide3.json", "w"), indent=1)
 print("missing:", missing)
 for r in rows:
     if r["sw"] and r["core_opex"] and r["students"]:

@@ -78,12 +78,15 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
         if cand[k][ci][2] > 0.12:
             sg = seg_of(b, mx0, my0)
             for k2, (b2, _) in placed.items():
-                if k2 != k: c += seg_hits(sg, b2) * 6.0
+                if k2 != k: c += seg_hits(sg, b2) * 20.0
         for k2, (b2, ci2) in placed.items():
             if k2 == k or cand[k2][ci2][2] <= 0.12: continue
             sg2 = seg_of(b2, *marker_pts[k2])
-            c += seg_hits(sg2, bi) * 6.0
+            c += seg_hits(sg2, bi) * 20.0
             if cand[k][ci][2] > 0.12 and segs_cross(seg_of(b, mx0, my0), sg2): c += 40.0      # two leaders must not cross
+        if cand[k][ci][2] > 0.12:            # a leader must not run through a fixed (pre-placed) label either
+            sgk = seg_of(b, mx0, my0)
+            for fb in fixed: c += seg_hits(sgk, fb) * 20.0
         # own marker must not sit under the label
         mx, my = marker_pts[k]
         c += overlap(b, (mx - 0.03, my - 0.03, 0.06, 0.06)) * 4000
