@@ -18,6 +18,8 @@ GRAPHITE = "3A3A3F"
 GREY = "8A8D8F"        # Husky Grey
 MUTED = "6B6B70"
 NAVY = "0C3354"        # navy from the NU template theme; used for private institutions per Brett
+ROYAL = "1F4FE0"       # bright royal blue: private-institution markers on slide 1, requested by Brett (not an NU brand color)
+LIGHT_BLUE = "8FA9F5"   # lighter tint of the royal blue: health-system schools whose S&W is estimated (slide 3)
 GRID = "D9D9DB"
 FONT = "Lato"
 
@@ -325,7 +327,9 @@ def add_legend_row(slide, items, x_right, y, size=9, gap=0.28, name="Legend"):
         if kind == "dot":
             d = ex.get("d", 0.10)
             o = slide.shapes.add_shape(9, Inches(x + (0.14 - d) / 2), Inches(cy - d / 2), Inches(d), Inches(d))
-            o.fill.solid(); o.fill.fore_color.rgb = rgb(color); o.line.fill.background()
+            o.fill.solid(); o.fill.fore_color.rgb = rgb(color)
+            if ex.get("outline"): o.line.color.rgb = rgb(ex["outline"]); o.line.width = Pt(ex.get("outline_w", 0.25))
+            else: o.line.fill.background()
             shapes.append(o)
         elif kind == "line":
             shapes.append(add_line(slide, x, cy, x + sym, cy, color=color, width=ex.get("w", 1.5)))

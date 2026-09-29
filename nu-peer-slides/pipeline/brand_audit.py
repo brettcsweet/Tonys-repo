@@ -2,7 +2,7 @@ import sys, zipfile, re
 from collections import Counter
 z = zipfile.ZipFile(sys.argv[1])
 ALLOWED = {"C8102E":"Northeastern Red","000000":"Black","FFFFFF":"White","3A3A3F":"Graphite","8A8D8F":"Husky Grey","6B6B70":"Muted",
-           "0C3354":"Navy (NU template theme; private institutions per Brett)","E4E4E6":"light gridline grey","D9D9DB":"light gridline grey","C9C9CC":"row-line grey"}
+           "0C3354":"Navy (NU template theme; private institutions per Brett)","8FA9F5":"Light royal blue tint (slide 3 estimated health-system markers, requested by Brett)","1F4FE0":"Royal blue (slide 1 private markers and slide 3 health-system markers, requested by Brett; not an NU brand color)","E4E4E6":"light gridline grey","D9D9DB":"light gridline grey","C9C9CC":"row-line grey"}
 cols, fonts, geoms = Counter(), Counter(), Counter()
 scheme = Counter()
 for n in z.namelist():

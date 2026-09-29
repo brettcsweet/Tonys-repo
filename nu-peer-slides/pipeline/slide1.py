@@ -118,8 +118,8 @@ def build_slide1(prs, df, label_map, focus="Northeastern University", title=None
     axis_title(ch.value_axis, [("Median earnings ten years after entry (1)", {})], size=10, rot=-5400000)
 
     sv, sp, sf = plot.series[0], plot.series[1], plot.series[2]
-    style_series_markers(sv, NAVY, 4, alpha=80); series_no_line(sv)
-    style_series_markers(sp, GREY, 4, alpha=80); series_no_line(sp)
+    style_series_markers(sv, ROYAL, 4, alpha=85); series_no_line(sv)                                   # private: bright royal blue
+    style_series_markers(sp, GREY, 3, alpha=80, line_color=BLACK, line_w=0.25); series_no_line(sp)   # public: one size smaller, hairline black border
     style_series_markers(sf, RED, 11, line_color=WHITE, line_w=1.25); series_no_line(sf)
     add_trendline(sv, "Private college trendline", BLACK, 1.25)
 
@@ -184,7 +184,7 @@ def build_slide1(prs, df, label_map, focus="Northeastern University", title=None
     for label, c in (("Better deal", better_c), ("Worse deal", worse_c)):
         add_textbox(slide, c[0] - 0.5, c[1] - 0.12, 1.0, 0.24, label, size=10, color=GREY, italic=True,
                     align="c", anchor="m", rot=-slope_deg, name=label)
-    add_legend_row(slide, [("dot", GREY, "Public institutions", {}), ("dot", NAVY, "Private institutions", {}),
+    add_legend_row(slide, [("dot", GREY, "Public institutions", {"d": 0.085, "outline": BLACK, "outline_w": 0.25}), ("dot", ROYAL, "Private institutions", {}),
                            ("line", BLACK, "Private college trendline", {"w": 1.5}), ("dot", RED, "Northeastern", {"d": 0.13})],
                    x_right=g.IL + g.IW, y=g.FY + 0.02)
     return slide, ch, dict(costs=costs, slope_deg=slope_deg, pri_fit=list(pri_fit),
