@@ -1,0 +1,1558 @@
+NPT4,pub,priv,name,city,st,control,x,y,ratio
+1494.0,34395.0,,Florida Gateway College,Lake City,FL,1.0,1494.0,34395.0,23.022088353413654
+1936.0,71078.0,,CUNY Bernard M Baruch College,New York,NY,1.0,1936.0,71078.0,36.71384297520661
+2037.0,54219.0,,California State University-Los Angeles,Los Angeles,CA,1.0,2037.0,54219.0,26.617083946980856
+2042.0,37102.0,,Chipola College,Marianna,FL,1.0,2042.0,37102.0,18.169441723800198
+2061.0,58052.0,,CUNY City College,New York,NY,1.0,2061.0,58052.0,28.16690926734595
+2068.0,26829.0,,Colegio Universitario de San Juan,San Juan,PR,1.0,2068.0,26829.0,12.97340425531915
+2107.0,25107.0,,Northern Marianas College,Saipan,MP,1.0,2107.0,25107.0,11.915994304698623
+2124.0,58822.0,,CUNY Hunter College,New York,NY,1.0,2124.0,58822.0,27.693973634651602
+2212.0,41583.0,,St Petersburg College,St. Petersburg,FL,1.0,2212.0,41583.0,18.79882459312839
+2232.0,55258.0,,California State University-San Bernardino,San Bernardino,CA,1.0,2232.0,55258.0,24.75716845878136
+2254.0,54207.0,,CUNY John Jay College of Criminal Justice,New York,NY,1.0,2254.0,54207.0,24.04924578527063
+2393.0,57665.0,,CUNY Brooklyn College,Brooklyn,NY,1.0,2393.0,57665.0,24.09736732135395
+2615.0,52882.0,,CUNY Lehman College,Bronx,NY,1.0,2615.0,52882.0,20.222562141491395
+2703.0,24465.0,,University of Puerto Rico-Aguadilla,Aguadilla,PR,1.0,2703.0,24465.0,9.051054384017759
+2918.0,35945.0,,Pensacola State College,Pensacola,FL,1.0,2918.0,35945.0,12.318368745716244
+2933.0,58348.0,,CUNY Queens College,Queens,NY,1.0,2933.0,58348.0,19.893624275485852
+3239.0,52325.0,,CUNY York College,Jamaica,NY,1.0,3239.0,52325.0,16.154677369558506
+3296.0,39024.0,,Florida State College at Jacksonville,Jacksonville,FL,1.0,3296.0,39024.0,11.839805825242719
+3476.0,47242.0,,CUNY New York City College of Technology,Brooklyn,NY,1.0,3476.0,47242.0,13.590909090909092
+3679.0,69468.0,,University of Florida,Gainesville,FL,1.0,3679.0,69468.0,18.882304974177767
+3724.0,49934.0,,California State University-Dominguez Hills,Carson,CA,1.0,3724.0,49934.0,13.408700322234157
+3762.0,35828.0,,South Florida State College,Avon Park,FL,1.0,3762.0,35828.0,9.523657628920787
+3902.0,40799.0,,Seminole State College of Florida,Sanford,FL,1.0,3902.0,40799.0,10.455920041004614
+3966.0,35482.0,,Indian River State College,Fort Pierce,FL,1.0,3966.0,35482.0,8.94654563792234
+4060.0,37070.0,,Elizabeth City State University,Elizabeth City,NC,1.0,4060.0,37070.0,9.130541871921181
+4211.0,58585.0,,California State University-Fullerton,Fullerton,CA,1.0,4211.0,58585.0,13.912372358109712
+4517.0,69468.0,,University of Florida-Online,Gainesville,FL,1.0,4517.0,69468.0,15.37923400487049
+4667.0,47235.0,,Texas A & M International University,Laredo,TX,1.0,4667.0,47235.0,10.121062781229913
+4668.0,36306.0,,Eastern Florida State College,Melbourne,FL,1.0,4668.0,36306.0,7.777634961439588
+4757.0,43073.0,,Indiana University-Kokomo,Kokomo,IN,1.0,4757.0,43073.0,9.054656295984865
+4793.0,36985.0,,Pasco-Hernando State College,New Port Richey,FL,1.0,4793.0,36985.0,7.716461506363447
+4978.0,27305.0,,University of Puerto Rico at Ponce,Ponce,PR,1.0,4978.0,27305.0,5.485134592205705
+4988.0,46503.0,,North Seattle College,Seattle,WA,1.0,4988.0,46503.0,9.322975140336808
+4994.0,36355.0,,Eastern New Mexico University-Main Campus,Portales,NM,1.0,4994.0,36355.0,7.279735682819383
+5015.0,38131.0,,Saint Johns River State College,Palatka,FL,1.0,5015.0,38131.0,7.603389830508474
+5240.0,39230.0,,Dalton State College,Dalton,GA,1.0,5240.0,39230.0,7.486641221374046
+5363.0,47698.0,,The University of Texas Rio Grande Valley,Edinburg,TX,1.0,5363.0,47698.0,8.89390266641805
+5553.0,54470.0,,California State University-Monterey Bay,Seaside,CA,1.0,5553.0,54470.0,9.80911219160814
+5581.0,52241.0,,College of Staten Island CUNY,Staten Island,NY,1.0,5581.0,52241.0,9.360508869378247
+5640.0,55534.0,,California State University-Fresno,Fresno,CA,1.0,5640.0,55534.0,9.84645390070922
+5993.0,42968.0,,CUNY Medgar Evers College,Brooklyn,NY,1.0,5993.0,42968.0,7.169697980977808
+6002.0,40761.0,,Colorado Mountain College,Glenwood Springs,CO,1.0,6002.0,40761.0,6.791236254581806
+6010.0,43697.0,,Coppin State University,Baltimore,MD,1.0,6010.0,43697.0,7.27071547420965
+6041.0,58120.0,,California State University-Stanislaus,Turlock,CA,1.0,6041.0,58120.0,9.620923688131104
+6230.0,62725.0,,Sonoma State University,Rohnert Park,CA,1.0,6230.0,62725.0,10.068218298555378
+6232.0,57946.0,,Florida International University,Miami,FL,1.0,6232.0,57946.0,9.29813863928113
+6352.0,56415.0,,SUNY College at Old Westbury,Old Westbury,NY,1.0,6352.0,56415.0,8.881454659949622
+6464.0,36862.0,,Northwest Florida State College,Niceville,FL,1.0,6464.0,36862.0,5.702660891089109
+6488.0,61522.0,,San Diego State University,San Diego,CA,1.0,6488.0,61522.0,9.482429099876695
+6575.0,46832.0,,Northern Kentucky University,Highland Heights,KY,1.0,6575.0,46832.0,7.122737642585552
+6623.0,37600.0,,Fayetteville State University,Fayetteville,NC,1.0,6623.0,37600.0,5.677185565453722
+6627.0,83499.0,,United States Merchant Marine Academy,Kings Point,NY,1.0,6627.0,83499.0,12.599818922589407
+6649.0,33501.0,,Atlanta Metropolitan State College,Atlanta,GA,1.0,6649.0,33501.0,5.038502030380508
+6654.0,61267.0,,California State University-Sacramento,Sacramento,CA,1.0,6654.0,61267.0,9.207544334235047
+6666.0,44517.0,,Indiana University-Northwest,Gary,IN,1.0,6666.0,44517.0,6.678217821782178
+6821.0,55530.0,,California State University-Bakersfield,Bakersfield,CA,1.0,6821.0,55530.0,8.141035038850609
+6848.0,40769.0,,Georgia Highlands College,Rome,GA,1.0,6848.0,40769.0,5.953417056074766
+6914.0,44383.0,,Indiana University-Southeast,New Albany,IN,1.0,6914.0,44383.0,6.419294185710154
+6934.0,64404.0,,Farmingdale State College,Farmingdale,NY,1.0,6934.0,64404.0,9.288145370637439
+7159.0,52114.0,,University of North Florida,Jacksonville,FL,1.0,7159.0,52114.0,7.2795083112166505
+7166.0,41051.0,,Louisiana State University-Alexandria,Alexandria,LA,1.0,7166.0,41051.0,5.728579402735138
+7203.0,34083.0,,Abraham Baldwin Agricultural College,Tifton,GA,1.0,7203.0,34083.0,4.7317784256559765
+7210.0,45592.0,,Oklahoma Panhandle State University,Goodwell,OK,1.0,7210.0,45592.0,6.323439667128987
+7238.0,49341.0,,New College of Florida,Sarasota,FL,1.0,7238.0,49341.0,6.816938380768168
+7261.0,36819.0,,Centralia College,Centralia,WA,1.0,7261.0,36819.0,5.070789147500344
+7265.0,36807.0,,Kentucky State University,Frankfort,KY,1.0,7265.0,36807.0,5.066345492085341
+7368.0,41500.0,,University of Alaska Southeast,Juneau,AK,1.0,7368.0,41500.0,5.632464712269273
+7561.0,25140.0,,University of Puerto Rico-Arecibo,Arecibo,PR,1.0,7561.0,25140.0,3.3249570162676894
+7577.0,31302.0,,University of Puerto Rico-Bayamon,Bayamon,PR,1.0,7577.0,31302.0,4.131186485416392
+7758.0,36875.0,,Great Basin College,Elko,NV,1.0,7758.0,36875.0,4.753158030420211
+7929.0,57963.0,,Bellevue College,Bellevue,WA,1.0,7929.0,57963.0,7.310253499810821
+7944.0,56375.0,,California State University-Northridge,Northridge,CA,1.0,7944.0,56375.0,7.096550855991944
+7990.0,53644.0,,Florida Atlantic University,Boca Raton,FL,1.0,7990.0,53644.0,6.713892365456821
+7994.0,38897.0,,Polk State College,Winter Haven,FL,1.0,7994.0,38897.0,4.865774330748061
+8036.0,53303.0,,University of Wyoming,Laramie,WY,1.0,8036.0,53303.0,6.633026381284221
+8075.0,47026.0,,Lake Washington Institute of Technology,Kirkland,WA,1.0,8075.0,47026.0,5.823653250773994
+8106.0,54965.0,,The University of Texas Permian Basin,Odessa,TX,1.0,8106.0,54965.0,6.780779669380705
+8149.0,41226.0,,Indiana University-East,Richmond,IN,1.0,8149.0,41226.0,5.059025647318689
+8152.0,45884.0,,The University of West Florida,Pensacola,FL,1.0,8152.0,45884.0,5.62855740922473
+8295.0,55073.0,,Potomac State College of West Virginia University,Keyser,WV,1.0,8295.0,55073.0,6.639300783604581
+8318.0,54364.0,,University of South Florida,Tampa,FL,1.0,8318.0,54364.0,6.535705698485213
+8338.0,60973.0,,California State University-Long Beach,Long Beach,CA,1.0,8338.0,60973.0,7.312664907651715
+8385.0,35294.0,,South Georgia State College,Douglas,GA,1.0,8385.0,35294.0,4.209183064997019
+8407.0,32799.0,,West Virginia University at Parkersburg,Parkersburg,WV,1.0,8407.0,32799.0,3.901391697395028
+8518.0,40816.0,,Indiana University-South Bend,South Bend,IN,1.0,8518.0,40816.0,4.791735149096032
+8519.0,32393.0,,University of Puerto Rico-Rio Piedras,San Juan,PR,1.0,8519.0,32393.0,3.8024416011268927
+8536.0,45066.0,,Louisiana State University-Shreveport,Shreveport,LA,1.0,8536.0,45066.0,5.2795220243673855
+8541.0,74063.0,,University of Washington-Tacoma Campus,Tacoma,WA,1.0,8541.0,74063.0,8.671467041330056
+8547.0,40800.0,,Florida SouthWestern State College,Fort Myers,FL,1.0,8547.0,40800.0,4.773604773604774
+8573.0,45445.0,,Green River College,Auburn,WA,1.0,8573.0,45445.0,5.300944826781756
+8706.0,43564.0,,Marshall University,Huntington,WV,1.0,8706.0,43564.0,5.00390535263037
+8759.0,44022.0,,Columbia Basin College,Pasco,WA,1.0,8759.0,44022.0,5.025916200479506
+8844.0,34656.0,,University of Guam,Mangilao,GU,1.0,8844.0,34656.0,3.9185888738127543
+8867.0,35443.0,,Daytona State College,Daytona Beach,FL,1.0,8867.0,35443.0,3.997180557121913
+8919.0,39357.0,,Cameron University,Lawton,OK,1.0,8919.0,39357.0,4.412714429868819
+8925.0,36490.0,,Gordon State College,Barnesville,GA,1.0,8925.0,36490.0,4.088515406162465
+8947.0,65331.0,,Washington State University,Pullman,WA,1.0,8947.0,65331.0,7.302000670615849
+8969.0,43759.0,,Chicago State University,Chicago,IL,1.0,8969.0,43759.0,4.87891626714238
+8985.0,59652.0,,Fashion Institute of Technology,New York,NY,1.0,8985.0,59652.0,6.63906510851419
+9127.0,68414.0,,Purdue University-Main Campus,West Lafayette,IN,1.0,9127.0,68414.0,7.495781746466528
+9158.0,39149.0,,Northern New Mexico College,Espanola,NM,1.0,9158.0,39149.0,4.2748416684865695
+9182.0,40246.0,,Concord University,Athens,WV,1.0,9182.0,40246.0,4.383140927902418
+9214.0,40481.0,,University of Maine at Fort Kent,Fort Kent,ME,1.0,9214.0,40481.0,4.393423051877577
+9215.0,39676.0,,University of Science and Arts of Oklahoma,Chickasha,OK,1.0,9215.0,39676.0,4.305588714053174
+9217.0,54850.0,,University of Central Florida,Orlando,FL,1.0,9217.0,54850.0,5.9509601822718885
+9243.0,45019.0,,Kent State University at Salem,Salem,OH,1.0,9243.0,45019.0,4.870604781997187
+9262.0,67473.0,,University of Maryland-Baltimore County,Baltimore,MD,1.0,9262.0,67473.0,7.284927661412222
+9266.0,28114.0,,University of Maine at Presque Isle,Presque Isle,ME,1.0,9266.0,28114.0,3.034103172890136
+9280.0,74063.0,,University of Washington-Bothell Campus,Bothell,WA,1.0,9280.0,74063.0,7.980926724137931
+9336.0,39832.0,,University of Arkansas-Fort Smith,Fort Smith,AR,1.0,9336.0,39832.0,4.26649528706084
+9411.0,44761.0,,Oklahoma State University Institute of Technology,Okmulgee,OK,1.0,9411.0,44761.0,4.756242694718946
+9419.0,52665.0,,Governors State University,University Park,IL,1.0,9419.0,52665.0,5.59135789361928
+9443.0,45019.0,,Kent State University at Trumbull,Warren,OH,1.0,9443.0,45019.0,4.767446785979032
+9464.0,54882.0,,Utah Valley University,Orem,UT,1.0,9464.0,54882.0,5.799027895181742
+9472.0,49735.0,,University of Southern Maine,Portland,ME,1.0,9472.0,49735.0,5.25073902027027
+9477.0,44672.0,,Purdue University Northwest,Hammond,IN,1.0,9477.0,44672.0,4.713727972987233
+9527.0,39307.0,,University of the Virgin Islands,Charlotte Amalie,VI,1.0,9527.0,39307.0,4.125852839298835
+9561.0,57007.0,,Florida State University,Tallahassee,FL,1.0,9561.0,57007.0,5.962451626398912
+9584.0,27007.0,,University of Puerto Rico-Cayey,Cayey,PR,1.0,9584.0,27007.0,2.8179257095158596
+9607.0,41727.0,,Missouri Southern State University,Joplin,MO,1.0,9607.0,41727.0,4.343395440824398
+9634.0,35808.0,,College of Central Florida,Ocala,FL,1.0,9634.0,35808.0,3.716836205106913
+9668.0,45019.0,,Kent State University at Tuscarawas,New Philadelphia,OH,1.0,9668.0,45019.0,4.656495655771618
+9684.0,46150.0,,University of Alaska Fairbanks,Fairbanks,AK,1.0,9684.0,46150.0,4.765592730276746
+9691.0,76593.0,,University of California-Irvine,Irvine,CA,1.0,9691.0,76593.0,7.9035187287173665
+9713.0,52268.0,,Florida Gulf Coast University,Fort Myers,FL,1.0,9713.0,52268.0,5.381241634922269
+9717.0,59142.0,,Western Washington University,Bellingham,WA,1.0,9717.0,59142.0,6.086446434084594
+9769.0,43257.0,,Northeastern State University,Tahlequah,OK,1.0,9769.0,43257.0,4.427986487869792
+9784.0,41901.0,,University of Virginia's College at Wise,Wise,VA,1.0,9784.0,41901.0,4.2826042518397385
+9889.0,39258.0,,University of Maine at Augusta,Augusta,ME,1.0,9889.0,39258.0,3.9698655071291333
+9931.0,47362.0,,Southern Oregon University,Ashland,OR,1.0,9931.0,47362.0,4.769106837176518
+9945.0,47728.0,,SUNY Buffalo State University,Buffalo,NY,1.0,9945.0,47728.0,4.799195575666164
+9979.0,38178.0,,New Mexico State University-Main Campus,Las Cruces,NM,1.0,9979.0,38178.0,3.825834251929051
+10096.0,30324.0,,Mississippi Valley State University,Itta Bena,MS,1.0,10096.0,30324.0,3.003565768621236
+10161.0,43988.0,,McNeese State University,Lake Charles,LA,1.0,10161.0,43988.0,4.329101466391103
+10203.0,53007.0,,Midwestern State University,Wichita Falls,TX,1.0,10203.0,53007.0,5.19523669508968
+10289.0,54989.0,,Weber State University,Ogden,UT,1.0,10289.0,54989.0,5.34444552434639
+10295.0,39134.0,,Middle Georgia State University,Macon,GA,1.0,10295.0,39134.0,3.8012627489072366
+10295.0,39332.0,,Savannah State University,Savannah,GA,1.0,10295.0,39332.0,3.820495386109762
+10309.0,62275.0,,SUNY Polytechnic Institute,Utica,NY,1.0,10309.0,62275.0,6.040838102628771
+10413.0,44390.0,,North Carolina A & T State University,Greensboro,NC,1.0,10413.0,44390.0,4.262940555075387
+10426.0,44617.0,,Southeastern Oklahoma State University,Durant,OK,1.0,10426.0,44617.0,4.279397659696912
+10434.0,49197.0,,University of Minnesota-Crookston,Crookston,MN,1.0,10434.0,49197.0,4.715066129959747
+10455.0,44374.0,,Purdue University Fort Wayne,Fort Wayne,IN,1.0,10455.0,44374.0,4.244285031085605
+10489.0,54117.0,,The University of Texas at San Antonio,San Antonio,TX,1.0,10489.0,54117.0,5.1594050910477645
+10542.0,34777.0,,University of Arkansas at Pine Bluff,Pine Bluff,AR,1.0,10542.0,34777.0,3.2988996395370895
+10623.0,46829.0,,University of North Georgia,Dahlonega,GA,1.0,10623.0,46829.0,4.4082650851925065
+10635.0,45569.0,,Clayton  State University,Morrow,GA,1.0,10635.0,45569.0,4.284814292430654
+10714.0,36347.0,,Lincoln University,Jefferson City,MO,1.0,10714.0,36347.0,3.3924771327235392
+10738.0,40010.0,,Morehead State University,Morehead,KY,1.0,10738.0,40010.0,3.7260197429688957
+10751.0,63365.0,,University of California-Merced,Merced,CA,1.0,10751.0,63365.0,5.89387033764301
+10798.0,47101.0,,The University of Texas at El Paso,El Paso,TX,1.0,10798.0,47101.0,4.362011483608075
+10857.0,43043.0,,The University of Tennessee-Martin,Martin,TN,1.0,10857.0,43043.0,3.9645390070921986
+10862.0,40582.0,,Vincennes University,Vincennes,IN,1.0,10862.0,40582.0,3.7361443564721046
+10872.0,50692.0,,University of Houston-Victoria,Victoria,TX,1.0,10872.0,50692.0,4.6626195732156
+10890.0,28013.0,,University of Puerto Rico-Carolina,Carolina,PR,1.0,10890.0,28013.0,2.5723599632690544
+10925.0,64566.0,,Michigan State University,East Lansing,MI,1.0,10925.0,64566.0,5.909931350114417
+10933.0,74063.0,,University of Washington-Seattle Campus,Seattle,WA,1.0,10933.0,74063.0,6.774261410408854
+10947.0,50477.0,,Indiana University-Purdue University-Indianapolis,Indianapolis,IN,1.0,10947.0,50477.0,4.611034986754362
+10950.0,44507.0,,University of Louisiana at Monroe,Monroe,LA,1.0,10950.0,44507.0,4.064566210045662
+10970.0,43404.0,,Northwestern Oklahoma State University,Alva,OK,1.0,10970.0,43404.0,3.956608933454877
+10986.0,50237.0,,Rhode Island College,Providence,RI,1.0,10986.0,50237.0,4.572819952667031
+11035.0,49414.0,,University of Minnesota-Morris,Morris,MN,1.0,11035.0,49414.0,4.477933846850929
+11109.0,47268.0,,Shepherd University,Shepherdstown,WV,1.0,11109.0,47268.0,4.254928436402917
+11110.0,46514.0,,University of North Carolina at Greensboro,Greensboro,NC,1.0,11110.0,46514.0,4.186678667866786
+11124.0,55073.0,,West Virginia University Institute of Technology,Beckley,WV,1.0,11124.0,55073.0,4.950827040632866
+11143.0,38646.0,,Bluefield State University,Bluefield,WV,1.0,11143.0,38646.0,3.468186305303778
+11157.0,43159.0,,East Central University,Ada,OK,1.0,11157.0,43159.0,3.868333781482477
+11160.0,41470.0,,University of North Carolina at Pembroke,Pembroke,NC,1.0,11160.0,41470.0,3.7159498207885306
+11216.0,55351.0,,Truman State University,Kirksville,MO,1.0,11216.0,55351.0,4.935003566333809
+11223.0,52674.0,,The University of Texas at Tyler,Tyler,TX,1.0,11223.0,52674.0,4.69339748730286
+11226.0,43077.0,,Murray State University,Murray,KY,1.0,11226.0,43077.0,3.8372528059861035
+11327.0,64188.0,,California State University-East Bay,Hayward,CA,1.0,11327.0,64188.0,5.666813807716077
+11329.0,64108.0,,University of Illinois Chicago,Chicago,IL,1.0,11329.0,64108.0,5.658751875717186
+11364.0,61977.0,,New Mexico Institute of Mining and Technology,Socorro,NM,1.0,11364.0,61977.0,5.453801478352693
+11400.0,48225.0,,Georgia Gwinnett College,Lawrenceville,GA,1.0,11400.0,48225.0,4.230263157894737
+11462.0,50876.0,,University of Missouri-St Louis,Saint Louis,MO,1.0,11462.0,50876.0,4.43866689931949
+11469.0,49205.0,,Empire State University,Saratoga Springs,NY,1.0,11469.0,49205.0,4.290260702763972
+11477.0,47344.0,,Wright State University-Lake Campus,Celina,OH,1.0,11477.0,47344.0,4.125119804827046
+11524.0,49528.0,,Texas A & M University-Kingsville,Kingsville,TX,1.0,11524.0,49528.0,4.297813259284971
+11548.0,46664.0,,University of New Orleans,New Orleans,LA,1.0,11548.0,46664.0,4.0408728784205055
+11570.0,33234.0,,Harris-Stowe State University,Saint Louis,MO,1.0,11570.0,33234.0,2.872428694900605
+11615.0,48686.0,,Granite State College,Concord,NH,1.0,11615.0,48686.0,4.1916487300904
+11626.0,44793.0,,Delaware State University,Dover,DE,1.0,11626.0,44793.0,3.852829864097712
+11627.0,79826.0,,University of California-Los Angeles,Los Angeles,CA,1.0,11627.0,79826.0,6.8655715145781375
+11662.0,43696.0,,University of Maryland Eastern Shore,Princess Anne,MD,1.0,11662.0,43696.0,3.7468701766420853
+11663.0,52612.0,,Western Illinois University,Macomb,IL,1.0,11663.0,52612.0,4.511017748435222
+11682.0,45774.0,,University of Wisconsin-Parkside,Kenosha,WI,1.0,11682.0,45774.0,3.9183359013867487
+11691.0,41091.0,,Western Kentucky University,Bowling Green,KY,1.0,11691.0,41091.0,3.514754939697203
+11726.0,52581.0,,Texas Woman's University,Denton,TX,1.0,11726.0,52581.0,4.4841378134061065
+11740.0,67406.0,,California State Polytechnic University-Pomona,Pomona,CA,1.0,11740.0,67406.0,5.741567291311755
+11874.0,36583.0,,State College of Florida-Manatee-Sarasota,Bradenton,FL,1.0,11874.0,36583.0,3.0809331312110495
+11884.0,38538.0,,Fairmont State University,Fairmont,WV,1.0,11884.0,38538.0,3.242847526085493
+11905.0,58324.0,,University of Michigan-Dearborn,Dearborn,MI,1.0,11905.0,58324.0,4.899118017639648
+11951.0,33964.0,,Langston University,Langston,OK,1.0,11951.0,33964.0,2.8419379131453435
+11952.0,38551.0,,Mississippi University for Women,Columbus,MS,1.0,11952.0,38551.0,3.2254852744310574
+11998.0,42326.0,,SUNY College of Technology at Canton,Canton,NY,1.0,11998.0,42326.0,3.527754625770962
+12006.0,54047.0,,University of North Texas,Denton,TX,1.0,12006.0,54047.0,4.501665833749792
+12019.0,51325.0,,University of Idaho,Moscow,ID,1.0,12019.0,51325.0,4.270321990182212
+12058.0,41188.0,,University of Puerto Rico-Mayaguez,Mayaguez,PR,1.0,12058.0,41188.0,3.415823519655001
+12065.0,50632.0,,Louisiana Tech University,Ruston,LA,1.0,12065.0,50632.0,4.196601740571902
+12065.0,52925.0,,University of Illinois Springfield,Springfield,IL,1.0,12065.0,52925.0,4.386655615416494
+12081.0,27314.0,,University of Puerto Rico-Humacao,Humacao,PR,1.0,12081.0,27314.0,2.2609055541759786
+12191.0,40334.0,,Arkansas Tech University,Russellville,AR,1.0,12191.0,40334.0,3.308506275120991
+12238.0,45817.0,,Southwestern Oklahoma State University,Weatherford,OK,1.0,12238.0,45817.0,3.7438306912894266
+12268.0,45677.0,,University of Wisconsin-Superior,Superior,WI,1.0,12268.0,45677.0,3.723263775676557
+12305.0,40872.0,,New Mexico Highlands University,Las Vegas,NM,1.0,12305.0,40872.0,3.32157659488013
+12309.0,46909.0,,University of South Carolina Aiken,Aiken,SC,1.0,12309.0,46909.0,3.8109513364205054
+12318.0,41663.0,,Youngstown State University,Youngstown,OH,1.0,12318.0,41663.0,3.3822860854034746
+12423.0,52531.0,,University of Hawaii-West Oahu,Kapolei,HI,1.0,12423.0,52531.0,4.228527730821862
+12454.0,50510.0,,University of Mississippi,University,MS,1.0,12454.0,50510.0,4.0557250682511645
+12455.0,21778.0,,University of Puerto Rico-Utuado,Utuado,PR,1.0,12455.0,21778.0,1.748534725010036
+12479.0,43616.0,,Florida Agricultural and Mechanical University,Tallahassee,FL,1.0,12479.0,43616.0,3.495151855116596
+12494.0,41588.0,,Tennessee State University,Nashville,TN,1.0,12494.0,41588.0,3.3286377461181367
+12531.0,49846.0,,University of Alaska Anchorage,Anchorage,AK,1.0,12531.0,49846.0,3.9778150187534913
+12553.0,46693.0,,Middle Tennessee State University,Murfreesboro,TN,1.0,12553.0,46693.0,3.7196686051143155
+12567.0,44541.0,,Georgia Southwestern State University,Americus,GA,1.0,12567.0,44541.0,3.5442826450226783
+12590.0,64797.0,,San Francisco State University,San Francisco,CA,1.0,12590.0,64797.0,5.146703733121525
+12617.0,33476.0,,Central State University,Wilberforce,OH,1.0,12617.0,33476.0,2.6532456209875566
+12621.0,61376.0,,Towson University,Towson,MD,1.0,12621.0,61376.0,4.863006100942873
+12624.0,55590.0,,Miami University-Middletown,Middletown,OH,1.0,12624.0,55590.0,4.40351711026616
+12631.0,42601.0,,University of North Alabama,Florence,AL,1.0,12631.0,42601.0,3.372733750296889
+12642.0,45080.0,,University of Louisiana at Lafayette,Lafayette,LA,1.0,12642.0,45080.0,3.565891472868217
+12643.0,41222.0,,Norfolk State University,Norfolk,VA,1.0,12643.0,41222.0,3.260460333781539
+12682.0,82622.0,,Missouri University of Science and Technology,Rolla,MO,1.0,12682.0,82622.0,6.514903012143195
+12729.0,55645.0,,Oakland University,Rochester Hills,MI,1.0,12729.0,55645.0,4.371513865975332
+12732.0,46266.0,,The University of Tennessee-Chattanooga,Chattanooga,TN,1.0,12732.0,46266.0,3.6338360037700284
+12733.0,44818.0,,Mansfield University of Pennsylvania,Mansfield,PA,1.0,12733.0,44818.0,3.5198303620513625
+12755.0,69748.0,,Rutgers University-Camden,Camden,NJ,1.0,12755.0,69748.0,5.468286946295571
+12801.0,55189.0,,Eastern Washington University,Cheney,WA,1.0,12801.0,55189.0,4.311303804390282
+12807.0,69748.0,,Rutgers University-Newark,Newark,NJ,1.0,12807.0,69748.0,5.446084172718045
+12814.0,58967.0,,Arizona State University Campus Immersion,Tempe,AZ,1.0,12814.0,58967.0,4.601763695957547
+12867.0,64456.0,,University of Utah,Salt Lake City,UT,1.0,12867.0,64456.0,5.0094039014533305
+12872.0,50741.0,,Eastern Illinois University,Charleston,IL,1.0,12872.0,50741.0,3.941967060285892
+12892.0,36691.0,,Cheyney University of Pennsylvania,Cheyney,PA,1.0,12892.0,36691.0,2.8460285448340055
+12901.0,53169.0,,University of Wisconsin-Milwaukee Flex,Milwaukee,WI,1.0,12901.0,53169.0,4.121308425703434
+12906.0,53363.0,,University of Nevada-Las Vegas,Las Vegas,NV,1.0,12906.0,53363.0,4.134743530141019
+12907.0,35216.0,,University of Arkansas at Monticello,Monticello,AR,1.0,12907.0,35216.0,2.72844193073526
+12938.0,41931.0,,The University of Montana-Western,Dillon,MT,1.0,12938.0,41931.0,3.240918225382594
+12962.0,44343.0,,Lewis-Clark State College,Lewiston,ID,1.0,12962.0,44343.0,3.4209998457028234
+12993.0,47001.0,,Minot State University,Minot,ND,1.0,12993.0,47001.0,3.6174093742784574
+13009.0,44743.0,,Montana State University-Northern,Havre,MT,1.0,13009.0,44743.0,3.4393881159197477
+13010.0,53019.0,,Ferris State University,Big Rapids,MI,1.0,13010.0,53019.0,4.075249807840123
+13020.0,42263.0,,Francis Marion University,Florence,SC,1.0,13020.0,42263.0,3.2460061443932413
+13034.0,55590.0,,Miami University-Hamilton,Hamilton,OH,1.0,13034.0,55590.0,4.264999232775817
+13057.0,39059.0,,Alabama A & M University,Normal,AL,1.0,13057.0,39059.0,2.991422225626101
+13060.0,48672.0,,Valley City State University,Valley City,ND,1.0,13060.0,48672.0,3.726799387442573
+13069.0,44906.0,,University of North Carolina at Asheville,Asheville,NC,1.0,13069.0,44906.0,3.4360700895248297
+13095.0,49051.0,,Southern Utah University,Cedar City,UT,1.0,13095.0,49051.0,3.7457808323787707
+13100.0,52929.0,,University of Houston-Downtown,Houston,TX,1.0,13100.0,52929.0,4.040381679389313
+13183.0,56602.0,,West Chester University of Pennsylvania,West Chester,PA,1.0,13183.0,56602.0,4.293559887734203
+13188.0,53923.0,,Oklahoma State University-Main Campus,Stillwater,OK,1.0,13188.0,53923.0,4.088792841977555
+13190.0,58596.0,,Ohio State University-Marion Campus,Marion,OH,1.0,13190.0,58596.0,4.442456406368461
+13218.0,47757.0,,University of Michigan-Flint,Flint,MI,1.0,13218.0,47757.0,3.6130276895142988
+13220.0,40253.0,,Missouri Western State University,Saint Joseph,MO,1.0,13220.0,40253.0,3.044856278366112
+13220.0,42563.0,,East Tennessee State University,Johnson City,TN,1.0,13220.0,42563.0,3.2195915279878973
+13233.0,52764.0,,Utah State University,Logan,UT,1.0,13233.0,52764.0,3.987304466107459
+13233.0,63645.0,,University of California-Riverside,Riverside,CA,1.0,13233.0,63645.0,4.809566991611879
+13258.0,35266.0,,College of Coastal Georgia,Brunswick,GA,1.0,13258.0,35266.0,2.6599788806758182
+13259.0,45518.0,,University of Hawaii at Hilo,Hilo,HI,1.0,13259.0,45518.0,3.43298891319104
+13263.0,67765.0,,University of North Carolina at Chapel Hill,Chapel Hill,NC,1.0,13263.0,67765.0,5.10932669833371
+13269.0,43810.0,,Southeastern Louisiana University,Hammond,LA,1.0,13269.0,43810.0,3.3016806089381263
+13296.0,55775.0,,University of Missouri-Kansas City,Kansas City,MO,1.0,13296.0,55775.0,4.1948706377858
+13320.0,36389.0,,Fort Valley State University,Fort Valley,GA,1.0,13320.0,36389.0,2.731906906906907
+13321.0,42700.0,,Southeast Missouri State University,Cape Girardeau,MO,1.0,13321.0,42700.0,3.2054650551760377
+13322.0,60077.0,,University of Colorado Denver/Anschutz Medical Campus,Denver,CO,1.0,13322.0,60077.0,4.5096081669419
+13334.0,54567.0,,Portland State University,Portland,OR,1.0,13334.0,54567.0,4.092320383980801
+13335.0,46266.0,,California State Polytechnic University-Humboldt,Arcata,CA,1.0,13335.0,46266.0,3.4695163104611924
+13336.0,46357.0,,Valdosta State University,Valdosta,GA,1.0,13336.0,46357.0,3.476079784043191
+13351.0,45940.0,,Lamar University,Beaumont,TX,1.0,13351.0,45940.0,3.4409407535016103
+13361.0,42648.0,,Rogers State University,Claremore,OK,1.0,13361.0,42648.0,3.191976648454457
+13380.0,55073.0,,West Virginia University,Morgantown,WV,1.0,13380.0,55073.0,4.116068759342302
+13384.0,61010.0,,California State University-Chico,Chico,CA,1.0,13384.0,61010.0,4.55842797369994
+13398.0,45693.0,,Northwest Missouri State University,Maryville,MO,1.0,13398.0,45693.0,3.4104343931930137
+13430.0,39824.0,,Arkansas State University,Jonesboro,AR,1.0,13430.0,39824.0,2.96530156366344
+13430.0,56055.0,,University of Hawaii at Manoa,Honolulu,HI,1.0,13430.0,56055.0,4.173864482501862
+13434.0,56799.0,,Central Connecticut State University,New Britain,CT,1.0,13434.0,56799.0,4.228003573023671
+13435.0,40976.0,,Winston-Salem State University,Winston-Salem,NC,1.0,13435.0,40976.0,3.049944175660588
+13452.0,51972.0,,University of Nebraska at Omaha,Omaha,NE,1.0,13452.0,51972.0,3.863514719000892
+13466.0,44740.0,,Nicholls State University,Thibodaux,LA,1.0,13466.0,44740.0,3.322441705034903
+13499.0,46355.0,,Angelo State University,San Angelo,TX,1.0,13499.0,46355.0,3.43395807096822
+13515.0,44617.0,,Fort Hays State University,Hays,KS,1.0,13515.0,44617.0,3.3012948575656678
+13555.0,50312.0,,Northeastern Illinois University,Chicago,IL,1.0,13555.0,50312.0,3.711693102176319
+13560.0,55921.0,,California State University-Channel Islands,Camarillo,CA,1.0,13560.0,55921.0,4.123967551622419
+13593.0,34018.0,,Alabama State University,Montgomery,AL,1.0,13593.0,34018.0,2.502611638343265
+13627.0,59518.0,,Worcester State University,Worcester,MA,1.0,13627.0,59518.0,4.367652454685551
+13640.0,44755.0,,Western Carolina University,Cullowhee,NC,1.0,13640.0,44755.0,3.281158357771261
+13654.0,49099.0,,University of Wisconsin-Green Bay,Green Bay,WI,1.0,13654.0,49099.0,3.5959425809286656
+13683.0,46644.0,,Southwest Minnesota State University,Marshall,MN,1.0,13683.0,46644.0,3.4089015566761676
+13689.0,43743.0,,Auburn University at Montgomery,Montgomery,AL,1.0,13689.0,43743.0,3.195485426254657
+13697.0,43204.0,,Columbus State University,Columbus,GA,1.0,13697.0,43204.0,3.15426735781558
+13705.0,57008.0,,Montclair State University,Montclair,NJ,1.0,13705.0,57008.0,4.15964976286027
+13718.0,50417.0,,New Jersey City University,Jersey City,NJ,1.0,13718.0,50417.0,3.675244204694562
+13798.0,59580.0,,University of Houston,Houston,TX,1.0,13798.0,59580.0,4.3180171039281054
+13799.0,43967.0,,The University of Montana,Missoula,MT,1.0,13799.0,43967.0,3.1862453801000075
+13806.0,49932.0,,Metropolitan State University of Denver,Denver,CO,1.0,13806.0,49932.0,3.616688396349413
+13821.0,42134.0,,Eastern Kentucky University,Richmond,KY,1.0,13821.0,42134.0,3.048549309022502
+13836.0,57234.0,,Charter Oak State College,New Britain,CT,1.0,13836.0,57234.0,4.136600173460538
+13863.0,36620.0,,University of Maine at Farmington,Farmington,ME,1.0,13863.0,36620.0,2.6415638750631176
+13863.0,42073.0,,University of Southern Mississippi,Hattiesburg,MS,1.0,13863.0,42073.0,3.03491307797735
+13874.0,72635.0,,San Jose State University,San Jose,CA,1.0,13874.0,72635.0,5.2353322762000865
+13897.0,48352.0,,Appalachian State University,Boone,NC,1.0,13897.0,48352.0,3.4793120817442613
+13931.0,48471.0,,Texas A & M University-Commerce,Commerce,TX,1.0,13931.0,48471.0,3.4793625726796353
+13953.0,46316.0,,University of Central Missouri,Warrensburg,MO,1.0,13953.0,46316.0,3.319429513366301
+13992.0,45459.0,,Clarion University of Pennsylvania,Clarion,PA,1.0,13992.0,45459.0,3.2489279588336193
+13999.0,48674.0,,Colorado State University Pueblo,Pueblo,CO,1.0,13999.0,48674.0,3.4769626401885847
+14016.0,58596.0,,Ohio State University-Lima Campus,Lima,OH,1.0,14016.0,58596.0,4.180650684931507
+14017.0,51651.0,,University of Northern Iowa,Cedar Falls,IA,1.0,14017.0,51651.0,3.684882642505529
+14019.0,41691.0,,Troy University,Troy,AL,1.0,14019.0,41691.0,2.973892574363364
+14023.0,36398.0,,Western New Mexico University,Silver City,NM,1.0,14023.0,36398.0,2.5955929544320044
+14023.0,46044.0,,University of Memphis,Memphis,TN,1.0,14023.0,46044.0,3.2834628824074734
+14035.0,47666.0,,Lake Superior State University,Sault Ste Marie,MI,1.0,14035.0,47666.0,3.39622372639829
+14048.0,59495.0,,California State University-San Marcos,San Marcos,CA,1.0,14048.0,59495.0,4.235122437357631
+14058.0,49804.0,,Slippery Rock University of Pennsylvania,Slippery Rock,PA,1.0,14058.0,49804.0,3.542751458244416
+14059.0,50940.0,,University of Wisconsin-River Falls,River Falls,WI,1.0,14059.0,50940.0,3.6233017995590013
+14071.0,54750.0,,Bridgewater State University,Bridgewater,MA,1.0,14071.0,54750.0,3.890981451211712
+14071.0,65324.0,,University of Massachusetts-Lowell,Lowell,MA,1.0,14071.0,65324.0,4.642456115414682
+14194.0,47031.0,,Washburn University,Topeka,KS,1.0,14194.0,47031.0,3.313442299563196
+14204.0,42272.0,,Texas A&M University-Texarkana,Texarkana,TX,1.0,14204.0,42272.0,2.9760630808223034
+14216.0,61279.0,,Indiana University-Bloomington,Bloomington,IN,1.0,14216.0,61279.0,4.310565559932471
+14225.0,45406.0,,Mayville State University,Mayville,ND,1.0,14225.0,45406.0,3.1919859402460458
+14255.0,47714.0,,Pittsburg State University,Pittsburg,KS,1.0,14255.0,47714.0,3.3471764293230444
+14266.0,55380.0,,Northern Illinois University,Dekalb,IL,1.0,14266.0,55380.0,3.8819571007991027
+14300.0,53448.0,,Saint Cloud State University,Saint Cloud,MN,1.0,14300.0,53448.0,3.737622377622378
+14301.0,34667.0,,Southern University at New Orleans,New Orleans,LA,1.0,14301.0,34667.0,2.424096217047759
+14305.0,38434.0,,Adams State University,Alamosa,CO,1.0,14305.0,38434.0,2.6867528836071304
+14305.0,52368.0,,Nevada State College,Henderson,NV,1.0,14305.0,52368.0,3.6608178958406152
+14331.0,54293.0,,Southern Illinois University-Edwardsville,Edwardsville,IL,1.0,14331.0,54293.0,3.7885004535622078
+14372.0,50739.0,,Wichita State University,Wichita,KS,1.0,14372.0,50739.0,3.5304063456721404
+14377.0,39273.0,,Delta State University,Cleveland,MS,1.0,14377.0,39273.0,2.7316547262989497
+14382.0,46189.0,,Coastal Carolina University,Conway,SC,1.0,14382.0,46189.0,3.2115839243498816
+14404.0,39222.0,,Lincoln University,Lincoln University,PA,1.0,14404.0,39222.0,2.72299361288531
+14434.0,48872.0,,University of Wisconsin-Stevens Point,Stevens Point,WI,1.0,14434.0,48872.0,3.385894415962311
+14469.0,46143.0,,Wayne State College,Wayne,NE,1.0,14469.0,46143.0,3.1890939249429815
+14480.0,41717.0,,Austin Peay State University,Clarksville,TN,1.0,14480.0,41717.0,2.8810082872928175
+14510.0,48940.0,,SUNY College at Potsdam,Potsdam,NY,1.0,14510.0,48940.0,3.372846312887664
+14537.0,50806.0,,Bowie State University,Bowie,MD,1.0,14537.0,50806.0,3.494943936162895
+14557.0,49125.0,,Dickinson State University,Dickinson,ND,1.0,14557.0,49125.0,3.3746651095692792
+14582.0,52421.0,,State University of New York at Oswego,Oswego,NY,1.0,14582.0,52421.0,3.5949115347688934
+14585.0,55720.0,,University of Wisconsin-Platteville,Platteville,WI,1.0,14585.0,55720.0,3.820363387041481
+14611.0,44224.0,,University of Southern Indiana,Evansville,IN,1.0,14611.0,44224.0,3.0267606597768806
+14633.0,51355.0,,University of Colorado Colorado Springs,Colorado Springs,CO,1.0,14633.0,51355.0,3.509533246770997
+14636.0,50118.0,,Northern Arizona University,Flagstaff,AZ,1.0,14636.0,50118.0,3.4242962558075978
+14657.0,44550.0,,Northwestern State University of Louisiana,Natchitoches,LA,1.0,14657.0,44550.0,3.0395033089991133
+14661.0,45359.0,,University of South Carolina-Upstate,Spartanburg,SC,1.0,14661.0,45359.0,3.0938544437623627
+14676.0,41907.0,,Montana State University Billings,Billings,MT,1.0,14676.0,41907.0,2.855478331970564
+14728.0,48752.0,,Wayne State University,Detroit,MI,1.0,14728.0,48752.0,3.3101575230852798
+14735.0,43712.0,,University of Central Arkansas,Conway,AR,1.0,14735.0,43712.0,2.9665422463522226
+14753.0,51418.0,,University of Wisconsin-Oshkosh,Oshkosh,WI,1.0,14753.0,51418.0,3.485257235816444
+14795.0,45397.0,,Tennessee Technological University,Cookeville,TN,1.0,14795.0,45397.0,3.0684014869888476
+14820.0,96375.0,,Georgia Institute of Technology-Main Campus,Atlanta,GA,1.0,14820.0,96375.0,6.503036437246964
+14839.0,57125.0,,University of Wisconsin-La Crosse,La Crosse,WI,1.0,14839.0,57125.0,3.849652941572882
+14847.0,43390.0,,Prairie View A & M University,Prairie View,TX,1.0,14847.0,43390.0,2.922475921061494
+14856.0,52316.0,,University of Wisconsin-Whitewater,Whitewater,WI,1.0,14856.0,52316.0,3.5215401184706514
+14895.0,82255.0,,University of California-San Diego,La Jolla,CA,1.0,14895.0,82255.0,5.522322927156764
+14904.0,37063.0,,Albany State University,Albany,GA,1.0,14904.0,37063.0,2.4867820719269993
+14920.0,74305.0,,University of California-Davis,Davis,CA,1.0,14920.0,74305.0,4.980227882037534
+14925.0,41422.0,,Fort Lewis College,Durango,CO,1.0,14925.0,41422.0,2.7753433835845898
+14953.0,59167.0,,University of Nevada-Reno,Reno,NV,1.0,14953.0,59167.0,3.9568648431752824
+14961.0,45531.0,,Indiana State University,Terre Haute,IN,1.0,14961.0,45531.0,3.0433126127932626
+14995.0,63405.0,,University of Georgia,Athens,GA,1.0,14995.0,63405.0,4.228409469823275
+14998.0,54417.0,,University of Arkansas,Fayetteville,AR,1.0,14998.0,54417.0,3.6282837711694893
+15027.0,49954.0,,Western Oregon University,Monmouth,OR,1.0,15027.0,49954.0,3.3242829573434483
+15037.0,36815.0,,Glenville State University,Glenville,WV,1.0,15037.0,36815.0,2.448294207621201
+15044.0,45008.0,,Augusta University,Augusta,GA,1.0,15044.0,45008.0,2.991757511300186
+15070.0,42925.0,,University of New Mexico-Main Campus,Albuquerque,NM,1.0,15070.0,42925.0,2.8483742534837426
+15192.0,44892.0,,Sul Ross State University,Alpine,TX,1.0,15192.0,44892.0,2.9549763033175354
+15225.0,41989.0,,West Liberty University,West Liberty,WV,1.0,15225.0,41989.0,2.757898193760263
+15232.0,62810.0,,Ramapo College of New Jersey,Mahwah,NJ,1.0,15232.0,62810.0,4.123555672268908
+15240.0,88046.0,,University of California-Berkeley,Berkeley,CA,1.0,15240.0,88046.0,5.777296587926509
+15260.0,45041.0,,Chadron State College,Chadron,NE,1.0,15260.0,45041.0,2.951572739187418
+15290.0,36198.0,,Jackson State University,Jackson,MS,1.0,15290.0,36198.0,2.367429692609549
+15298.0,43180.0,,Utah Tech University,Saint George,UT,1.0,15298.0,43180.0,2.822591188390639
+15312.0,43438.0,,Emporia State University,Emporia,KS,1.0,15312.0,43438.0,2.8368599791013582
+15328.0,40346.0,,North Carolina Central University,Durham,NC,1.0,15328.0,40346.0,2.6321764091858038
+15335.0,48256.0,,Saginaw Valley State University,University Center,MI,1.0,15335.0,48256.0,3.1467883925660254
+15351.0,60973.0,,Iowa State University,Ames,IA,1.0,15351.0,60973.0,3.9719236531822033
+15359.0,43364.0,,Virginia State University,Petersburg,VA,1.0,15359.0,43364.0,2.8233608958916596
+15365.0,69748.0,,Rutgers University-New Brunswick,New Brunswick,NJ,1.0,15365.0,69748.0,4.539407744874715
+15446.0,52250.0,,Sam Houston State University,Huntsville,TX,1.0,15446.0,52250.0,3.38275281626311
+15455.0,47344.0,,Wright State University-Main Campus,Dayton,OH,1.0,15455.0,47344.0,3.0633451957295375
+15458.0,70326.0,,University of California-Santa Barbara,Santa Barbara,CA,1.0,15458.0,70326.0,4.549488937766852
+15464.0,49177.0,,Ball State University,Muncie,IN,1.0,15464.0,49177.0,3.180095706156234
+15477.0,39746.0,,Shawnee State University,Portsmouth,OH,1.0,15477.0,39746.0,2.568068747173225
+15483.0,77368.0,,University of Illinois Urbana-Champaign,Champaign,IL,1.0,15483.0,77368.0,4.996964412581541
+15502.0,55946.0,,University of Houston-Clear Lake,Houston,TX,1.0,15502.0,55946.0,3.608953683395691
+15538.0,51992.0,,Frostburg State University,Frostburg,MD,1.0,15538.0,51992.0,3.346119191659158
+15544.0,49935.0,,Cleveland State University,Cleveland,OH,1.0,15544.0,49935.0,3.212493566649511
+15580.0,44323.0,,Northern Vermont University,Johnson,VT,1.0,15580.0,44323.0,2.8448652118100126
+15583.0,48116.0,,Lock Haven University,Lock Haven,PA,1.0,15583.0,48116.0,3.0877238015786435
+15587.0,44630.0,,University of South Carolina Beaufort,Bluffton,SC,1.0,15587.0,44630.0,2.8632835054853403
+15601.0,59805.0,,University of Arizona,Tucson,AZ,1.0,15601.0,59805.0,3.8334081148644317
+15620.0,47898.0,,Eastern Oregon University,La Grande,OR,1.0,15620.0,47898.0,3.066453265044814
+15627.0,57994.0,,The University of Texas at Arlington,Arlington,TX,1.0,15627.0,57994.0,3.7111409739553336
+15635.0,59823.0,,University of Maryland Global Campus,Adelphi,MD,1.0,15635.0,59823.0,3.8262232171410298
+15652.0,43985.0,,Peru State College,Peru,NE,1.0,15652.0,43985.0,2.8101840020444673
+15708.0,48292.0,,Stephen F Austin State University,Nacogdoches,TX,1.0,15708.0,48292.0,3.074357015533486
+15789.0,51910.0,,Montana Technological University,Butte,MT,1.0,15789.0,51910.0,3.2877319652922923
+15792.0,48236.0,,SUNY at Fredonia,Fredonia,NY,1.0,15792.0,48236.0,3.0544579533941234
+15806.0,58596.0,,Ohio State University-Newark Campus,Newark,OH,1.0,15806.0,58596.0,3.707199797545236
+15845.0,53169.0,,University of Wisconsin-Milwaukee,Milwaukee,WI,1.0,15845.0,53169.0,3.355569580309246
+15851.0,50829.0,,Georgia Southern University,Statesboro,GA,1.0,15851.0,50829.0,3.2066746577502996
+15864.0,77293.0,,Michigan Technological University,Houghton,MI,1.0,15864.0,77293.0,4.872226424609178
+15868.0,42973.0,,University of Arkansas at Little Rock,Little Rock,AR,1.0,15868.0,42973.0,2.7081547769095033
+15873.0,40671.0,,Southern Arkansas University Main Campus,Magnolia,AR,1.0,15873.0,40671.0,2.562275562275562
+15891.0,48296.0,,Mississippi State University,Mississippi State,MS,1.0,15891.0,48296.0,3.0392045812094897
+15898.0,43389.0,,Colorado Mesa University,Grand Junction,CO,1.0,15898.0,43389.0,2.7292112215373003
+15906.0,45341.0,,Massachusetts College of Liberal Arts,North Adams,MA,1.0,15906.0,45341.0,2.850559537281529
+16029.0,70363.0,,Oregon Institute of Technology,Klamath Falls,OR,1.0,16029.0,70363.0,4.38973111235885
+16075.0,48942.0,,University of Northern Colorado,Greeley,CO,1.0,16075.0,48942.0,3.0446034214618973
+16130.0,58596.0,,Ohio State University-Mansfield Campus,Mansfield,OH,1.0,16130.0,58596.0,3.6327340359578426
+16154.0,57005.0,,Western Connecticut State University,Danbury,CT,1.0,16154.0,57005.0,3.5288473443110067
+16162.0,50819.0,,East Carolina University,Greenville,NC,1.0,16162.0,50819.0,3.144350946665017
+16197.0,65645.0,,University of Massachusetts-Amherst,Amherst,MA,1.0,16197.0,65645.0,4.052911032907328
+16206.0,34492.0,,Alcorn State University,Alcorn State,MS,1.0,16206.0,34492.0,2.1283475256077997
+16223.0,45018.0,,University of South Alabama,Mobile,AL,1.0,16223.0,45018.0,2.774949146273809
+16227.0,52309.0,,SUNY College at Plattsburgh,Plattsburgh,NY,1.0,16227.0,52309.0,3.223577987305109
+16239.0,47080.0,,University of West Georgia,Carrollton,GA,1.0,16239.0,47080.0,2.899193300080054
+16239.0,65211.0,,North Carolina State University at Raleigh,Raleigh,NC,1.0,16239.0,65211.0,4.015702937372991
+16258.0,38617.0,,University of West Alabama,Livingston,AL,1.0,16258.0,38617.0,2.375261409767499
+16261.0,38235.0,,West Virginia State University,Institute,WV,1.0,16261.0,38235.0,2.3513314064325685
+16276.0,43310.0,,University of the District of Columbia,Washington,DC,1.0,16276.0,43310.0,2.660973212091423
+16310.0,46918.0,,Bowling Green State University-Main Campus,Bowling Green,OH,1.0,16310.0,46918.0,2.8766400980993256
+16316.0,50562.0,,Southern Illinois University-Carbondale,Carbondale,IL,1.0,16316.0,50562.0,3.0989213042412356
+16324.0,58741.0,,Fitchburg State University,Fitchburg,MA,1.0,16324.0,58741.0,3.5984440088213674
+16357.0,70686.0,,Stony Brook University,Stony Brook,NY,1.0,16357.0,70686.0,4.321452589105582
+16366.0,42620.0,,SUNY College of Agriculture and Technology at Cobleskill,Cobleskill,NY,1.0,16366.0,42620.0,2.604179396309422
+16443.0,58875.0,,University of Baltimore,Baltimore,MD,1.0,16443.0,58875.0,3.580550994344098
+16445.0,47087.0,,Eastern Michigan University,Ypsilanti,MI,1.0,16445.0,47087.0,2.8633019154758284
+16448.0,42217.0,,Black Hills State University,Spearfish,SD,1.0,16448.0,42217.0,2.5666950389105057
+16456.0,56554.0,,University of Wisconsin-Stout,Menomonie,WI,1.0,16456.0,56554.0,3.436679630529898
+16476.0,50297.0,,Bemidji State University,Bemidji,MN,1.0,16476.0,50297.0,3.0527433843165817
+16513.0,54242.0,,Framingham State University,Framingham,MA,1.0,16513.0,54242.0,3.284805910494762
+16583.0,44658.0,,Northern Michigan University,Marquette,MI,1.0,16583.0,44658.0,2.6929988542483265
+16585.0,50907.0,,University of Alabama at Birmingham,Birmingham,AL,1.0,16585.0,50907.0,3.0694603557431415
+16605.0,52232.0,,Radford University,Radford,VA,1.0,16605.0,52232.0,3.1455585666967782
+16611.0,48453.0,,University of Nebraska at Kearney,Kearney,NE,1.0,16611.0,48453.0,2.9169225212208776
+16625.0,47850.0,,Missouri State University-Springfield,Springfield,MO,1.0,16625.0,47850.0,2.8781954887218046
+16645.0,46092.0,,Morgan State University,Baltimore,MD,1.0,16645.0,46092.0,2.7691198558125563
+16650.0,49962.0,,University of Toledo,Toledo,OH,1.0,16650.0,49962.0,3.0007207207207207
+16664.0,54978.0,,State University of New York at New Paltz,New Paltz,NY,1.0,16664.0,54978.0,3.2992078732597214
+16665.0,64875.0,,University of New Hampshire at Manchester,Manchester,NH,1.0,16665.0,64875.0,3.892889288928893
+16696.0,40681.0,,Henderson State University,Arkadelphia,AR,1.0,16696.0,40681.0,2.4365716339242933
+16708.0,70586.0,,University of Wisconsin-Madison,Madison,WI,1.0,16708.0,70586.0,4.224682786689011
+16720.0,51733.0,,SUNY Brockport,Brockport,NY,1.0,16720.0,51733.0,3.094078947368421
+16764.0,55689.0,,University of Nebraska-Lincoln,Lincoln,NE,1.0,16764.0,55689.0,3.3219398711524697
+16810.0,44493.0,,Northern State University,Aberdeen,SD,1.0,16810.0,44493.0,2.6468173706127307
+16810.0,52440.0,,Central Michigan University,Mount Pleasant,MI,1.0,16810.0,52440.0,3.119571683521713
+16873.0,54580.0,,University of North Carolina at Charlotte,Charlotte,NC,1.0,16873.0,54580.0,3.234753748592426
+16884.0,55619.0,,University of Wisconsin-Eau Claire,Eau Claire,WI,1.0,16884.0,55619.0,3.2941838426913055
+16948.0,52678.0,,Old Dominion University,Norfolk,VA,1.0,16948.0,52678.0,3.1082133585083787
+16955.0,41800.0,,Lander University,Greenwood,SC,1.0,16955.0,41800.0,2.465349454438219
+16991.0,41443.0,,Southern University and A & M College,Baton Rouge,LA,1.0,16991.0,41443.0,2.439114825495851
+17033.0,44718.0,,Winthrop University,Rock Hill,SC,1.0,17033.0,44718.0,2.625374273469148
+17033.0,53885.0,,Texas State University,San Marcos,TX,1.0,17033.0,53885.0,3.163564844713204
+17033.0,64398.0,,The University of Texas at Dallas,Richardson,TX,1.0,17033.0,64398.0,3.780778488815828
+17067.0,48550.0,,University of Maine,Orono,ME,1.0,17067.0,48550.0,2.844671002519482
+17086.0,79580.0,,University of Michigan-Ann Arbor,Ann Arbor,MI,1.0,17086.0,79580.0,4.657614421163526
+17093.0,84495.0,,New Jersey Institute of Technology,Newark,NJ,1.0,17093.0,84495.0,4.943251623471596
+17096.0,40051.0,,Edinboro University of Pennsylvania,Edinboro,PA,1.0,17096.0,40051.0,2.342711745437529
+17105.0,61744.0,,University of Pittsburgh-Bradford,Bradford,PA,1.0,17105.0,61744.0,3.6097047646886877
+17107.0,46869.0,,Boise State University,Boise,ID,1.0,17107.0,46869.0,2.7397556555795872
+17112.0,46364.0,,SUNY College of Technology at Delhi,Delhi,NY,1.0,17112.0,46364.0,2.7094436652641423
+17116.0,47453.0,,University of Central Oklahoma,Edmond,OK,1.0,17116.0,47453.0,2.7724351483991585
+17138.0,70578.0,,The College of New Jersey,Ewing,NJ,1.0,17138.0,70578.0,4.118216828101295
+17157.0,35049.0,,Grambling State University,Grambling,LA,1.0,17157.0,35049.0,2.042839657282742
+17210.0,53292.0,,Grand Valley State University,Allendale,MI,1.0,17210.0,53292.0,3.0965717606043
+17225.0,52855.0,,William Paterson University of New Jersey,Wayne,NJ,1.0,17225.0,52855.0,3.0685050798258344
+17234.0,59283.0,,Central Washington University,Ellensburg,WA,1.0,17234.0,59283.0,3.4398862713241267
+17248.0,50342.0,,SUNY College of Technology at Alfred,Alfred,NY,1.0,17248.0,50342.0,2.9187152133580705
+17250.0,56901.0,,University of Alabama in Huntsville,Huntsville,AL,1.0,17250.0,56901.0,3.298608695652174
+17313.0,59144.0,,University of Minnesota-Duluth,Duluth,MN,1.0,17313.0,59144.0,3.416161266100618
+17313.0,60456.0,,Texas Tech University,Lubbock,TX,1.0,17313.0,60456.0,3.4919424709755673
+17348.0,40439.0,,University of Montevallo,Montevallo,AL,1.0,17348.0,40439.0,2.331046806548305
+17410.0,45062.0,,Idaho State University,Pocatello,ID,1.0,17410.0,45062.0,2.5882825962090754
+17419.0,65087.0,,University of Minnesota-Twin Cities,Minneapolis,MN,1.0,17419.0,65087.0,3.7365520408749067
+17424.0,61403.0,,University of North Dakota,Grand Forks,ND,1.0,17424.0,61403.0,3.524047291092746
+17437.0,46955.0,,Western Colorado University,Gunnison,CO,1.0,17437.0,46955.0,2.6928370705970064
+17488.0,55008.0,,Minnesota State University-Mankato,Mankato,MN,1.0,17488.0,55008.0,3.145471180237877
+17497.0,54581.0,,Salem State University,Salem,MA,1.0,17497.0,54581.0,3.1194490484082986
+17500.0,76997.0,,University of Maryland-College Park,College Park,MD,1.0,17500.0,76997.0,4.399828571428571
+17510.0,52714.0,,Kean University,Union,NJ,1.0,17510.0,52714.0,3.010508280982296
+17519.0,72713.0,,The University of Texas at Austin,Austin,TX,1.0,17519.0,72713.0,4.150522290085051
+17546.0,55391.0,,Winona State University,Winona,MN,1.0,17546.0,55391.0,3.1569018579733275
+17568.0,63760.0,,SUNY at Albany,Albany,NY,1.0,17568.0,63760.0,3.6293260473588345
+17575.0,48163.0,,Castleton University,Castleton,VT,1.0,17575.0,48163.0,2.740426742532006
+17653.0,49476.0,,Minnesota State University Moorhead,Moorhead,MN,1.0,17653.0,49476.0,2.802696425536736
+17685.0,41679.0,,SUNY Morrisville,Morrisville,NY,1.0,17685.0,41679.0,2.3567430025445293
+17692.0,58936.0,,North Dakota State University-Main Campus,Fargo,ND,1.0,17692.0,58936.0,3.331223151706986
+17718.0,60744.0,,Metropolitan State University,Saint Paul,MN,1.0,17718.0,60744.0,3.4283779207585505
+17738.0,44812.0,,Georgia State University,Atlanta,GA,1.0,17738.0,44812.0,2.5263276581350773
+17744.0,51380.0,,University of Louisville,Louisville,KY,1.0,17744.0,51380.0,2.8956266907123536
+17817.0,59044.0,,University of Massachusetts-Boston,Boston,MA,1.0,17817.0,59044.0,3.3139136779480274
+17836.0,61744.0,,University of Pittsburgh-Johnstown,Johnstown,PA,1.0,17836.0,61744.0,3.4617627270688494
+17899.0,61073.0,,University of Missouri-Columbia,Columbia,MO,1.0,17899.0,61073.0,3.4120900608972566
+17974.0,52913.0,,East Stroudsburg University of Pennsylvania,East Stroudsburg,PA,1.0,17974.0,52913.0,2.9438633581840437
+17998.0,49203.0,,Texas A & M University-Corpus Christi,Corpus Christi,TX,1.0,17998.0,49203.0,2.733803755972886
+18000.0,36251.0,,Texas Southern University,Houston,TX,1.0,18000.0,36251.0,2.0139444444444443
+18010.0,60461.0,,Oregon State University,Corvallis,OR,1.0,18010.0,60461.0,3.357079400333148
+18060.0,49266.0,,West Texas A & M University,Canyon,TX,1.0,18060.0,49266.0,2.727906976744186
+18133.0,91812.0,,California State University Maritime Academy,Vallejo,CA,1.0,18133.0,91812.0,5.063254839243369
+18212.0,54321.0,,Kennesaw State University,Kennesaw,GA,1.0,18212.0,54321.0,2.982703711838348
+18231.0,55682.0,,Southern Connecticut State University,New Haven,CT,1.0,18231.0,55682.0,3.0542482584608632
+18268.0,55890.0,,University of Kentucky,Lexington,KY,1.0,18268.0,55890.0,3.0594482154587257
+18292.0,52411.0,,Eastern Connecticut State University,Willimantic,CT,1.0,18292.0,52411.0,2.8652416356877324
+18300.0,59454.0,,Louisiana State University and Agricultural & Mechanical College,Baton Rouge,LA,1.0,18300.0,59454.0,3.2488524590163936
+18313.0,71861.0,,University of Delaware,Newark,DE,1.0,18313.0,71861.0,3.9240430295418554
+18336.0,41504.0,,Jacksonville State University,Jacksonville,AL,1.0,18336.0,41504.0,2.263525305410122
+18362.0,61744.0,,University of Pittsburgh-Greensburg,Greensburg,PA,1.0,18362.0,61744.0,3.3625966670297354
+18394.0,50235.0,,College of Charleston,Charleston,SC,1.0,18394.0,50235.0,2.7310536044362292
+18402.0,52198.0,,South Dakota State University,Brookings,SD,1.0,18402.0,52198.0,2.8365395065753725
+18581.0,69958.0,,George Mason University,Fairfax,VA,1.0,18581.0,69958.0,3.7650287928529145
+18619.0,45973.0,,Dakota State University,Madison,SD,1.0,18619.0,45973.0,2.4691444223642516
+18623.0,58596.0,,Ohio State University-Main Campus,Columbus,OH,1.0,18623.0,58596.0,3.1464318316060784
+18650.0,69897.0,,William & Mary,Williamsburg,VA,1.0,18650.0,69897.0,3.747828418230563
+18699.0,57157.0,,University of Oregon,Eugene,OR,1.0,18699.0,57157.0,3.056687523396973
+18706.0,57122.0,,Salisbury University,Salisbury,MD,1.0,18706.0,57122.0,3.053672618411205
+18709.0,58993.0,,University of Kansas,Lawrence,KS,1.0,18709.0,58993.0,3.153188305093805
+18724.0,54393.0,,Stockton University,Galloway,NJ,1.0,18724.0,54393.0,2.9049882503738518
+18751.0,53975.0,,SUNY Oneonta,Oneonta,NY,1.0,18751.0,53975.0,2.8785131459655484
+18778.0,45019.0,,Kent State University at Kent,Kent,OH,1.0,18778.0,45019.0,2.397433166471403
+18792.0,53367.0,,Bloomsburg University of Pennsylvania,Bloomsburg,PA,1.0,18792.0,53367.0,2.8398786717752236
+18814.0,62778.0,,University of Vermont,Burlington,VT,1.0,18814.0,62778.0,3.336770490060593
+18828.0,64166.0,,University of California-Santa Cruz,Santa Cruz,CA,1.0,18828.0,64166.0,3.408009347779902
+18853.0,56615.0,,The University of Tennessee-Knoxville,Knoxville,TN,1.0,18853.0,56615.0,3.0029703495464912
+18902.0,54472.0,,Kansas State University,Manhattan,KS,1.0,18902.0,54472.0,2.881811448523966
+18904.0,54300.0,,Virginia Commonwealth University,Richmond,VA,1.0,18904.0,54300.0,2.872407955988151
+18974.0,49069.0,,Longwood University,Farmville,VA,1.0,18974.0,49069.0,2.586117845472752
+19016.0,58388.0,,Colorado State University-Fort Collins,Fort Collins,CO,1.0,19016.0,58388.0,3.070466975178797
+19151.0,49993.0,,Tarleton State University,Stephenville,TX,1.0,19151.0,49993.0,2.6104642055245155
+19195.0,52487.0,,Western Michigan University,Kalamazoo,MI,1.0,19195.0,52487.0,2.734410002604845
+19273.0,57352.0,,SUNY Cortland,Cortland,NY,1.0,19273.0,57352.0,2.9757692108130547
+19307.0,77436.0,,Binghamton University,Vestal,NY,1.0,19307.0,77436.0,4.010773294659968
+19344.0,65856.0,,University at Buffalo,Buffalo,NY,1.0,19344.0,65856.0,3.404466501240695
+19345.0,60136.0,,SUNY College at Geneseo,Geneseo,NY,1.0,19345.0,60136.0,3.1086068751615406
+19413.0,51532.0,,Montana State University,Bozeman,MT,1.0,19413.0,51532.0,2.6545098645237726
+19415.0,49034.0,,University of South Dakota,Vermillion,SD,1.0,19415.0,49034.0,2.5255730105588463
+19443.0,62670.0,,University of Iowa,Iowa City,IA,1.0,19443.0,62670.0,3.22326801419534
+19504.0,50554.0,,Millersville University of Pennsylvania,Millersville,PA,1.0,19504.0,50554.0,2.5919811320754715
+19559.0,44940.0,,SUNY at Purchase College,Purchase,NY,1.0,19559.0,44940.0,2.2976634797280027
+19589.0,52899.0,,Westfield State University,Westfield,MA,1.0,19589.0,52899.0,2.7004441268058605
+19592.0,71277.0,,South Dakota School of Mines and Technology,Rapid City,SD,1.0,19592.0,71277.0,3.6380665577786853
+19627.0,50644.0,,Keene State College,Keene,NH,1.0,19627.0,50644.0,2.580323024405156
+19695.0,49666.0,,Ohio University-Main Campus,Athens,OH,1.0,19695.0,49666.0,2.521756791063722
+19731.0,71951.0,,Citadel Military College of South Carolina,Charleston,SC,1.0,19731.0,71951.0,3.6465967259642187
+19827.0,54288.0,,Georgia College & State University,Milledgeville,GA,1.0,19827.0,54288.0,2.7380844303222878
+19867.0,59648.0,,University of Oklahoma-Norman Campus,Norman,OK,1.0,19867.0,59648.0,3.0023657321185886
+19925.0,67398.0,,University of Rhode Island,Kingston,RI,1.0,19925.0,67398.0,3.3825846925972396
+19932.0,47323.0,,California University of Pennsylvania,California,PA,1.0,19932.0,47323.0,2.3742223560104354
+19999.0,52560.0,,University of North Carolina Wilmington,Wilmington,NC,1.0,19999.0,52560.0,2.6281314065703287
+20086.0,52014.0,,Plymouth State University,Plymouth,NH,1.0,20086.0,52014.0,2.5895648710544656
+20201.0,46764.0,,Indiana University of Pennsylvania-Main Campus,Indiana,PA,1.0,20201.0,46764.0,2.3149349042126626
+20507.0,80584.0,,University of Virginia-Main Campus,Charlottesville,VA,1.0,20507.0,80584.0,3.929585019749354
+20512.0,60455.0,,St. Mary's College of Maryland,St. Mary's City,MD,1.0,20512.0,60455.0,2.9472991419656784
+20579.0,58781.0,,Illinois State University,Normal,IL,1.0,20579.0,58781.0,2.8563584236357453
+20633.0,85801.0,,California Polytechnic State University-San Luis Obispo,San Luis Obispo,CA,1.0,20633.0,85801.0,4.158435515921097
+20796.0,57734.0,,University of South Carolina-Columbia,Columbia,SC,1.0,20796.0,57734.0,2.7762069628774766
+20910.0,55113.0,,University of Massachusetts-Dartmouth,North Dartmouth,MA,1.0,20910.0,55113.0,2.6357245337159254
+20927.0,77621.0,,Virginia Polytechnic Institute and State University,Blacksburg,VA,1.0,20927.0,77621.0,3.709131743680413
+20976.0,70877.0,,Texas A & M University-College Station,College Station,TX,1.0,20976.0,70877.0,3.3789569031273836
+21048.0,42742.0,,The Evergreen State College,Olympia,WA,1.0,21048.0,42742.0,2.0306917521854806
+21075.0,36750.0,,South Carolina State University,Orangeburg,SC,1.0,21075.0,36750.0,1.7437722419928825
+21248.0,53274.0,,SUNY College of Environmental Science and Forestry,Syracuse,NY,1.0,21248.0,53274.0,2.5072477409638556
+21325.0,76984.0,,Virginia Military Institute,Lexington,VA,1.0,21325.0,76984.0,3.6100351699882767
+21534.0,56118.0,,The University of Alabama,Tuscaloosa,AL,1.0,21534.0,56118.0,2.6060183895235443
+21604.0,99713.0,,Massachusetts Maritime Academy,Buzzards Bay,MA,1.0,21604.0,99713.0,4.615487872616182
+21699.0,64875.0,,University of New Hampshire-Main Campus,Durham,NH,1.0,21699.0,64875.0,2.989769113784045
+21724.0,76076.0,,University of Connecticut,Storrs,CT,1.0,21724.0,76076.0,3.5019333456085437
+21771.0,65273.0,,University of Colorado Boulder,Boulder,CO,1.0,21771.0,65273.0,2.998162693491342
+21828.0,87534.0,,SUNY Maritime College,Throggs Neck,NY,1.0,21828.0,87534.0,4.010170423309511
+21839.0,64761.0,,Vermont Technical College,Randolph,VT,1.0,21839.0,64761.0,2.9653830303585327
+21898.0,49199.0,,Kutztown University of Pennsylvania,Kutztown,PA,1.0,21898.0,49199.0,2.2467348616311993
+22012.0,51372.0,,Shippensburg University of Pennsylvania,Shippensburg,PA,1.0,22012.0,51372.0,2.333817917499546
+22083.0,46023.0,,University of Akron Main Campus,Akron,OH,1.0,22083.0,46023.0,2.084091835348458
+22114.0,51185.0,,University of Cincinnati-Main Campus,Cincinnati,OH,1.0,22114.0,51185.0,2.3145970878176723
+22116.0,69479.0,,Clemson University,Clemson,SC,1.0,22116.0,69479.0,3.1415717127871226
+22431.0,65172.0,,James Madison University,Harrisonburg,VA,1.0,22431.0,65172.0,2.9054433596362177
+22547.0,60281.0,,University of Mary Washington,Fredericksburg,VA,1.0,22547.0,60281.0,2.6735707632944514
+22978.0,56115.0,,Rowan University,Glassboro,NJ,1.0,22978.0,56115.0,2.442118548176517
+23108.0,60306.0,,Temple University,Philadelphia,PA,1.0,23108.0,60306.0,2.6097455426692053
+23258.0,61042.0,,Auburn University,Auburn,AL,1.0,23258.0,61042.0,2.624559291426606
+23778.0,85452.0,,Maine Maritime Academy,Castine,ME,1.0,23778.0,85452.0,3.593742114559677
+24592.0,55590.0,,Miami University-Oxford,Oxford,OH,1.0,24592.0,55590.0,2.260491216655823
+25028.0,49047.0,,Pennsylvania College of Technology,Williamsport,PA,1.0,25028.0,49047.0,1.9596851526290555
+25031.0,57364.0,,Christopher Newport University,Newport News,VA,1.0,25031.0,57364.0,2.2917182693460108
+25211.0,95887.0,,Colorado School of Mines,Golden,CO,1.0,25211.0,95887.0,3.803379477212328
+27521.0,61185.0,,The Pennsylvania State University,University Park,PA,1.0,27521.0,61185.0,2.223211365866066
+27926.0,61744.0,,University of Pittsburgh-Pittsburgh Campus,Pittsburgh,PA,1.0,27926.0,61744.0,2.2109861777554967
+2285.0,,21885.0,Caribbean University-Vega Baja,Vega Baja,PR,2.0,2285.0,21885.0,9.577680525164114
+2649.0,,21885.0,Caribbean University-Carolina,Carolina,PR,2.0,2649.0,21885.0,8.261608154020385
+2855.0,,22842.0,Atlantic University College,Guaynabo,PR,2.0,2855.0,22842.0,8.000700525394045
+2963.0,,19424.0,Humacao Community College,Humacao,PR,2.0,2963.0,19424.0,6.5555180560243
+3442.0,,40738.0,Berea College,Berea,KY,2.0,3442.0,40738.0,11.83556072051133
+3965.0,,22263.0,Universidad Central de Bayamon,BayamÃ³n,PR,2.0,3965.0,22263.0,5.614880201765447
+4263.0,,18791.0,Dewey University-Carolina,Carolina,PR,2.0,4263.0,18791.0,4.407928688716866
+4671.0,,21885.0,Caribbean University-Ponce,Ponce,PR,2.0,4671.0,21885.0,4.68529222864483
+4846.0,,21885.0,Caribbean University-Bayamon,Bayamon,PR,2.0,4846.0,21885.0,4.516095749071399
+5084.0,,124213.0,Massachusetts Institute of Technology,Cambridge,MA,2.0,5084.0,124213.0,24.432140047206925
+5529.0,,35695.0,Paul Quinn College,Dallas,TX,2.0,5529.0,35695.0,6.455959486344728
+5981.0,,45995.0,Heritage University,Toppenish,WA,2.0,5981.0,45995.0,7.690185587694366
+6168.0,,21063.0,EDP University of Puerto Rico Inc-San Juan,San Juan,PR,2.0,6168.0,21063.0,3.41488326848249
+6465.0,,29347.0,Universidad Adventista de las Antillas,Mayaguez,PR,2.0,6465.0,29347.0,4.539365815931942
+6577.0,,52551.0,Brigham Young University-Idaho,Rexburg,ID,2.0,6577.0,52551.0,7.990117074654098
+6626.0,,22516.0,Universidad Ana G. Mendez-Carolina Campus,Carolina,PR,2.0,6626.0,22516.0,3.398128584364624
+6701.0,,24041.0,Universidad Ana G. Mendez-Gurabo Campus,Gurabo,PR,2.0,6701.0,24041.0,3.5876734815699147
+6734.0,,22394.0,Universidad Ana G. Mendez-Cupey Campus,San Juan,PR,2.0,6734.0,22394.0,3.3255123255123253
+6774.0,,19174.0,Southeastern Baptist College,Laurel,MS,2.0,6774.0,19174.0,2.8305284912902273
+6942.0,,37921.0,Wilberforce University,Wilberforce,OH,2.0,6942.0,37921.0,5.462546816479401
+7200.0,,106987.0,Stanford University,Stanford,CA,2.0,7200.0,106987.0,14.859305555555556
+7202.0,,40659.0,College of the Ozarks,Point Lookout,MO,2.0,7202.0,40659.0,5.64551513468481
+7641.0,,38772.0,The Baptist College of Florida,Graceville,FL,2.0,7641.0,38772.0,5.074204946996466
+7691.0,,26407.0,Virginia University of Lynchburg,Lynchburg,VA,2.0,7691.0,26407.0,3.433493693927968
+7740.0,,32623.0,Baptist University of the Americas,San Antonio,TX,2.0,7740.0,32623.0,4.214857881136951
+7830.0,,22539.0,Inter American University of Puerto Rico-Barranquitas,Barranquitas,PR,2.0,7830.0,22539.0,2.878544061302682
+8070.0,,25833.0,Clinton College,Rock Hill,SC,2.0,8070.0,25833.0,3.2011152416356876
+8322.0,,22797.0,Pontifical Catholic University of Puerto Rico-Mayaguez,Mayaguez,PR,2.0,8322.0,22797.0,2.7393655371304977
+8392.0,,29731.0,Rust College,Holly Springs,MS,2.0,8392.0,29731.0,3.5427788369876074
+8422.0,,23125.0,Inter American University of Puerto Rico-Aguadilla,Aguadilla,PR,2.0,8422.0,23125.0,2.7457848492044645
+8433.0,,30265.0,Beulah Heights University,Atlanta,GA,2.0,8433.0,30265.0,3.5888770307126765
+8502.0,,37815.0,Humphreys University-Stockton and Modesto Campuses,Stockton,CA,2.0,8502.0,37815.0,4.447776993648553
+8702.0,,31052.0,Le Moyne-Owen College,Memphis,TN,2.0,8702.0,31052.0,3.5683750861870833
+8773.0,,20402.0,Inter American University of Puerto Rico-Fajardo,Fajardo,PR,2.0,8773.0,20402.0,2.325544283597401
+8946.0,,28263.0,Gods Bible School and College,Cincinnati,OH,2.0,8946.0,28263.0,3.159289067739772
+8954.0,,24185.0,Inter American University of Puerto Rico-Ponce,Mercedita,PR,2.0,8954.0,24185.0,2.7010274737547464
+9130.0,,22843.0,Inter American University of Puerto Rico-Arecibo,Arecibo,PR,2.0,9130.0,22843.0,2.50197152245345
+9170.0,,74305.0,Pomona College,Claremont,CA,2.0,9170.0,74305.0,8.103053435114504
+9200.0,,22797.0,Pontifical Catholic University of Puerto Rico-Arecibo,Arecibo,PR,2.0,9200.0,22797.0,2.4779347826086955
+9232.0,,28181.0,Inter American University of Puerto Rico-Bayamon,Bayamon,PR,2.0,9232.0,28181.0,3.0525346620450606
+9237.0,,24488.0,Inter American University of Puerto Rico-Guayama,Guayama,PR,2.0,9237.0,24488.0,2.6510771895637113
+9300.0,,33749.0,Wiley College,Marshall,TX,2.0,9300.0,33749.0,3.6289247311827957
+9359.0,,36069.0,Tougaloo College,Tougaloo,MS,2.0,9359.0,36069.0,3.853937386472914
+9550.0,,22797.0,Pontifical Catholic University of Puerto Rico-Ponce,Ponce,PR,2.0,9550.0,22797.0,2.3871204188481676
+9612.0,,22851.0,Inter American University of Puerto Rico-San German,San German,PR,2.0,9612.0,22851.0,2.3773408239700373
+9614.0,,27620.0,Morris College,Sumter,SC,2.0,9614.0,27620.0,2.8728936966923238
+9773.0,,35106.0,Hobe Sound Bible College,Hobe Sound,FL,2.0,9773.0,35106.0,3.5921416146526144
+10299.0,,48230.0,Hendrix College,Conway,AR,2.0,10299.0,48230.0,4.682978929993204
+10311.0,,40582.0,Huston-Tillotson University,Austin,TX,2.0,10311.0,40582.0,3.9357967219474346
+10324.0,,45183.0,Bethany College,Bethany,WV,2.0,10324.0,45183.0,4.3765013560635415
+10454.0,,32374.0,Paine College,Augusta,GA,2.0,10454.0,32374.0,3.0968050506982974
+10492.0,,44315.0,Salem College,Winston-Salem,NC,2.0,10492.0,44315.0,4.22369424323294
+10698.0,,76855.0,The Cooper Union for the Advancement of Science and Art,New York,NY,2.0,10698.0,76855.0,7.184053094036268
+10708.0,,39118.0,Hallmark University,San Antonio,TX,2.0,10708.0,39118.0,3.653156518490848
+10786.0,,45416.0,Lyon College,Batesville,AR,2.0,10786.0,45416.0,4.210643426664194
+10858.0,,21114.0,American University of Puerto Rico,Manati,PR,2.0,10858.0,21114.0,1.9445570086572113
+10873.0,,45604.0,Parker University,Dallas,TX,2.0,10873.0,45604.0,4.194242619332291
+10886.0,,40817.0,William Carey University,Hattiesburg,MS,2.0,10886.0,40817.0,3.7494947639169576
+10987.0,,57054.0,Fairleigh Dickinson University-Metropolitan Campus,Teaneck,NJ,2.0,10987.0,57054.0,5.192864294165832
+11080.0,,110433.0,Princeton University,Princeton,NJ,2.0,11080.0,110433.0,9.966877256317689
+11232.0,,21114.0,American University of Puerto Rico,Bayamon,PR,2.0,11232.0,21114.0,1.8798076923076923
+11304.0,,40917.0,Oakland City University,Oakland City,IN,2.0,11304.0,40917.0,3.619692144373673
+11365.0,,37674.0,Wesleyan College,Macon,GA,2.0,11365.0,37674.0,3.3149142102947646
+11397.0,,52442.0,Saint Peter's University,Jersey City,NJ,2.0,11397.0,52442.0,4.601386329735895
+11531.0,,55044.0,Fresno Pacific University,Fresno,CA,2.0,11531.0,55044.0,4.773566906599601
+11550.0,,29601.0,Jarvis Christian University,Hawkins,TX,2.0,11550.0,29601.0,2.5628571428571427
+11693.0,,46296.0,Trinity Washington University,Washington,DC,2.0,11693.0,46296.0,3.959291884033182
+11696.0,,60485.0,Holy Family University,Philadelphia,PA,2.0,11696.0,60485.0,5.171426128590971
+11835.0,,52911.0,Western Governors University,Salt Lake City,UT,2.0,11835.0,52911.0,4.470722433460076
+11846.0,,53281.0,Soka University of America,Aliso Viejo,CA,2.0,11846.0,53281.0,4.497805166300861
+11854.0,,38237.0,Bethune-Cookman University,Daytona Beach,FL,2.0,11854.0,38237.0,3.2256622237219506
+12157.0,,31537.0,Benedict College,Columbia,SC,2.0,12157.0,31537.0,2.594143291930575
+12231.0,,66998.0,National University,San Diego,CA,2.0,12231.0,66998.0,5.4777205461532175
+12273.0,,41103.0,Pine Manor College,Chestnut Hill,MA,2.0,12273.0,41103.0,3.3490589098020043
+12295.0,,39015.0,Harrisburg University of Science and Technology,Harrisburg,PA,2.0,12295.0,39015.0,3.173241154941033
+12301.0,,27904.0,Universidad del Sagrado Corazon,Santurce,PR,2.0,12301.0,27904.0,2.2684334606942524
+12423.0,,49314.0,Agnes Scott College,Decatur,GA,2.0,12423.0,49314.0,3.969572567012799
+12460.0,,32244.0,Kentucky Mountain Bible College,Jackson,KY,2.0,12460.0,32244.0,2.587800963081862
+12502.0,,28285.0,Inter American University of Puerto Rico-Metro,San Juan,PR,2.0,12502.0,28285.0,2.262438009918413
+12568.0,,39169.0,Drury University-College of Continuing Professional Studies,Springfield,MO,2.0,12568.0,39169.0,3.1165658816040738
+12801.0,,46475.0,Calumet College of Saint Joseph,Whiting,IN,2.0,12801.0,46475.0,3.630575736270604
+12836.0,,97540.0,Columbia University in the City of New York,New York,NY,2.0,12836.0,97540.0,7.59894047990028
+12839.0,,54719.0,Trine University-Regional/Non-Traditional Campuses,Angola,IN,2.0,12839.0,54719.0,4.261936287872888
+12951.0,,27908.0,Arkansas Baptist College,Little Rock,AR,2.0,12951.0,27908.0,2.15489151416879
+13143.0,,53563.0,Christian Brothers University,Memphis,TN,2.0,13143.0,53563.0,4.075401354333105
+13206.0,,48508.0,Goldey-Beacom College,Wilmington,DE,2.0,13206.0,48508.0,3.6731788580948055
+13259.0,,95114.0,Harvard University,Cambridge,MA,2.0,13259.0,95114.0,7.173542499434347
+13272.0,,27399.0,Allen University,Columbia,SC,2.0,13272.0,27399.0,2.0644213381555154
+13326.0,,55564.0,Saint Xavier University,Chicago,IL,2.0,13326.0,55564.0,4.169593276301966
+13330.0,,31453.0,Edward Waters University,Jacksonville,FL,2.0,13330.0,31453.0,2.3595648912228055
+13499.0,,34334.0,Boricua College,New York,NY,2.0,13499.0,34334.0,2.5434476627898364
+13516.0,,42969.0,Tusculum University,Greeneville,TN,2.0,13516.0,42969.0,3.179121041728322
+13522.0,,74630.0,Brigham Young University,Provo,UT,2.0,13522.0,74630.0,5.51915397130602
+13525.0,,37939.0,Grace Christian University,Wyoming,MI,2.0,13525.0,37939.0,2.805101663585952
+13575.0,,30032.0,Talladega College,Talladega,AL,2.0,13575.0,30032.0,2.2123020257826886
+13621.0,,39019.0,Calvary University,Kansas City,MO,2.0,13621.0,39019.0,2.8646208061082152
+13625.0,,58399.0,Washington Adventist University,Takoma Park,MD,2.0,13625.0,58399.0,4.286165137614679
+13626.0,,39343.0,Brescia University,Owensboro,KY,2.0,13626.0,39343.0,2.8873477175987086
+13704.0,,35285.0,Villa Maria College,Buffalo,NY,2.0,13704.0,35285.0,2.5747956800934033
+13714.0,,49485.0,Peirce College,Philadelphia,PA,2.0,13714.0,49485.0,3.6083564240921686
+13771.0,,38077.0,Carolina University,Winston-Salem,NC,2.0,13771.0,38077.0,2.76501343402803
+13814.0,,43124.0,University of Pikeville,Pikeville,KY,2.0,13814.0,43124.0,3.121760532792819
+13848.0,,51250.0,Trevecca Nazarene University,Nashville,TN,2.0,13848.0,51250.0,3.700895436164067
+14041.0,,28130.0,Hebrew Theological College,Skokie,IL,2.0,14041.0,28130.0,2.003418559931629
+14079.0,,49918.0,Oglethorpe University,Atlanta,GA,2.0,14079.0,49918.0,3.545564315647418
+14083.0,,30334.0,Voorhees University,Denmark,SC,2.0,14083.0,30334.0,2.15394447205851
+14160.0,,33440.0,Baker College,Owosso,MI,2.0,14160.0,33440.0,2.361581920903955
+14211.0,,49429.0,Mercy College,Dobbs Ferry,NY,2.0,14211.0,49429.0,3.478221096333826
+14226.0,,37590.0,Prescott College,Prescott,AZ,2.0,14226.0,37590.0,2.642345002108815
+14254.0,,89551.0,Johns Hopkins University,Baltimore,MD,2.0,14254.0,89551.0,6.28251718815771
+14333.0,,42661.0,Tennessee Wesleyan University,Athens,TN,2.0,14333.0,42661.0,2.976418056233866
+14416.0,,36586.0,Finlandia University,Hancock,MI,2.0,14416.0,36586.0,2.5378745837957823
+14486.0,,40448.0,University of the Ozarks,Clarksville,AR,2.0,14486.0,40448.0,2.7922131713378433
+14544.0,,44968.0,National Louis University,Chicago,IL,2.0,14544.0,44968.0,3.091859185918592
+14555.0,,52079.0,Trinity Christian College,Palos Heights,IL,2.0,14555.0,52079.0,3.5780831329440055
+14573.0,,28625.0,Maharishi International University,Fairfield,IA,2.0,14573.0,28625.0,1.9642489535442256
+14654.0,,41038.0,University of the Cumberlands,Williamsburg,KY,2.0,14654.0,41038.0,2.80046403712297
+14739.0,,74473.0,Williams College,Williamstown,MA,2.0,14739.0,74473.0,5.052785127891987
+14780.0,,82012.0,Embry-Riddle Aeronautical University-Worldwide,Daytona Beach,FL,2.0,14780.0,82012.0,5.548849797023004
+14796.0,,51570.0,Wilmington University,New Castle,DE,2.0,14796.0,51570.0,3.4854014598540144
+14820.0,,31297.0,Lane College,Jackson,TN,2.0,14820.0,31297.0,2.111808367071525
+14847.0,,35537.0,Philander Smith College,Little Rock,AR,2.0,14847.0,35537.0,2.3935475180171077
+14851.0,,112761.0,University of Pennsylvania,Philadelphia,PA,2.0,14851.0,112761.0,7.592822032186385
+14853.0,,50486.0,Georgetown College,Georgetown,KY,2.0,14853.0,50486.0,3.39904396418232
+14880.0,,30847.0,Miles College,Fairfield,AL,2.0,14880.0,30847.0,2.0730510752688174
+14904.0,,50616.0,Brigham Young University-Hawaii,Laie,HI,2.0,14904.0,50616.0,3.396135265700483
+14934.0,,39334.0,Emmaus Bible College,Dubuque,IA,2.0,14934.0,39334.0,2.6338556314450248
+15142.0,,53908.0,Caldwell University,Caldwell,NJ,2.0,15142.0,53908.0,3.5601637828556334
+15171.0,,57888.0,St. Francis College,Brooklyn,NY,2.0,15171.0,57888.0,3.815701008503065
+15226.0,,42315.0,Faith Baptist Bible College and Theological Seminary,Ankeny,IA,2.0,15226.0,42315.0,2.7791278076973596
+15271.0,,25915.0,Martin University,Indianapolis,IN,2.0,15271.0,25915.0,1.6970073996463886
+15336.0,,55906.0,Drew University,Madison,NJ,2.0,15336.0,55906.0,3.645409494001043
+15337.0,,32284.0,St. Augustine College,Chicago,IL,2.0,15337.0,32284.0,2.104974897307166
+15351.0,,44199.0,Louisiana Christian University,Pineville,LA,2.0,15351.0,44199.0,2.8792261090482705
+15385.0,,38510.0,Saint Mary-of-the-Woods College,Saint Mary of the Woods,IN,2.0,15385.0,38510.0,2.5030874228144295
+15440.0,,32344.0,Livingstone College,Salisbury,NC,2.0,15440.0,32344.0,2.094818652849741
+15466.0,,40305.0,Central Christian College of Kansas,McPherson,KS,2.0,15466.0,40305.0,2.6060390534074744
+15470.0,,48386.0,Bryan College-Dayton,Dayton,TN,2.0,15470.0,48386.0,3.127731092436975
+15539.0,,32191.0,Texas College,Tyler,TX,2.0,15539.0,32191.0,2.0716262307741813
+15543.0,,34084.0,Shaw University,Raleigh,NC,2.0,15543.0,34084.0,2.192884256578524
+15554.0,,72568.0,Dickinson College,Carlisle,PA,2.0,15554.0,72568.0,4.665552269512665
+15585.0,,30864.0,Donnelly College,Kansas City,KS,2.0,15585.0,30864.0,1.9803657362848892
+15609.0,,41748.0,Universidad Politecnica de Puerto Rico,Hato Rey,PR,2.0,15609.0,41748.0,2.674610801460696
+15633.0,,38264.0,Clarks Summit University,Clarks Summit,PA,2.0,15633.0,38264.0,2.447642806882876
+15651.0,,57054.0,Fairleigh Dickinson University-Florham Campus,Madison,NJ,2.0,15651.0,57054.0,3.645390070921986
+15664.0,,38840.0,Williams Baptist University,Walnut Ridge,AR,2.0,15664.0,38840.0,2.4795709908069457
+15746.0,,38054.0,Thomas More College of Liberal Arts,Merrimack,NH,2.0,15746.0,38054.0,2.416740759557983
+15794.0,,60600.0,Bellevue University,Bellevue,NE,2.0,15794.0,60600.0,3.836900088641256
+15809.0,,30381.0,East-West University,Chicago,IL,2.0,15809.0,30381.0,1.9217534315896008
+15862.0,,56424.0,Concordia University-Saint Paul,Saint Paul,MN,2.0,15862.0,56424.0,3.5571806833942756
+15916.0,,45251.0,Bethany Lutheran College,Mankato,MN,2.0,15916.0,45251.0,2.8431138477004274
+15962.0,,43023.0,Greensboro College,Greensboro,NC,2.0,15962.0,43023.0,2.695338929958652
+15968.0,,29667.0,Crowley's Ridge College,Paragould,AR,2.0,15968.0,29667.0,1.8579033066132264
+15984.0,,50886.0,Benjamin Franklin Cummings Institute of Technology,Boston,MA,2.0,15984.0,50886.0,3.1835585585585586
+15992.0,,60260.0,St. Joseph's University-New York,Brooklyn,NY,2.0,15992.0,60260.0,3.768134067033517
+16017.0,,44726.0,Lincoln Memorial University,Harrogate,TN,2.0,16017.0,44726.0,2.792408066429419
+16035.0,,37408.0,Bacone College,Muskogee,OK,2.0,16035.0,37408.0,2.332896788275647
+16056.0,,34994.0,Blue Mountain Christian University,Blue Mountain,MS,2.0,16056.0,34994.0,2.179496761335326
+16069.0,,53977.0,Park University,Parkville,MO,2.0,16069.0,53977.0,3.3590764826684922
+16170.0,,46151.0,Medaille University,Buffalo,NY,2.0,16170.0,46151.0,2.8541125541125543
+16178.0,,47879.0,Quincy University,Quincy,IL,2.0,16178.0,47879.0,2.959512918778588
+16223.0,,49494.0,Notre Dame College,Cleveland,OH,2.0,16223.0,49494.0,3.05085372619121
+16293.0,,38478.0,Alice Lloyd College,Pippa Passes,KY,2.0,16293.0,38478.0,2.3616276928742406
+16294.0,,51663.0,College of Saint Mary,Omaha,NE,2.0,16294.0,51663.0,3.170676322572726
+16341.0,,95961.0,Yale University,New Haven,CT,2.0,16341.0,95961.0,5.872406829447402
+16349.0,,51953.0,Illinois College,Jacksonville,IL,2.0,16349.0,51953.0,3.177747874487736
+16353.0,,46512.0,University of Holy Cross,New Orleans,LA,2.0,16353.0,46512.0,2.844248761695102
+16407.0,,48025.0,Goshen College,Goshen,IN,2.0,16407.0,48025.0,2.9271042847565063
+16490.0,,35806.0,Cottey College,Nevada,MO,2.0,16490.0,35806.0,2.171376591873863
+16538.0,,35895.0,Lindsey Wilson College,Columbia,KY,2.0,16538.0,35895.0,2.1704559197000846
+16578.0,,60919.0,University of St Francis,Joliet,IL,2.0,16578.0,60919.0,3.6746893473277837
+16638.0,,44832.0,Shorter University,Rome,GA,2.0,16638.0,44832.0,2.694554633970429
+16668.0,,44136.0,Bethel University,McKenzie,TN,2.0,16668.0,44136.0,2.647948164146868
+16690.0,,56285.0,Ursuline College,Pepper Pike,OH,2.0,16690.0,56285.0,3.372378669862193
+16703.0,,39488.0,Johnson C Smith University,Charlotte,NC,2.0,16703.0,39488.0,2.364126204873376
+16719.0,,37988.0,Unity College,New Gloucester,ME,2.0,16719.0,37988.0,2.2721454632454092
+16731.0,,54415.0,Mount Holyoke College,South Hadley,MA,2.0,16731.0,54415.0,3.252345944653637
+16745.0,,55799.0,Walsh University,North Canton,OH,2.0,16745.0,55799.0,3.3322782920274707
+16856.0,,41437.0,Randall University,Moore,OK,2.0,16856.0,41437.0,2.458293782629331
+16861.0,,36297.0,Florida Memorial University,Miami Gardens,FL,2.0,16861.0,36297.0,2.152719293043117
+16925.0,,68211.0,Bowdoin College,Brunswick,ME,2.0,16925.0,68211.0,4.030192023633678
+16942.0,,36791.0,Chowan University,Murfreesboro,NC,2.0,16942.0,36791.0,2.171585409042616
+16942.0,,54203.0,Barry University,Miami,FL,2.0,16942.0,54203.0,3.19932711604297
+16986.0,,48502.0,Manchester University,North Manchester,IN,2.0,16986.0,48502.0,2.8554103379253504
+17057.0,,77379.0,Davidson College,Davidson,NC,2.0,17057.0,77379.0,4.536495280529988
+17062.0,,52319.0,Mount Saint Joseph University,Cincinnati,OH,2.0,17062.0,52319.0,3.0664048763333724
+17099.0,,42173.0,Freed-Hardeman University,Henderson,TN,2.0,17099.0,42173.0,2.4664015439499387
+17105.0,,60394.0,St. Thomas Aquinas College,Sparkill,NY,2.0,17105.0,60394.0,3.5307804735457466
+17120.0,,44160.0,Regent University,Virginia Beach,VA,2.0,17120.0,44160.0,2.5794392523364484
+17120.0,,56763.0,St. Mary's University,San Antonio,TX,2.0,17120.0,56763.0,3.3155957943925234
+17121.0,,60489.0,University of Detroit Mercy,Detroit,MI,2.0,17121.0,60489.0,3.5330296127562644
+17127.0,,34087.0,Stillman College,Tuscaloosa,AL,2.0,17127.0,34087.0,1.9902493139487358
+17143.0,,42616.0,Central Methodist University-College of Graduate and Extended Studies,Fayette,MO,2.0,17143.0,42616.0,2.485912617394855
+17166.0,,55992.0,Felician University,Lodi,NJ,2.0,17166.0,55992.0,3.2617965746242574
+17195.0,,44617.0,Hilbert College,Hamburg,NY,2.0,17195.0,44617.0,2.594765920325676
+17209.0,,39184.0,Ecclesia College,Springdale,AR,2.0,17209.0,39184.0,2.276948108547853
+17231.0,,46824.0,Southwestern Adventist University,Keene,TX,2.0,17231.0,46824.0,2.7174278915907375
+17272.0,,37213.0,Converse University,Spartanburg,SC,2.0,17272.0,37213.0,2.154527559055118
+17285.0,,53159.0,Aurora University,Aurora,IL,2.0,17285.0,53159.0,3.0754411339311543
+17304.0,,81855.0,Amherst College,Amherst,MA,2.0,17304.0,81855.0,4.730409153952843
+17321.0,,47428.0,Saint Leo University,Saint Leo,FL,2.0,17321.0,47428.0,2.73817908896715
+17323.0,,61393.0,Lewis University,Romeoville,IL,2.0,17323.0,61393.0,3.5440166252958494
+17328.0,,31899.0,Great Lakes Christian College,Lansing,MI,2.0,17328.0,31899.0,1.840893351800554
+17368.0,,43163.0,Charleston Southern University,Charleston,SC,2.0,17368.0,43163.0,2.485202671579917
+17369.0,,41610.0,Southwest Baptist University,Bolivar,MO,2.0,17369.0,41610.0,2.3956474178133456
+17394.0,,53720.0,Beloit College,Beloit,WI,2.0,17394.0,53720.0,3.0884212946993217
+17405.0,,47211.0,Cazenovia College,Cazenovia,NY,2.0,17405.0,47211.0,2.7124964090778514
+17410.0,,49080.0,Lindenwood University,Saint Charles,MO,2.0,17410.0,49080.0,2.819069500287191
+17436.0,,39734.0,Lincoln Christian University,Lincoln,IL,2.0,17436.0,39734.0,2.278848359715531
+17457.0,,43846.0,Carson-Newman University,Jefferson City,TN,2.0,17457.0,43846.0,2.5116572148708256
+17464.0,,30455.0,Trinity Baptist College,Jacksonville,FL,2.0,17464.0,30455.0,1.743873110398534
+17467.0,,49661.0,Monmouth College,Monmouth,IL,2.0,17467.0,49661.0,2.8431327646418962
+17474.0,,44973.0,University of Mount Olive,Mount Olive,NC,2.0,17474.0,44973.0,2.5737095112738926
+17497.0,,37862.0,Trinity College of Florida,Trinity,FL,2.0,17497.0,37862.0,2.163913813796651
+17514.0,,39605.0,Mary Baldwin University,Staunton,VA,2.0,17514.0,39605.0,2.2613337901107684
+17541.0,,34028.0,Lincoln College,Lincoln,IL,2.0,17541.0,34028.0,1.9399122056895275
+17586.0,,48547.0,Alverno College,Milwaukee,WI,2.0,17586.0,48547.0,2.760548163311725
+17597.0,,48166.0,Bethel University,Mishawaka,IN,2.0,17597.0,48166.0,2.737171108711712
+17639.0,,51578.0,Hiram College,Hiram,OH,2.0,17639.0,51578.0,2.924088667158002
+17680.0,,43148.0,Bob Jones University,Greenville,SC,2.0,17680.0,43148.0,2.4404977375565613
+17694.0,,45508.0,Mid-America Christian University,Oklahoma City,OK,2.0,17694.0,45508.0,2.571945292189443
+17739.0,,84482.0,Colby College,Waterville,ME,2.0,17739.0,84482.0,4.7625007046620444
+17773.0,,48788.0,University of Saint Francis-Fort Wayne,Fort Wayne,IN,2.0,17773.0,48788.0,2.7450627356101953
+17790.0,,38656.0,Hannibal-LaGrange University,Hannibal,MO,2.0,17790.0,38656.0,2.1729061270376615
+17805.0,,87254.0,Rice University,Houston,TX,2.0,17805.0,87254.0,4.900533557989329
+17840.0,,56955.0,Dominican University,River Forest,IL,2.0,17840.0,56955.0,3.1925448430493275
+17870.0,,40076.0,York University,York,NE,2.0,17870.0,40076.0,2.242641298265249
+17874.0,,80965.0,University of the Pacific,Stockton,CA,2.0,17874.0,80965.0,4.529763902875685
+17880.0,,45187.0,Mississippi College,Clinton,MS,2.0,17880.0,45187.0,2.5272371364653243
+17907.0,,57447.0,Canisius College,Buffalo,NY,2.0,17907.0,57447.0,3.2080750544479812
+17926.0,,46486.0,Our Lady of the Lake University,San Antonio,TX,2.0,17926.0,46486.0,2.593216556956376
+17947.0,,38710.0,Davis & Elkins College,Elkins,WV,2.0,17947.0,38710.0,2.156906446759904
+17958.0,,56811.0,Cardinal Stritch University,Milwaukee,WI,2.0,17958.0,56811.0,3.1635482793184098
+17999.0,,45282.0,Aquinas College,Grand Rapids,MI,2.0,17999.0,45282.0,2.5158064336907606
+18031.0,,47076.0,Buena Vista University,Storm Lake,IA,2.0,18031.0,47076.0,2.6108368920193
+18036.0,,57501.0,Albion College,Albion,MI,2.0,18036.0,57501.0,3.18812375249501
+18044.0,,63218.0,Gustavus Adolphus College,Saint Peter,MN,2.0,18044.0,63218.0,3.5035468853912657
+18046.0,,61222.0,Simmons University,Boston,MA,2.0,18046.0,61222.0,3.39255236617533
+18047.0,,35808.0,Saint Augustine's University,Raleigh,NC,2.0,18047.0,35808.0,1.984152490718679
+18052.0,,38575.0,Virginia Union University,Richmond,VA,2.0,18052.0,38575.0,2.1368823399069354
+18088.0,,42152.0,Belhaven University,Jackson,MS,2.0,18088.0,42152.0,2.3303847854931448
+18111.0,,48326.0,Fontbonne University,Saint Louis,MO,2.0,18111.0,48326.0,2.6683231185467395
+18114.0,,51436.0,Ripon College,Ripon,WI,2.0,18114.0,51436.0,2.8395716020757424
+18117.0,,51255.0,Newman University,Wichita,KS,2.0,18117.0,51255.0,2.8291107799304522
+18119.0,,44504.0,North Carolina Wesleyan University,Rocky Mount,NC,2.0,18119.0,44504.0,2.4562061923947236
+18189.0,,44729.0,University of the Southwest,Hobbs,NM,2.0,18189.0,44729.0,2.459123646159767
+18203.0,,48729.0,Malone University,Canton,OH,2.0,18203.0,48729.0,2.6769763225841894
+18206.0,,64269.0,Pitzer College,Claremont,CA,2.0,18206.0,64269.0,3.5300999670438316
+18225.0,,51219.0,Concordia University-Chicago,River Forest,IL,2.0,18225.0,51219.0,2.81037037037037
+18241.0,,54322.0,University of St Thomas,Houston,TX,2.0,18241.0,54322.0,2.9780165561098624
+18248.0,,43659.0,Hope International University,Fullerton,CA,2.0,18248.0,43659.0,2.392536168347216
+18253.0,,56167.0,Lycoming College,Williamsport,PA,2.0,18253.0,56167.0,3.0771380047115544
+18319.0,,45838.0,Eastern Nazarene College,Quincy,MA,2.0,18319.0,45838.0,2.5022108193678694
+18345.0,,51262.0,Wingate University,Wingate,NC,2.0,18345.0,51262.0,2.794330880348869
+18369.0,,47069.0,Oklahoma Christian University,Edmond,OK,2.0,18369.0,47069.0,2.5624149382111168
+18393.0,,45507.0,Grace College and Theological Seminary,Winona Lake,IN,2.0,18393.0,45507.0,2.474147773609525
+18409.0,,49884.0,Geneva College,Beaver Falls,PA,2.0,18409.0,49884.0,2.7097615296865665
+18440.0,,40998.0,Missouri Valley College,Marshall,MO,2.0,18440.0,40998.0,2.223318872017354
+18445.0,,50802.0,Xavier University of Louisiana,New Orleans,LA,2.0,18445.0,50802.0,2.7542423420981295
+18515.0,,54115.0,Coe College,Cedar Rapids,IA,2.0,18515.0,54115.0,2.922765325411828
+18561.0,,45600.0,Graceland University-Lamoni,Lamoni,IA,2.0,18561.0,45600.0,2.45676418296428
+18582.0,,39169.0,Drury University,Springfield,MO,2.0,18582.0,39169.0,2.107900118394145
+18592.0,,31329.0,City College-Fort Lauderdale,Fort Lauderdale,FL,2.0,18592.0,31329.0,1.685079604130809
+18596.0,,39714.0,Brevard College,Brevard,NC,2.0,18596.0,39714.0,2.1356205635620564
+18627.0,,52544.0,Avila University,Kansas City,MO,2.0,18627.0,52544.0,2.820851452193053
+18637.0,,67418.0,Trinity University,San Antonio,TX,2.0,18637.0,67418.0,3.617427697590814
+18641.0,,54964.0,John Brown University,Siloam Springs,AR,2.0,18641.0,54964.0,2.948554262110402
+18662.0,,41541.0,Brewton-Parker College,Mount Vernon,GA,2.0,18662.0,41541.0,2.225967206087236
+18666.0,,39466.0,Keystone College,La Plume,PA,2.0,18666.0,39466.0,2.1143255116254154
+18686.0,,52502.0,Viterbo University,La Crosse,WI,2.0,18686.0,52502.0,2.8096970994327304
+18740.0,,48091.0,Indiana Institute of Technology-College of Professional Studies,Fort Wayne,IN,2.0,18740.0,48091.0,2.566221985058698
+18745.0,,53245.0,Houston Baptist University,Houston,TX,2.0,18745.0,53245.0,2.8404907975460123
+18769.0,,47070.0,Franciscan University of Steubenville,Steubenville,OH,2.0,18769.0,47070.0,2.507858703180777
+18771.0,,42432.0,Davenport University,Grand Rapids,MI,2.0,18771.0,42432.0,2.2605082307815247
+18789.0,,54408.0,Madonna University,Livonia,MI,2.0,18789.0,54408.0,2.895736867315983
+18800.0,,44574.0,Lourdes University,Sylvania,OH,2.0,18800.0,44574.0,2.370957446808511
+18813.0,,57170.0,Hamline University,Saint Paul,MN,2.0,18813.0,57170.0,3.038856110136608
+18851.0,,40979.0,Huntington University,Huntington,IN,2.0,18851.0,40979.0,2.17383693172776
+18855.0,,45408.0,Methodist University,Fayetteville,NC,2.0,18855.0,45408.0,2.4082736674622116
+18859.0,,58561.0,University of Mary,Bismarck,ND,2.0,18859.0,58561.0,3.1052017604326845
+18860.0,,44873.0,Ave Maria University,Ave Maria,FL,2.0,18860.0,44873.0,2.379268292682927
+18861.0,,43706.0,Catawba College,Salisbury,NC,2.0,18861.0,43706.0,2.3172684375165686
+18867.0,,46065.0,Bay Path University,Longmeadow,MA,2.0,18867.0,46065.0,2.441564636667197
+18875.0,,35816.0,Welch College,Gallatin,TN,2.0,18875.0,35816.0,1.8975364238410597
+18896.0,,41748.0,Polytechnic University of Puerto Rico-Orlando,Orlando,FL,2.0,18896.0,41748.0,2.2093564775613888
+18901.0,,37037.0,Dillard University,New Orleans,LA,2.0,18901.0,37037.0,1.959525951007883
+18902.0,,55429.0,Niagara University,Niagara University,NY,2.0,18902.0,55429.0,2.932441011533171
+18903.0,,45094.0,Bluefield University,Bluefield,VA,2.0,18903.0,45094.0,2.3855472676294767
+18911.0,,45735.0,Newberry College,Newberry,SC,2.0,18911.0,45735.0,2.4184337158267675
+18927.0,,43368.0,Young Harris College,Young Harris,GA,2.0,18927.0,43368.0,2.291329846251387
+18943.0,,53820.0,Warner Pacific University,Portland,OR,2.0,18943.0,53820.0,2.841155044079607
+18956.0,,55242.0,North Park University,Chicago,IL,2.0,18956.0,55242.0,2.9142224097910954
+18986.0,,43640.0,University of Mobile,Mobile,AL,2.0,18986.0,43640.0,2.2985357631939323
+19025.0,,59294.0,Thomas More University,Crestview Hills,KY,2.0,19025.0,59294.0,3.116636005256242
+19053.0,,46471.0,Emory & Henry College,Emory,VA,2.0,19053.0,46471.0,2.439038471631764
+19069.0,,54428.0,Texas Lutheran University,Seguin,TX,2.0,19069.0,54428.0,2.8542660863181077
+19091.0,,54020.0,Loras College,Dubuque,IA,2.0,19091.0,54020.0,2.829605573306794
+19095.0,,39459.0,Point University,West Point,GA,2.0,19095.0,39459.0,2.066457187745483
+19119.0,,50510.0,Bridgewater College,Bridgewater,VA,2.0,19119.0,50510.0,2.6418745750300747
+19122.0,,38461.0,Lackawanna College,Scranton,PA,2.0,19122.0,38461.0,2.011348185336262
+19128.0,,39143.0,Emmanuel College,Franklin Springs,GA,2.0,19128.0,39143.0,2.0463718109577584
+19145.0,,61994.0,D'Youville  University,Buffalo,NY,2.0,19145.0,61994.0,3.238130060067903
+19182.0,,45009.0,Pfeiffer University,Misenheimer,NC,2.0,19182.0,45009.0,2.346418517360025
+19206.0,,54838.0,St Catherine University,Saint Paul,MN,2.0,19206.0,54838.0,2.8552535665937726
+19222.0,,55759.0,Indiana Wesleyan University-National & Global,Marion,IN,2.0,19222.0,55759.0,2.9007907605868275
+19230.0,,46513.0,Millikin University,Decatur,IL,2.0,19230.0,46513.0,2.4187727509100365
+19308.0,,35399.0,Claflin University,Orangeburg,SC,2.0,19308.0,35399.0,1.833385125336648
+19352.0,,41948.0,Southern Wesleyan University,Central,SC,2.0,19352.0,41948.0,2.1676312525837123
+19443.0,,42772.0,Lee University,Cleveland,TN,2.0,19443.0,42772.0,2.1998662757804865
+19449.0,,52663.0,Southern Nazarene University,Bethany,OK,2.0,19449.0,52663.0,2.707748470358373
+19462.0,,41589.0,Blackburn College,Carlinville,IL,2.0,19462.0,41589.0,2.1369335114582264
+19513.0,,42599.0,Mars Hill University,Mars Hill,NC,2.0,19513.0,42599.0,2.1831086967662583
+19514.0,,41812.0,North Greenville University,Tigerville,SC,2.0,19514.0,41812.0,2.142666803320693
+19533.0,,31329.0,City College-Gainesville,Gainesville,FL,2.0,19533.0,31329.0,1.6039010904622946
+19568.0,,54790.0,Marietta College,Marietta,OH,2.0,19568.0,54790.0,2.7999795584627964
+19581.0,,48929.0,Carlow University,Pittsburgh,PA,2.0,19581.0,48929.0,2.4987998570042387
+19613.0,,38823.0,The University of Tennessee Southern,Pulaski,TN,2.0,19613.0,38823.0,1.9794524040177433
+19624.0,,34585.0,Hodges University,Fort Myers,FL,2.0,19624.0,34585.0,1.7623827965756216
+19626.0,,39043.0,Southwestern Christian University,Bethany,OK,2.0,19626.0,39043.0,1.989350861102619
+19652.0,,38798.0,Truett McConnell University,Cleveland,GA,2.0,19652.0,38798.0,1.9742519845308366
+19661.0,,50618.0,Sweet Briar College,Sweet Briar,VA,2.0,19661.0,50618.0,2.5745384263262294
+19688.0,,43102.0,Husson University,Bangor,ME,2.0,19688.0,43102.0,2.189252336448598
+19722.0,,51346.0,Hanover College,Hanover,IN,2.0,19722.0,51346.0,2.6034884900111552
+19753.0,,47161.0,Georgian Court University,Lakewood,NJ,2.0,19753.0,47161.0,2.387536070470308
+19763.0,,53244.0,Westminster College,New Wilmington,PA,2.0,19763.0,53244.0,2.6941253858219905
+19772.0,,62697.0,Wabash College,Crawfordsville,IN,2.0,19772.0,62697.0,3.1709993930811247
+19774.0,,60015.0,Whittier College,Whittier,CA,2.0,19774.0,60015.0,3.035046020026297
+19781.0,,52886.0,Goucher College,Baltimore,MD,2.0,19781.0,52886.0,2.6735756534047823
+19785.0,,45181.0,Gardner-Webb University,Boiling Springs,NC,2.0,19785.0,45181.0,2.283598685873136
+19827.0,,48097.0,Piedmont University,Demorest,GA,2.0,19827.0,48097.0,2.425833459424018
+19874.0,,47396.0,Muskingum University,New Concord,OH,2.0,19874.0,47396.0,2.384824393680185
+19883.0,,56958.0,Daemen University,Amherst,NY,2.0,19883.0,56958.0,2.8646582507669867
+19888.0,,46519.0,Tabor College,Hillsboro,KS,2.0,19888.0,46519.0,2.3390486725663715
+19890.0,,37246.0,Coker University,Hartsville,SC,2.0,19890.0,37246.0,1.872599296128708
+19897.0,,45455.0,Meredith College,Raleigh,NC,2.0,19897.0,45455.0,2.2845152535558126
+19897.0,,48069.0,Wells College,Aurora,NY,2.0,19897.0,48069.0,2.415891842991406
+19900.0,,50835.0,Stetson University,DeLand,FL,2.0,19900.0,50835.0,2.5545226130653265
+19903.0,,44812.0,Eureka College,Eureka,IL,2.0,19903.0,44812.0,2.2515198713761744
+19905.0,,51388.0,Friends University,Wichita,KS,2.0,19905.0,51388.0,2.5816628987691534
+19930.0,,50117.0,Rocky Mountain College,Billings,MT,2.0,19930.0,50117.0,2.5146512794781737
+19932.0,,46654.0,Wilmington College,Wilmington,OH,2.0,19932.0,46654.0,2.3406582380092313
+19934.0,,38008.0,Johnson University,Knoxville,TN,2.0,19934.0,38008.0,1.9066920838767933
+19978.0,,54218.0,Cabrini University,Radnor,PA,2.0,19978.0,54218.0,2.713885273801181
+19979.0,,44008.0,Trinity International University-Illinois,Deerfield,IL,2.0,19979.0,44008.0,2.2027128484909153
+19991.0,,47221.0,Bushnell University,Eugene,OR,2.0,19991.0,47221.0,2.3621129508278726
+20004.0,,48453.0,University of Northwestern Ohio,Lima,OH,2.0,20004.0,48453.0,2.4221655668866227
+20023.0,,50851.0,Olivet Nazarene University,Bourbonnais,IL,2.0,20023.0,50851.0,2.539629426159916
+20028.0,,55578.0,Albright College,Reading,PA,2.0,20028.0,55578.0,2.775014979029359
+20035.0,,45876.0,Maranatha Baptist University,Watertown,WI,2.0,20035.0,45876.0,2.2897928624906414
+20087.0,,53878.0,University of Jamestown,Jamestown,ND,2.0,20087.0,53878.0,2.6822322895404986
+20104.0,,47659.0,Sarah Lawrence College,Bronxville,NY,2.0,20104.0,47659.0,2.3706227616394746
+20114.0,,97174.0,Claremont McKenna College,Claremont,CA,2.0,20114.0,97174.0,4.8311623744655465
+20122.0,,31021.0,Oak Hills Christian College,Bemidji,MN,2.0,20122.0,31021.0,1.5416459596461585
+20152.0,,68726.0,University of Redlands,Redlands,CA,2.0,20152.0,68726.0,3.410381103612545
+20162.0,,44658.0,Warner University,Lake Wales,FL,2.0,20162.0,44658.0,2.2149588334490624
+20181.0,,37683.0,Columbia International University,Columbia,SC,2.0,20181.0,37683.0,1.8672513750557456
+20181.0,,53394.0,Vanguard University of Southern California,Costa Mesa,CA,2.0,20181.0,53394.0,2.6457559090233387
+20200.0,,54461.0,Manhattanville College,Purchase,NY,2.0,20200.0,54461.0,2.696089108910891
+20235.0,,47632.0,Spring Arbor University,Spring Arbor,MI,2.0,20235.0,47632.0,2.353941191005683
+20289.0,,59207.0,William Jewell College,Liberty,MO,2.0,20289.0,59207.0,2.918182266252649
+20294.0,,46166.0,University of Charleston,Charleston,WV,2.0,20294.0,46166.0,2.274859564403272
+20340.0,,51987.0,University of Evansville,Evansville,IN,2.0,20340.0,51987.0,2.5558997050147494
+20371.0,,41523.0,Faulkner University,Montgomery,AL,2.0,20371.0,41523.0,2.0383388149820822
+20379.0,,57629.0,McDaniel College,Westminster,MD,2.0,20379.0,57629.0,2.8278620148191767
+20382.0,,44448.0,Mount Marty University,Yankton,SD,2.0,20382.0,44448.0,2.1807477185752133
+20404.0,,48086.0,West Virginia Wesleyan College,Buckhannon,WV,2.0,20404.0,48086.0,2.3566947657322093
+20429.0,,50273.0,Harding University,Searcy,AR,2.0,20429.0,50273.0,2.4608644573890057
+20437.0,,67068.0,Holy Names University,Oakland,CA,2.0,20437.0,67068.0,3.2816949650144345
+20526.0,,50920.0,Texas Wesleyan University,Fort Worth,TX,2.0,20526.0,50920.0,2.4807561141966286
+20535.0,,42687.0,Northland College,Ashland,WI,2.0,20535.0,42687.0,2.078743608473338
+20550.0,,47105.0,Alaska Pacific University,Anchorage,AK,2.0,20550.0,47105.0,2.2922141119221413
+20556.0,,58188.0,Saint Mary's University of Minnesota,Winona,MN,2.0,20556.0,58188.0,2.8307063631056626
+20564.0,,44360.0,Oklahoma Baptist University,Shawnee,OK,2.0,20564.0,44360.0,2.157167866173896
+20610.0,,60447.0,Centre College,Danville,KY,2.0,20610.0,60447.0,2.932896652110626
+20614.0,,51291.0,Wisconsin Lutheran College,Milwaukee,WI,2.0,20614.0,51291.0,2.488163384107888
+20636.0,,56733.0,University of Dallas,Irving,TX,2.0,20636.0,56733.0,2.749224655941074
+20680.0,,52638.0,Simpson College,Indianola,IA,2.0,20680.0,52638.0,2.545357833655706
+20682.0,,53441.0,Marian University,Fond Du Lac,WI,2.0,20682.0,53441.0,2.5839377236244077
+20703.0,,47202.0,University of Northwestern-St Paul,Saint Paul,MN,2.0,20703.0,47202.0,2.2799594261701204
+20737.0,,37975.0,Toccoa Falls College,Toccoa Falls,GA,2.0,20737.0,37975.0,1.8312677822250085
+20741.0,,51671.0,Marywood University,Scranton,PA,2.0,20741.0,51671.0,2.4912492165276507
+20780.0,,80398.0,Swarthmore College,Swarthmore,PA,2.0,20780.0,80398.0,3.8690086621751685
+20805.0,,50391.0,Andrews University,Berrien Springs,MI,2.0,20805.0,50391.0,2.422062004325883
+20824.0,,51562.0,Judson University,Elgin,IL,2.0,20824.0,51562.0,2.4760852862082214
+20833.0,,45033.0,Cornerstone University,Grand Rapids,MI,2.0,20833.0,45033.0,2.1616185858973744
+20847.0,,46670.0,Ouachita Baptist University,Arkadelphia,AR,2.0,20847.0,46670.0,2.2386914184295104
+20884.0,,52487.0,Mercer University,Macon,GA,2.0,20884.0,52487.0,2.51326374257805
+20891.0,,51166.0,Spring Hill College,Mobile,AL,2.0,20891.0,51166.0,2.449188645828347
+20893.0,,48091.0,Indiana Institute of Technology,Fort Wayne,IN,2.0,20893.0,48091.0,2.30177571435409
+20918.0,,44859.0,Florida College,Temple Terrace,FL,2.0,20918.0,44859.0,2.14451668419543
+20942.0,,62890.0,Rockhurst University,Kansas City,MO,2.0,20942.0,62890.0,3.003056059593162
+21002.0,,49246.0,Briar Cliff University,Sioux City,IA,2.0,21002.0,49246.0,2.344824302447386
+21015.0,,48904.0,Ohio Dominican University,Columbus,OH,2.0,21015.0,48904.0,2.3270996906971213
+21023.0,,60932.0,Pacific Lutheran University,Tacoma,WA,2.0,21023.0,60932.0,2.8983494268182466
+21066.0,,45073.0,William Penn University,Oskaloosa,IA,2.0,21066.0,45073.0,2.139608848381278
+21066.0,,56282.0,College of Mount Saint Vincent,Bronx,NY,2.0,21066.0,56282.0,2.671698471470616
+21076.0,,50391.0,University of Sioux Falls,Sioux Falls,SD,2.0,21076.0,50391.0,2.390918580375783
+21077.0,,55759.0,Indiana Wesleyan University-Marion,Marion,IN,2.0,21077.0,55759.0,2.6454903449257485
+21098.0,,39714.0,Columbia College,Columbia,SC,2.0,21098.0,39714.0,1.8823585173950137
+21098.0,,55236.0,Birmingham-Southern College,Birmingham,AL,2.0,21098.0,55236.0,2.6180680633235376
+21151.0,,51188.0,Ashland University,Ashland,OH,2.0,21151.0,51188.0,2.4201219800482248
+21175.0,,45633.0,Lenoir-Rhyne University,Hickory,NC,2.0,21175.0,45633.0,2.1550413223140494
+21185.0,,52038.0,Franklin College,Franklin,IN,2.0,21185.0,52038.0,2.4563606325230114
+21189.0,,46707.0,Culver-Stockton College,Canton,MO,2.0,21189.0,46707.0,2.2043041200622966
+21208.0,,38728.0,Kuyper College,Grand Rapids,MI,2.0,21208.0,38728.0,1.826103357223689
+21216.0,,48356.0,Lake Erie College,Painesville,OH,2.0,21216.0,48356.0,2.2792232277526394
+21222.0,,44195.0,Greenville University,Greenville,IL,2.0,21222.0,44195.0,2.082508717368768
+21232.0,,56465.0,Saint Edward's University,Austin,TX,2.0,21232.0,56465.0,2.659429163526752
+21238.0,,46832.0,Belmont Abbey College,Belmont,NC,2.0,21238.0,46832.0,2.205104058762595
+21238.0,,50848.0,Lawrence University,Appleton,WI,2.0,21238.0,50848.0,2.3941990771259065
+21244.0,,49097.0,Alderson Broaddus University,Philippi,WV,2.0,21244.0,49097.0,2.3110996045942382
+21244.0,,51494.0,University of the Incarnate Word,San Antonio,TX,2.0,21244.0,51494.0,2.4239314630013182
+21271.0,,43381.0,Anderson University,Anderson,SC,2.0,21271.0,43381.0,2.039443373607259
+21312.0,,60191.0,Saint Martin's University,Lacey,WA,2.0,21312.0,60191.0,2.8242774024024024
+21339.0,,46249.0,Virginia Wesleyan University,Virginia Beach,VA,2.0,21339.0,46249.0,2.1673461736726183
+21387.0,,38890.0,Southern Virginia University,Buena Vista,VA,2.0,21387.0,38890.0,1.818394351708982
+21396.0,,52878.0,Lakeland University,Plymouth,WI,2.0,21396.0,52878.0,2.4713965227145263
+21401.0,,45624.0,Olivet College,Olivet,MI,2.0,21401.0,45624.0,2.131862997056212
+21411.0,,50418.0,University of Indianapolis,Indianapolis,IN,2.0,21411.0,50418.0,2.3547709121479614
+21414.0,,41886.0,Johnson & Wales University-Online,Providence,RI,2.0,21414.0,41886.0,1.9560100868590642
+21442.0,,65401.0,California Lutheran University,Thousand Oaks,CA,2.0,21442.0,65401.0,3.050135248577558
+21452.0,,48352.0,Saint Elizabeth University,Morristown,NJ,2.0,21452.0,48352.0,2.2539623345142643
+21481.0,,40220.0,Pillar College,Newark,NJ,2.0,21481.0,40220.0,1.8723523113449094
+21504.0,,39874.0,Union College,Barbourville,KY,2.0,21504.0,39874.0,1.8542596726190477
+21518.0,,49768.0,Hastings College,Hastings,NE,2.0,21518.0,49768.0,2.312854354493912
+21528.0,,60627.0,Kalamazoo College,Kalamazoo,MI,2.0,21528.0,60627.0,2.8161928651059087
+21543.0,,51898.0,Cornell College,Mount Vernon,IA,2.0,21543.0,51898.0,2.409042380355568
+21553.0,,50438.0,Siena Heights University,Adrian,MI,2.0,21553.0,50438.0,2.3401846610680646
+21556.0,,55757.0,Waynesburg University,Waynesburg,PA,2.0,21556.0,55757.0,2.5866116162553348
+21561.0,,75784.0,Wellesley College,Wellesley,MA,2.0,21561.0,75784.0,3.514864802189138
+21605.0,,62629.0,University of La Verne,La Verne,CA,2.0,21605.0,62629.0,2.8988197176579495
+21615.0,,57528.0,York College of Pennsylvania,York,PA,2.0,21615.0,57528.0,2.6614850798056904
+21623.0,,45450.0,Evangel University,Springfield,MO,2.0,21623.0,45450.0,2.101928502057994
+21627.0,,60238.0,Dominican University New York,Orangeburg,NY,2.0,21627.0,60238.0,2.7853146529800714
+21655.0,,55648.0,College of Our Lady of the Elms,Chicopee,MA,2.0,21655.0,55648.0,2.5697529438928655
+21698.0,,48060.0,Mount Vernon Nazarene University,Mount Vernon,OH,2.0,21698.0,48060.0,2.214950686699235
+21704.0,,43765.0,Bloomfield College,Bloomfield,NJ,2.0,21704.0,43765.0,2.0164485809067454
+21748.0,,49042.0,LaGrange College,Lagrange,GA,2.0,21748.0,49042.0,2.2550119551223102
+21756.0,,52834.0,Midland University,Fremont,NE,2.0,21756.0,52834.0,2.428479499908071
+21756.0,,56291.0,Utica University,Utica,NY,2.0,21756.0,56291.0,2.5873781945210514
+21765.0,,56132.0,Marian University,Indianapolis,IN,2.0,21765.0,56132.0,2.5790029864461292
+21770.0,,67209.0,Pacific Union College,Angwin,CA,2.0,21770.0,67209.0,3.0872301332108405
+21795.0,,57280.0,Wittenberg University,Springfield,OH,2.0,21795.0,57280.0,2.628125716907548
+21812.0,,56253.0,California Baptist University,Riverside,CA,2.0,21812.0,56253.0,2.5789932147441776
+21840.0,,54542.0,Gordon College,Wenham,MA,2.0,21840.0,54542.0,2.4973443223443224
+21847.0,,49821.0,Dakota Wesleyan University,Mitchell,SD,2.0,21847.0,49821.0,2.280450405089944
+21851.0,,45765.0,Maryville College,Maryville,TN,2.0,21851.0,45765.0,2.094412155050112
+21861.0,,63609.0,New York Institute of Technology,Old Westbury,NY,2.0,21861.0,63609.0,2.909702209414025
+21881.0,,46798.0,Faith International University,Tacoma,WA,2.0,21881.0,46798.0,2.1387505141446916
+21913.0,,44385.0,Milligan University,Milligan,TN,2.0,21913.0,44385.0,2.025509971249943
+21916.0,,51029.0,Hardin-Simmons University,Abilene,TX,2.0,21916.0,51029.0,2.3283902171929185
+21920.0,,50687.0,Otterbein University,Westerville,OH,2.0,21920.0,50687.0,2.3123631386861314
+21927.0,,62765.0,Mount Saint Mary College,Newburgh,NY,2.0,21927.0,62765.0,2.862452683905687
+21939.0,,54357.0,Oklahoma Wesleyan University,Bartlesville,OK,2.0,21939.0,54357.0,2.4776425543552576
+21962.0,,51619.0,Presbyterian College,Clinton,SC,2.0,21962.0,51619.0,2.3503779255076953
+21964.0,,57091.0,Gannon University,Erie,PA,2.0,21964.0,57091.0,2.599298852668002
+21975.0,,46325.0,Thiel College,Greenville,PA,2.0,21975.0,46325.0,2.1080773606370875
+21980.0,,47499.0,Berry College,Mount Berry,GA,2.0,21980.0,47499.0,2.161010009099181
+21985.0,,48998.0,Randolph College,Lynchburg,VA,2.0,21985.0,48998.0,2.2287013873095294
+22004.0,,53391.0,Providence Christian College,Pasadena,CA,2.0,22004.0,53391.0,2.4264224686420652
+22009.0,,45222.0,Anderson University,Anderson,IN,2.0,22009.0,45222.0,2.0547048934526786
+22018.0,,71676.0,Thomas Jefferson University,Philadelphia,PA,2.0,22018.0,71676.0,3.2553365428285947
+22019.0,,41326.0,Wilson College,Chambersburg,PA,2.0,22019.0,41326.0,1.8768336436713746
+22021.0,,42933.0,Ferrum College,Ferrum,VA,2.0,22021.0,42933.0,1.949638980972708
+22029.0,,48132.0,Concordia University-Nebraska,Seward,NE,2.0,22029.0,48132.0,2.184938036224976
+22037.0,,57423.0,Mills College at Northeastern University,Oakland,CA,2.0,22037.0,57423.0,2.6057539592503516
+22044.0,,48621.0,La Roche University,Pittsburgh,PA,2.0,22044.0,48621.0,2.2056341861731084
+22047.0,,41484.0,Limestone University,Gaffney,SC,2.0,22047.0,41484.0,1.8816165464689074
+22084.0,,41735.0,Thomas College,Waterville,ME,2.0,22084.0,41735.0,1.8898297409889513
+22098.0,,32077.0,College of the Atlantic,Bar Harbor,ME,2.0,22098.0,32077.0,1.4515793284460132
+22116.0,,48089.0,Heidelberg University,Tiffin,OH,2.0,22116.0,48089.0,2.174398625429553
+22123.0,,50080.0,Loyola University New Orleans,New Orleans,LA,2.0,22123.0,50080.0,2.263707453781133
+22166.0,,82793.0,Illinois Institute of Technology,Chicago,IL,2.0,22166.0,82793.0,3.7351348912749254
+22177.0,,55659.0,Wartburg College,Waverly,IA,2.0,22177.0,55659.0,2.509762366415656
+22187.0,,54291.0,Mount Mercy University,Cedar Rapids,IA,2.0,22187.0,54291.0,2.4469734529228826
+22195.0,,45931.0,Earlham College,Richmond,IN,2.0,22195.0,45931.0,2.0694300518134714
+22204.0,,84415.0,Vanderbilt University,Nashville,TN,2.0,22204.0,84415.0,3.8017924698252568
+22218.0,,52834.0,King University,Bristol,TN,2.0,22218.0,52834.0,2.3779818165451436
+22278.0,,66260.0,St Olaf College,Northfield,MN,2.0,22278.0,66260.0,2.9742346709758505
+22309.0,,44983.0,Sterling College,Sterling,KS,2.0,22309.0,44983.0,2.0163611098659735
+22311.0,,58052.0,Union Institute & University,Cincinnati,OH,2.0,22311.0,58052.0,2.6019452288109006
+22316.0,,59215.0,Rider University,Lawrenceville,NJ,2.0,22316.0,59215.0,2.6534773256856066
+22385.0,,51328.0,Capital University,Columbus,OH,2.0,22385.0,51328.0,2.292964038418584
+22414.0,,44503.0,Alliance University,New York,NY,2.0,22414.0,44503.0,1.9855001338449183
+22424.0,,47702.0,Eastern Mennonite University,Harrisonburg,VA,2.0,22424.0,47702.0,2.12727434891188
+22440.0,,41771.0,Southwestern Assemblies of God University,Waxahachie,TX,2.0,22440.0,41771.0,1.8614527629233513
+22451.0,,40968.0,Ohio Christian University,Circleville,OH,2.0,22451.0,40968.0,1.8247739521624873
+22469.0,,66577.0,DePauw University,Greencastle,IN,2.0,22469.0,66577.0,2.9630602162980106
+22475.0,,41277.0,Lancaster Bible College,Lancaster,PA,2.0,22475.0,41277.0,1.8365739710789766
+22503.0,,47693.0,Hesston College,Hesston,KS,2.0,22503.0,47693.0,2.119406301382038
+22507.0,,52311.0,Northwest University-Center for Online and Extended Education,Kirkland,WA,2.0,22507.0,52311.0,2.3242102457013374
+22508.0,,54057.0,Hood College,Frederick,MD,2.0,22508.0,54057.0,2.4016794028789765
+22535.0,,53417.0,Central College,Pella,IA,2.0,22535.0,53417.0,2.370401597514977
+22536.0,,58731.0,Saint Vincent College,Latrobe,PA,2.0,22536.0,58731.0,2.606096911608094
+22550.0,,47806.0,Touro University,New York,NY,2.0,22550.0,47806.0,2.12
+22588.0,,41219.0,Oakwood University,Huntsville,AL,2.0,22588.0,41219.0,1.8248184876925801
+22595.0,,56762.0,Russell Sage College,Troy,NY,2.0,22595.0,56762.0,2.512148705465811
+22602.0,,46461.0,McMurry University,Abilene,TX,2.0,22602.0,46461.0,2.0556145473851872
+22616.0,,37101.0,Gallaudet University,Washington,DC,2.0,22616.0,37101.0,1.64047576936682
+22620.0,,71724.0,Saint Mary's College of California,Moraga,CA,2.0,22620.0,71724.0,3.170822281167109
+22625.0,,54862.0,The University of Findlay,Findlay,OH,2.0,22625.0,54862.0,2.424839779005525
+22645.0,,34058.0,Mid-Atlantic Christian University,Elizabeth City,NC,2.0,22645.0,34058.0,1.5039964672113049
+22664.0,,39313.0,Hollins University,Roanoke,VA,2.0,22664.0,39313.0,1.7346011295446524
+22677.0,,59728.0,Austin College,Sherman,TX,2.0,22677.0,59728.0,2.6338580941041583
+22690.0,,51142.0,Campbell University,Buies Creek,NC,2.0,22690.0,51142.0,2.2539444689290438
+22690.0,,78439.0,University of Chicago,Chicago,IL,2.0,22690.0,78439.0,3.456985456148083
+22698.0,,53069.0,American International College,Springfield,MA,2.0,22698.0,53069.0,2.3380474050577145
+22733.0,,46112.0,Barton College,Wilson,NC,2.0,22733.0,46112.0,2.028416838956583
+22759.0,,44231.0,Thomas University,Thomasville,GA,2.0,22759.0,44231.0,1.9434509424842918
+22771.0,,49629.0,Brenau University,Gainesville,GA,2.0,22771.0,49629.0,2.17948267533266
+22772.0,,53681.0,Cedarville University,Cedarville,OH,2.0,22772.0,53681.0,2.3573247848234673
+22803.0,,52097.0,Hartwick College,Oneonta,NY,2.0,22803.0,52097.0,2.284655527781432
+22806.0,,48596.0,Rosemont College,Rosemont,PA,2.0,22806.0,48596.0,2.1308427606770146
+22832.0,,47521.0,East Texas Baptist University,Marshall,TX,2.0,22832.0,47521.0,2.081333216538192
+22836.0,,52577.0,University of Mount Union,Alliance,OH,2.0,22836.0,52577.0,2.3023734454370293
+22841.0,,42903.0,Dallas Christian College,Dallas,TX,2.0,22841.0,42903.0,1.8783328225559301
+22852.0,,54485.0,The College of Wooster,Wooster,OH,2.0,22852.0,54485.0,2.38425520742167
+22873.0,,53611.0,Southern New Hampshire University,Manchester,NH,2.0,22873.0,53611.0,2.3438552004546844
+22885.0,,50129.0,Seton Hill University,Greensburg,PA,2.0,22885.0,50129.0,2.1904741096788287
+22893.0,,46841.0,Northwest Nazarene University,Nampa,ID,2.0,22893.0,46841.0,2.0460839557943475
+22914.0,,48621.0,Averett University,Danville,VA,2.0,22914.0,48621.0,2.1218905472636815
+22921.0,,42489.0,Mount Aloysius College,Cresson,PA,2.0,22921.0,42489.0,1.8537149339034074
+22928.0,,42766.0,Missouri Baptist University,Saint Louis,MO,2.0,22928.0,42766.0,1.8652302861130496
+22959.0,,49289.0,Union College,Lincoln,NE,2.0,22959.0,49289.0,2.146826952393397
+22977.0,,48144.0,Spalding University,Louisville,KY,2.0,22977.0,48144.0,2.0953127040083563
+23005.0,,55062.0,Cedar Crest College,Allentown,PA,2.0,23005.0,55062.0,2.3934796783307974
+23026.0,,43139.0,Stephens College,Columbia,MO,2.0,23026.0,43139.0,1.873490836445757
+23036.0,,58657.0,Elmhurst University,Elmhurst,IL,2.0,23036.0,58657.0,2.5463188053481507
+23040.0,,52541.0,Rockford University,Rockford,IL,2.0,23040.0,52541.0,2.2804253472222222
+23046.0,,52311.0,Northwest University,Kirkland,WA,2.0,23046.0,52311.0,2.269851601145535
+23048.0,,42628.0,Asbury University,Wilmore,KY,2.0,23048.0,42628.0,1.8495314127039222
+23106.0,,40872.0,Kentucky Christian University,Grayson,KY,2.0,23106.0,40872.0,1.7688911970916645
+23122.0,,53474.0,The College of Saint Rose,Albany,NY,2.0,23122.0,53474.0,2.312689213735836
+23136.0,,42011.0,Fisk University,Nashville,TN,2.0,23136.0,42011.0,1.8158281466113417
+23167.0,,79785.0,Drexel University,Philadelphia,PA,2.0,23167.0,79785.0,3.443907281909613
+23185.0,,49445.0,Northwestern College,Orange City,IA,2.0,23185.0,49445.0,2.132628854863058
+23188.0,,62762.0,Macalester College,Saint Paul,MN,2.0,23188.0,62762.0,2.706658616525789
+23204.0,,42360.0,Midway University,Midway,KY,2.0,23204.0,42360.0,1.8255473194276848
+23215.0,,64570.0,University of Puget Sound,Tacoma,WA,2.0,23215.0,64570.0,2.7813913418048677
+23216.0,,56658.0,Walla Walla University,College Place,WA,2.0,23216.0,56658.0,2.440472088215024
+23232.0,,49250.0,Southern Adventist University,Collegedale,TN,2.0,23232.0,49250.0,2.1199207988980717
+23269.0,,64386.0,La Salle University,Philadelphia,PA,2.0,23269.0,64386.0,2.7670290945034166
+23285.0,,51471.0,Knox College,Galesburg,IL,2.0,23285.0,51471.0,2.210478849044449
+23286.0,,68177.0,St. John's University-New York,Queens,NY,2.0,23286.0,68177.0,2.9278107017091815
+23290.0,,41253.0,Houghton University,Houghton,NY,2.0,23290.0,41253.0,1.7712752254186346
+23310.0,,48283.0,Howard Payne University,Brownwood,TX,2.0,23310.0,48283.0,2.0713427713427714
+23316.0,,36515.0,Bennett College,Greensboro,NC,2.0,23316.0,36515.0,1.5660919540229885
+23330.0,,47328.0,Huntingdon College,Montgomery,AL,2.0,23330.0,47328.0,2.02863266180883
+23332.0,,42825.0,Bard College,Annandale-On-Hudson,NY,2.0,23332.0,42825.0,1.8354620264015087
+23337.0,,36227.0,Goodwin University,East Hartford,CT,2.0,23337.0,36227.0,1.5523417748639499
+23338.0,,48006.0,Eastern University,Saint Davids,PA,2.0,23338.0,48006.0,2.056988602279544
+23366.0,,55054.0,Concordia College at Moorhead,Moorhead,MN,2.0,23366.0,55054.0,2.3561585209278437
+23385.0,,44293.0,Oral Roberts University,Tulsa,OK,2.0,23385.0,44293.0,1.8940774000427625
+23428.0,,60421.0,Stevenson University,Owings Mills,MD,2.0,23428.0,60421.0,2.5790080245859657
+23437.0,,51997.0,Alma College,Alma,MI,2.0,23437.0,51997.0,2.218585996501259
+23443.0,,56346.0,Bellarmine University,Louisville,KY,2.0,23443.0,56346.0,2.4035319711641003
+23445.0,,39948.0,Campbellsville University,Campbellsville,KY,2.0,23445.0,39948.0,1.7039027511196416
+23460.0,,54935.0,Long Island University,Brookville,NY,2.0,23460.0,54935.0,2.3416453537936914
+23473.0,,43180.0,University of Providence,Great Falls,MT,2.0,23473.0,43180.0,1.8395603459293657
+23480.0,,60858.0,La Sierra University,Riverside,CA,2.0,23480.0,60858.0,2.59190800681431
+23535.0,,41748.0,Polytechnic University of Puerto Rico-Miami,Miami,FL,2.0,23535.0,41748.0,1.7738687061822818
+23538.0,,61991.0,Augustana College,Rock Island,IL,2.0,23538.0,61991.0,2.6336562154813494
+23545.0,,42333.0,Central Baptist College,Conway,AR,2.0,23545.0,42333.0,1.797961350605224
+23560.0,,54532.0,Messiah University,Mechanicsburg,PA,2.0,23560.0,54532.0,2.3146010186757215
+23575.0,,46810.0,Flagler College,Saint Augustine,FL,2.0,23575.0,46810.0,1.985577942735949
+23587.0,,52959.0,Adrian College,Adrian,MI,2.0,23587.0,52959.0,2.2452622207148005
+23592.0,,52782.0,Carroll University,Waukesha,WI,2.0,23592.0,52782.0,2.2372838250254325
+23601.0,,48992.0,Wayland Baptist University,Plainview,TX,2.0,23601.0,48992.0,2.0758442438879707
+23616.0,,34238.0,Herzing University-Atlanta,Atlanta,GA,2.0,23616.0,34238.0,1.449779810298103
+23617.0,,61188.0,Allegheny College,Meadville,PA,2.0,23617.0,61188.0,2.590845577338358
+23619.0,,55362.0,University of Saint Mary,Leavenworth,KS,2.0,23619.0,55362.0,2.3439603708878445
+23625.0,,51446.0,Westminster College,Fulton,MO,2.0,23625.0,51446.0,2.1776084656084658
+23634.0,,41451.0,Albizu University-Miami,Miami,FL,2.0,23634.0,41451.0,1.7538715410002539
+23642.0,,66559.0,Lake Forest College,Lake Forest,IL,2.0,23642.0,66559.0,2.8152863547923186
+23691.0,,56736.0,Millsaps College,Jackson,MS,2.0,23691.0,56736.0,2.39483348106876
+23717.0,,43767.0,William Woods University,Fulton,MO,2.0,23717.0,43767.0,1.8453851667580217
+23721.0,,45268.0,Bluffton University,Bluffton,OH,2.0,23721.0,45268.0,1.908351249947304
+23745.0,,48030.0,Holy Cross College,Notre Dame,IN,2.0,23745.0,48030.0,2.0227416298168035
+23763.0,,54748.0,Centenary University,Hackettstown,NJ,2.0,23763.0,54748.0,2.303917855489627
+23787.0,,48012.0,The College of Idaho,Caldwell,ID,2.0,23787.0,48012.0,2.0184134190944634
+23792.0,,51072.0,Doane University,Crete,NE,2.0,23792.0,51072.0,2.1466039004707467
+23807.0,,54118.0,Morningside University,Sioux City,IA,2.0,23807.0,54118.0,2.273196958877641
+23840.0,,39726.0,Barclay College,Haviland,KS,2.0,23840.0,39726.0,1.6663590604026846
+23841.0,,43545.0,Guilford College,Greensboro,NC,2.0,23841.0,43545.0,1.8264753995218321
+23843.0,,44242.0,Reinhardt University,Waleska,GA,2.0,23843.0,44242.0,1.855555089544101
+23885.0,,56485.0,Rollins College,Winter Park,FL,2.0,23885.0,56485.0,2.3648733514758216
+23916.0,,67164.0,Regis University,Denver,CO,2.0,23916.0,67164.0,2.8083291520321123
+23953.0,,48965.0,Webster University,Saint Louis,MO,2.0,23953.0,48965.0,2.0442115810128167
+23974.0,,60174.0,Le Moyne College,Syracuse,NY,2.0,23974.0,60174.0,2.5099691332276635
+23991.0,,47959.0,Mount Mary University,Milwaukee,WI,2.0,23991.0,47959.0,1.9990413071568505
+23991.0,,55560.0,LeTourneau University,Longview,TX,2.0,23991.0,55560.0,2.315868450669001
+23992.0,,58012.0,Carroll College,Helena,MT,2.0,23992.0,58012.0,2.4179726575525176
+24008.0,,42445.0,North Central University,Minneapolis,MN,2.0,24008.0,42445.0,1.7679523492169278
+24012.0,,68879.0,Widener University,Chester,PA,2.0,24012.0,68879.0,2.8685240712976845
+24028.0,,46718.0,Kansas Wesleyan University,Salina,KS,2.0,24028.0,46718.0,1.944314965873148
+24028.0,,47674.0,Schreiner University,Kerrville,TX,2.0,24028.0,47674.0,1.9841018811386715
+24052.0,,56814.0,Augsburg University,Minneapolis,MN,2.0,24052.0,56814.0,2.3621320472309995
+24055.0,,40331.0,Life Pacific University,San Dimas,CA,2.0,24055.0,40331.0,1.6766160881313656
+24064.0,,51790.0,Upper Iowa University,Fayette,IA,2.0,24064.0,51790.0,2.152177526595745
+24089.0,,53520.0,Ohio Wesleyan University,Delaware,OH,2.0,24089.0,53520.0,2.2217609697372245
+24107.0,,44061.0,William Peace University,Raleigh,NC,2.0,24107.0,44061.0,1.827726386526735
+24121.0,,61453.0,Benedictine University,Lisle,IL,2.0,24121.0,61453.0,2.547697027486423
+24131.0,,61492.0,Mount St. Mary's University,Emmitsburg,MD,2.0,24131.0,61492.0,2.5482574282043844
+24165.0,,34238.0,Herzing University-Akron,Akron,OH,2.0,24165.0,34238.0,1.4168425408648873
+24185.0,,56566.0,Anna Maria College,Paxton,MA,2.0,24185.0,56566.0,2.3388877403349184
+24209.0,,44613.0,Point Park University,Pittsburgh,PA,2.0,24209.0,44613.0,1.8428270477921433
+24224.0,,56943.0,Robert Morris University,Moon Township,PA,2.0,24224.0,56943.0,2.3506852708058124
+24251.0,,45701.0,Roosevelt University,Chicago,IL,2.0,24251.0,45701.0,1.8844996082635768
+24265.0,,50248.0,University of Lynchburg,Lynchburg,VA,2.0,24265.0,50248.0,2.0708015660416237
+24268.0,,45558.0,Defiance College,Defiance,OH,2.0,24268.0,45558.0,1.8772869622548212
+24271.0,,51947.0,Morehouse College,Atlanta,GA,2.0,24271.0,51947.0,2.140290882122698
+24311.0,,47426.0,Lubbock Christian University,Lubbock,TX,2.0,24311.0,47426.0,1.9508041627246926
+24335.0,,59312.0,Saint Mary's College,Notre Dame,IN,2.0,24335.0,59312.0,2.437312512841586
+24401.0,,75783.0,Ohio Northern University,Ada,OH,2.0,24401.0,75783.0,3.1057333715831317
+24416.0,,51396.0,University of Bridgeport,Bridgeport,CT,2.0,24416.0,51396.0,2.105013106159895
+24423.0,,47891.0,McPherson College,McPherson,KS,2.0,24423.0,47891.0,1.9608975146378413
+24450.0,,55969.0,Maryville University of Saint Louis,Saint Louis,MO,2.0,24450.0,55969.0,2.289120654396728
+24467.0,,49143.0,Covenant College,Lookout Mountain,GA,2.0,24467.0,49143.0,2.0085421179547964
+24483.0,,59831.0,Concordia University-Irvine,Irvine,CA,2.0,24483.0,59831.0,2.4437773148715434
+24489.0,,54373.0,Transylvania University,Lexington,KY,2.0,24489.0,54373.0,2.2203029931806118
+24489.0,,86737.0,Colgate University,Hamilton,NY,2.0,24489.0,86737.0,3.5418759443015233
+24493.0,,60914.0,Baker University,Baldwin City,KS,2.0,24493.0,60914.0,2.486996284652758
+24510.0,,84860.0,Milwaukee School of Engineering,Milwaukee,WI,2.0,24510.0,84860.0,3.462260301917585
+24513.0,,32900.0,Arlington Baptist University,Arlington,TX,2.0,24513.0,32900.0,1.342144984294048
+24570.0,,101797.0,Georgetown University,Washington,DC,2.0,24570.0,101797.0,4.143142043142043
+24578.0,,61006.0,Seattle Pacific University,Seattle,WA,2.0,24578.0,61006.0,2.4821384978436
+24607.0,,51567.0,Concordia University-Wisconsin,Mequon,WI,2.0,24607.0,51567.0,2.0956231966513594
+24611.0,,41963.0,Columbia College Chicago,Chicago,IL,2.0,24611.0,41963.0,1.7050505871358335
+24627.0,,51312.0,Alfred University,Alfred,NY,2.0,24627.0,51312.0,2.0835668169082715
+24627.0,,51858.0,Lipscomb University,Nashville,TN,2.0,24627.0,51858.0,2.105737605067609
+24652.0,,61672.0,The College of Saint Scholastica,Duluth,MN,2.0,24652.0,61672.0,2.5017037157228623
+24701.0,,70692.0,Hampden-Sydney College,Hampden-Sydney,VA,2.0,24701.0,70692.0,2.861908424760131
+24711.0,,49126.0,Bethel College-North Newton,North Newton,KS,2.0,24711.0,49126.0,1.9880215288737808
+24748.0,,57255.0,Jacksonville University,Jacksonville,FL,2.0,24748.0,57255.0,2.313520284467432
+24758.0,,40552.0,Fisher College,Boston,MA,2.0,24758.0,40552.0,1.6379352128604896
+24786.0,,57818.0,Saint Ambrose University,Davenport,IA,2.0,24786.0,57818.0,2.3326878076333415
+24811.0,,61701.0,Azusa Pacific University,Azusa,CA,2.0,24811.0,61701.0,2.4868405142880174
+24817.0,,55906.0,Nebraska Wesleyan University,Lincoln,NE,2.0,24817.0,55906.0,2.2527299834790666
+24828.0,,42441.0,Montreat College,Montreat,NC,2.0,24828.0,42441.0,1.709400676655389
+24835.0,,66315.0,Bradley University,Peoria,IL,2.0,24835.0,66315.0,2.670223474934568
+24841.0,,53864.0,Florida Institute of Technology-Online,Melbourne,FL,2.0,24841.0,53864.0,2.1683507105189004
+24849.0,,75423.0,Saint Johns University,Collegeville,MN,2.0,24849.0,75423.0,3.0352529276832065
+24916.0,,34238.0,Herzing University-New Orleans,Metairie,LA,2.0,24916.0,34238.0,1.3741371006582115
+24989.0,,51819.0,McKendree University,Lebanon,IL,2.0,24989.0,51819.0,2.07367241586298
+24992.0,,43728.0,Paul Smiths College of Arts and Science,Paul Smiths,NY,2.0,24992.0,43728.0,1.7496798975672214
+25013.0,,36232.0,University of Valley Forge,Phoenixville,PA,2.0,25013.0,36232.0,1.4485267660816374
+25087.0,,42616.0,Central Methodist University-College of Liberal Arts and Sciences,Fayette,MO,2.0,25087.0,42616.0,1.698728425080719
+25093.0,,47218.0,Simpson University,Redding,CA,2.0,25093.0,47218.0,1.88172000159407
+25139.0,,36205.0,Mitchell College,New London,CT,2.0,25139.0,36205.0,1.4401925295357811
+25144.0,,54719.0,Trine University,Angola,IN,2.0,25144.0,54719.0,2.1762249443207127
+25158.0,,51567.0,Concordia University Ann Arbor,Ann Arbor,MI,2.0,25158.0,51567.0,2.049725733365132
+25187.0,,58527.0,St Bonaventure University,Saint Bonaventure,NY,2.0,25187.0,58527.0,2.323698733473617
+25238.0,,42001.0,Bryn Athyn College of the New Church,Bryn Athyn,PA,2.0,25238.0,42001.0,1.664196846025834
+25272.0,,82031.0,Capitol Technology University,Laurel,MD,2.0,25272.0,82031.0,3.2459243431465654
+25279.0,,35087.0,Warren Wilson College,Swannanoa,NC,2.0,25279.0,35087.0,1.387990031251236
+25287.0,,60007.0,Wheaton College,Wheaton,IL,2.0,25287.0,60007.0,2.3730375291651837
+25291.0,,55451.0,Luther College,Decorah,IA,2.0,25291.0,55451.0,2.1925190779328614
+25324.0,,65306.0,Monmouth University,West Long Branch,NJ,2.0,25324.0,65306.0,2.5788185120833993
+25424.0,,81802.0,Emory University,Atlanta,GA,2.0,25424.0,81802.0,3.217511013215859
+25427.0,,89589.0,Manhattan College,Riverdale,NY,2.0,25427.0,89589.0,3.5233806583552916
+25434.0,,49449.0,Florida Southern College,Lakeland,FL,2.0,25434.0,49449.0,1.9442085397499411
+25451.0,,60338.0,Southwestern University,Georgetown,TX,2.0,25451.0,60338.0,2.3707516404070565
+25488.0,,41281.0,Metropolitan College of New York,New York,NY,2.0,25488.0,41281.0,1.6196249215317011
+25495.0,,41587.0,Lees-McRae College,Banner Elk,NC,2.0,25495.0,41587.0,1.631182584820553
+25517.0,,74451.0,Assumption University,Worcester,MA,2.0,25517.0,74451.0,2.917701924207391
+25575.0,,52342.0,Dordt University,Sioux Center,IA,2.0,25575.0,52342.0,2.0466080156402735
+25582.0,,45299.0,Crown College,Saint Bonifacius,MN,2.0,25582.0,45299.0,1.77073723711985
+25605.0,,57787.0,North Central College,Naperville,IL,2.0,25605.0,57787.0,2.2568638937707477
+25661.0,,41656.0,Cairn University-Langhorne,Langhorne,PA,2.0,25661.0,41656.0,1.6233194341607888
+25673.0,,54410.0,Concordia University Texas,Austin,TX,2.0,25673.0,54410.0,2.11934717407393
+25681.0,,48890.0,Colorado Christian University,Lakewood,CO,2.0,25681.0,48890.0,1.9037420661189206
+25704.0,,46596.0,Mercyhurst University,Erie,PA,2.0,25704.0,46596.0,1.8127917833800187
+25722.0,,45499.0,Tiffin University,Tiffin,OH,2.0,25722.0,45499.0,1.7688748930876292
+25737.0,,56055.0,Nova Southeastern University,Fort Lauderdale,FL,2.0,25737.0,56055.0,2.1779927730504722
+25751.0,,51735.0,Southwestern College,Winfield,KS,2.0,25751.0,51735.0,2.0090481923032115
+25773.0,,53558.0,Elmira College,Elmira,NY,2.0,25773.0,53558.0,2.0780661933030693
+25776.0,,54455.0,University of Saint Joseph,West Hartford,CT,2.0,25776.0,54455.0,2.1126241464928617
+25802.0,,60754.0,Valparaiso University,Valparaiso,IN,2.0,25802.0,60754.0,2.3546236725835206
+25823.0,,57211.0,Whitworth University,Spokane,WA,2.0,25823.0,57211.0,2.215505557061534
+25826.0,,44642.0,Columbia College,Columbia,MO,2.0,25826.0,44642.0,1.728568109656935
+25849.0,,34238.0,Herzing University-Madison,Madison,WI,2.0,25849.0,34238.0,1.324538666872993
+25855.0,,63220.0,Elizabethtown College,Elizabethtown,PA,2.0,25855.0,63220.0,2.4451750145039646
+25859.0,,54223.0,Saint Norbert College,De Pere,WI,2.0,25859.0,54223.0,2.096871495417456
+25860.0,,47191.0,Roberts Wesleyan University,Rochester,NY,2.0,25860.0,47191.0,1.8248646558391337
+25867.0,,56185.0,Dunwoody College of Technology,Minneapolis,MN,2.0,25867.0,56185.0,2.1720725248385975
+25895.0,,49591.0,Cumberland University,Lebanon,TN,2.0,25895.0,49591.0,1.9150801312994787
+25897.0,,65540.0,Norwich University,Northfield,VT,2.0,25897.0,65540.0,2.530795072788354
+25901.0,,60657.0,Westminster College,Salt Lake City,UT,2.0,25901.0,60657.0,2.341878691942396
+25925.0,,60889.0,Furman University,Greenville,SC,2.0,25925.0,60889.0,2.348659594985535
+25969.0,,58576.0,Randolph-Macon College,Ashland,VA,2.0,25969.0,58576.0,2.255612461011206
+25972.0,,89884.0,University of Southern California,Los Angeles,CA,2.0,25972.0,89884.0,3.460803942707531
+25978.0,,72153.0,Molloy College,Rockville Centre,NY,2.0,25978.0,72153.0,2.777465547771191
+26055.0,,45652.0,Webber International University,Babson Park,FL,2.0,26055.0,45652.0,1.7521397044713107
+26072.0,,52535.0,Baldwin Wallace University,Berea,OH,2.0,26072.0,52535.0,2.0149969315741023
+26072.0,,62124.0,Gwynedd Mercy University,Gwynedd Valley,PA,2.0,26072.0,62124.0,2.382786130714943
+26080.0,,72547.0,Wesleyan University,Middletown,CT,2.0,26080.0,72547.0,2.7817101226993866
+26108.0,,46723.0,Bethany College,Lindsborg,KS,2.0,26108.0,46723.0,1.7896047188601194
+26137.0,,47021.0,Rochester University,Rochester Hills,MI,2.0,26137.0,47021.0,1.799020545586716
+26170.0,,80582.0,Boston University,Boston,MA,2.0,26170.0,80582.0,3.0791746274359952
+26188.0,,54467.0,Arcadia University,Glenside,PA,2.0,26188.0,54467.0,2.0798457308691005
+26195.0,,62269.0,Rivier University,Nashua,NH,2.0,26195.0,62269.0,2.377133040656614
+26214.0,,48846.0,Ottawa University-Ottawa,Ottawa,KS,2.0,26214.0,48846.0,1.8633554589150836
+26228.0,,47874.0,Thomas Aquinas College,Santa Paula,CA,2.0,26228.0,47874.0,1.8253012048192772
+26272.0,,87548.0,George Washington University,Washington,DC,2.0,26272.0,87548.0,3.3323690621193665
+26281.0,,54153.0,Calvin University,Grand Rapids,MI,2.0,26281.0,54153.0,2.0605380312773485
+26296.0,,77214.0,Hamilton College,Clinton,NY,2.0,26296.0,77214.0,2.9363401277760874
+26300.0,,62704.0,Marymount University,Arlington,VA,2.0,26300.0,62704.0,2.3841825095057034
+26308.0,,87811.0,Brown University,Providence,RI,2.0,26308.0,87811.0,3.3378059905732096
+26321.0,,48297.0,Benedictine College,Atchison,KS,2.0,26321.0,48297.0,1.834922685308309
+26340.0,,64748.0,University of Massachusetts Global,Irvine,CA,2.0,26340.0,64748.0,2.458162490508732
+26401.0,,47467.0,Taylor University,Upland,IN,2.0,26401.0,47467.0,1.7979243210484452
+26403.0,,67947.0,Saint Michael's College,Colchester,VT,2.0,26403.0,67947.0,2.5734575616407227
+26408.0,,45141.0,Colby-Sawyer College,New London,NH,2.0,26408.0,45141.0,1.7093683732202363
+26427.0,,63732.0,Wheaton College (Massachusetts),Norton,MA,2.0,26427.0,63732.0,2.411624474968782
+26445.0,,59518.0,Misericordia University,Dallas,PA,2.0,26445.0,59518.0,2.2506333900548308
+26460.0,,69233.0,Washington & Jefferson College,Washington,PA,2.0,26460.0,69233.0,2.6165154950869236
+26490.0,,49092.0,Corban University,Salem,OR,2.0,26490.0,49092.0,1.8532276330690827
+26516.0,,50257.0,Chestnut Hill College,Philadelphia,PA,2.0,26516.0,50257.0,1.8953462060642632
+26560.0,,65860.0,Bates College,Lewiston,ME,2.0,26560.0,65860.0,2.4796686746987953
+26566.0,,53163.0,Delaware Valley University,Doylestown,PA,2.0,26566.0,53163.0,2.0011669050666265
+26622.0,,40421.0,Goddard College,Plainfield,VT,2.0,26622.0,40421.0,1.5183307039290812
+26679.0,,61071.0,College of Saint Benedict,Saint Joseph,MN,2.0,26679.0,61071.0,2.2891037894973576
+26698.0,,61749.0,Hellenic College-Holy Cross Greek Orthodox School of Theology,Brookline,MA,2.0,26698.0,61749.0,2.3128698778934753
+26700.0,,55742.0,Edgewood College,Madison,WI,2.0,26700.0,55742.0,2.0877153558052433
+26700.0,,56309.0,Hope College,Holland,MI,2.0,26700.0,56309.0,2.108951310861423
+26705.0,,61590.0,Colorado College,Colorado Springs,CO,2.0,26705.0,61590.0,2.3063096798352367
+26714.0,,56367.0,Lebanon Valley College,Annville,PA,2.0,26714.0,56367.0,2.110017219435502
+26720.0,,58703.0,St. John Fisher University,Rochester,NY,2.0,26720.0,58703.0,2.1969685628742517
+26771.0,,52116.0,Alvernia University,Reading,PA,2.0,26771.0,52116.0,1.9467334055507826
+26777.0,,50541.0,Clarke University,Dubuque,IA,2.0,26777.0,50541.0,1.8874780595287
+26778.0,,56427.0,Carthage College,Kenosha,WI,2.0,26778.0,56427.0,2.107214877884831
+26781.0,,56788.0,University of Tulsa,Tulsa,OK,2.0,26781.0,56788.0,2.1204585340353237
+26793.0,,49280.0,Chatham University,Pittsburgh,PA,2.0,26793.0,49280.0,1.8392863807710969
+26800.0,,49057.0,University of Dubuque,Dubuque,IA,2.0,26800.0,49057.0,1.8304850746268657
+26829.0,,59894.0,Susquehanna University,Selinsgrove,PA,2.0,26829.0,59894.0,2.2324350516232436
+26832.0,,57385.0,Nichols College,Dudley,MA,2.0,26832.0,57385.0,2.1386776982707216
+26834.0,,50325.0,Oklahoma City University,Oklahoma City,OK,2.0,26834.0,50325.0,1.8754192442423792
+26853.0,,72638.0,Gettysburg College,Gettysburg,PA,2.0,26853.0,72638.0,2.7050236472647375
+26876.0,,58640.0,King's College,Wilkes-Barre,PA,2.0,26876.0,58640.0,2.181872302425956
+26929.0,,53741.0,Dallas Baptist University,Dallas,TX,2.0,26929.0,53741.0,1.9956552415611422
+26983.0,,70439.0,Muhlenberg College,Allentown,PA,2.0,26983.0,70439.0,2.6104954971648815
+27013.0,,41886.0,Johnson & Wales University-Charlotte,Charlotte,NC,2.0,27013.0,41886.0,1.5505867545255987
+27021.0,,44509.0,Chaminade University of Honolulu,Honolulu,HI,2.0,27021.0,44509.0,1.647200325672625
+27055.0,,53641.0,Augustana University,Sioux Falls,SD,2.0,27055.0,53641.0,1.9826649417852522
+27092.0,,41966.0,New England College,Henniker,NH,2.0,27092.0,41966.0,1.5490181603425366
+27149.0,,56906.0,Notre Dame of Maryland University,Baltimore,MD,2.0,27149.0,56906.0,2.0960624700725625
+27150.0,,55391.0,St. Thomas University,Miami Gardens,FL,2.0,27150.0,55391.0,2.040184162062615
+27161.0,,53148.0,Biola University,La Mirada,CA,2.0,27161.0,53148.0,1.9567762600787895
+27232.0,,56728.0,Emmanuel College,Boston,MA,2.0,27232.0,56728.0,2.0831374853113984
+27241.0,,54198.0,Neumann University,Aston,PA,2.0,27241.0,54198.0,1.9895745383796484
+27314.0,,51533.0,Keuka College,Keuka Park,NY,2.0,27314.0,51533.0,1.886688145273486
+27330.0,,66791.0,Loyola University Chicago,Chicago,IL,2.0,27330.0,66791.0,2.443871203805342
+27407.0,,71015.0,University of Dayton,Dayton,OH,2.0,27407.0,71015.0,2.5911263545809464
+27417.0,,84232.0,Washington and Lee University,Lexington,VA,2.0,27417.0,84232.0,3.0722544406754935
+27434.0,,55349.0,Hawaii Pacific University,Honolulu,HI,2.0,27434.0,55349.0,2.0175329882627397
+27461.0,,43491.0,Hampshire College,Amherst,MA,2.0,27461.0,43491.0,1.5837369360183533
+27475.0,,52147.0,Union University,Jackson,TN,2.0,27475.0,52147.0,1.8979799818016378
+27541.0,,55411.0,Roanoke College,Salem,VA,2.0,27541.0,55411.0,2.0119458262227226
+27544.0,,69878.0,Saint Louis University,Saint Louis,MO,2.0,27544.0,69878.0,2.536959047342434
+27595.0,,90646.0,Washington University in St Louis,Saint Louis,MO,2.0,27595.0,90646.0,3.284870447544845
+27597.0,,49234.0,Palm Beach Atlantic University,West Palm Beach,FL,2.0,27597.0,49234.0,1.784034496503243
+27611.0,,66591.0,Illinois Wesleyan University,Bloomington,IL,2.0,27611.0,66591.0,2.4117561841295134
+27624.0,,58664.0,Bethel University,Saint Paul,MN,2.0,27624.0,58664.0,2.123660584998552
+27647.0,,69215.0,Rhodes College,Memphis,TN,2.0,27647.0,69215.0,2.503526603248092
+27678.0,,57821.0,DeSales University,Center Valley,PA,2.0,27678.0,57821.0,2.0890599031721946
+27709.0,,45145.0,Cambridge College,Boston,MA,2.0,27709.0,45145.0,1.6292540329856726
+27799.0,,52890.0,William Jessup University,Rocklin,CA,2.0,27799.0,52890.0,1.9025864239720853
+27837.0,,47049.0,Springfield College,Springfield,MA,2.0,27837.0,47049.0,1.6901605776484534
+27861.0,,65950.0,Suffolk University,Boston,MA,2.0,27861.0,65950.0,2.367108144000574
+27876.0,,47068.0,Franklin Pierce University,Rindge,NH,2.0,27876.0,47068.0,1.6884775434065145
+27891.0,,42006.0,Southeastern University,Lakeland,FL,2.0,27891.0,42006.0,1.5060772292137248
+27937.0,,69137.0,Pace University,New York,NY,2.0,27937.0,69137.0,2.474746751619716
+27958.0,,59529.0,The University of the South,Sewanee,TN,2.0,27958.0,59529.0,2.1292295586236496
+28012.0,,67231.0,Wofford College,Spartanburg,SC,2.0,28012.0,67231.0,2.4000785377695273
+28020.0,,68520.0,St Lawrence University,Canton,NY,2.0,28020.0,68520.0,2.445396145610278
+28037.0,,75354.0,American University,Washington,DC,2.0,28037.0,75354.0,2.6876627313906623
+28071.0,,78234.0,University of San Diego,San Diego,CA,2.0,28071.0,78234.0,2.787004381746286
+28102.0,,55982.0,Clark University,Worcester,MA,2.0,28102.0,55982.0,1.9921002063910043
+28112.0,,45925.0,Presentation College,Aberdeen,SD,2.0,28112.0,45925.0,1.6336439954467843
+28142.0,,72582.0,University of St Thomas,Saint Paul,MN,2.0,28142.0,72582.0,2.579134389879895
+28230.0,,85796.0,Northwestern University,Evanston,IL,2.0,28230.0,85796.0,3.039178179241941
+28242.0,,44736.0,Kentucky Wesleyan College,Owensboro,KY,2.0,28242.0,44736.0,1.5840237943488422
+28257.0,,45512.0,Life University,Marietta,GA,2.0,28257.0,45512.0,1.6106451498743675
+28307.0,,69540.0,Linfield University,McMinnville,OR,2.0,28307.0,69540.0,2.456636167732363
+28337.0,,55725.0,MidAmerica Nazarene University,Olathe,KS,2.0,28337.0,55725.0,1.9665102163249462
+28338.0,,58673.0,Immaculata University,Immaculata,PA,2.0,28338.0,58673.0,2.0704707459947773
+28417.0,,47598.0,Curry College,Milton,MA,2.0,28417.0,47598.0,1.6749832846535524
+28431.0,,58576.0,Lasell University,Newton,MA,2.0,28431.0,58576.0,2.0602863071998874
+28502.0,,48343.0,Bennington College,Bennington,VT,2.0,28502.0,48343.0,1.6961265876078873
+28561.0,,45115.0,Liberty University,Lynchburg,VA,2.0,28561.0,45115.0,1.5796015545674171
+28610.0,,62529.0,Grinnell College,Grinnell,IA,2.0,28610.0,62529.0,2.185564487941279
+28764.0,,58774.0,Queens University of Charlotte,Charlotte,NC,2.0,28764.0,58774.0,2.043318036434432
+28794.0,,59092.0,Juniata College,Huntingdon,PA,2.0,28794.0,59092.0,2.0522331041189137
+28927.0,,52250.0,Albertus Magnus College,New Haven,CT,2.0,28927.0,52250.0,1.806270957928579
+28993.0,,70089.0,Adelphi University,Garden City,NY,2.0,28993.0,70089.0,2.4174455903149035
+29008.0,,49077.0,Centenary College of Louisiana,Shreveport,LA,2.0,29008.0,49077.0,1.6918436293436294
+29011.0,,98321.0,Cornell University,Ithaca,NY,2.0,29011.0,98321.0,3.3890937920099273
+29047.0,,69022.0,Middlebury College,Middlebury,VT,2.0,29047.0,69022.0,2.3762178538231145
+29068.0,,70388.0,Iona University,New Rochelle,NY,2.0,29068.0,70388.0,2.421494426861153
+29098.0,,73451.0,Drake University,Des Moines,IA,2.0,29098.0,73451.0,2.524262835933741
+29102.0,,57578.0,Spelman College,Atlanta,GA,2.0,29102.0,57578.0,1.9784894508968456
+29102.0,,76417.0,Marquette University,Milwaukee,WI,2.0,29102.0,76417.0,2.6258332760635006
+29138.0,,78330.0,Haverford College,Haverford,PA,2.0,29138.0,78330.0,2.6882421580067266
+29172.0,,61963.0,John Carroll University,University Heights,OH,2.0,29172.0,61963.0,2.124057315233786
+29188.0,,57251.0,Wheeling University,Wheeling,WV,2.0,29188.0,57251.0,1.9614567630533095
+29195.0,,48562.0,Saint Joseph's College of Maine,Standish,ME,2.0,29195.0,48562.0,1.6633670148998116
+29214.0,,81964.0,Wake Forest University,Winston-Salem,NC,2.0,29214.0,81964.0,2.805641130964606
+29232.0,,80715.0,University of Richmond,University of Richmond,VA,2.0,29232.0,80715.0,2.7611863711001643
+29233.0,,52632.0,St. John's College,Annapolis,MD,2.0,29233.0,52632.0,1.8004310197379674
+29279.0,,104209.0,California Institute of Technology,Pasadena,CA,2.0,29279.0,104209.0,3.559172102872366
+29300.0,,51336.0,Abilene Christian University,Abilene,TX,2.0,29300.0,51336.0,1.7520819112627986
+29357.0,,53478.0,The Master's University and Seminary,Santa Clarita,CA,2.0,29357.0,53478.0,1.821643900943557
+29380.0,,55196.0,Shenandoah University,Winchester,VA,2.0,29380.0,55196.0,1.8786929884275017
+29424.0,,56022.0,Regis College,Weston,MA,2.0,29424.0,56022.0,1.9039559543230016
+29537.0,,67245.0,DePaul University,Chicago,IL,2.0,29537.0,67245.0,2.276636083556218
+29562.0,,62067.0,Saint Francis University,Loretto,PA,2.0,29562.0,62067.0,2.0995534808199716
+29640.0,,70488.0,Wagner College,Staten Island,NY,2.0,29640.0,70488.0,2.3781376518218624
+29648.0,,55333.0,The New School,New York,NY,2.0,29648.0,55333.0,1.8663316243928765
+29648.0,,66081.0,Ursinus College,Collegeville,PA,2.0,29648.0,66081.0,2.228851861845656
+29663.0,,68355.0,Occidental College,Los Angeles,CA,2.0,29663.0,68355.0,2.304385935340323
+29773.0,,52358.0,Franklin University,Columbus,OH,2.0,29773.0,52358.0,1.7585732039095825
+29806.0,,66181.0,Western New England University,Springfield,MA,2.0,29806.0,66181.0,2.2203918674092464
+29807.0,,61498.0,Wilkes University,Wilkes-Barre,PA,2.0,29807.0,61498.0,2.0632066293152613
+29814.0,,58881.0,Smith College,Northampton,MA,2.0,29814.0,58881.0,1.9749446568726101
+29841.0,,81911.0,Wentworth Institute of Technology,Boston,MA,2.0,29841.0,81911.0,2.7449147146543345
+29879.0,,41886.0,Johnson & Wales University-Providence,Providence,RI,2.0,29879.0,41886.0,1.4018541450517086
+29888.0,,75976.0,Stonehill College,Easton,MA,2.0,29888.0,75976.0,2.5420235546038543
+29910.0,,43555.0,Marymount California University,Rancho Palos Verdes,CA,2.0,29910.0,43555.0,1.4562019391507857
+29924.0,,24187.0,Naropa University,Boulder,CO,2.0,29924.0,24187.0,0.808280978478813
+29932.0,,63870.0,University of Hartford,West Hartford,CT,2.0,29932.0,63870.0,2.1338366965120943
+29959.0,,73676.0,Brandeis University,Waltham,MA,2.0,29959.0,73676.0,2.45922761106846
+29986.0,,52159.0,University of Mary Hardin-Baylor,Belton,TX,2.0,29986.0,52159.0,1.7394450743680385
+30026.0,,128215.0,Harvey Mudd College,Claremont,CA,2.0,30026.0,128215.0,4.27013255178845
+30055.0,,44919.0,Everglades University,Boca Raton,FL,2.0,30055.0,44919.0,1.4945599733821329
+30117.0,,58971.0,Woodbury University,Burbank,CA,2.0,30117.0,58971.0,1.958063552146628
+30144.0,,52178.0,Nazareth College,Rochester,NY,2.0,30144.0,52178.0,1.730958067940552
+30173.0,,47610.0,Sierra Nevada University,Incline Village,NV,2.0,30173.0,47610.0,1.5779007722135685
+30182.0,,80452.0,Franklin and Marshall College,Lancaster,PA,2.0,30182.0,80452.0,2.6655622556490624
+30217.0,,81216.0,Loyola University Maryland,Baltimore,MD,2.0,30217.0,81216.0,2.687758546513552
+30399.0,,47821.0,Lesley University,Cambridge,MA,2.0,30399.0,47821.0,1.5731109575972895
+30476.0,,68706.0,Hobart William Smith Colleges,Geneva,NY,2.0,30476.0,68706.0,2.25442971518572
+30487.0,,74933.0,Saint Joseph's University,Philadelphia,PA,2.0,30487.0,74933.0,2.4578672876963954
+30694.0,,64442.0,Whitman College,Walla Walla,WA,2.0,30694.0,64442.0,2.099498273278165
+30716.0,,54742.0,Samford University,Birmingham,AL,2.0,30716.0,54742.0,1.7821982028910015
+30721.0,,48320.0,Marymount Manhattan College,New York,NY,2.0,30721.0,48320.0,1.5728654666189252
+30742.0,,71739.0,University of Miami,Coral Gables,FL,2.0,30742.0,71739.0,2.3335827207078266
+30765.0,,69250.0,Rochester Institute of Technology,Rochester,NY,2.0,30765.0,69250.0,2.2509345034942303
+30803.0,,66291.0,Washington College,Chestertown,MD,2.0,30803.0,66291.0,2.152095575106321
+30807.0,,71997.0,Creighton University,Omaha,NE,2.0,30807.0,71997.0,2.337033791021521
+30828.0,,76325.0,Gonzaga University,Spokane,WA,2.0,30828.0,76325.0,2.4758336577137667
+30927.0,,54279.0,George Fox University,Newberg,OR,2.0,30927.0,54279.0,1.755068386846445
+31038.0,,64389.0,Moravian University,Bethlehem,PA,2.0,31038.0,64389.0,2.0745215542238546
+31171.0,,75226.0,University of Rochester,Rochester,NY,2.0,31171.0,75226.0,2.4133329055853197
+31172.0,,53864.0,Florida Institute of Technology,Melbourne,FL,2.0,31172.0,53864.0,1.727960990632619
+31339.0,,86334.0,Clarkson University,Potsdam,NY,2.0,31339.0,86334.0,2.754842209387664
+31416.0,,97418.0,Duke University,Durham,NC,2.0,31416.0,97418.0,3.1009039979628215
+31438.0,,63267.0,Westmont College,Santa Barbara,CA,2.0,31438.0,63267.0,2.0124371779375276
+31456.0,,100141.0,Rensselaer Polytechnic Institute,Troy,NY,2.0,31456.0,100141.0,3.1835261953204474
+31519.0,,51864.0,Belmont University,Nashville,TN,2.0,31519.0,51864.0,1.6454836765125798
+31537.0,,71883.0,Siena College,Loudonville,NY,2.0,31537.0,71883.0,2.2793227003202587
+31546.0,,44012.0,Arizona Christian University,Glendale,AZ,2.0,31546.0,44012.0,1.3951689596145311
+31642.0,,60750.0,Xavier University,Cincinnati,OH,2.0,31642.0,60750.0,1.9199165665887112
+31730.0,,68541.0,Skidmore College,Saratoga Springs,NY,2.0,31730.0,68541.0,2.160132366845257
+31800.0,,70334.0,Carleton College,Northfield,MN,2.0,31800.0,70334.0,2.2117610062893083
+31814.0,,70044.0,Connecticut College,New London,CT,2.0,31814.0,70044.0,2.2016722197774565
+32002.0,,60673.0,Denison University,Granville,OH,2.0,32002.0,60673.0,1.8959127554527841
+32036.0,,76456.0,Trinity College,Hartford,CT,2.0,32036.0,76456.0,2.3865651142464728
+32059.0,,45424.0,Multnomah University,Portland,OR,2.0,32059.0,45424.0,1.4168876134626782
+32348.0,,48846.0,Ottawa University-Surprise,Surprise,AZ,2.0,32348.0,48846.0,1.5100160751823914
+32369.0,,93220.0,University of Notre Dame,Notre Dame,IN,2.0,32369.0,93220.0,2.8799159689826688
+32484.0,,68307.0,Seton Hall University,South Orange,NJ,2.0,32484.0,68307.0,2.102789065386036
+32511.0,,68703.0,Hofstra University,Hempstead,NY,2.0,32511.0,68703.0,2.113223216757405
+32514.0,,74415.0,Barnard College,New York,NY,2.0,32514.0,74415.0,2.2887064033954605
+32516.0,,74446.0,Syracuse University,Syracuse,NY,2.0,32516.0,74446.0,2.2895190060278017
+32618.0,,68764.0,University of Denver,Denver,CO,2.0,32618.0,68764.0,2.108161138021951
+32698.0,,100559.0,Lehigh University,Bethlehem,PA,2.0,32698.0,100559.0,3.0753868738149124
+32819.0,,59621.0,Willamette University,Salem,OR,2.0,32819.0,59621.0,1.816661080471678
+32990.0,,83583.0,College of the Holy Cross,Worcester,MA,2.0,32990.0,83583.0,2.533585935131858
+33023.0,,95540.0,Dartmouth College,Hanover,NH,2.0,33023.0,95540.0,2.893135087666172
+33109.0,,58152.0,University of New Haven,West Haven,CT,2.0,33109.0,58152.0,1.7563804403636474
+33316.0,,42825.0,Bard College at Simon's Rock,Great Barrington,MA,2.0,33316.0,42825.0,1.2854184175771401
+33452.0,,76452.0,The Catholic University of America,Washington,DC,2.0,33452.0,76452.0,2.2854238909482243
+33537.0,,64114.0,Point Loma Nazarene University,San Diego,CA,2.0,33537.0,64114.0,1.911739273041715
+33614.0,,46798.0,Iowa Wesleyan University,Mount Pleasant,IA,2.0,33614.0,46798.0,1.3922175284107812
+33681.0,,64456.0,Champlain College,Burlington,VT,2.0,33681.0,64456.0,1.9137199014281048
+33706.0,,63557.0,Kenyon College,Gambier,OH,2.0,33706.0,63557.0,1.8856286714531538
+33748.0,,62403.0,Ithaca College,Ithaca,NY,2.0,33748.0,62403.0,1.8490873533246415
+33780.0,,69190.0,Lawrence Technological University,Southfield,MI,2.0,33780.0,69190.0,2.0482534043812906
+33823.0,,71826.0,Duquesne University,Pittsburgh,PA,2.0,33823.0,71826.0,2.123584543062413
+33836.0,,41968.0,Clark Atlanta University,Atlanta,GA,2.0,33836.0,41968.0,1.2403357370847619
+33868.0,,48900.0,The King's College,New York,NY,2.0,33868.0,48900.0,1.4438407936695405
+33895.0,,52236.0,Reed College,Portland,OR,2.0,33895.0,52236.0,1.5411122584451984
+33898.0,,63085.0,Saint Anselm College,Manchester,NH,2.0,33898.0,63085.0,1.861024249218243
+34063.0,,56365.0,Pacific University,Forest Grove,OR,2.0,34063.0,56365.0,1.654728003992602
+34136.0,,70238.0,University of Scranton,Scranton,PA,2.0,34136.0,70238.0,2.0575931567846264
+34163.0,,74739.0,Union College,Schenectady,NY,2.0,34163.0,74739.0,2.187717706290431
+34255.0,,88842.0,Northeastern University,Boston,MA,2.0,34255.0,88842.0,2.5935483870967744
+34293.0,,77189.0,Salve Regina University,Newport,RI,2.0,34293.0,77189.0,2.2508675239844864
+34314.0,,94491.0,Kettering University,Flint,MI,2.0,34314.0,94491.0,2.753715684560238
+34359.0,,50020.0,San Diego Christian College,Spring Valley,CA,2.0,34359.0,50020.0,1.4558048837276987
+34498.0,,52483.0,Oberlin College,Oberlin,OH,2.0,34498.0,52483.0,1.521334570120007
+34580.0,,71771.0,Loyola Marymount University,Los Angeles,CA,2.0,34580.0,71771.0,2.075506072874494
+34773.0,,104361.0,University of the Sciences,Philadelphia,PA,2.0,34773.0,104361.0,3.0012078336640498
+34784.0,,96129.0,Villanova University,Villanova,PA,2.0,34784.0,96129.0,2.763598206071757
+34790.0,,45255.0,New England Institute of Technology,East Greenwich,RI,2.0,34790.0,45255.0,1.300804828973843
+34866.0,,57297.0,The University of Tampa,Tampa,FL,2.0,34866.0,57297.0,1.6433488212011702
+34926.0,,43878.0,Tuskegee University,Tuskegee,AL,2.0,34926.0,43878.0,1.256313348221955
+35156.0,,82012.0,Embry-Riddle Aeronautical University-Daytona Beach,Daytona Beach,FL,2.0,35156.0,82012.0,2.3328023665946067
+35167.0,,78224.0,Pepperdine University,Malibu,CA,2.0,35167.0,78224.0,2.224358062956749
+35184.0,,72991.0,Mount Saint Mary's University,Los Angeles,CA,2.0,35184.0,72991.0,2.074550932241928
+35236.0,,64639.0,Vassar College,Poughkeepsie,NY,2.0,35236.0,64639.0,1.834459075945056
+35246.0,,69459.0,Merrimack College,North Andover,MA,2.0,35246.0,69459.0,
+35320.0,,78820.0,Fordham University,Bronx,NY,2.0,35320.0,78820.0,
+35367.0,,47708.0,Eckerd College,Saint Petersburg,FL,2.0,35367.0,47708.0,
+35518.0,,73484.0,Seattle University,Seattle,WA,2.0,35518.0,73484.0,
+35630.0,,45140.0,Dean College,Franklin,MA,2.0,35630.0,45140.0,
+35683.0,,74430.0,Tufts University,Medford,MA,2.0,35683.0,74430.0,
+35683.0,,77017.0,University of Portland,Portland,OR,2.0,35683.0,77017.0,
+35705.0,,45722.0,Lynn University,Boca Raton,FL,2.0,35705.0,45722.0,
+35936.0,,46880.0,University of New England,Biddeford,ME,2.0,35936.0,46880.0,
+35940.0,,52151.0,Lewis & Clark College,Portland,OR,2.0,35940.0,52151.0,
+36099.0,,74865.0,Marist College,Poughkeepsie,NY,2.0,36099.0,74865.0,
+36270.0,,82012.0,Embry-Riddle Aeronautical University-Prescott,Prescott,AZ,2.0,36270.0,82012.0,
+36354.0,,37335.0,Keiser University-Ft Lauderdale,Fort Lauderdale,FL,2.0,36354.0,37335.0,
+36456.0,,24347.0,Beacon College,Leesburg,FL,2.0,36456.0,24347.0,
+36594.0,,68403.0,Endicott College,Beverly,MA,2.0,36594.0,68403.0,
+36611.0,,79628.0,Providence College,Providence,RI,2.0,36611.0,79628.0,
+36631.0,,72865.0,Butler University,Indianapolis,IN,2.0,36631.0,72865.0,
+36643.0,,45652.0,St. Andrews University,Laurinburg,NC,2.0,36643.0,45652.0,
+36663.0,,53256.0,Grand View University,Des Moines,IA,2.0,36663.0,53256.0,
+36674.0,,104918.0,Stevens Institute of Technology,Hoboken,NJ,2.0,36674.0,104918.0,
+36964.0,,81553.0,Quinnipiac University,Hamden,CT,2.0,36964.0,81553.0,
+37248.0,,62913.0,Baylor University,Waco,TX,2.0,37248.0,62913.0,
+37327.0,,39844.0,University of Rio Grande,Rio Grande,OH,2.0,37327.0,39844.0,
+37384.0,,68306.0,Roger Williams University,Bristol,RI,2.0,37384.0,68306.0,
+37659.0,,63007.0,Vaughn College of Aeronautics and Technology,Flushing,NY,2.0,37659.0,63007.0,
+37702.0,,81346.0,Case Western Reserve University,Cleveland,OH,2.0,37702.0,81346.0,
+37768.0,,83794.0,University of San Francisco,San Francisco,CA,2.0,37768.0,83794.0,
+37846.0,,111064.0,Carnegie Mellon University,Pittsburgh,PA,2.0,37846.0,111064.0,
+37868.0,,47825.0,Erskine College,Due West,SC,2.0,37868.0,47825.0,
+38412.0,,96325.0,Boston College,Chestnut Hill,MA,2.0,38412.0,96325.0,
+39047.0,,64844.0,Chapman University,Orange,CA,2.0,39047.0,64844.0,
+39142.0,,70465.0,Scripps College,Claremont,CA,2.0,39142.0,70465.0,
+39155.0,,63517.0,Texas Christian University,Fort Worth,TX,2.0,39155.0,63517.0,
+39317.0,,54945.0,High Point University,High Point,NC,2.0,39317.0,54945.0,
+39403.0,,86631.0,Bucknell University,Lewisburg,PA,2.0,39403.0,86631.0,
+39437.0,,66617.0,Elon University,Elon,NC,2.0,39437.0,66617.0,
+39437.0,,111896.0,Bentley University,Waltham,MA,2.0,39437.0,111896.0,
+39565.0,,79812.0,New York University,New York,NY,2.0,39565.0,79812.0,
+40106.0,,41407.0,St. John's College,Santa Fe,NM,2.0,40106.0,41407.0,
+40350.0,,72117.0,Bryn Mawr College,Bryn Mawr,PA,2.0,40350.0,72117.0,
+40395.0,,55618.0,Hampton University,Hampton,VA,2.0,40395.0,55618.0,
+40426.0,,89490.0,Bryant University,Smithfield,RI,2.0,40426.0,89490.0,
+40452.0,,76672.0,Southern Methodist University,Dallas,TX,2.0,40452.0,76672.0,
+41937.0,,94200.0,Lafayette College,Easton,PA,2.0,41937.0,94200.0,
+42217.0,,59812.0,Tulane University of Louisiana,New Orleans,LA,2.0,42217.0,59812.0,
+43228.0,,99012.0,Santa Clara University,Santa Clara,CA,2.0,43228.0,99012.0,
+43569.0,,95393.0,Fairfield University,Fairfield,CT,2.0,43569.0,95393.0,
+43871.0,,74642.0,Sacred Heart University,Fairfield,CT,2.0,43871.0,74642.0,
+44270.0,,45661.0,Savannah College of Art and Design,Savannah,GA,2.0,44270.0,45661.0,
+44371.0,,64562.0,Rhode Island School of Design,Providence,RI,2.0,44371.0,64562.0,
+44990.0,,71134.0,Dominican University of California,San Rafael,CA,2.0,44990.0,71134.0,
+45005.0,,100193.0,Worcester Polytechnic Institute,Worcester,MA,2.0,45005.0,100193.0,
+45467.0,,33059.0,Berklee College of Music,Boston,MA,2.0,45467.0,33059.0,
+45609.0,,58491.0,Emerson College,Boston,MA,2.0,45609.0,58491.0,
+45837.0,,59441.0,Howard University,Washington,DC,2.0,45837.0,59441.0,
+46083.0,,41120.0,California Institute of the Arts,Valencia,CA,2.0,46083.0,41120.0,
+46201.0,,70731.0,Art Center College of Design,Pasadena,CA,2.0,46201.0,70731.0,
+46632.0,,67963.0,Yeshiva University,New York,NY,2.0,46632.0,67963.0,
+50759.0,,29761.0,Landmark College,Putney,VT,2.0,50759.0,29761.0,
