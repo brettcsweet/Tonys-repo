@@ -1,0 +1,458 @@
+{
+ "meta": {
+  "task": "Verify 2015-2021 editions of Inside Higher Ed's Survey of College and University Business Officers: % somewhat/strongly agree (4 or 5 on a five-point scale), ALL INSTITUTIONS, for faculty / trustees / senior administrators, 'financial challenges confronting my institution' item, plus exact wording.",
+  "retrieved": "2026-09-29",
+  "method": "Located each edition via the insidehighered.com report/article page (each links its PDF directly; no form submitted, no personal data entered), downloaded with a plain GET, ran pdftotext -layout, grepped 'realistic', 'aware of', 'financial challenges', read the detail tables, and rendered chart pages (2015 p.6, p.9; 2017 p.20; 2019 pp.14-15; 2020 pp.19-20; 2021 p.27) to PNG to read chart labels. Numbers come from the report PDFs, not from search summaries. Value = % 4 + % 5 in the 'All' column of 'All Institutions by Sector'.",
+  "headline": [
+   "WORDING CHANGE: 'realistic about the financial challenges' (2014 and earlier) became 'aware of and understand the financial challenges confronting my institution' in the 2015 edition (published July 2015), for trustees and senior administrators (and faculty, with 'their institution' in 2015). 2015 is the first edition with the new wording; 2014 was the last with 'realistic'. Only remnant: the 2015 Foreword (p.6) still describes the question as 'realistic about the financial challenges confronting their institutions'.",
+   "FACULTY ITEM IS NOT THE SAME IN 2016 AND 2017: in those two editions the only faculty-understanding item is the conditional 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' Unconditional 'Faculty members are aware of and understand the financial challenges confronting my institution' returns in 2018 and continues through 2024. So the slide's 2016 (27) and 2017 (32) faculty values are correct numbers for a differently worded item.",
+   "SLIDE CORRECTIONS: 2015 faculty 33 should be 32 (slide value came from the p.9 infographic whose faculty row duplicates the 'faculty supportive' item; Table 13 and text say 32). 2020 slide 31/87/93 is the private nonprofit doctoral/master's sub-column; all-institutions is 34/84/90.",
+   "All other cells (2015 T/S, 2016, 2017, 2018, 2019, 2021) match the All Institutions column exactly.",
+   "No report 2015-2021 states a margin of error (2022+ reports do). Reported n is total respondents, except 2021 where the chart prints item n=123-124."
+  ],
+  "verified_by_colleague_not_redone": {
+   "2014": {
+    "wording": "Faculty/Trustees/Senior administrators are realistic about the financial challenges confronting my institution.",
+    "faculty": 22,
+    "trustees": 67,
+    "senior_administrators": 75
+   },
+   "2022-2024": "are aware of and understand the financial challenges confronting my institution"
+  },
+  "files_dir": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/"
+ },
+ "years": {
+  "2015": {
+   "edition": "Inside Higher Ed 2015 Survey of College and University Business Officers (5th annual; fielded by Gallup May 26-June 9, 2015)",
+   "published": "2015-07-16",
+   "wording": {
+    "faculty": "Faculty members are aware of and understand the financial challenges confronting their institution.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "aware_of_and_understand",
+   "wording_note": "FIRST edition with 'aware of and understand' (2014 = 'realistic about'). Minor variant: the faculty item says 'their institution', the other two say 'my institution'. Leftover: the report's Foreword (p.6) still frames the question as 'Do business officers believe senior administrators, trustees and faculty members are realistic about the financial challenges confronting their institutions?' but the actual survey items in Table 13 (pp.27-29) and the p.9 infographic use 'aware of and understand'.",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements.",
+   "faculty": 32,
+   "trustees": 79,
+   "senior_administrators": 88,
+   "components": {
+    "faculty": "26 (4) + 6 (5)",
+    "trustees": "45 (4) + 34 (5)",
+    "senior_administrators": "41 (4) + 47 (5)"
+   },
+   "n": 403,
+   "n_note": "Total respondents (199 public, 183 private nonprofit, 3 for-profit); item-level n not shown. Results weighted.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/closure-concerns-and-financial-strategies-survey-college-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/media/IHE_Business%20Officers_Survey%202015%20final.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2015.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2015.txt",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2015_p9-09.png",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2015_p6-06.png"
+   ],
+   "page_table": "Detail table 13 (PDF/printed pp.27-29): senior admins p.27, trustees p.28, faculty p.29. Narrative p.27 and 'Snapshot of findings' p.7. Infographic on p.9 (chart).",
+   "verbatim_evidence": [
+    "Table 13, All Institutions column: 'Senior administrators are aware of and understand the financial challenges confronting my institution.' %5 = 47, %4 = 41, %3 = 8, %2 = 4, %1 = 0.",
+    "'Trustees are aware of and understand the financial challenges confronting my institution.' %5 = 34, %4 = 45, %3 = 13, %2 = 7, %1 = 2.",
+    "'Faculty members are aware of and understand the financial challenges confronting their institution.' %5 = 6, %4 = 26, %3 = 27, %2 = 29, %1 = 13.",
+    "Narrative p.27: 'Eighty-eight percent of business officers agree that senior administrators are aware of and understand the financial challenges confronting their institutions. Seventy-nine percent agree that trustees understand these challenges. But more disagree (42 percent) than agree (32 percent) that faculty members are aware of and understand the financial difficulties their institution is facing.'",
+    "Snapshot p.7: 'senior administrators (88 percent) and trustees (79 percent) understand the financial challenges their institution faces than to believe faculty members (32 percent) do.'"
+   ],
+   "chart_problem": "The p.9 infographic's faculty row ('Faculty members are aware of and understand ...') shows 6% / 27% / 34% / 24% / 9% for All. That is NOT the awareness distribution; it is identical to the All column of the 'Faculty members have been supportive of efforts to address the budget problems' item in Table 13 (6/27/34/24/9, which the text reports as '33 percent agree'). The infographic trustees row (34/45/13/7/2) is correct. Prefer Table 13 and the narrative: faculty = 32.",
+   "slide": {
+    "faculty": 33,
+    "trustees": 79,
+    "senior_administrators": 88
+   },
+   "slide_matches": {
+    "faculty": false,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": false
+   },
+   "slide_column_note": "Slide faculty 33 = 6 + 27 read from the p.9 infographic (all-institutions bubbles), which carries the 'faculty supportive' distribution by mistake (or is confused with the 'supportive' item, 33%). Correct all-institutions value from Table 13 and the report text is 32. Trustees and senior admins are all-institutions and match."
+  },
+  "2016": {
+   "edition": "Inside Higher Ed 2016 Survey of College and University Business Officers (6th annual; Gallup, April 28-May 31, 2016)",
+   "published": "2016-07-14",
+   "wording": {
+    "faculty": "Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "faculty_item_differs",
+   "wording_note": "Trustees and senior administrators: 'aware of and understand' (same as 2015 and later). FACULTY: the only faculty-understanding item asked is a different, conditional statement ('...understand the financial challenges my institution faces WHEN THEY PARTICIPATE in college-wide budget discussions'), in the 'Faculty role in budget decisions' section. There is no 'Faculty members are aware of and understand...' item in the 2016 report (grep). The slide's faculty figure (27) is this item.",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements.",
+   "faculty": 27,
+   "trustees": 74,
+   "senior_administrators": 86,
+   "components": {
+    "faculty": "21 (4) + 6 (5)",
+    "trustees": "37 (4) + 37 (5)",
+    "senior_administrators": "35 (4) + 51 (5)"
+   },
+   "n": 386,
+   "n_note": "Total respondents (2,717 invited; 14% response rate); item-level n not shown.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/foundering-finances-faculty-role-survey-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/media/2016%20IHE%20Business%20Officers%20Survey.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2016.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2016.txt"
+   ],
+   "page_table": "Senior admins and trustees: table on p.18 (narrative p.17). Faculty: table on p.20 (narrative p.19), and a split table p.21 by whether faculty play a meaningful budget role.",
+   "verbatim_evidence": [
+    "p.18, All Institutions: 'Senior administrators are aware of and understand the financial challenges confronting my institution.' %5 = 51, %4 = 35, %3 = 10, %2 = 3, %1 = 2.",
+    "p.18: 'Trustees are aware of and understand the financial challenges confronting my institution.' %5 = 37, %4 = 37, %3 = 13, %2 = 13, %1 = 1.",
+    "p.20: 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' %5 = 6, %4 = 21, %3 = 28, %2 = 32, %1 = 14.",
+    "Narrative p.17: '86 percent of CBOs strongly agree or agree that senior administrators have this knowledge and understanding. ... 74 percent, strongly agree or agree that trustees recognize the institution's financial challenges.' (The report's sentence says 'About a quarter of business officers, 74 percent' - a typo.)",
+    "Narrative p.19: 'Business officers are more likely to reject (46 percent) than to accept (27 percent) the notion that faculty members understand the financial challenges their institution faces when they participate in budget discussions.'"
+   ],
+   "slide": {
+    "faculty": 27,
+    "trustees": 74,
+    "senior_administrators": 86
+   },
+   "slide_matches": {
+    "faculty": true,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": true
+   },
+   "slide_column_note": "All three slide values equal the All Institutions column. Caveat: the faculty value is from the differently worded (budget-discussion) item, not 'aware of and understand'."
+  },
+  "2017": {
+   "edition": "Inside Higher Ed 2017 Survey of College and University Business Officers (7th annual; Gallup, May 2-June 11, 2017)",
+   "published": "2017-07-27",
+   "wording": {
+    "faculty": "Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "faculty_item_differs",
+   "wording_note": "Same situation as 2016: trustees and senior administrators use 'aware of and understand'; the faculty item is the conditional 'understand ... when they participate in college-wide budget discussions' statement (p.20). No unconditional 'Faculty members are aware of and understand...' item appears in the 2017 report (grep). A separate item 'Faculty members have been supportive of efforts to address the budget problems' (36% agree) is a different construct.",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements.",
+   "faculty": 32,
+   "trustees": 77,
+   "senior_administrators": 85,
+   "components": {
+    "faculty": "27 (4) + 5 (5)",
+    "trustees": "33 (4) + 44 (5)",
+    "senior_administrators": "26 (4) + 59 (5)"
+   },
+   "n": 409,
+   "n_note": "Total respondents (2,801 invited; 15% response rate); item-level n not shown. Data statistically weighted by Gallup.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/rose-colored-glasses-come-survey-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/2023-08/2017_Business%20Officers%20Survey.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2017.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2017.txt",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2017-20.png"
+   ],
+   "page_table": "Senior admins and trustees: table p.13 (narrative p.12). Faculty: table p.20 (narrative p.19).",
+   "verbatim_evidence": [
+    "p.13, All Institutions: 'Senior administrators are aware of and understand the financial challenges confronting my institution.' %5 = 59, %4 = 26, %3 = 9, %2 = 5, %1 = 1.",
+    "p.13: 'Trustees are aware of and understand the financial challenges confronting my institution.' %5 = 44, %4 = 33, %3 = 13, %2 = 8, %1 = 2.",
+    "p.20 (rendered and read): 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' %5 = 5, %4 = 27, %3 = 32, %2 = 26, %1 = 10.",
+    "Narrative p.12: 'Eighty-five percent of CBOs strongly agree or agree that senior administrators are aware of and understand the financial challenges confronting their institution. Seventy-seven percent strongly agree or agree that trustees understand of these challenges.'",
+    "Narrative p.19: 'CBOs are somewhat skeptical that faculty members have a clear understanding of the financial issues facing their college - 32 percent strongly agree or agree faculty members do, while 36 percent strongly disagree or disagree.'"
+   ],
+   "slide": {
+    "faculty": 32,
+    "trustees": 77,
+    "senior_administrators": 85
+   },
+   "slide_matches": {
+    "faculty": true,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": true
+   },
+   "slide_column_note": "All three slide values equal the All Institutions column. Caveat: faculty value is from the budget-discussion-conditional item, not 'aware of and understand'."
+  },
+  "2018": {
+   "edition": "Inside Higher Ed 2018 Survey of College and University Business Officers (8th annual; Gallup, May 10-June 7, 2018)",
+   "published": "2018-07-19",
+   "wording": {
+    "faculty": "Faculty members are aware of and understand the financial challenges confronting my institution.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "aware_of_and_understand",
+   "wording_note": "Faculty item is back to the unconditional 'Faculty members are aware of and understand the financial challenges confronting my institution.' (this wording holds 2018-2024).",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements.",
+   "faculty": 44,
+   "trustees": 78,
+   "senior_administrators": 80,
+   "components": {
+    "faculty": "37 (4) + 7 (5)",
+    "trustees": "34 (4) + 44 (5)",
+    "senior_administrators": "28 (4) + 52 (5)"
+   },
+   "n": 415,
+   "n_note": "Total respondents (4,162 invited; 10% response rate: 214 public, 197 private nonprofit, 3 for-profit); item-level n not shown.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/peril-private-colleges-survey-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/media/IHE_2018BusinessOficersSurvey.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2018.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2018.txt"
+   ],
+   "page_table": "Tables on p.30 (senior admins), p.31 (trustees), p.32 (faculty); narrative p.29.",
+   "verbatim_evidence": [
+    "p.30, All Institutions: 'Senior administrators are aware of and understand the financial challenges confronting my institution.' %5 = 52, %4 = 28, %3 = 11, %2 = 7, %1 = 1.",
+    "p.31: 'Trustees are aware of and understand the financial challenges confronting my institution.' %5 = 44, %4 = 34, %3 = 11, %2 = 7, %1 = 4.",
+    "p.32: 'Faculty members are aware of and understand the financial challenges confronting my institution.' %5 = 7, %4 = 37, %3 = 30, %2 = 16, %1 = 9.",
+    "Narrative p.29: 'Roughly 8 in 10 CBOs strongly agree or agree that senior administrators (80 percent) and trustees (78 percent) are aware of and understand the challenges facing their institution. Forty-four percent say the same about faculty members, with 25 percent strongly disagreeing or disagreeing ...'"
+   ],
+   "slide": {
+    "faculty": 44,
+    "trustees": 78,
+    "senior_administrators": 80
+   },
+   "slide_matches": {
+    "faculty": true,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": true
+   },
+   "slide_column_note": "Equals the All Institutions column."
+  },
+  "2019": {
+   "edition": "Inside Higher Ed 2019 Survey of College and University Business Officers (9th annual; Gallup, May 1-June 2, 2019)",
+   "published": "2019-07-11",
+   "wording": {
+    "faculty": "Faculty members are aware of and understand the financial challenges confronting my institution.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "aware_of_and_understand",
+   "wording_note": "Unconditional 'aware of and understand' wording for all three groups.",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements.",
+   "faculty": 32,
+   "trustees": 78,
+   "senior_administrators": 90,
+   "components": {
+    "faculty": "27 (4) + 5 (5)",
+    "trustees": "43 (4) + 35 (5)",
+    "senior_administrators": "37 (4) + 53 (5)"
+   },
+   "n": 416,
+   "n_note": "Total respondents (4,536 invited; 9% response rate: 218 public, 190 private nonprofit, 8 for-profit); item-level n not shown.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/challenges-regional-publics-survey-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/media/IHE_2019%20Business%20Officers%20Survey_20190712.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2019.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2019.txt",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2019-14.png",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2019-15.png"
+   ],
+   "page_table": "Chart-tables on p.14 (trustees, senior admins) and p.15 (faculty); narrative p.13. Read visually from rendered PNGs because pdftotext scrambles the chevron chart labels.",
+   "verbatim_evidence": [
+    "p.14 (rendered), All column, top to bottom = strongly agree..strongly disagree: Trustees 35 / 43 / 16 / 4 / 3; Senior administrators 53 / 37 / 7 / 2 / 1.",
+    "p.15 (rendered), All column: 'Faculty members are aware of and understand the financial challenges confronting my institution.' 5 / 27 / 43 / 18 / 6.",
+    "Narrative p.13: 'Nine in 10 business officers strongly agree or agree senior administrators are aware of the financial challenges facing the institution, and 78 percent say the same about trustees. In contrast, 32 percent say faculty members are aware; 24 percent disagree. Private institution CBOs (40 percent) are significantly more likely than public institution CBOs (26 percent) to agree ...'"
+   ],
+   "slide": {
+    "faculty": 32,
+    "trustees": 78,
+    "senior_administrators": 90
+   },
+   "slide_matches": {
+    "faculty": true,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": true
+   },
+   "slide_column_note": "Equals the All column (private nonprofit column would be 40 / 89 / 92; public 26 / 68 / 87)."
+  },
+  "2020": {
+   "edition": "Inside Higher Ed 2020 Survey of College and University Business Officers (10th annual; Gallup, June 3-16, 2020)",
+   "published": "2020-07-09",
+   "wording": {
+    "faculty": "Faculty members are aware of and understand the financial challenges confronting my institution.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "aware_of_and_understand",
+   "wording_note": "Unconditional 'aware of and understand' wording for all three groups.",
+   "scale": "Using a five-point scale, where 5 means strongly agree and 1 means strongly disagree, please indicate your level of agreement with the following statements",
+   "faculty": 34,
+   "trustees": 84,
+   "senior_administrators": 90,
+   "components": {
+    "faculty": "26 (4) + 8 (5)",
+    "trustees": "32 (4) + 52 (5)",
+    "senior_administrators": "27 (4) + 63 (5)"
+   },
+   "n": 273,
+   "n_note": "Total respondents (4,478 invited; 6% response rate: 131 public, 137 private nonprofit, 5 for-profit); item-level n not shown.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/covid-19s-forceful-financial-hit-survey-business-officers",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/2023-08/IHE-2020-Business-Officers-Survey_20200710.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2020.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2020.txt",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2020-19.png",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2020-20.png"
+   ],
+   "page_table": "Chart-tables on p.19 (trustees, senior admins; narrative also p.19) and p.20 (faculty). Read visually from rendered PNGs.",
+   "verbatim_evidence": [
+    "p.19 (rendered), All column (strongly agree..strongly disagree): Trustees 52 / 32 / 11 / 4 / 2; Senior administrators 63 / 27 / 8 / 2 / 1.",
+    "p.20 (rendered), All column: 'Faculty members are aware of and understand the financial challenges confronting my institution.' 8 / 26 / 42 / 19 / 4.",
+    "Narrative p.19: 'As in previous years, CBOs believe that trustees (84 percent) and senior administrators (90 percent) are aware of and understand the financial challenges facing their institution. Only 34 percent say the same about faculty members.'"
+   ],
+   "other_columns_agree_pct_F_T_S": {
+    "public": [
+     33,
+     79,
+     86
+    ],
+    "private_nonprofit": [
+     36,
+     89,
+     94
+    ],
+    "public_doctoral": [
+     15,
+     76,
+     92
+    ],
+    "public_masters_bacc": [
+     25,
+     68,
+     77
+    ],
+    "public_assoc": [
+     36,
+     80,
+     86
+    ],
+    "private_doctoral_masters": [
+     31,
+     87,
+     93
+    ],
+    "private_bacc": [
+     50,
+     96,
+     96
+    ]
+   },
+   "slide": {
+    "faculty": 31,
+    "trustees": 87,
+    "senior_administrators": 93
+   },
+   "slide_matches": {
+    "faculty": false,
+    "trustees": false,
+    "senior_administrators": false,
+    "all": false
+   },
+   "slide_column_note": "MISMATCH on all three. Slide 31/87/93 is exactly the PRIVATE NONPROFIT DOCTORAL/MASTER'S sub-column (faculty 5+26, trustees 57+30, senior admins 66+27). All-institutions values are 34 / 84 / 90. (Private nonprofit overall = 36/89/94; public = 33/79/86.)"
+  },
+  "2021": {
+   "edition": "Inside Higher Ed 2021 Survey of College and University Business Officers (11th annual; first year fielded by Hanover Research, online via Qualtrics, July 2021)",
+   "published": "2021-07-27",
+   "wording": {
+    "faculty": "Faculty members are aware of and understand the financial challenges confronting my institution.",
+    "trustees": "Trustees are aware of and understand the financial challenges confronting my institution.",
+    "senior_administrators": "Senior administrators are aware of and understand the financial challenges confronting my institution."
+   },
+   "wording_class": "aware_of_and_understand",
+   "wording_note": "Unconditional 'aware of and understand' wording for all three groups (chart on p.27; appendix tables pp.49-50). Note the method change: Hanover Research (not Gallup), labeled 5-point agree scale (Strongly disagree / Somewhat disagree / Neither agree nor disagree / Somewhat agree / Strongly agree), stem 'Please indicate the extent to which you agree or disagree with the following statements.'",
+   "scale": "Please indicate the extent to which you agree or disagree with the following statements. (Strongly disagree / Somewhat disagree / Neither agree nor disagree / Somewhat agree / Strongly agree)",
+   "faculty": 50,
+   "trustees": 85,
+   "senior_administrators": 90,
+   "components": {
+    "faculty": "46 (somewhat) + 4 (strongly)",
+    "trustees": "31 (somewhat) + 54 (strongly)",
+    "senior_administrators": "27 (somewhat) + 63 (strongly)"
+   },
+   "n": 133,
+   "n_note": "133 respondents in total after data cleaning; item-level n printed on the chart: senior administrators n=124, trustees n=123, faculty n=123. Small sample: report cautions on subgroups with n<20.",
+   "margin_of_error": "not stated in the report",
+   "source_url": "https://www.insidehighered.com/news/survey/college-business-officers-surprisingly-upbeat-about-their-finances",
+   "pdf_url": "https://www.insidehighered.com/sites/default/files/2023-08/20210728_2021-IHE-CBO-Survey.pdf",
+   "local_files": [
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2021.pdf",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/cbo2021.txt",
+    "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/ihe/older/img/y2021-27.png"
+   ],
+   "page_table": "Stacked-bar chart p.27 (rendered and read); appendix detail tables pp.49-50 ('All' column).",
+   "verbatim_evidence": [
+    "p.27 chart (rendered): 'Senior administrators are aware of and understand the financial challenges confronting my institution. (n=124)' 1% / 7% / 2% / 27% / 63%; 'Trustees are aware of and understand the financial challenges confronting my institution. (n=123)' 2% / 7% / 7% / 31% / 54%; 'Faculty members are aware of and understand the financial challenges confronting my institution. (n=123)' 8% / 28% / 14% / 46% / 4%.",
+    "Appendix pp.49-50, All column: Faculty somewhat agree 46, strongly agree 4; Senior administrators somewhat agree 27, strongly agree 63; Trustees somewhat agree 31, strongly agree 54.",
+    "Narrative p.27: 'Most CBOs report that senior administrators (90 percent) and trustees (85 percent) at their institution are aware of and understand the financial challenges confronting their institutions. About half say the same about faculty members.'"
+   ],
+   "slide": {
+    "faculty": 50,
+    "trustees": 85,
+    "senior_administrators": 90
+   },
+   "slide_matches": {
+    "faculty": true,
+    "trustees": true,
+    "senior_administrators": true,
+    "all": true
+   },
+   "slide_column_note": "Equals the All Institutions column."
+  }
+ },
+ "series_all_institutions": {
+  "2014": {
+   "F": 22,
+   "T": 67,
+   "S": 75,
+   "wording": "realistic about (colleague-verified)"
+  },
+  "2015": {
+   "F": 32,
+   "T": 79,
+   "S": 88,
+   "faculty_item": "aware of and understand"
+  },
+  "2016": {
+   "F": 27,
+   "T": 74,
+   "S": 86,
+   "faculty_item": "understand ... when they participate in college-wide budget discussions (different item)"
+  },
+  "2017": {
+   "F": 32,
+   "T": 77,
+   "S": 85,
+   "faculty_item": "understand ... when they participate in college-wide budget discussions (different item)"
+  },
+  "2018": {
+   "F": 44,
+   "T": 78,
+   "S": 80,
+   "faculty_item": "aware of and understand"
+  },
+  "2019": {
+   "F": 32,
+   "T": 78,
+   "S": 90,
+   "faculty_item": "aware of and understand"
+  },
+  "2020": {
+   "F": 34,
+   "T": 84,
+   "S": 90,
+   "faculty_item": "aware of and understand"
+  },
+  "2021": {
+   "F": 50,
+   "T": 85,
+   "S": 90,
+   "faculty_item": "aware of and understand"
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+  "institution": "Emory University",
+  "fiscal_year_end_fy25": "August 31, 2025",
+  "documents": [
+    {
+      "label": "FY25 Emory University Consolidated Financial Statements and Supplementary Information (KPMG audited; FY25 with FY24 comparatives)",
+      "url": "https://finance.emory.edu/home/financedivision/_includes/documents/audit-fy25.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Emory/fy25.pdf",
+      "pages": "PDF p.5 (statement of activities FY25 + FY24 total), p.6 (FY24 detail), p.9 (note 1 organization, enrollment), p.28 (debt/interest), p.36-37 (note 17 functional expenses), p.41 (Schedule 2: Emory University excluding Emory Healthcare)"
+    },
+    {
+      "label": "FY24 Emory University Consolidated Financial Statements (FY24 with FY23 comparatives)",
+      "url": "https://finance.emory.edu/home/financedivision/_includes/documents/audit-fy24.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Emory/fy24.pdf",
+      "pages": "PDF p.5 (statement of activities FY24 + FY23 total), p.6 (FY23 detail), p.28 (interest), p.41 (University excluding Emory Healthcare)"
+    },
+    {
+      "label": "FY23 Emory University Consolidated Financial Statements (FY23 with FY22 comparatives)",
+      "url": "https://finance.emory.edu/home/financedivision/_includes/documents/sections/accounting/audit-fy23.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Emory/fy23.pdf",
+      "pages": "PDF p.5 (statement of activities FY23 + FY22 total), p.41"
+    },
+    {
+      "label": "Emory Finance 'Audit Documents' index page (source of links)",
+      "url": "https://finance.emory.edu/home/accounting/audit/index.html",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Emory/audit_index.html",
+      "pages": "n/a"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 5265449000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 1259151000,
+      "total_operating_expenses": 10577959000,
+      "depreciation": 379158000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 113892000,
+      "interest_in_opex": true,
+      "core_opex": 10084909000,
+      "core_opex_arithmetic": "10,577,959,000 - 379,158,000 (depreciation) - 113,892,000 (interest) = 10,084,909,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries  5,265,449 ... 5,265,449  4,672,130' (thousands), operating expenses, FY25 report PDF p.5. Fringe benefits are a separate line ('Fringe benefits  1,259,151').",
+        "total_operating_expenses": "'Total operating expenses  10,577,959 ... 10,577,959  9,499,041' (thousands), FY25 report PDF p.5.",
+        "depreciation": "'Depreciation and amortization  379,158 ... 379,158  398,179' (thousands): a single combined operating line, FY25 report PDF p.5. Depreciation and amortization cannot be separated; the full combined line is entered under 'depreciation'.",
+        "interest_expense": "'Interest on indebtedness  113,892 ... 113,892  110,286' (thousands), separate operating line, FY25 report PDF p.5. Note (PDF p.28): 'interest expenses of $113.9 million and $110.3 million in 2025 and 2024, respectively, net of capitalized interest of $0.0 million and $17.5 million'."
+      },
+      "notes": "'depreciation' holds the combined 'Depreciation and amortization' operating line (379,158 thousand); 'amortization' is null because it is not separable and is already inside that line (amortization_in_opex true). Also in the operating section: student financial aid 26,697; other operating expenses 3,533,612 (thousands).",
+      "natural_classification_check": "Salaries 5,265,449,000 + Fringe benefits 1,259,151,000 + Student financial aid 26,697,000 + Other operating expenses 3,533,612,000 + Interest on indebtedness 113,892,000 + Depreciation and amortization 379,158,000 = 10,577,959,000 = total operating expenses (ties)"
+    },
+    "FY24": {
+      "salaries_and_wages": 4672130000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 1080649000,
+      "total_operating_expenses": 9499041000,
+      "depreciation": 398179000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 110286000,
+      "interest_in_opex": true,
+      "core_opex": 8990576000,
+      "core_opex_arithmetic": "9,499,041,000 - 398,179,000 (depreciation) - 110,286,000 (interest) = 8,990,576,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries  4,672,130' (thousands), FY25 report PDF p.5-6; FY24 report PDF p.5 shows the same 4,672,130 (agrees).",
+        "total_operating_expenses": "'Total operating expenses  9,499,041', FY25 report p.5-6 and FY24 report p.5 (agree, no restatement).",
+        "depreciation": "'Depreciation and amortization  398,179' combined line, FY25 report p.5-6; FY24 report p.5 (agree).",
+        "interest_expense": "'Interest on indebtedness  110,286', FY25 report p.5-6; FY24 report p.5 (agree)."
+      },
+      "natural_classification_check": "Salaries 4,672,130,000 + Fringe benefits 1,080,649,000 + Student financial aid 24,248,000 + Other operating expenses 3,213,549,000 + Interest on indebtedness 110,286,000 + Depreciation and amortization 398,179,000 = 9,499,041,000 = total operating expenses (ties)"
+    },
+    "FY23": {
+      "salaries_and_wages": 4313737000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 935867000,
+      "total_operating_expenses": 8570621000,
+      "depreciation": 359420000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 92896000,
+      "interest_in_opex": true,
+      "core_opex": 8118305000,
+      "core_opex_arithmetic": "8,570,621,000 - 359,420,000 (depreciation) - 92,896,000 (interest) = 8,118,305,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries  4,313,737' (thousands), FY24 report PDF p.5 (comparative column) and p.6; FY23 report PDF p.5 shows the same 4,313,737 (agrees).",
+        "total_operating_expenses": "'Total operating expenses  8,570,621', FY24 report p.5-6 and FY23 report p.5 (agree).",
+        "depreciation": "'Depreciation and amortization  359,420' combined line, FY24 report p.5-6; FY23 report p.5 (agree).",
+        "interest_expense": "'Interest on indebtedness  92,896', FY24 report p.5-6; FY23 report p.5 (agree)."
+      },
+      "natural_classification_check": "Salaries 4,313,737,000 + Fringe benefits 935,867,000 + Student financial aid 22,604,000 + Other operating expenses 2,846,097,000 + Interest on indebtedness 92,896,000 + Depreciation and amortization 359,420,000 = 8,570,621,000 = total operating expenses (ties)"
+    }
+  },
+  "entities_included": {
+    "health_system": true,
+    "health_system_expense": 7600000000,
+    "ffrdc": null,
+    "other": "Emory Healthcare (EHC: Emory Healthcare, Inc. and controlled operating companies incl. Emory University Hospital, Emory University Hospital Midtown, Emory Saint Joseph's Hospital, Emory Johns Creek, Emory Rehabilitation, DeKalb Medical, The Emory Clinic, Emory Specialty Associates, Wesley Woods, Clifton Casualty Insurance Co. captive, and Houston Healthcare System, Inc. acquired June 1, 2025) is included within the University (note 1, PDF p.9). Health-system expense: note 17 (PDF p.36) says 'the portion of patient care services related to Emory Healthcare expense is $7.6 billion' for FY25 ($6.7 billion for FY24, PDF p.37), stated only to the nearest $0.1 billion, hence 7,600,000,000. Cross-check: consolidated total operating expenses 10,577,959,000 less 'Emory University (excluding Emory Healthcare)' total operating expenses 2,996,817,000 (Schedule 2, PDF p.41) = 7,581,142,000. University-excluding-EHC salaries FY25 1,712,143,000 (FY24 1,582,886,000; FY23 1,438,433,000), so implied EHC salaries FY25 about 3,553,306,000 (derived by subtraction, before any intercompany eliminations). The Carter Center is a related party, not consolidated."
+  },
+  "calibration_fy23": {
+    "ref_sw": 4313737000,
+    "ref_core_opex": 8570621000,
+    "sw_diff_pct": 0.0,
+    "sw_combined_diff_pct": null,
+    "core_opex_diff_pct": -5.28,
+    "total_opex_diff_pct": 0.0,
+    "explanation": "S&W matches exactly: reference 4,313,737,000 equals the FY23 'Salaries' line (fringe benefits of 935,867,000 are separate and excluded), 0.00% difference, consolidated including Emory Healthcare. Reference 'core operating expenses' 8,570,621,000 equals FY23 TOTAL operating expenses to the dollar; depreciation and amortization (359,420,000, combined line) and interest (92,896,000) were NOT removed. On the SPEC definition core opex FY23 = 8,570,621,000 - 359,420,000 - 92,896,000 = 8,118,305,000, which is 5.28% below the reference; the whole gap is D&A plus interest."
+  },
+  "student_counts_in_official_docs": "FY25 report note 1 (PDF p.9): 'Emory provides educational services to approximately 8,300 undergraduate students and 8,200 graduate and professional students within its nine schools and colleges.' (approximately 16,500 in total; the term is not stated).",
+  "caveats": [
+    "FY25 is not fully comparable with FY24: Emory Healthcare acquired Houston Healthcare System (Perry and Warner Robins hospitals) on June 1, 2025, so about three months of it are in FY25; FY25 also had a depreciation-life study reducing depreciation by $27.1 million (note 10, PDF p.25) and FY24 interest is net of 17.5 million capitalized interest versus 0.0 in FY25.",
+    "Depreciation and amortization are a single combined operating line and cannot be split; the combined figure is subtracted as depreciation.",
+    "Interest on indebtedness includes the interest component of finance leases (lease note) and is a separate operating line, so it is fully inside operating expenses.",
+    "health_system_expense of 7.6 billion is a rounded figure stated in a note; the subtraction cross-check (7,581,142,000) supports it.",
+    "Operating expenses also include student financial aid (26,697,000 FY25), which is not part of salaries or benefits and stays in core opex."
+  ],
+  "blocked_hosts": []
+}

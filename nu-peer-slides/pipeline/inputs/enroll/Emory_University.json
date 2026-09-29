@@ -1,0 +1,37 @@
+{
+  "institution": "Emory University",
+  "fall_2024": {
+    "total_all_students": 15179,
+    "undergraduate_total": 7407,
+    "graduate_professional_total": 7772,
+    "source_url": "https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-data-set-2024-2025.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.1",
+    "evidence": "Total undergraduate Students 3,203 4,204 | Total Graduate Students 2778 4,994 | Total all students 5,981 9,198 0 0 | Total all undergraduates 7,407 | Total all graduate 7772 | GRAND TOTAL ALL STUDENTS 15,179"
+  },
+  "fall_2023": {
+    "total_all_students": 15046,
+    "undergraduate_total": 7359,
+    "graduate_professional_total": 7687,
+    "source_url": "https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-data-set-2023-2024.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment, PDF p.1 (no grand-total line; total = UG + graduate lines)",
+    "evidence": "Total of all undergraduate students enrolled 7,359.0 | Total of all graduate students enrolled 7,687.0 | sum = 15,046"
+  },
+  "fall_2022": {
+    "total_all_students": 14852,
+    "undergraduate_total": 7101,
+    "graduate_professional_total": 7751,
+    "source_url": "https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-data-set-2022-2023.pdf",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.1",
+    "evidence": "Total all undergraduates 7,101 | Total all graduate 7751 | GRAND TOTAL ALL STUDENTS 14,852"
+  },
+  "definition_notes": "CDS B1 grand total = all undergraduates (degree-seeking plus other credit-enrolled) plus all graduate/professional students, full- and part-time, as of the official fall date (Oct 15; Oct 19 for 2022). Column sums reconcile in every year. Emory's CDS 2023-24 has no grand-total line, so the total is the sum of the UG (7,359) and graduate (7,687) lines.",
+  "gap_vs_ipeds_fall_2023_pct": 0.0,
+  "caveats": [
+    "CDS matches IPEDS: Fall 2023 15,046 vs 15,046; Fall 2022 14,852 vs 14,841 (+0.07%).",
+    "Original-slide count for FY23 was 16,000; the CDS Fall 2022 figure is 14,852, so the original slide overstated Emory by 1,148 (7.7%)."
+  ],
+  "blocked_hosts": []
+}

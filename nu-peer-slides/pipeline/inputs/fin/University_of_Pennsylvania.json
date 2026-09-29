@@ -1,0 +1,132 @@
+{
+  "institution": "University of Pennsylvania",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited consolidated financial statements (Financial Report 2024-2025; auditor report dated Sept 25, 2025)",
+      "url": "https://investments.upenn.edu/sites/default/files/downloads/FY25%20Consolidated%20University%20Annual%20Report%20Final%20SIGNED.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Pennsylvania/FY25.pdf (text: FY25.txt)",
+      "pages": "Statement of Activities printed p.2 (PDF p.6); Note 2 UPHS summary printed p.13 (PDF p.17); Note 16 functional expenses printed p.37 (PDF p.41)"
+    },
+    {
+      "label": "FY24 audited consolidated financial statements (Financial Report 2023-2024)",
+      "url": "https://investments.upenn.edu/sites/default/files/downloads/Penn%20Annual%20Report%20FY24.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Pennsylvania/FY24.pdf (text: FY24.txt)",
+      "pages": "Statement of Activities printed p.2 (PDF p.6); Note 2 UPHS summary PDF p.17; functional expenses PDF pp.40-41"
+    },
+    {
+      "label": "FY23 audited consolidated financial statements (Financial Report 2022-2023)",
+      "url": "https://investments.upenn.edu/sites/default/files/downloads/Penn%20Annual%20Report%20FY23.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Pennsylvania/FY23.pdf (text: FY23.txt)",
+      "pages": "Statement of Activities printed p.2 (PDF p.6); Note 2 UPHS summary PDF p.17; functional expenses PDF p.41. URL followed the site's naming pattern; it returned the FY23 statements (title page: 'June 30, 2023 and 2022')."
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 9019270000,
+      "employee_benefits": null,
+      "total_operating_expenses": 16445321000,
+      "depreciation": 686510000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 133923000,
+      "interest_in_opex": true,
+      "core_opex": 15624888000,
+      "core_opex_arithmetic": "16,445,321,000 - 686,510,000 (D&A/depreciation) - 133,923,000 (interest) = 15,624,888,000. Note: Penn reports depreciation and amortization as ONE combined line, so amortization is included in the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "NOT DISCLOSED. Statement of Activities (Expenses) shows only 'Compensation and benefits 9,019,270' (in thousands, 2025 column), combined; no separate salaries and wages or benefits line anywhere in the statements or notes (searched full text for 'salar' and 'wages'). FY25 report, printed p.2 (PDF p.6).",
+        "total_operating_expenses": "'TOTAL EXPENSES 16,445,321' (thousands), 2025 column, above 'INCREASE IN NET ASSETS FROM OPERATIONS'. FY25 report, printed p.2 (PDF p.6).",
+        "depreciation": "'Depreciation and amortization 686,510' (thousands), 2025 column, inside EXPENSES on Statement of Activities. FY25 report, printed p.2 (PDF p.6).",
+        "interest_expense": "'Interest on indebtedness 133,923' (thousands), 2025 column, inside EXPENSES on Statement of Activities. FY25 report, printed p.2 (PDF p.6).",
+        "note": "FY25 column of FY25 report; FY24 column of the same report agrees with FY24 report (no restatement of these lines)."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 8398503000,
+      "employee_benefits": null,
+      "total_operating_expenses": 15131276000,
+      "depreciation": 658267000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 143162000,
+      "interest_in_opex": true,
+      "core_opex": 14329847000,
+      "core_opex_arithmetic": "15,131,276,000 - 658,267,000 (D&A/depreciation) - 143,162,000 (interest) = 14,329,847,000. Note: Penn reports depreciation and amortization as ONE combined line, so amortization is included in the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "NOT DISCLOSED. Statement of Activities (Expenses) shows only 'Compensation and benefits 8,398,503' (in thousands, 2024 column), combined; no separate salaries and wages or benefits line anywhere in the statements or notes (searched full text for 'salar' and 'wages'). FY24 report, printed p.2 (PDF p.6).",
+        "total_operating_expenses": "'TOTAL EXPENSES 15,131,276' (thousands), 2024 column, above 'INCREASE IN NET ASSETS FROM OPERATIONS'. FY24 report, printed p.2 (PDF p.6).",
+        "depreciation": "'Depreciation and amortization 658,267' (thousands), 2024 column, inside EXPENSES on Statement of Activities. FY24 report, printed p.2 (PDF p.6).",
+        "interest_expense": "'Interest on indebtedness 143,162' (thousands), 2024 column, inside EXPENSES on Statement of Activities. FY24 report, printed p.2 (PDF p.6).",
+        "note": "FY24 figures identical in FY24 report and in the FY24 comparative column of the FY25 report."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 7742714000,
+      "employee_benefits": null,
+      "total_operating_expenses": 13857148000,
+      "depreciation": 650251000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 139741000,
+      "interest_in_opex": true,
+      "core_opex": 13067156000,
+      "core_opex_arithmetic": "13,857,148,000 - 650,251,000 (D&A/depreciation) - 139,741,000 (interest) = 13,067,156,000. Note: Penn reports depreciation and amortization as ONE combined line, so amortization is included in the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "NOT DISCLOSED. Statement of Activities (Expenses) shows only 'Compensation and benefits 7,742,714' (in thousands, 2023 column), combined; no separate salaries and wages or benefits line anywhere in the statements or notes (searched full text for 'salar' and 'wages'). FY23 report, printed p.2 (PDF p.6).",
+        "total_operating_expenses": "'TOTAL EXPENSES 13,857,148' (thousands), 2023 column, above 'INCREASE IN NET ASSETS FROM OPERATIONS'. FY23 report, printed p.2 (PDF p.6).",
+        "depreciation": "'Depreciation and amortization 650,251' (thousands), 2023 column, inside EXPENSES on Statement of Activities. FY23 report, printed p.2 (PDF p.6).",
+        "interest_expense": "'Interest on indebtedness 139,741' (thousands), 2023 column, inside EXPENSES on Statement of Activities. FY23 report, printed p.2 (PDF p.6).",
+        "note": "FY23 figures identical in FY23 report and in the FY23 comparative column of the FY24 report."
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": true,
+    "health_system_expense": {
+      "FY25": 11748880000,
+      "FY24": 10620592000,
+      "FY23": 9736524000,
+      "basis": "UPHS 'Total expenses' in Note 2 (Summarized Financial and Related Information), which includes intercompany transactions with the University (billings for common costs, physicians' salaries and benefits, purchased services, PSOM support) so it overstates the amount inside the consolidated total. FY25 report PDF p.17 (11,748,880 / 10,620,592 thousand); FY24 report PDF p.17 (10,620,592 / 9,736,524); FY23 report PDF p.17 (9,736,524 / 9,056,929).",
+      "alt_measure_functional_column": {
+        "FY25": 11707103000,
+        "FY24": 10604331000,
+        "FY23": 9735455000,
+        "note": "Functional-classification note (Note 16), column 'Hospital & physician practices', row 'Total operating expense' (thousands: 11,707,103 / 10,604,331 / 9,735,455). FY25 report PDF p.41; FY24 report PDF pp.40-41; FY23 report PDF p.41. This is on the consolidated basis (after eliminations, includes allocated depreciation, interest and support) and is the better measure of the health-system piece inside the consolidated total; FY23 to FY25 amounts agree across reports."
+      },
+      "health_system_compensation_and_benefits_functional_column": {
+        "FY25": 6194035000,
+        "FY24": 5714740000,
+        "FY23": 5328699000
+      },
+      "health_system_share_of_total_expenses_FY25_pct": 71.2
+    },
+    "ffrdc": null,
+    "other": "UPHS operating entities include Clinical Practices of UPenn, Clinical Care Associates, HUP, Penn Presbyterian, Pennsylvania Hospital, Chester County Hospital, Lancaster General Health, Princeton HealthCare System, Penn Medicine Doylestown Health (added April 1, 2025 by membership substitution/affiliation, so FY25 includes about one quarter of PMDH), Wissahickon Hospice, and captive insurers. No FFRDC."
+  },
+  "calibration_fy23": {
+    "ref_sw": 5636695792,
+    "ref_core_opex": 13857148000,
+    "sw_diff_pct": null,
+    "core_opex_diff_pct": -5.7,
+    "explanation": "Core opex: the reference 13,857,148,000 equals Penn's FY23 TOTAL EXPENSES exactly (13,857,148 thousand, FY23 report p.2), i.e. 0.0% difference against total operating expenses. Against the SPEC core definition (total minus D&A 650,251,000 minus interest 139,741,000 = 13,067,156,000) the reference is 5.7% higher because the original analysis did not remove depreciation/amortization or interest. S&W: Penn's audited statements do not break out salaries and wages; only 'Compensation and benefits' of 7,742,714,000 (FY23). The reference 5,636,695,792 is 27.2% below that combined figure (i.e. 72.8% of it), so it must come from a different source that separates wages from benefits (possibly IPEDS or an internal HR/payroll file; not verifiable from the audited statements). A side check of the IRS Form 990 data on the ProPublica API (Trustees of the University of Pennsylvania, FY23: total functional expenses 9,264,364,000; other salaries and wages 3,819,236,177) does not reproduce the reference either, because the 990 covers a narrower entity scope than the consolidated statements. S&W difference % left null because no comparable audited figure exists."
+  },
+  "student_counts_in_official_docs": "None. The audited consolidated statements for FY23, FY24 and FY25 contain no student enrollment counts (searched for enrollment/students/headcount). The Division of Finance annual report (finance.upenn.edu) was not accessible (see blocked_hosts).",
+  "caveats": [
+    "SALARIES AND WAGES NOT AVAILABLE: Penn's statements show only 'Compensation and benefits' combined (FY25 9,019,270,000; FY24 8,398,503,000; FY23 7,742,714,000). salaries_and_wages is null for all years; combined figures are in sw_combined_with_benefits. Compensation and benefits includes UPHS staff and physicians (functional column 'Hospital & physician practices' 6,194,035,000 in FY25).",
+    "Depreciation and amortization is a single combined line on the Statement of Activities, so amortization cannot be separated (amortization field null; it is inside the D&A figure that is subtracted). Core opex subtracts the whole D&A line and interest on indebtedness.",
+    "Cash flow statement shows a different D&A add-back (FY25 668,155,000; FY24 640,460,000; FY23 631,017,000) and Note 8 states depreciation expense of 686,510,000 (FY25) and 656,709,000 (FY24); the Statement of Activities lines (686,510 / 658,267 / 650,251 thousand) were used, as the SPEC asks for the operating-expense line.",
+    "Total operating expenses is the 'TOTAL EXPENSES' line above 'INCREASE IN NET ASSETS FROM OPERATIONS'. Functional note (Note 16) reports a lower 'TOTAL' after removing non-service net periodic benefit cost (FY25 16,414,890,000 vs 16,445,321,000), which is reported in nonoperating activities; the operating total was used.",
+    "FY25 to FY24 growth includes Penn Medicine Doylestown Health, added April 1, 2025 (about one quarter of a year in FY25).",
+    "Health-system expense from Note 2 includes intercompany transactions; the functional 'Hospital & physician practices' column is on the consolidated basis.",
+    "FY23 figures were taken from the FY23 report and cross-checked to the comparative columns in the FY24 report: identical. FY24 figures likewise identical between the FY24 and FY25 reports."
+  ],
+  "blocked_hosts": [
+    "finance.upenn.edu (Cloudflare challenge returned HTTP 403 to curl even with a browser User-Agent; WebFetch reported it blocked by the network egress proxy). The same audited statements were retrieved from investments.upenn.edu instead. Division of Finance annual report (finance.upenn.edu/wp-content/uploads/Penn-Division-of-Finance-FY25-Annual-Report.pdf) not opened."
+  ]
+}

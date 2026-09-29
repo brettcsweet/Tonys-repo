@@ -1,0 +1,17 @@
+{
+  "institution": "Princeton University",
+  "fall_2024": null,
+  "fall_2023": null,
+  "fall_2022": null,
+  "definition_notes": "NOT COLLECTED. Princeton's CDS files and enrollment pages are hosted on ir.princeton.edu / registrar.princeton.edu / www.princeton.edu. WebFetch to all three was refused with 'blocked by the network egress proxy'; curl to ir.princeton.edu and registrar.princeton.edu returned a Cloudflare 'Just a moment...' 403 challenge (with both a short and a full browser User-Agent). Per the spec I did not route around the block, and I did not use search-snippet numbers or third-party CDS mirrors (collegedata.fyi, road2college, Scribd).",
+  "gap_vs_ipeds_fall_2023_pct": null,
+  "caveats": [
+    "Official document URLs identified from search results but NOT opened: https://ir.princeton.edu/document/546 (CDS 2024-25), https://ir.princeton.edu/sites/g/files/toruqf2041/files/documents/CDS_2425_Princeton_v1.2.pdf (CDS 2024-25), https://ir.princeton.edu/document/491 and .../cds_2324_princeton.pdf (CDS 2023-24), https://ir.princeton.edu/document/486 (CDS 2022-23), https://ir.princeton.edu/data/students/enrollment, https://registrar.princeton.edu/enrollment.",
+    "Needs a human decision: either open the ir.princeton.edu PDFs manually / allow the host, or authorize third-party mirrors of the same CDS PDFs."
+  ],
+  "blocked_hosts": [
+    "ir.princeton.edu",
+    "registrar.princeton.edu",
+    "www.princeton.edu"
+  ]
+}

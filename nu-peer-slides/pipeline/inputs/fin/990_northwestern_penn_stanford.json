@@ -1,0 +1,635 @@
+{
+  "purpose": "Form 990 Part IX column (A) salaries-and-wages split for three institutions, compared with audited combined salaries-and-benefits lines. No estimates or scaling; every number is as printed in the filing or arithmetic on printed numbers.",
+  "method": "ProPublica Nonprofit Explorer 'Full Filing' render of the IRS e-file XML (same IRS object IDs as on IRS TEOS). Part IX is on page 10 of Form 990 in every filing (render header 'Form 990 (TY) Page 10' precedes 'Part IX Statement of Functional Expenses'). ProPublica's raw XML download endpoint returns a 403 'Security Check' page to curl (checked earlier for Northeastern), so it was not used and was not bypassed; the rendered pages are openly served. Column A equals B+C+D on every line read (asserted in code).",
+  "institutions": {
+    "Northwestern University": {
+      "ein": "36-2167817",
+      "fiscal_year_end": "August 31",
+      "filings": {
+        "FY25": {
+          "form_label": "TY 2024 Form 990",
+          "tax_period": "09-01-2024 to 08-31-2025",
+          "irs_object_id": "202611959349301976",
+          "irs_submission_date": "2026-07-14",
+          "url": "https://projects.propublica.org/nonprofits/organizations/362167817/202611959349301976/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202611959349301976/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202611959349301976_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 23901638,
+              "col_B_program": 9176214,
+              "col_C_mgmt_general": 13711214,
+              "col_D_fundraising": 1014210,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 23,901,638 | 9,176,214 | 13,711,214 | 1,014,210  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 912594,
+              "col_B_program": 912594,
+              "col_C_mgmt_general": null,
+              "col_D_fundraising": null,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 912,594 | 912,594  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 1531708406,
+              "col_B_program": 1447126757,
+              "col_C_mgmt_general": 43917661,
+              "col_D_fundraising": 40663988,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 1,531,708,406 | 1,447,126,757 | 43,917,661 | 40,663,988  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 119981650,
+              "col_B_program": 112752196,
+              "col_C_mgmt_general": 3946992,
+              "col_D_fundraising": 3282462,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 119,981,650 | 112,752,196 | 3,946,992 | 3,282,462  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 222438618,
+              "col_B_program": 209010061,
+              "col_C_mgmt_general": 7331454,
+              "col_D_fundraising": 6097103,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 222,438,618 | 209,010,061 | 7,331,454 | 6,097,103  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 99007953,
+              "col_B_program": 93042262,
+              "col_C_mgmt_general": 3257028,
+              "col_D_fundraising": 2708663,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 99,007,953 | 93,042,262 | 3,257,028 | 2,708,663  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 4288569939,
+              "col_B_program": 3930134148,
+              "col_C_mgmt_general": 290704949,
+              "col_D_fundraising": 67730842,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 4,288,569,939 | 3,930,134,148 | 290,704,949 | 67,730,842  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611959349301976"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 1556522638,
+          "benefits_l8_l9_l10": 441428221,
+          "salary_and_benefits_l5_to_l10": 1997950859,
+          "b_sw_share_of_l5_to_l10_pct": 77.91,
+          "c_audited_combined_salaries_and_benefits_consolidated": 1997951000,
+          "c_audited_source": "Northwestern_University.json years.FY25.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": -141,
+          "c_990_l5_to_l10_as_pct_of_audited": 100.0,
+          "c_990_l5_to_l10_vs_audited_pct_diff": -0.0,
+          "context_990_l25_total_functional_expenses": 4288569939,
+          "context_audited_total_operating_expenses_consolidated": 3607255000,
+          "context_990_l25_as_pct_of_audited_total_opex": 118.89
+        },
+        "FY24": {
+          "form_label": "TY 2023 Form 990",
+          "tax_period": "09-01-2023 to 08-31-2024",
+          "irs_object_id": "202531959349301243",
+          "irs_submission_date": "2025-07-14",
+          "url": "https://projects.propublica.org/nonprofits/organizations/362167817/202531959349301243/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202531959349301243/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202531959349301243_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 23407569,
+              "col_B_program": 7539003,
+              "col_C_mgmt_general": 14053465,
+              "col_D_fundraising": 1815101,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 23,407,569 | 7,539,003 | 14,053,465 | 1,815,101  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 1036932,
+              "col_B_program": 100000,
+              "col_C_mgmt_general": 936932,
+              "col_D_fundraising": null,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 1,036,932 | 100,000 | 936,932  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 1430864778,
+              "col_B_program": 1350658345,
+              "col_C_mgmt_general": 41085835,
+              "col_D_fundraising": 39120598,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 1,430,864,778 | 1,350,658,345 | 41,085,835 | 39,120,598  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 102447635,
+              "col_B_program": 95812984,
+              "col_C_mgmt_general": 3574283,
+              "col_D_fundraising": 3060368,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 102,447,635 | 95,812,984 | 3,574,283 | 3,060,368  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 185953142,
+              "col_B_program": 173910559,
+              "col_C_mgmt_general": 6487696,
+              "col_D_fundraising": 5554887,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 185,953,142 | 173,910,559 | 6,487,696 | 5,554,887  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 88387964,
+              "col_B_program": 82663837,
+              "col_C_mgmt_general": 3083757,
+              "col_D_fundraising": 2640370,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 88,387,964 | 82,663,837 | 3,083,757 | 2,640,370  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 3933998499,
+              "col_B_program": 3565835416,
+              "col_C_mgmt_general": 299877327,
+              "col_D_fundraising": 68285756,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 3,933,998,499 | 3,565,835,416 | 299,877,327 | 68,285,756  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202531959349301243"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 1455309279,
+          "benefits_l8_l9_l10": 376788741,
+          "salary_and_benefits_l5_to_l10": 1832098020,
+          "b_sw_share_of_l5_to_l10_pct": 79.43,
+          "c_audited_combined_salaries_and_benefits_consolidated": 1832098000,
+          "c_audited_source": "Northwestern_University.json years.FY24.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": 20,
+          "c_990_l5_to_l10_as_pct_of_audited": 100.0,
+          "c_990_l5_to_l10_vs_audited_pct_diff": 0.0,
+          "context_990_l25_total_functional_expenses": 3933998499,
+          "context_audited_total_operating_expenses_consolidated": 3273487000,
+          "context_990_l25_as_pct_of_audited_total_opex": 120.18
+        }
+      },
+      "scope_note": "The 990 lines 5-10 total ties to the audited 'Salaries, wages, and benefits' line to within rounding in both years (difference of -$141 in FY25 and +$20 in FY24, which is rounding because the audited line is stated in thousands), so the 990 split of S&W vs benefits is on the same basis as the audited combined line. Both returns answer Part IV line 20a (hospital facilities) No and line 12a No / 12b Yes (included in consolidated audited statements). Northwestern Medicine (hospital and NMG) is not consolidated in the audited statements. 990 line 25 total functional expenses is well above audited total operating expenses (see context fields); this was not investigated and is only reported."
+    },
+    "Trustees of the University of Pennsylvania": {
+      "ein": "23-1352685",
+      "fiscal_year_end": "June 30",
+      "filings": {
+        "FY25": {
+          "form_label": "TY 2024 Form 990",
+          "tax_period": "07-01-2024 to 06-30-2025",
+          "irs_object_id": "202611349349308646",
+          "irs_submission_date": "2026-05-14",
+          "url": "https://projects.propublica.org/nonprofits/organizations/231352685/202611349349308646/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202611349349308646/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202611349349308646_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 63977125,
+              "col_B_program": 60778269,
+              "col_C_mgmt_general": 3198856,
+              "col_D_fundraising": 0,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 63,977,125 | 60,778,269 | 3,198,856 | 0  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 18774395,
+              "col_B_program": 17835675,
+              "col_C_mgmt_general": 938720,
+              "col_D_fundraising": 0,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 18,774,395 | 17,835,675 | 938,720 | 0  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 4432801480,
+              "col_B_program": 3875767309,
+              "col_C_mgmt_general": 487608163,
+              "col_D_fundraising": 69426008,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 4,432,801,480 | 3,875,767,309 | 487,608,163 | 69,426,008  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 321000000,
+              "col_B_program": 280663000,
+              "col_C_mgmt_general": 35310000,
+              "col_D_fundraising": 5027000,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 321,000,000 | 280,663,000 | 35,310,000 | 5,027,000  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 742984000,
+              "col_B_program": 649619000,
+              "col_C_mgmt_general": 81728000,
+              "col_D_fundraising": 11637000,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 742,984,000 | 649,619,000 | 81,728,000 | 11,637,000  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 306496000,
+              "col_B_program": 267981000,
+              "col_C_mgmt_general": 33715000,
+              "col_D_fundraising": 4800000,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 306,496,000 | 267,981,000 | 33,715,000 | 4,800,000  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 11009921000,
+              "col_B_program": 9899757870,
+              "col_C_mgmt_general": 968359120,
+              "col_D_fundraising": 141804010,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 11,009,921,000 | 9,899,757,870 | 968,359,120 | 141,804,010  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202611349349308646"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 4515553000,
+          "benefits_l8_l9_l10": 1370480000,
+          "salary_and_benefits_l5_to_l10": 5886033000,
+          "b_sw_share_of_l5_to_l10_pct": 76.72,
+          "c_audited_combined_salaries_and_benefits_consolidated": 9019270000,
+          "c_audited_source": "University_of_Pennsylvania.json years.FY25.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": -3133237000,
+          "c_990_l5_to_l10_as_pct_of_audited": 65.26,
+          "c_990_l5_to_l10_vs_audited_pct_diff": -34.74,
+          "context_990_l25_total_functional_expenses": 11009921000,
+          "context_audited_total_operating_expenses_consolidated": 16445321000,
+          "context_990_l25_as_pct_of_audited_total_opex": 66.95
+        },
+        "FY24": {
+          "form_label": "TY 2023 Form 990",
+          "tax_period": "07-01-2023 to 06-30-2024",
+          "irs_object_id": "202541349349311824",
+          "irs_submission_date": "2025-05-14",
+          "url": "https://projects.propublica.org/nonprofits/organizations/231352685/202541349349311824/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202541349349311824/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202541349349311824_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 59317342,
+              "col_B_program": 56351475,
+              "col_C_mgmt_general": 2965867,
+              "col_D_fundraising": 0,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 59,317,342 | 56,351,475 | 2,965,867 | 0  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 16033799,
+              "col_B_program": 15232109,
+              "col_C_mgmt_general": 801690,
+              "col_D_fundraising": 0,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 16,033,799 | 15,232,109 | 801,690 | 0  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 4145841093,
+              "col_B_program": 3627706572,
+              "col_C_mgmt_general": 456042520,
+              "col_D_fundraising": 62092001,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 4,145,841,093 | 3,627,706,572 | 456,042,520 | 62,092,001  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 302195000,
+              "col_B_program": 264428000,
+              "col_C_mgmt_general": 33241000,
+              "col_D_fundraising": 4526000,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 302,195,000 | 264,428,000 | 33,241,000 | 4,526,000  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 579240765,
+              "col_B_program": 506849028,
+              "col_C_mgmt_general": 63716484,
+              "col_D_fundraising": 8675253,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 579,240,765 | 506,849,028 | 63,716,484 | 8,675,253  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 285546000,
+              "col_B_program": 249859000,
+              "col_C_mgmt_general": 31410000,
+              "col_D_fundraising": 4277000,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 285,546,000 | 249,859,000 | 31,410,000 | 4,277,000  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 9999922000,
+              "col_B_program": 8950867280,
+              "col_C_mgmt_general": 923400938,
+              "col_D_fundraising": 125653782,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 9,999,922,000 | 8,950,867,280 | 923,400,938 | 125,653,782  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202541349349311824"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 4221192234,
+          "benefits_l8_l9_l10": 1166981765,
+          "salary_and_benefits_l5_to_l10": 5388173999,
+          "b_sw_share_of_l5_to_l10_pct": 78.34,
+          "c_audited_combined_salaries_and_benefits_consolidated": 8398503000,
+          "c_audited_source": "University_of_Pennsylvania.json years.FY24.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": -3010329001,
+          "c_990_l5_to_l10_as_pct_of_audited": 64.16,
+          "c_990_l5_to_l10_vs_audited_pct_diff": -35.84,
+          "context_990_l25_total_functional_expenses": 9999922000,
+          "context_audited_total_operating_expenses_consolidated": 15131276000,
+          "context_990_l25_as_pct_of_audited_total_opex": 66.09
+        }
+      },
+      "scope_note": "Correction to the assumption that the Penn 990 is university-only: the FY25 return answers Part IV line 20a (operate one or more hospital facilities) YES and attaches Schedule H, whose Part V Section A lists one hospital facility, THE HOSPITAL OF THE UNIV OF PENN (3400 Spruce Street, Philadelphia). So the Trustees' 990 includes HUP operations. Schedule R Part II lists many related tax-exempt hospital and health entities that file separately (for example Pennsylvania Hospital of UPHS, Presbyterian Medical Center of UPHS, Chester County Hospital, Lancaster General Health and its hospitals and medical group, Princeton Healthcare System, Doylestown Hospital, Clinical Care Associates of UPHS, Penn Medicine-PMA). Line 12a No / 12b Yes. The 990 is therefore neither university-only nor the full consolidated group: its lines 5-10 total is the percentage of the consolidated audited 'Compensation and benefits' line shown in c_990_l5_to_l10_as_pct_of_audited. Schedule H facility list was read for FY25 only; the FY24 return also answers line 20a Yes."
+    },
+    "The Leland Stanford Junior University": {
+      "ein": "94-1156365",
+      "fiscal_year_end": "August 31",
+      "filings": {
+        "FY25": {
+          "form_label": "TY 2024 Form 990",
+          "tax_period": "09-01-2024 to 08-31-2025",
+          "irs_object_id": "202621979349300242",
+          "irs_submission_date": "2026-07-15",
+          "url": "https://projects.propublica.org/nonprofits/organizations/941156365/202621979349300242/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202621979349300242/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202621979349300242_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 22998825,
+              "col_B_program": 8049589,
+              "col_C_mgmt_general": 13109330,
+              "col_D_fundraising": 1839906,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 22,998,825 | 8,049,589 | 13,109,330 | 1,839,906  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 4244500,
+              "col_B_program": 2716480,
+              "col_C_mgmt_general": 0,
+              "col_D_fundraising": 1528020,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 4,244,500 | 2,716,480 | 0 | 1,528,020  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 4753938112,
+              "col_B_program": 4333667826,
+              "col_C_mgmt_general": 318623145,
+              "col_D_fundraising": 101647141,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 4,753,938,112 | 4,333,667,826 | 318,623,145 | 101,647,141  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 296565277,
+              "col_B_program": 243741876,
+              "col_C_mgmt_general": 46530784,
+              "col_D_fundraising": 6292617,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 296,565,277 | 243,741,876 | 46,530,784 | 6,292,617  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 627252683,
+              "col_B_program": 515237812,
+              "col_C_mgmt_general": 98669458,
+              "col_D_fundraising": 13345413,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 627,252,683 | 515,237,812 | 98,669,458 | 13,345,413  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 258698504,
+              "col_B_program": 212340301,
+              "col_C_mgmt_general": 40834235,
+              "col_D_fundraising": 5523968,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 258,698,504 | 212,340,301 | 40,834,235 | 5,523,968  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 9686130733,
+              "col_B_program": 8584256525,
+              "col_C_mgmt_general": 946578318,
+              "col_D_fundraising": 155295890,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 9,686,130,733 | 8,584,256,525 | 946,578,318 | 155,295,890  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202621979349300242"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 4781181437,
+          "benefits_l8_l9_l10": 1182516464,
+          "salary_and_benefits_l5_to_l10": 5963697901,
+          "b_sw_share_of_l5_to_l10_pct": 80.17,
+          "c_audited_combined_salaries_and_benefits_consolidated": 11647045000,
+          "c_audited_source": "Stanford_University.json years.FY25.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": -5683347099,
+          "c_990_l5_to_l10_as_pct_of_audited": 51.2,
+          "c_990_l5_to_l10_vs_audited_pct_diff": -48.8,
+          "context_990_l25_total_functional_expenses": 9686130733,
+          "context_audited_total_operating_expenses_consolidated": 18935447000,
+          "context_990_l25_as_pct_of_audited_total_opex": 51.15
+        },
+        "FY24": {
+          "form_label": "TY 2023 Form 990",
+          "tax_period": "09-01-2023 to 08-31-2024",
+          "irs_object_id": "202501969349302135",
+          "irs_submission_date": "2025-07-15",
+          "url": "https://projects.propublica.org/nonprofits/organizations/941156365/202501969349302135/full",
+          "render_url": "https://projects.propublica.org/nonprofits/full_text/202501969349302135/IRS990",
+          "local_text": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/990_filings/ft_202501969349302135_IRS990.txt",
+          "part_ix": {
+            "l5": {
+              "line": "5",
+              "label": "Compensation of current officers, directors, trustees, and key employees",
+              "col_A_total": 14807843,
+              "col_B_program": 5182745,
+              "col_C_mgmt_general": 8440471,
+              "col_D_fundraising": 1184627,
+              "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 14,807,843 | 5,182,745 | 8,440,471 | 1,184,627  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l6": {
+              "line": "6",
+              "label": "Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+              "col_A_total": 3146462,
+              "col_B_program": 2013736,
+              "col_C_mgmt_general": 1132726,
+              "col_D_fundraising": null,
+              "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 3,146,462 | 2,013,736 | 1,132,726  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l7": {
+              "line": "7",
+              "label": "Other salaries and wages",
+              "col_A_total": 4308781666,
+              "col_B_program": 3938417737,
+              "col_C_mgmt_general": 276570325,
+              "col_D_fundraising": 93793604,
+              "verbatim_row_as_rendered": "7 Other salaries and wages ...... 4,308,781,666 | 3,938,417,737 | 276,570,325 | 93,793,604  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l8": {
+              "line": "8",
+              "label": "Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+              "col_A_total": 273367894,
+              "col_B_program": 222380713,
+              "col_C_mgmt_general": 45396238,
+              "col_D_fundraising": 5590943,
+              "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 273,367,894 | 222,380,713 | 45,396,238 | 5,590,943  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l9": {
+              "line": "9",
+              "label": "Other employee benefits",
+              "col_A_total": 620739015,
+              "col_B_program": 504660125,
+              "col_C_mgmt_general": 103344706,
+              "col_D_fundraising": 12734184,
+              "verbatim_row_as_rendered": "9 Other employee benefits ...... 620,739,015 | 504,660,125 | 103,344,706 | 12,734,184  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l10": {
+              "line": "10",
+              "label": "Payroll taxes",
+              "col_A_total": 239430111,
+              "col_B_program": 194545886,
+              "col_C_mgmt_general": 39958223,
+              "col_D_fundraising": 4926002,
+              "verbatim_row_as_rendered": "10 Payroll taxes ...... 239,430,111 | 194,545,886 | 39,958,223 | 4,926,002  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            },
+            "l25": {
+              "line": "25",
+              "label": "Total functional expenses. Add lines 1 through 24e",
+              "col_A_total": 8932390126,
+              "col_B_program": 7913892538,
+              "col_C_mgmt_general": 874774474,
+              "col_D_fundraising": 143723114,
+              "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 8,932,390,126 | 7,913,892,538 | 874,774,474 | 143,723,114  (columns A | B | C | D; blank columns omitted)",
+              "form_page": 10,
+              "irs_object_id": "202501969349302135"
+            }
+          },
+          "a_salaries_and_wages_l5_l6_l7": 4326735971,
+          "benefits_l8_l9_l10": 1133537020,
+          "salary_and_benefits_l5_to_l10": 5460272991,
+          "b_sw_share_of_l5_to_l10_pct": 79.24,
+          "c_audited_combined_salaries_and_benefits_consolidated": 10757678000,
+          "c_audited_source": "Stanford_University.json years.FY24.sw_combined_with_benefits (whole dollars)",
+          "c_990_l5_to_l10_minus_audited": -5297405009,
+          "c_990_l5_to_l10_as_pct_of_audited": 50.76,
+          "c_990_l5_to_l10_vs_audited_pct_diff": -49.24,
+          "context_990_l25_total_functional_expenses": 8932390126,
+          "context_audited_total_operating_expenses_consolidated": 17708990000,
+          "context_990_l25_as_pct_of_audited_total_opex": 50.44
+        }
+      },
+      "scope_note": "Part IV line 20a (hospital facilities) is No and line 12a No / 12b Yes (both returns). Schedule R Part II lists Stanford Health Care, Lucile Salter Packard Children's Hospital, Stanford Health Care Tri-Valley, Packard Children's Health Alliance and University Healthcare Alliance as related exempt organizations that file separately; the audited consolidated statements include Stanford Health Care and LPCH. So the 990 is the university-side scope only and its lines 5-10 total is the percentage of the consolidated audited 'Salaries and benefits' line shown in c_990_l5_to_l10_as_pct_of_audited. Whether SLAC personnel are inside the 990 was not determined from Part IX; SLAC employees are University employees per the audited notes."
+    }
+  },
+  "caveats": [
+    "Tax-year labels: IRS forms are labelled by the calendar year in which the tax year begins. 'TY 2024 Form 990' is the FY25 return (tax year ending June 30, 2025 for Penn; August 31, 2025 for Northwestern and Stanford). All six returns were filed (submission dates 2026-05-14, 2026-07-14, 2026-07-15 for FY25; 2025-05-14, 2025-07-14, 2025-07-15 for FY24). ProPublica lists a separate Form 990-T for each year; those were not used.",
+    "Fiscal-year alignment: each 990 tax year matches the audited fiscal year used in the audited combined line (Penn June 30; Northwestern and Stanford August 31).",
+    "Audited combined lines come from the institution JSONs in this folder (sw_combined_with_benefits): Northwestern FY25 1,997,951,000 and FY24 1,832,098,000; Penn FY25 9,019,270,000 and FY24 8,398,503,000; Stanford FY25 11,647,045,000 and FY24 10,757,678,000. They were not re-verified against the audited PDFs in this task.",
+    "Nothing is scaled or estimated. For Penn and Stanford the audited combined line consolidates hospital systems, so the 990 to audited comparison is a scope comparison, not a reconciliation. The S&W share (b) is reported as printed in each filing's Part IX; applying it to the consolidated line would be an estimate and was not done.",
+    "Row text is a reconstruction of the printed rows from ProPublica's render of the IRS e-file data; columns are A (total), B (program services), C (management and general), D (fundraising); blank columns are omitted."
+  ],
+  "blocked_hosts": []
+}

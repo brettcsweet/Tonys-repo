@@ -1,0 +1,40 @@
+{
+  "institution": "Vanderbilt University",
+  "fall_2024": {
+    "total_all_students": 13575,
+    "undergraduate_total": 7221,
+    "graduate_professional_total": 6354,
+    "source_url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2025/11/CDS_2024-2025.xlsx",
+    "document": "CDS 2024-25 (xlsx)",
+    "section_page": "Sheet CDS-B, B1 rows 44-49",
+    "evidence": "Total all students | 5934 | 7641 | 0 | 0 (cells C45:F45) / Total all undergraduates 7221 (C47) / Total all graduate 6354 (C48) / GRAND TOTAL ALL STUDENTS 13575 (C49)",
+    "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+  },
+  "fall_2023": {
+    "total_all_students": 13456,
+    "undergraduate_total": 7152,
+    "graduate_professional_total": 6304,
+    "source_url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2025/11/CDS_2023_2024_for_web_publishing.xlsx",
+    "document": "CDS 2023-24 (xlsx)",
+    "section_page": "Sheet CDS-B, B1 rows 9-32 (no all-students line; total = UG + graduate)",
+    "evidence": "Total of all undergraduate students enrolled 7152 (E19) / Total of all graduate students enrolled 6304 (E32) / sum = 13,456",
+    "as_of": "as of ... October 15, 2023"
+  },
+  "fall_2022": {
+    "total_all_students": 13710,
+    "undergraduate_total": 7151,
+    "graduate_professional_total": 6559,
+    "source_url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2025/11/CDS_2022-2023.xlsx",
+    "document": "CDS 2022-23 (xlsx)",
+    "section_page": "Sheet CDS-B, B1 rows 11-27",
+    "evidence": "Total all students | 5628 | 6858 | 0 | 419 | 805 | 0 (C23:H23) / Total all undergraduates 7151 (C25) / Total all graduate 6559 (C26) / GRAND TOTAL ALL STUDENTS 13710 (C27)",
+    "as_of": "as of ... October 19, 2022"
+  },
+  "definition_notes": "Vanderbilt's own CDS section B1 (all students, UG + graduate/professional, full- and part-time, degree-seeking and non-degree credit students). The 2023-24 workbook has no 'Total all students' line; the total is the sum of 'Total of all undergraduate students enrolled' (7,152 = 3,381+31+3,706+34) and 'Total of all graduate students enrolled' (6,304 = 2,329+230+3,295+450). Fall 2023 (13,456) and Fall 2022 (13,710) match the IPEDS cross-check exactly.",
+  "gap_vs_ipeds_fall_2023_pct": 0.0,
+  "caveats": [
+    "Fall 2022 workbook says 'official fall reporting date or as of October 19, 2022' (as printed; the standard CDS date is Oct 15).",
+    "All files were downloaded from the Vanderbilt Data & Strategic Analytics CDS page (https://www.vanderbilt.edu/dsa/common-data-set/), which links to cdn.vanderbilt.edu."
+  ],
+  "blocked_hosts": []
+}

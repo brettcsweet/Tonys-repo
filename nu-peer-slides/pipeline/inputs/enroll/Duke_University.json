@@ -1,0 +1,39 @@
+{
+  "institution": "Duke University",
+  "fall_2024": {
+    "total_all_students": 17499,
+    "undergraduate_total": 6523,
+    "graduate_professional_total": 10976,
+    "source_url": "https://ir.provost.duke.edu/sites/default/files/CDS-2024-25-Final-2.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.3",
+    "evidence": "Total undergraduate Students 3,017 3,506 | Total Graduate Students 4761 6215 | Total all students 7,778 9,721 | Total all undergraduates 6,523 | Total all graduate 10976 | GRAND TOTAL ALL STUDENTS 17,499"
+  },
+  "fall_2023": {
+    "total_all_students": 17112,
+    "undergraduate_total": 6488,
+    "graduate_professional_total": 10624,
+    "source_url": "https://ir.provost.duke.edu/sites/default/files/CDS-2023-24-FINAL-2.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment, PDF p.5 (no grand-total line; total = UG + graduate lines)",
+    "evidence": "Total of all undergraduate students enrolled 6,488 | Total of all graduate students enrolled 10,624.0 | sum = 17,112 (Duke Factbook 2023-24, Fall 2023 'Grand Total 17112' agrees)"
+  },
+  "fall_2022": {
+    "total_all_students": 18024,
+    "undergraduate_total": 6640,
+    "graduate_professional_total": 11384,
+    "source_url": "https://ir.provost.duke.edu/sites/default/files/Duke-Factbook-2022-23.pdf",
+    "document": "Duke Factbook 2022-23 (Fall 2022 enrollment table); CDS 2022-23 NOT POSTED",
+    "section_page": "Factbook page 3, 'Enrollment Fall 2022' table",
+    "evidence": "Undergraduate Total 6640 (Female 3487, Male 3153) | Graduate Total 11384 (Female 6375, Male 5009) | Grand Total 18024 (Female 9862, Male 8162)"
+  },
+  "definition_notes": "CDS B1 totals: degree-seeking plus other credit-enrolled UG and graduate/professional students, full- and part-time, headcount as of the official fall date (Oct 15). Duke's CDS 2023-24 has no 'grand total' line, so the total is the sum of the UG (6,488) and graduate (10,624) lines. Duke's own Factbook Fall 2023 (17,112) and Fall 2024 (17,499) match the CDS exactly, so the Fall 2022 Factbook figure (18,024) is the same series. Duke did not post a CDS 2022-23 (its IR page lists 2020-21, 2021-22, 2023-24, 2024-25 and 2025-26), so Fall 2022 is not from a CDS.",
+  "gap_vs_ipeds_fall_2023_pct": 0.0,
+  "caveats": [
+    "Fall 2022 comes from the Duke Factbook 2022-23, not a CDS, because Duke's IR page has no CDS 2022-23 (guessed URLs returned 404). Factbook Fall 2022 grand total 18,024 vs IPEDS 18,023.",
+    "Factbook Fall 2022 graduate total 11,384 does not equal master's 4,684 + PhD 2,497 + professional doctorate 3,914 = 11,095 (289 difference, unexplained in the document); Fall 2023 has a similar 16-student difference (10,640 vs 10,624). Totals used are the stated Undergraduate Total / Graduate Total / Grand Total lines.",
+    "Duke total falls 5.1% from Fall 2022 (18,024) to Fall 2023 (17,112), driven by graduate (11,384 to 10,624); confirmed in both Factbook and IPEDS, so it is a real series change, not an extraction error.",
+    "Original-slide FY23 count 18,009 vs Fall 2022 Factbook 18,024: within 0.1%."
+  ],
+  "blocked_hosts": []
+}

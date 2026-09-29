@@ -1,0 +1,40 @@
+{
+  "institution": "Yale University",
+  "fall_2024": {
+    "total_all_students": 15564,
+    "undergraduate_total": 6814,
+    "graduate_professional_total": 8750,
+    "source_url": "https://oir.yale.edu/sites/default/files/yale_cds_2024-25_rmd_20250612.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment (PDF p.4)",
+    "evidence": "Total All Undergraduates: 6,814 / Total All Graduate Students: 8,750 / GRAND TOTAL All STUDENTS: 15,564",
+    "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+  },
+  "fall_2023": {
+    "total_all_students": 15081,
+    "undergraduate_total": 6818,
+    "graduate_professional_total": 8263,
+    "source_url": "https://oir.yale.edu/sites/default/files/cds_yale_2023-24_vf_20240320.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment (PDF p.4)",
+    "evidence": "Total All Undergraduates: 6,818 / Total All Graduate Students: 8,263 / GRAND TOTAL All STUDENTS: 15,081",
+    "as_of": "as of ... October 15, 2023"
+  },
+  "fall_2022": {
+    "total_all_students": 14806,
+    "undergraduate_total": 6645,
+    "graduate_professional_total": 8161,
+    "source_url": "https://oir.yale.edu/sites/default/files/cds_yale_2022-2023_vf_10062023.pdf",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment (PDF p.3)",
+    "evidence": "Total all undergraduates 6,645 / Total all graduate 8161 / GRAND TOTAL ALL STUDENTS 14,806",
+    "as_of": "as of ... October 19, 2022"
+  },
+  "definition_notes": "Yale's own CDS B1 grand total (UG + graduate/professional, full- and part-time, degree-seeking and non-degree credit students, includes 'Another Gender' and 'Unknown' columns). Row sums re-checked (FY2024 UG 3,234+3,422+97+33+28=6,814; grad 3,732+4,460+173+3+126+215+6+35=8,750). Fall 2023 CDS (15,081) equals IPEDS; Fall 2022 CDS (14,806) is +0.2% vs IPEDS 14,776.",
+  "gap_vs_ipeds_fall_2023_pct": 0.0,
+  "caveats": [
+    "Fall 2024 is +3.2% vs Fall 2023 (UG -4, grad +487, mostly full-time graduate); no anomaly in the row detail.",
+    "Fall 2022 CDS says 'as of October 19, 2022' (as printed)."
+  ],
+  "blocked_hosts": []
+}

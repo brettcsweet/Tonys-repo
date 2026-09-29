@@ -5,7 +5,7 @@ from nu_helpers import *
 import overlay_labels as OL
 
 FRAME_BOTTOM = 6.02
-ISO_LEVELS = [40, 80, 120, 160, 200, 240, 280, 320]   # $K of S&W per student
+ISO_LEVELS = [40, 80, 120, 160, 200, 240, 280, 320, 400, 480, 560]   # $K of S&W per student
 XMIN, XSTEP = 0, 10_000
 
 
@@ -13,7 +13,7 @@ def fmt_k(v): return f"${v/1000:,.0f}K"
 
 
 def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draft_tag=None, notes_text=None,
-                 focus=None, health_system=(), xmax=None, frame_bottom=FRAME_BOTTOM, iso_levels=ISO_LEVELS):
+                 focus=None, health_system=(), xmax=None, frame_bottom=FRAME_BOTTOM, iso_levels=ISO_LEVELS, foot_marks=None):
     """rows: list of dict(name, sw, opex, students). SW/student, opex/student, SW% are derived here."""
     for r in rows:
         r["x"] = r["opex"] / r["students"]
@@ -45,9 +45,14 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
         for x in xs:
             s.add_data_point(x, min(0.8, L * 1000 / x))
         iso_series.append(L)
-    s_inst = cd.add_series("Institutions")
     ordered = sorted(rows, key=lambda r: r["x"])
-    for r in ordered: s_inst.add_data_point(r["x"], r["y"])
+    disclosed = [r for r in ordered if r.get("basis", "audited") != "est" and r["name"] != focus]
+    estimated = [r for r in ordered if r.get("basis") == "est" and r["name"] != focus]
+    s_inst = cd.add_series("Institutions")
+    for r in disclosed: s_inst.add_data_point(r["x"], r["y"])
+    if estimated:
+        s_est = cd.add_series("S&W estimated")
+        for r in estimated: s_est.add_data_point(r["x"], r["y"])
     if focus:
         s_foc = cd.add_series(focus)
         fr = next(r for r in rows if r["name"] == focus)
@@ -76,16 +81,20 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
         series_labels_off(ser)
     si = plot.series[n_iso]
     style_series_markers(si, BLACK, 8); series_no_line(si)
+    nxt = n_iso + 1
+    if estimated:
+        se = plot.series[nxt]; nxt += 1
+        style_series_markers(se, GREY, 8); series_no_line(se)
     if focus:
-        sf = plot.series[n_iso + 1]
+        sf = plot.series[nxt]
         style_series_markers(sf, RED, 12, line_color=WHITE, line_w=1.25); series_no_line(sf)
 
     # ---------------- institution labels (annotation layer)
     items, spec, pts = {}, {}, {}
     for r in rows:
         px, py = X(r["x"]), Y(r["y"])
-        nm = r["name"] + (" (1)" if r["name"] in health_system else "")
-        l2 = f"{fmt_k(r['swps'])} · {r['students']:,} students"
+        nm = r["name"] + (" (1)" if r["name"] in health_system else "") + ((foot_marks or {}).get(r["name"], ""))
+        l2 = f"{fmt_k(r['swps'])}{' est.' if r.get('basis') == 'est' else ''} · {r['students']:,} students"
         is_f = (focus == r["name"])
         w = max(text_width_in(nm, 10 if is_f else 9, bold=True), text_width_in(l2, 8)) + 0.10
         items[r["name"]] = dict(px=px, py=py, w=w, h=0.33, ms=0.11 if not is_f else 0.17, max_r=(0.5 if is_f else 9))
@@ -98,12 +107,19 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
         if near: it_['min_r'] = 0.30
     bounds = (IL + 0.02, IT + 0.02, IL + iw - 0.02, IT + ih - 0.02)
     caption_box = (IL + iw + 0.05, Y(0.8) - 0.05, 1.25, 0.34)
-    placed = OL.place(items, np.zeros((0, 2)), bounds, fixed=[], marker_pts=pts, ms=0.11,
-                      allowed_radii=[(0.06, 0.0), (0.22, 0.6), (0.42, 1.4), (0.65, 2.5), (0.95, 4.0)])
+    RADII_ALL = [(0.06, 0.0), (0.22, 0.6), (0.42, 1.4), (0.65, 2.5), (0.95, 4.0), (1.3, 6.0)]
+    if focus and focus in items:
+        fi = {focus: dict(items[focus], max_r=9, min_r=0.20)}
+        pf = OL.place(fi, np.zeros((0, 2)), bounds, fixed=[], marker_pts=pts, ms=0.11, marker_clear=0.13, allowed_radii=RADII_ALL)
+        rest = {k: v for k, v in items.items() if k != focus}
+        po = OL.place(rest, np.zeros((0, 2)), bounds, fixed=[OL.infl(pf[focus][0], 0.02)], marker_pts=pts, ms=0.11, marker_clear=0.10, allowed_radii=RADII_ALL)
+        placed = dict(po); placed[focus] = pf[focus]
+    else:
+        placed = OL.place(items, np.zeros((0, 2)), bounds, fixed=[], marker_pts=pts, ms=0.11, marker_clear=0.10, allowed_radii=RADII_ALL)
     OL.draw_labels(slide, placed, spec, marker_r=0.055)
     add_textbox(slide, IL + iw + 0.07, Y(0.8), 1.2, 0.34, [[("S&W per student", {"bold": True})], [("iso-lines", {})]],
                 size=8.5, color=MUTED, name="Iso-line caption")
-    blocks = [None] * n_iso + [[r["name"] for r in ordered]] + ([[focus]] if focus else [])
+    blocks = [None] * n_iso + [[r["name"] for r in disclosed]] + ([[r["name"] for r in estimated]] if estimated else []) + ([[focus]] if focus else [])
     write_names_to_workbook(ch, blocks)
     annotate_workbook(ch, {"E1": "Reading guide: column A = core operating expense per student ($); column B = S&W as share of core operating expense; column C = institution. Iso-line blocks: S&W per student = A x B = constant."})
     return slide, ch, dict(xmax=xmax, costs={k: v[2] for k, v in placed.items()}, rows=rows)

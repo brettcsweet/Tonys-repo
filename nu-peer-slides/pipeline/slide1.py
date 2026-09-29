@@ -3,7 +3,7 @@ import math
 import numpy as np
 from nu_helpers import *
 
-XMAX, YMAX = 55000, 140000
+XMAX, YMAX = 60000, 150000   # defaults; build_slide1 may override
 LBL_SIZE = 8
 FOCUS_NEAR = {'Vanderbilt University', 'Boston University', 'Massachusetts Institute of Technology'}
 PAD_W, LBL_H = 0.08, 0.165
@@ -77,9 +77,14 @@ def place_labels(g, items, cloud_xy, fixed_boxes, marker_xy, passes=6):
 
 
 def build_slide1(prs, df, label_map, focus="Northeastern University", title=None, subtitle=None,
-                 notes_paras=None, source=None, draft_tag=None, notes_text=None, overrides=None):
+                 notes_paras=None, source=None, draft_tag=None, notes_text=None, overrides=None, xmax=None, ymax=None):
+    global XMAX, YMAX
+    if xmax: XMAX = xmax
+    if ymax: YMAX = ymax
     df = df.copy()
     df = df.sort_values(["y", "x"], ascending=[True, True]).reset_index(drop=True)   # alignment rule from the original workbook
+    df_all = df
+    df = df[(df.x >= 0) & (df.x <= XMAX) & (df.y <= YMAX)].reset_index(drop=True)   # off-axis points are counted upstream, not drawn
     pub = df[df.control == 1].reset_index(drop=True)
     pri = df[df.control == 2].reset_index(drop=True)
     focus_row = df[df.name == focus].iloc[0]
@@ -140,13 +145,23 @@ def build_slide1(prs, df, label_map, focus="Northeastern University", title=None
     marker_pts = {k: (v["px"], v["py"]) for k, v in items.items()}
     marker_pts["__focus__"] = (fpx, fpy)
 
-    # "Better deal / Worse deal" annotations just beyond the trendline's right end
+    # "Better deal / Worse deal": pick the emptiest spot above / below the trendline near its right end
     pri_fit = np.polyfit(pri.x, pri.y, 1)
     slope_deg = math.degrees(math.atan2(pri_fit[0] * g.IH / YMAX, g.IW / XMAX))
-    ax_ = 52700
-    ay_ = pri_fit[1] + pri_fit[0] * ax_
-    better_c = (g.X(ax_), g.Y(ay_ + 6500))
-    worse_c = (g.X(ax_), g.Y(ay_ - 6500))
+    def best_spot(sign):
+        best = None
+        for xv in range(int(XMAX * 0.70), int(XMAX * 0.93), 500):
+            for off in (7000, 9000, 11000, 13000):
+                cx, cy = g.X(xv), g.Y(pri_fit[1] + pri_fit[0] * xv + sign * off)
+                bx = (cx - 0.5, cy - 0.15, 1.0, 0.3)
+                if bx[1] < g.IT or bx[1] + bx[3] > g.IT + g.IH or bx[0] + bx[2] > g.IL + g.IW: continue
+                n = ((cloud[:, 0] > bx[0]) & (cloud[:, 0] < bx[0] + bx[2]) & (cloud[:, 1] > bx[1]) & (cloud[:, 1] < bx[1] + bx[3])).sum()
+                lbl = sum(OL.overlap(bx, (v["px"] - 0.2, v["py"] - 0.1, 0.4, 0.2)) > 0 for v in items.values())
+                c = n * 1.0 + lbl * 6 + off / 4000
+                if best is None or c < best[0]: best = (c, cx, cy)
+        return best[1], best[2]
+    better_c = best_spot(+1)
+    worse_c = best_spot(-1)
     deal_boxes = [(better_c[0] - 0.5, better_c[1] - 0.15, 1.0, 0.3), (worse_c[0] - 0.5, worse_c[1] - 0.15, 1.0, 0.3)]
 
     foc_items = {"__focus__": dict(px=fpx, py=fpy, w=foc_w, h=0.23, ms=0.16)}
@@ -173,4 +188,4 @@ def build_slide1(prs, df, label_map, focus="Northeastern University", title=None
                            ("line", BLACK, "Private college trendline", {"w": 1.5}), ("dot", RED, "Northeastern", {"d": 0.13})],
                    x_right=g.IL + g.IW, y=g.FY + 0.02)
     return slide, ch, dict(costs=costs, slope_deg=slope_deg, pri_fit=list(pri_fit),
-                           counts=(len(pub), len(pri)), focus=focus_row.to_dict(), geo=g.__dict__)
+                           counts=(len(pub), len(pri)), n_drawn=len(df), n_all=len(df_all), focus=focus_row.to_dict(), geo=g.__dict__)

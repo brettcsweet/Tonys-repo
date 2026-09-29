@@ -1,0 +1,113 @@
+{
+  "institution": "Northwestern University",
+  "fiscal_year_end_fy25": "August 31, 2025",
+  "documents": [
+    {
+      "label": "FY25 Northwestern University Financial Report (audited consolidated financial statements, FY25 and FY24)",
+      "url": "https://www.northwestern.edu/financial-operations/annual-financial-reports/2025-financial-report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northwestern/fy25.pdf",
+      "pages": "PDF p.11 (statement of activities, printed p.9), p.14 (note 1), p.18 (Northwestern Medicine contributions), p.34 (note 16 functional classification)"
+    },
+    {
+      "label": "FY24 Northwestern University Financial Report (FY24 and FY23)",
+      "url": "https://www.northwestern.edu/financial-operations/annual-financial-reports/2024-financial-report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northwestern/fy24.pdf",
+      "pages": "PDF p.9 (statement of activities)"
+    },
+    {
+      "label": "FY23 Northwestern University Financial Report (FY23 and FY22)",
+      "url": "https://www.northwestern.edu/financial-operations/annual-financial-reports/2023-financial-report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northwestern/fy23.pdf",
+      "pages": "PDF p.9 (statement of activities)"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1997951000,
+      "employee_benefits": null,
+      "total_operating_expenses": 3607255000,
+      "depreciation": 216713000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 99478000,
+      "interest_in_opex": true,
+      "core_opex": 3291064000,
+      "core_opex_arithmetic": "3,607,255,000 - 216,713,000 (depreciation) - 99,478,000 (interest) = 3,291,064,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salaries, wages, and benefits  1,997,951  1,832,098' (thousands), FY25 report PDF p.11 (printed p.9); note 16 (PDF p.34) also combined.",
+        "total_operating_expenses": "'Total operating expenses  3,607,255  3,273,487' (thousands), FY25 report PDF p.11.",
+        "depreciation": "'Depreciation  216,713  212,024' (thousands), separate operating line, FY25 report PDF p.11.",
+        "interest_expense": "'Interest on indebtedness  99,478  92,985' (thousands), separate operating line, FY25 report PDF p.11."
+      },
+      "notes": "No amortization line in operating expenses; cash flow shows only 'Accretion of debt issuance costs, premiums, and discounts, net (587)', which sits inside interest.",
+      "natural_classification_check": "Salaries, wages, and benefits 1,997,951,000 + Services, supplies, maintenance, and other 1,293,113,000 + Depreciation 216,713,000 + Interest on indebtedness 99,478,000 = 3,607,255,000 = total operating expenses (ties)"
+    },
+    "FY24": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1832098000,
+      "employee_benefits": null,
+      "total_operating_expenses": 3273487000,
+      "depreciation": 212024000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 92985000,
+      "interest_in_opex": true,
+      "core_opex": 2968478000,
+      "core_opex_arithmetic": "3,273,487,000 - 212,024,000 (depreciation) - 92,985,000 (interest) = 2,968,478,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salaries, wages, and benefits  1,832,098  1,675,337' (thousands), FY24 report PDF p.9; same 1,832,098 in FY25 report PDF p.11.",
+        "total_operating_expenses": "'Total operating expenses  3,273,487  3,038,060', FY24 report PDF p.9; FY25 report p.11 shows 3,273,487 (agrees, no restatement).",
+        "depreciation": "'Depreciation  212,024  209,913' FY24 report p.9 (agrees with FY25 report).",
+        "interest_expense": "'Interest on indebtedness  92,985  93,640' FY24 report p.9 (agrees with FY25 report)."
+      },
+      "natural_classification_check": "Salaries, wages, and benefits 1,832,098,000 + Services, supplies, maintenance, and other 1,136,380,000 + Depreciation 212,024,000 + Interest on indebtedness 92,985,000 = 3,273,487,000 = total operating expenses (ties)"
+    },
+    "FY23": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1675337000,
+      "employee_benefits": null,
+      "total_operating_expenses": 3038060000,
+      "depreciation": 209913000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 93640000,
+      "interest_in_opex": true,
+      "core_opex": 2734507000,
+      "core_opex_arithmetic": "3,038,060,000 - 209,913,000 (depreciation) - 93,640,000 (interest) = 2,734,507,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salaries, wages, and benefits  1,675,337  1,556,945' (thousands), FY23 report PDF p.9; same 1,675,337 in FY24 report PDF p.9.",
+        "total_operating_expenses": "'Total operating expenses  3,038,060  2,747,176', FY23 report PDF p.9; same in FY24 report p.9.",
+        "depreciation": "'Depreciation  209,913  204,358' FY23 report p.9.",
+        "interest_expense": "'Interest on indebtedness  93,640  90,737' FY23 report p.9."
+      },
+      "natural_classification_check": "Salaries, wages, and benefits 1,675,337,000 + Services, supplies, maintenance, and other 1,059,170,000 + Depreciation 209,913,000 + Interest on indebtedness 93,640,000 = 3,038,060,000 = total operating expenses (ties)"
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Statements 'include all wholly owned subsidiaries' (FY25 report note 1, PDF p.14). The university enrolls 'more than 23,000 students ... on two lakefront campuses in Evanston and Chicago and an international campus in Doha, Qatar'; the Doha campus (Northwestern in Qatar) is inside the consolidated expenses, expense not disclosed. Northwestern Medicine (Northwestern Memorial HealthCare and Northwestern Medical Group) is NOT consolidated: the note on 'Northwestern Medicine Contributions' (PDF p.18) says the University 'receives recurring contributions from NMHC' and earns 'Professional fees' (70,047 thousand FY25) for faculty services to external institutions such as hospitals. Feinberg School of Medicine faculty costs are consolidated; hospital and NMG operating costs are not."
+  },
+  "calibration_fy23": {
+    "ref_sw": 1219645336,
+    "ref_core_opex": 3038060000,
+    "sw_diff_pct": null,
+    "sw_combined_diff_pct": 37.36,
+    "core_opex_diff_pct": -9.99,
+    "total_opex_diff_pct": 0.0,
+    "explanation": "(1) Reference 'core operating expenses' 3,038,060,000 equals Northwestern's FY23 TOTAL operating expenses to the dollar; depreciation (209,913,000) and interest (93,640,000) were NOT removed. On the SPEC definition core opex FY23 = 3,038,060,000 - 209,913,000 - 93,640,000 = 2,734,507,000, which is 9.99% below the reference; the whole gap is depreciation plus interest. (2) Northwestern reports only 'Salaries, wages, and benefits' (1,675,337,000 in FY23), so salaries_and_wages is null; the combined figure is 37.4% above the reference S&W. The reference 1,219,645,336 is exactly 72.80% of 1,675,337,000 (ratio 0.728000), identical to Stanford's ratio, so the reference S&W was almost certainly produced by applying an assumed 72.8% wages share to combined salaries-and-benefits (inference from arithmetic; not stated in the audited statements). Consistent with that, the reference is not a reported wages number."
+  },
+  "student_counts_in_official_docs": "FY25 report note 1 (PDF p.14): 'There are more than 23,000 students enrolled in 12 colleges and schools on two lakefront campuses in Evanston and Chicago and an international campus in Doha, Qatar.' No semester or fall-of-year stated and no undergraduate/graduate split in the report; treat as approximately fall 2024/2025 academic year (not confirmed by the document). Class of 2028 first-year cohort: 2,100 (PDF p.4 'MEET THE CLASS OF 2028').",
+  "caveats": [
+    "Northwestern reports only 'Salaries, wages, and benefits' (combined) on the face and in note 16; salaries_and_wages is null and cannot be split from the audited statements.",
+    "Amortization is not reported as a separate operating line; nothing beyond depreciation and interest was deducted.",
+    "The FY25 report is dated December 11, 2025 (subsequent events note); note 13 mentions a November 2025 three-year agreement with the U.S. Government resolving federal inquiries (not quantified here).",
+    "FY24 and FY23 comparative columns in the later reports agree with the earlier reports; no restatement noted."
+  ],
+  "blocked_hosts": []
+}

@@ -1,0 +1,122 @@
+{
+  "institution": "Harvard University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 Harvard University Financial Report (located, NOT retrieved: 403)",
+      "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-report.pdf",
+      "local_file": null,
+      "pages": null
+    },
+    {
+      "label": "FY25 Financial Overview from the VP for Finance and the Treasurer (located, NOT retrieved: 403)",
+      "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-overview.pdf",
+      "local_file": null,
+      "pages": null
+    },
+    {
+      "label": "FY24 Harvard University Financial Report (located, NOT retrieved: 403)",
+      "url": "https://www.finance.harvard.edu/files/fad/files/fy24_harvard_financial_report.pdf",
+      "local_file": null,
+      "pages": null
+    },
+    {
+      "label": "FY25 Harvard Gazette interview with EVP Weenick and VP Kalra on the FY25 report (opened; contains no natural-classification expense figures)",
+      "url": "https://news.harvard.edu/gazette/story/2025/10/harvard-reports-operating-deficit-amid-federal-funding-cuts/",
+      "local_file": null,
+      "pages": "article text: 'We closed the year with a $113 million operating deficit on a $6.7 billion revenue base.'"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": null,
+      "total_operating_expenses": null,
+      "depreciation": null,
+      "depreciation_in_opex": null,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "interest_expense": null,
+      "interest_in_opex": null,
+      "core_opex": null,
+      "core_opex_arithmetic": null,
+      "evidence": {
+        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": null,
+      "total_operating_expenses": null,
+      "depreciation": null,
+      "depreciation_in_opex": null,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "interest_expense": null,
+      "interest_in_opex": null,
+      "core_opex": null,
+      "core_opex_arithmetic": null,
+      "evidence": {
+        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": null,
+      "total_operating_expenses": null,
+      "depreciation": null,
+      "depreciation_in_opex": null,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "interest_expense": null,
+      "interest_in_opex": null,
+      "core_opex": null,
+      "core_opex_arithmetic": null,
+      "evidence": {
+        "salaries_and_wages": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "total_operating_expenses": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "depreciation": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory.",
+        "interest_expense": "NOT EXTRACTED: the Harvard Financial Report PDFs could not be retrieved (finance.harvard.edu returns Akamai 'Access Denied' 403 to curl with a browser User-Agent, and WebFetch reports the host blocked by the network egress proxy). No number was taken from a search snippet or memory."
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": null,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Not verified: no Harvard financial statement was opened, so consolidation scope (e.g. any hospital, FFRDC or other large non-instructional enterprise) is unknown and left null."
+  },
+  "calibration_fy23": {
+    "ref_sw": 2421076000,
+    "ref_core_opex": 5911797000,
+    "sw_diff_pct": null,
+    "core_opex_diff_pct": null,
+    "explanation": "Calibration not performed: FY23 figures could not be extracted because the Harvard Financial Report PDFs were inaccessible. Reference values (S&W 2,421,076,000; core opex 5,911,797,000) are carried from the request only."
+  },
+  "student_counts_in_official_docs": null,
+  "caveats": [
+    "OPEN ISSUE: all Harvard financial values are null. The FY25 and FY24 Financial Report PDFs on finance.harvard.edu return HTTP 403 'Access Denied' (Akamai edge, reference id in body) to curl with a Chrome User-Agent, with and without Accept/Accept-Language headers, a Referer from finance.harvard.edu/annual-report, and HTTP/2. The same host, www.finance.harvard.edu, otm.finance.harvard.edu and ofsp.finance.harvard.edu all return 403. WebFetch returns EGRESS_BLOCKED for finance.harvard.edu. Per SPEC I did not route around the block.",
+    "Only opened Harvard document with any FY25 figure: Harvard Gazette FY25 interview (news.harvard.edu, Oct 16, 2025): $113 million operating deficit on a $6.7 billion revenue base; endowment distributions $2.5 billion; $1.2 billion new debt issued in FY25. No S&W, depreciation or interest figures.",
+    "Unverified leads only (they appeared in search-result snippets summarizing the FY25 Financial Overview; NOT extracted from an opened document and NOT to be used as data): S&W about $2.8 billion (+5% / +$127 million), employee benefits $756 million (+9%), total operating expenses $6.8 billion (+6%, +$367 million). Sanity check only: implies FY25 S&W roughly 15-16% above the $2.421B FY23 reference, which is plausible for two years of growth.",
+    "Alternative official hosting attempted: EMMA (emma.msrb.org) is reachable but serves documents only after accepting the MSRB terms-of-use click-through, which I did not accept on the user's behalf. muniOS (www.munios.com) is reachable but its data API (api.munios.com) returned CONNECT 502 and the site is a sign-in SPA; it would in any case only hold the April 2025 Series 2025B offering document (FY24 and FY23 statements), not FY25. web.archive.org and bpb-us-e1.wpmucdn.com tunnels closed mid-exchange; the wpmucdn Harvard-domain PDFs found are Faculty of Arts and Sciences managerial reports, not University statements. Scribd copies exist but are unofficial and were not used.",
+    "Suggested next steps: (1) user or a machine with normal browser access downloads fy25-financial-report.pdf and fy24_harvard_financial_report.pdf (FY23 comparative is inside the FY24 report; the FY23 report is also needed for a like-for-like FY23 calibration) into fin/Harvard_University/ and this extraction is rerun, or (2) allow finance.harvard.edu through the egress proxy so WebFetch can be used, or (3) approve EMMA access and pull the Harvard FY25 annual financial information filing."
+  ],
+  "blocked_hosts": [
+    "finance.harvard.edu (Akamai 403 to curl; WebFetch: blocked by network egress proxy)",
+    "www.finance.harvard.edu (403)",
+    "otm.finance.harvard.edu (403)",
+    "ofsp.finance.harvard.edu (403)",
+    "api.munios.com (CONNECT 502)",
+    "web.archive.org (tunnel closed)",
+    "bpb-us-e1.wpmucdn.com (tunnel closed)"
+  ]
+}

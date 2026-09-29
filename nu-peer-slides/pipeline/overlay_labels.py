@@ -24,7 +24,7 @@ def candidate(px, py, w, h, d, r, ms):
         cx = px + sx * (rr * 0.7 + w / 2); cy = py + sy * (rr * 0.7 + h / 2)
     return (cx - w / 2, cy - h / 2, w, h)
 
-def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10, allowed_radii=None, dens_w=0.02):
+def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10, allowed_radii=None, dens_w=0.02, marker_clear=0.035):
     """items: dict key -> dict(px,py,w,h[,ms]).  bounds=(x0,y0,x1,y1).  returns key -> (box, leader_needed, cost)."""
     keys = list(items)
     marker_pts = marker_pts or {k: (v["px"], v["py"]) for k, v in items.items()}
@@ -67,7 +67,7 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
             c += overlap(bi, b2) * 3000
         for k2, (mx, my) in marker_pts.items():
             if k2 == k: continue
-            c += overlap(bi, (mx - 0.035, my - 0.035, 0.07, 0.07)) * 1500
+            c += overlap(bi, (mx - marker_clear, my - marker_clear, 2 * marker_clear, 2 * marker_clear)) * 1500
         # leader lines must not cross other labels (either direction)
         mx0, my0 = marker_pts[k]
         if cand[k][ci][2] > 0.12:

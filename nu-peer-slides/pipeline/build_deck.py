@@ -11,80 +11,121 @@ from slide3 import build_slide3
 OUT = sys.argv[1] if len(sys.argv) > 1 else "deck.pptx"
 DRAFT = True
 
-# ---------------------------------------------------------------- slide 1 data
-df = pd.read_csv("inputs/slide1_scorecard_oct2023.csv")
-df.loc[(df.name == "St. John's College") & (df.st == "NM"), "name"] = "St. John's College (Santa Fe)"
-lm = json.load(open("inputs/s1_label_map_fixed.json"))
-lm["Boston University"] = ["Boston University", 26170, 80582, 2]
-ranked = df.sort_values("y", ascending=False).reset_index(drop=True)
+# ---------------------------------------------------------------- slide 1 data (College Scorecard, June 10, 2026 release)
+df = pd.read_csv("inputs/slide1_scorecard_jun2026.csv")
+lm = json.load(open("inputs/s1_label_map_jun2026.json"))
+def crank(frame, name):
+    """competition rank: 1 + number of institutions with strictly higher earnings (ties share a rank)"""
+    y = frame[frame.name == name].iloc[0].y
+    return int((frame.y > y).sum()) + 1
 foc = "Northeastern University"
-foc_rank = int(ranked.index[ranked.name == foc][0]) + 1
 fr = df[df.name == foc].iloc[0]
-vu_rank = int(ranked.index[ranked.name == "Vanderbilt University"][0]) + 1
-n_all = len(df)
+n_all = len(df); n_pub = int((df.control == 1).sum()); n_pri = int((df.control == 2).sum())
+pri = df[df.control == 2]
+foc_rank = crank(df, foc); pri_rank = crank(pri, foc)
+vu_rank = crank(df, "Vanderbilt University"); bu_rank = crank(df, "Boston University"); mit_rank = crank(df, "Massachusetts Institute of Technology")
+fit = np.polyfit(pri.x, pri.y, 1); r_pri = float(np.corrcoef(pri.x, pri.y)[0, 1])
+n_neg = int((df.x < 0).sum())
+n_tied = int((df.y == fr.y).sum())
 
 s1_notes = [
-    "(1) Median earnings of federally aided students who enroll each year and are employed but not enrolled, measured in the 10th year after enrollment.",
-    "(2) Average net price for undergraduate Title IV-receiving students: full cost of attendance (tuition and fees, books and supplies, living expenses) minus federal, state and institutional aid.",
+    "(1) Median earnings of federally aided (Title IV) students who entered in 2009\u201310 or 2010\u201311, are working and not enrolled, measured in 2020 and 2021 (10th year after entry); 2022 dollars.",
+    "(2) Average net price, academic year 2023\u201324, for undergraduate Title IV-receiving students: full cost of attendance (tuition and fees, books and supplies, living expenses) minus federal, state and institutional aid.",
     "(3) Landmark College is located in Putney, Vermont and is dedicated to students with learning disabilities (ADHD, dyslexia and autism).",
-    "Note: Of 6,543 IPEDS-reporting institutions, the analysis includes 1,557 (587 public, 970 private) with CONTROL = public or private not-for-profit; CCBASIC = 15–23; CCUGPROF = 5–15; NPT4 not null; and MD_EARN_WNE_P10 reported.",
+    f"Note: Of 6,273 institutions in the Scorecard file, the analysis includes {n_all:,} ({n_pub} public, {n_pri} private) with CONTROL = public or private not-for-profit; CCBASIC = 15\u201323; CCUGPROF = 5\u201315; net price and 10-year earnings reported."
+    + (f" {n_neg} institution with a negative reported net price is counted but falls left of the axis." if n_neg == 1 else ""),
 ]
-s1_source = ("Source: College Scorecard (collegescorecard.ed.gov/data), data last updated October 10, 2023 "
-             "(includes data from 1996 through 2022 for all undergraduate degree-granting institutions); Northeastern analysis.")
+s1_source = ("Source: U.S. Department of Education, College Scorecard institution-level data (collegescorecard.ed.gov/data), release of June 10, 2026; Northeastern analysis.")
 s1_speaker = f"""WHAT CHANGED FROM THE ORIGINAL
-- Rebuilt on the Northeastern template as a native chart (data behind it is editable: right-click > Edit Data; institution names are in column C of the embedded sheet).
-- Vanderbilt logo removed; Vanderbilt is now a navy label like the other private institutions. Northeastern is the red marker and label.
-- Axis, title and footnote 1 now say "after entry": the Scorecard field MD_EARN_WNE_P10 is measured 10 years after enrollment, not 10 years after graduation (the original title/axis said graduation while its footnote said enrollment).
-- Removed Vanderbilt-internal speaker notes and the 'VU Factbook' reference.
+- Data refreshed to the College Scorecard release of June 10, 2026 (Most-Recent-Cohorts-Institution file), same filters as the original slide. Net price is now academic year 2023-24 (IPEDS 2024-25 collection). 10-year earnings are the newest Scorecard publishes: entering cohorts 2009-10 and 2010-11 pooled, measured in calendar 2020 and 2021, in 2022 dollars. Scorecard has not released a later 10-year earnings cohort, so earnings do not run through 2024.
+- Rebuilt as a native chart (right-click > Edit Data; institution names are in column C of the embedded sheet). Vanderbilt logo removed; Vanderbilt is a navy label like the other private institutions. Northeastern is the red marker and label; Boston University is labeled as a local comparison.
+- Axis, title and footnote say 'after entry': the Scorecard field MD_EARN_WNE_P10 is measured 10 years after enrollment, not graduation.
+- Removed Vanderbilt-internal speaker notes.
 
-CHECKS RUN ON THE ORIGINAL DATA (Oct 2023 Scorecard release, 1,557 institutions)
-- 587 public + 970 private = 1,557. Vanderbilt ranks {vu_rank}th by earnings (matches the original title; no ties). Northeastern ranks {foc_rank}th ({fr.y:,.0f} earnings; net price {fr.x:,.0f}).
-- The plotted trendline is an ordinary least-squares fit on private institutions only (slope 1.035, intercept $29,753, r = 0.49, R-squared about 0.24): a weak fit, so 'better deal / worse deal' is a directional read, not a finding.
-
-STATUS: prior-vintage data. Refresh with the latest College Scorecard institution file and re-run the same filters (see Note). University of the Sciences (merged into Saint Joseph's in 2022) should drop out on refresh.
+RESULTS AND CHECKS ({n_all:,} institutions: {n_pub} public, {n_pri} private)
+- Northeastern ranks {foc_rank} of {n_all:,} ({pri_rank} of {n_pri} private; rank = 1 + institutions with strictly higher earnings, so ties share a rank{", and Northeastern University Oakland reports the identical earnings" if n_tied > 1 else ""}) at ${fr.y:,.0f} median earnings and ${fr.x:,.0f} net price (previous release: 38th of 1,557 at $88,842 and $34,255). Vanderbilt ranks {vu_rank} (previously 53rd); Boston University {bu_rank}; MIT {mit_rank}.
+- Trendline is an OLS fit on private institutions: slope {fit[0]:.3f}, intercept ${fit[1]:,.0f}, r = {r_pri:.2f} (R-squared {r_pri**2:.2f}). Weak fit: 'better deal / worse deal' is directional.
+- Earnings are in 2022 dollars for every school, so ranks are comparable within this release. The previous release used an older earnings cohort, so the change in rank is not a like-for-like trend.
+- Cal Maritime is now Cal Poly Maritime Academy; University of the Sciences (merged into Saint Joseph's University in 2022) drops out.
 """
-
-# ---------------------------------------------------------------- slide 2 data
-raw = json.load(open("inputs/slide2_data_orig.json"))
-s2 = {k: {int(y): v for y, v in d.items()} for k, d in raw.items()}
-years = list(range(2015, 2025))            # 2014 removed per request
+# ---------------------------------------------------------------- slide 2 data (Inside Higher Ed CBO survey, verified against the reports)
+ihe = json.load(open("inputs/slide2_ihe_verified.json"))["years"]
+years = list(range(2015, 2027))            # 2014 removed per request; 2025-2026 carry the trustees-only item
+s2 = {"F": {}, "T": {}, "S": {}, "T2": {}}
+for y in years:
+    v = ihe[str(y)]
+    if v["item"] == "trustees_only":
+        s2["T2"][y] = v["trustees"]
+    else:
+        s2["F"][y] = v["faculty"]; s2["T"][y] = v["trustees"]; s2["S"][y] = v["senior_administrators"]
+n_fix = sum(1 for y in years if any(ihe[str(y)]["original_slide"][k] not in (None, ihe[str(y)][k]) for k in ("faculty", "trustees", "senior_administrators")))
 s2_speaker = """WHAT CHANGED FROM THE ORIGINAL
-- 2014 row removed as requested. Rebuilt as a native chart; values are in the embedded sheet (x = percent agreeing, y = survey year).
-- Colors: Faculty red, Trustees grey, Sr. Administrators black (original used yellow / white / blue letter badges).
-- The source line now reads 2015-2024 and the 2013 trustee note was dropped because 2013 is no longer shown.
-- Wording added to the scale note: respondents are business officers rating each group. These are perceptions of others, not self-reports by faculty or trustees, and business officers are themselves part of the 'Sr. Administrators' group.
+- 2014 row removed as requested. 2025 and 2026 added where the survey asked something comparable; rebuilt as a native chart (values are in the embedded sheet).
+- The item wording is 'aware of and understand the financial challenges confronting my institution', not 'realistic and aware': 'realistic' was only the 2013-2014 wording. The 2015-2024 reports all use 'aware of and understand'.
+- 2025 and 2026: the three-group item was NOT asked. The reports ask a trustees-only statement ('Trustees understand the financial challenges confronting my institution'): 74% in 2025 (n=169, +/-7%) and 79% in 2026 (n=213, +/-6%). They are plotted as separate open markers with no connector because the wording and the groups differ. There is no 2025 or 2026 value for faculty or senior administrators.
+- Every value was re-read from the report PDFs (all-institution results). Four rows on the original slide did not match: 2015 faculty 33 -> 32; 2020 31/87/93 -> 34/84/90 (the original used a private-nonprofit sub-column); 2022 28/91/91 -> 53/90/91 (the 2022 report's p.28 chart has misaligned rows; the detail tables give 53/90/91); 2024 44/91/95 -> 39/79/88 (the original used the private-nonprofit column).
+- 2016 and 2017 faculty (27, 32) answer a different item: 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' Marked with an asterisk.
+- 2021 was fielded by Hanover Research (n=133) rather than Gallup; sample sizes run 133 to 416, so year-to-year moves of a few points are within the margin of error where one is stated (about 6-7%).
 
-CHECKS
-- All 30 plotted values (2015-2024 x 3 groups) were read from the original slide's labels. The original hand-placed dots sat within 1.2 points of their labels on average (max 3.6), so the rebuild changes no reading.
-- Gap between Faculty and Trustees: 46 points in 2015 (33% vs 79%), 47 points in 2024 (44% vs 91%). The gap is persistent rather than widening; Sr. Administrators vs Faculty narrowed from 55 to 51 points.
-
-STATUS: 2025 (and a newer 2026 edition published July 2026) not yet added. The question wording has to be confirmed in those reports before plotting; see cover note.
+WHAT THE SERIES SHOWS
+- Trustees minus faculty: between 34 and 50 points in every year 2015-2024 (47 in 2015, 40 in 2024). Sr. Administrators minus faculty: between 36 and 59 points (56 in 2015, 49 in 2024). Faculty peaked at 53% in 2022 and has fallen since (45, 39); trustees fell from 90% (2022) to 79% (2024); the trustees-only item read 74% (2025) and 79% (2026).
+- The disconnect persists, but the corrected 2022-2024 rows show trustees and administrators well below the 91-95% the original slide showed for 2022-2024.
+- Ratings are business officers' perceptions of each group, not self-reports; Sr. Administrators includes their own peers.
 """
 
-# ---------------------------------------------------------------- slide 3 data (FY23 from the original workbook)
-wb = openpyxl.load_workbook("inputs/orig_slide3_workbook.xlsx", data_only=True)
-ws = wb.active
+# ---------------------------------------------------------------- slide 3 data (FY25 audited financial statements; see prep_slide3_data.py)
+s3d = json.load(open("inputs/fy25_slide3.json"))
+DISP = {"Northeastern": "Northeastern", "Boston University": "Boston University"}
 rows3 = []
-for r in range(94, 105):
-    nm, sw, ox, st = ws.cell(r, 13).value, ws.cell(r, 14).value, ws.cell(r, 15).value, ws.cell(r, 16).value
-    nm = {"U Chicago": "Chicago", "U Penn": "Penn"}.get(nm, nm)
-    rows3.append(dict(name=nm, sw=sw, opex=ox, students=st))
-HEALTH = ("Chicago", "Emory", "Penn", "Duke", "Stanford")
-s3_notes = ["(1) Chicago, Emory, Penn, Duke and Stanford include health care systems.",
-            "Note: Data from university FY23 reports. S&W = salaries and wages. Core operating expenses exclude depreciation, amortization and interest."]
-s3_source = "Source: University FY23 financial reports; Northeastern analysis."
-s3_speaker = """WHAT CHANGED FROM THE ORIGINAL
-- University logos removed. In the original they were hand-placed pictures floating over a chart that plotted only the eight iso-lines, so nothing tied a logo to its data. Every institution is now a real data point (x = core operating expense per student, y = S&W share) with a label.
-- Original labels dropped the K on several values (Emory '$269', iso-lines '$160'...'$320') and truncated Emory's students ('16,00'); fixed. Stanford's x-value ($915,817) sat past the original axis maximum ($900,000); axis now runs to $1,000K.
-- Title reworded to a descriptive FY23 statement; the original 'more cost-efficient than peers' claim is not supported by S&W per student alone (health systems and research enterprises inflate it) and will be reframed once Northeastern, BU and MIT are added.
+for r in s3d["rows"]:
+    if r["short"] in s3d["missing"]: continue
+    rows3.append(dict(name=DISP.get(r["short"], r["short"]), sw=r["sw"], opex=r["core_opex"], students=r["students"],
+                      basis="est" if r["sw_basis"] == "est" else "audited", src=r["sw_basis"]))
+HEALTH = ("Chicago", "Duke", "Emory", "Penn", "Stanford")
+LAB = ("MIT", "Princeton", "Stanford")
+OTHER_SRC = ("Northeastern", "Northwestern", "Vanderbilt")
+EST = ("Penn", "Stanford")
+def marks(nm):
+    m = []
+    if nm in HEALTH: m.append("(1)")
+    if nm in LAB: m.append("(2)")
+    if nm in OTHER_SRC: m.append("(3)")
+    if nm in EST: m.append("(4)")
+    return " ".join(m)
+foot_marks = {}
+for r in rows3:
+    mk = [x for x in ("(2)", "(3)", "(4)") if x in marks(r["name"])]
+    if mk: foot_marks[r["name"]] = " " + " ".join(mk)
+missing_names = [r["short"] for r in s3d["rows"] if r["short"] in s3d["missing"]]
+for r in rows3:
+    r["swps"] = r["sw"] / r["students"]; r["share"] = r["sw"] / r["opex"]; r["opex_ps"] = r["opex"] / r["students"]
+neu3 = next(r for r in rows3 if r["name"] == "Northeastern")
+peers3 = [r for r in rows3 if r["name"] != "Northeastern"]
+share_lo, share_hi = min(r["share"] for r in rows3), max(r["share"] for r in rows3)
+lowest = min(rows3, key=lambda r: r["swps"])
+s3_title = (f"Northeastern\u2019s S&W per student is ${neu3['swps']/1000:,.0f}K, "
+            f"{'the lowest' if lowest['name'] == 'Northeastern' else 'among the lowest'} in the peer set, at a typical {neu3['share']:.0%} share of expenses")
+s3_notes = ["(1) Consolidates a health care system: Chicago, Duke, Emory, Penn, Stanford.  (2) Consolidates a federal laboratory: MIT (Lincoln Laboratory), Princeton (Plasma Physics Laboratory), Stanford (SLAC).",
+            "(3) Audited statements report salaries and benefits combined; S&W from IRS Form 990 (Northeastern, Northwestern) or the MD&A expense chart (Vanderbilt).  (4) Grey: Penn and Stanford S&W estimated as combined salaries and benefits \u00d7 the institution\u2019s Form 990 S&W share.",
+            "Note: FY25 audited financial statements (fiscal years end June 30; Emory, Northwestern, Stanford August 31). Core operating expenses = total operating expenses less depreciation, amortization and interest. Students = fall 2024 total enrollment"
+            " per Common Data Set 2024\u201325 (Princeton: Report of the Treasurer)." + (f" {', '.join(missing_names)}: FY25 report not yet available." if missing_names else "")]
+s3_source = "Source: University FY25 audited financial statements, IRS Form 990 filings, Common Data Sets; Northeastern analysis."
+sens = {k: neu3["sw"] / v for k, v in (("CDS 2024-25 (used)", neu3["students"]), ("IPEDS-style 32,553", 32553), ("Facts and Figures 48,812", 48812))}
+s3_speaker = f"""WHAT CHANGED FROM THE ORIGINAL
+- Updated to FY25 audited financial statements and added Northeastern, Boston University and MIT. Universities' logos removed: every institution is a data point with a label. {', '.join(missing_names) + ' is not shown: its FY25 financial report could not be reached.' if missing_names else ''}
+- 'Core operating expenses' now follow the axis definition: total operating expenses less depreciation, amortization and interest. The original FY23 figures did NOT: they equal each school's total operating expenses to the dollar (for Rice, Vanderbilt, Northwestern, Princeton, Harvard, Duke and Penn they are the IPEDS FY23 'total expenses' field). Restated on the stated definition, FY23 core expenses are 5-15% lower, so FY25 positions are not comparable with the earlier chart along the x axis. S&W per student (the iso-lines) does not depend on this definition.
+- S&W: the original S&W for Penn, Stanford and Northwestern equals exactly 72.80% of each school's combined salaries-and-benefits line, an undisclosed assumption. Peers that report both lines run 74.8% to 81.4%. Northwestern is now actual (its Form 990 ties to the audited combined line to the dollar: S&W = 77.9%); Penn and Stanford are estimates using their own Form 990 shares (76.7%, 80.2%), shown in grey because their 990s cover a narrower scope than the consolidated statements.
+- Student counts: the original mixed sources (Rice = fall 2021, Vanderbilt = fall 2022, Emory 16,000 and Northwestern 23,000 were round estimates; Harvard and Penn used degree-seeking counts while others used IPEDS). All FY25 counts are now fall 2024 total enrollment from each school's Common Data Set.
 
-CHECKS
-- For all 11 institutions: S&W per student = S&W / students, opex per student = core opex / students, and S&W share = S&W / core opex reproduce the workbook. S&W per student = x-value times y-value, so each point sits on its iso-line.
-- Emory (16,000) and Northwestern (23,000) student counts are round numbers, so they are estimates; the other counts look like exact enrollment. Refresh should use one consistent IPEDS fall-enrollment definition for every school.
+NORTHEASTERN
+- S&W ${neu3['sw']/1e6:,.0f}M (Form 990; audited statements show 'salary and benefits' $1,341.0M) on core operating expenses ${neu3['opex']/1e6:,.0f}M = {neu3['share']:.1%}; {neu3['students']:,} students => ${neu3['swps']/1000:,.1f}K S&W per student and ${neu3['opex_ps']/1000:,.1f}K core expense per student.
+- The student count is the main sensitivity. Northeastern's CDS headcount (39,774) is about 22% above its IPEDS headcount (about 32.5K) and Facts and Figures shows 48,812. S&W per student would be $26.3K, $32.1K or $21.4K respectively. Confirm the official count with University Decision Support and label it.
+- Northeastern and BU headcounts include large graduate, online and co-op populations; per-headcount measures understate S&W per FTE student.
 
-STATUS: FY23 data. FY25 update and the Northeastern, Boston University and MIT rows are pending. MIT's figures include Lincoln Laboratory; Stanford's include SLAC and the hospitals; both need a footnote when added.
+OTHER CHECKS AND CAVEATS
+- Rice FY25 S&W +10.7% and scholarship presentation change; Duke FY24 includes the physician-practice acquisition (FY23-FY24 not comparable; FY25 is fine); Emory FY25 includes three months of the Houston Healthcare acquisition; Northeastern FY25 includes two weeks of Marymount Manhattan College; Yale reports depreciation, amortization and interest as one combined line; Vanderbilt S&W is from a chart at $M precision.
+- Chicago's CDS headcount (16,221) is 12% below IPEDS-style counts; Harvard's CDS excludes Extension School.
 """
-
 
 def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1:'st',2:'nd',3:'rd'}.get(n % 10,'th')}"
@@ -93,20 +134,23 @@ s1_sub = (f"Northeastern ranks {ordinal(foc_rank)} (of {n_all:,}) in median earn
           f"${fr.y/1000:,.0f}K at a ${fr.x/1000:,.0f}K average net price")
 
 prs = open_base("base.pptx")
-tag1 = "DRAFT · Oct 2023 Scorecard data; refresh pending" if DRAFT else None
-tag2 = "DRAFT · 2025 survey year pending" if DRAFT else None
-tag3 = "DRAFT · FY23 data; FY25 update and Northeastern, BU, MIT pending" if DRAFT else None
+tag1 = None
+tag2 = None
+tag3 = ("DRAFT \u00b7 " + ", ".join(missing_names) + " FY25 pending") if (DRAFT and missing_names) else None
 
 build_slide1(prs, df, lm, focus=foc, title="Wide variation in ‘return’ on college investment", subtitle=s1_sub,
-             notes_paras=s1_notes, source=s1_source, draft_tag=tag1, notes_text=s1_speaker)
+             notes_paras=s1_notes, source=s1_source, draft_tag=tag1, notes_text=s1_speaker, xmax=60000, ymax=150000)
 build_slide2(prs, s2, years, title="Is there a dangerous disconnect in perception at our institutions?",
-             subtitle="From Inside Higher Ed’s annual survey of college and university business officers",
-             notes_paras=["Note: Ratings are business officers’ perceptions of each group, not self-reports by faculty or trustees."],
-             source="Source: Inside Higher Ed, Survey of College and University Business Officers, 2015–2024.",
-             draft_tag=tag2, notes_text=s2_speaker, frame_bottom=6.5)
-build_slide3(prs, rows3, "FY23", title="S&W per student ranges from $51K (Rice, Vanderbilt) to $405K (Stanford)",
-             subtitle="Core operating expense per student and S&W share of expense; dashed lines mark constant S&W per student",
-             notes_paras=s3_notes, source=s3_source, draft_tag=tag3, notes_text=s3_speaker, health_system=HEALTH, frame_bottom=6.38)
+             subtitle="From Inside Higher Ed\u2019s annual survey of college and university business officers",
+             notes_paras=["* 2016 and 2017 faculty item asked whether faculty understand the challenges when they take part in budget discussions. Open markers, 2025\u20132026: a trustees-only statement (\u201cTrustees understand\u2026\u201d); faculty and senior administrators were not asked.",
+                          "Note: All institutions. Wording 2015\u20132024: \u201caware of and understand\u201d (the 2014 survey asked about \u201crealistic\u201d). Ratings are business officers\u2019 perceptions of each group, not self-reports by faculty or trustees."],
+             source="Source: Inside Higher Ed, Survey of College and University (Chief) Business Officers, 2015\u20132026 (n = 133 to 416 per year).",
+             draft_tag=tag2, notes_text=s2_speaker, frame_bottom=6.42, extra_label="Trustees only (2025\u201326 item)",
+             star_years={"F": (2016, 2017)})
+build_slide3(prs, rows3, "FY25", title=s3_title,
+             subtitle="Core operating expense per student and S&W share of that expense; dashed lines mark constant S&W per student",
+             notes_paras=s3_notes, source=s3_source, draft_tag=tag3, notes_text=s3_speaker, focus="Northeastern", health_system=HEALTH,
+             frame_bottom=6.05, foot_marks=foot_marks)
 
 prs.core_properties.title = "Peer comparison: return on investment, perceptions and salaries per student"
 import datetime

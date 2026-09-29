@@ -1,0 +1,122 @@
+{
+  "institution": "Vanderbilt University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 Vanderbilt Financial Report (audited consolidated financial statements, FY25 and FY24; includes MD&A)",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/291/2025/10/01145328/2025_VU_Financial_Report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Vanderbilt/fy25.pdf",
+      "pages": "PDF p.5 (statistics, students), p.10 (MD&A operating expenses and expense-by-type chart), p.20-21 (statements of activities FY25, FY24), p.23 (note 1), p.33 (debt/interest), p.41 (note 15 natural/functional), p.42 (note 19 VUMC)"
+    },
+    {
+      "label": "FY24 Vanderbilt Financial Report (FY24 and FY23)",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/291/2024/11/07201434/2024_VU_Financial_Report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Vanderbilt/fy24.pdf",
+      "pages": "PDF p.10 (MD&A chart), p.20-21 (statements of activities FY24, FY23), p.33 (interest)"
+    },
+    {
+      "label": "FY23 Vanderbilt Financial Report (FY23 and FY22)",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/291/2024/11/07201434/2023_VU_Financial_Report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Vanderbilt/fy23.pdf",
+      "pages": "PDF p.10 (MD&A chart), p.20-21 (statements of activities FY23, FY22)"
+    },
+    {
+      "label": "Vanderbilt Finance 'Financial Report' index page (source of links)",
+      "url": "https://finance.vanderbilt.edu/accounting/financial-report/",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Vanderbilt/report_index.html",
+      "pages": "n/a"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 804000000,
+      "sw_combined_with_benefits": 976417000,
+      "employee_benefits": 172000000,
+      "total_operating_expenses": 1799663000,
+      "depreciation": 116913000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 30063000,
+      "interest_in_opex": true,
+      "core_opex": 1652687000,
+      "core_opex_arithmetic": "1,799,663,000 - 116,913,000 (depreciation) - 30,063,000 (interest) = 1,652,687,000",
+      "evidence": {
+        "salaries_and_wages": "NOT on the statements (face and note 15 show only 'Salaries, wages, and benefits  976,417'). The MD&A chart 'Operating Expenses by Type (Fiscal 2025)' (FY25 report PDF p.10, in $ millions) shows 'Faculty salaries and wages, $294, 16%', 'Staff and student salaries and wages, $510, 28%' and 'Fringe benefits, $172, 10%'. 294 + 510 = 804 ($M, rounded); 804 + 172 = 976 ties to the statement.",
+        "total_operating_expenses": "'Total expenses  1,799,663' (thousands), the expenses section before 'Results of operations 217,348', FY25 report PDF p.20. MD&A calls it 'Total operating expenses $1,800' million (p.10).",
+        "depreciation": "'Depreciation  116,913  107,191' (thousands), separate expense line, FY25 report PDF p.20.",
+        "interest_expense": "'Interest expense  30,063' (thousands), separate expense line, FY25 report PDF p.20; note (p.33): 'Interest expense of $30.1 million in fiscal 2025 is net of capitalized interest of $5.4 million.'"
+      },
+      "notes": "salaries_and_wages (804,000,000) and employee_benefits (172,000,000) come from the MD&A expense-by-type chart at $ millions precision, NOT from the audited statements; the exact combined S,W&B is 976,417,000. Values are therefore only good to about +/-1,000,000 each. Total expenses also include 'Grants to affiliate' 40,778 (thousands), left in core opex. No amortization line in expenses.",
+      "natural_classification_check": "Salaries, wages, and benefits 976,417,000 + Supplies, services, and other 635,492,000 + Interest expense 30,063,000 + Depreciation 116,913,000 + Grants to affiliate 40,778,000 = 1,799,663,000 = total operating expenses (ties)"
+    },
+    "FY24": {
+      "salaries_and_wages": 783000000,
+      "sw_combined_with_benefits": 929267000,
+      "employee_benefits": 146000000,
+      "total_operating_expenses": 1685509000,
+      "depreciation": 107191000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 17495000,
+      "interest_in_opex": true,
+      "core_opex": 1560823000,
+      "core_opex_arithmetic": "1,685,509,000 - 107,191,000 (depreciation) - 17,495,000 (interest) = 1,560,823,000",
+      "evidence": {
+        "salaries_and_wages": "Statements show only 'Salaries, wages, and benefits  929,267'. MD&A chart 'Operating Expenses by Type (Fiscal 2024)' (FY24 report PDF p.10, $ millions): 'Faculty salaries and wages, $288, 17%', 'Staff and student salaries and wages, $495, 30%', 'Fringe benefits, $146, 9%'. 288 + 495 = 783; 783 + 146 = 929 ties.",
+        "total_operating_expenses": "'Total expenses  1,685,509' (thousands), FY25 report PDF p.21 and FY24 report PDF p.20 (agree).",
+        "depreciation": "'Depreciation  107,191', FY25 report p.21; FY24 report p.20 (agree).",
+        "interest_expense": "'Interest expense  17,495', FY25 report p.21; FY24 report p.20 (agree); net of capitalized interest of $5.8 million."
+      },
+      "notes": "salaries_and_wages and employee_benefits from MD&A chart at $ millions precision (see evidence).",
+      "natural_classification_check": "Salaries, wages, and benefits 929,267,000 + Supplies, services, and other 594,992,000 + Interest expense 17,495,000 + Depreciation 107,191,000 + Grants to affiliate 36,564,000 = 1,685,509,000 = total operating expenses (ties)"
+    },
+    "FY23": {
+      "salaries_and_wages": 700000000,
+      "sw_combined_with_benefits": 832612000,
+      "employee_benefits": 133000000,
+      "total_operating_expenses": 1615854000,
+      "depreciation": 101355000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 20820000,
+      "interest_in_opex": true,
+      "core_opex": 1493679000,
+      "core_opex_arithmetic": "1,615,854,000 - 101,355,000 (depreciation) - 20,820,000 (interest) = 1,493,679,000",
+      "evidence": {
+        "salaries_and_wages": "Statements show only 'Salaries, wages, and benefits  832,612' (FY24 report PDF p.21; FY23 report PDF p.20). MD&A chart 'Operating Expenses by Type (Fiscal 2023)' (FY23 report PDF p.10, $ millions): 'Faculty salaries and wages, $277, 17%', 'Staff and student salaries and wages, $423, 26%', 'Fringe benefits, $133, 9%'. 277 + 423 = 700; 700 + 133 = 833 (832.6 exact).",
+        "total_operating_expenses": "'Total expenses  1,615,854' (thousands), FY24 report PDF p.21 and FY23 report PDF p.20 (agree).",
+        "depreciation": "'Depreciation  101,355', FY24 report p.21; FY23 report p.20 (agree).",
+        "interest_expense": "'Interest expense  20,820', FY24 report p.21; FY23 report p.20 (agree). FY24 report note (p.33): 'Interest expense of $20.8 million in fiscal 2023 includes $0.5 million of other interest expense and is net of capitalized interest of $2.2 million.'"
+      },
+      "notes": "salaries_and_wages and employee_benefits from MD&A chart at $ millions precision (see evidence).",
+      "natural_classification_check": "Salaries, wages, and benefits 832,612,000 + Supplies, services, and other 630,222,000 + Interest expense 20,820,000 + Depreciation 101,355,000 + Grants to affiliate 30,845,000 = 1,615,854,000 = total operating expenses (ties)"
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Vanderbilt University Medical Center (VUMC) is NOT consolidated: note 19 (FY25 report PDF p.42) and the statistics footnote (PDF p.5) state that on April 29, 2016 VU and VUMC 'became two separate legal entities' and Vanderbilt transferred clinical operations, post-graduate training and clinical department research to VUMC. Statements consolidate 'all entities in which Vanderbilt has a significant financial interest and over which Vanderbilt has control' (note 1, PDF p.23). Ongoing VU-VUMC ties appear as revenue (Affiliated entity revenue 213,381,000 FY25; Trademark, license, and royalty revenue 162,551,000 incl. the TML) and one expense line 'Grants to affiliate' 40,778,000 FY25 / 36,564,000 FY24 / 30,845,000 FY23 (the notes read do not define the affiliate). 2,837 VUMC-employed staff hold VU faculty appointments (2024/2025) but are not VU employees (PDF p.5 footnote)."
+  },
+  "calibration_fy23": {
+    "ref_sw": 699234000,
+    "ref_core_opex": 1615854000,
+    "sw_diff_pct": 0.11,
+    "sw_combined_diff_pct": 19.07,
+    "core_opex_diff_pct": -7.56,
+    "total_opex_diff_pct": 0.0,
+    "explanation": "S&W: the statements show only combined 'Salaries, wages, and benefits' 832,612,000 for FY23 (19.1% above the reference), but the MD&A chart gives faculty S&W 277M + staff and student S&W 423M = 700M (rounded), only +0.11% from the reference 699,234,000, so the reference is a wages-only figure and matches on the same scope (VU only, VUMC excluded); the tiny difference is rounding of the chart ($ millions). The reference's exact source was not identified. Reference 'core operating expenses' 1,615,854,000 equals FY23 TOTAL expenses to the dollar; depreciation (101,355,000) and interest (20,820,000) were NOT removed. On the SPEC definition core opex FY23 = 1,615,854,000 - 101,355,000 - 20,820,000 = 1,493,679,000, which is 7.56% below the reference; the whole gap is depreciation plus interest."
+  },
+  "student_counts_in_official_docs": "FY25 report PDF p.5 'Vanderbilt University Statistics' column 2024/2025: Undergraduate 7,221; Graduate and professional 6,354; Total fall enrollment 13,575 (fall 2024, inferred from the academic-year column label). Prior columns: 2023/2024 total 13,456; 2022/2023 total 13,710. Note 1 (PDF p.23): 'approximately 7,200 undergraduate and 6,300 graduate and professional students enrolled across its 11 schools and colleges'.",
+  "caveats": [
+    "salaries_and_wages for all three years is taken from the MD&A expense-by-type chart (faculty + staff/student salaries and wages, in $ millions), not from the statements or notes, which show only combined salaries, wages and benefits. Precision is +/-1,000,000 per year; the exact combined S,W&B (976,417,000 FY25) is in sw_combined_with_benefits.",
+    "Vanderbilt labels the section 'EXPENSES' with 'Total expenses' and 'Results of operations' (its operating measure); other changes in net assets (endowment appreciation etc.) follow, so total expenses is the operating total.",
+    "'Grants to affiliate' (40,778,000 FY25) is an expense line whose payee is not defined in the notes read; it is included in total and core opex.",
+    "Cash flow shows 'Amortization of bond discounts and premiums 29,789' (FY25, versus (125) in FY24), likely tied to the August 2024 Series 2024 bond issue premium; it is not an operating-expense line and no amortization was deducted. Operating lease ROU amortization (14,157) also sits inside supplies/services.",
+    "FY24 comparatives agree between FY24 and FY25 reports; FY23 agree between FY23 and FY24 reports."
+  ],
+  "blocked_hosts": []
+}

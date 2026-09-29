@@ -1,0 +1,129 @@
+{
+  "institution": "University of Chicago",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited consolidated financial statements (The University of Chicago, June 30, 2025 and 2024)",
+      "url": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/fna/financial-services/accounting-and-treasury/audited-financial-statements/2024-2025-the-university-of-chicago-financial-statements.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Chicago/FY25.pdf (text: FY25.txt)",
+      "pages": "Statement of Activities printed p.4 (PDF p.6); functional expenses Note printed p.50 (PDF p.52); Note 15 affiliated orgs printed p.51 (PDF p.53); Schedule 2 consolidating statement of activities printed p.53 (PDF p.55)"
+    },
+    {
+      "label": "FY24 audited consolidated financial statements (June 30, 2024 and 2023)",
+      "url": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/fna/financial-services/accounting-and-treasury/audited-financial-statements/2023-2024-the-university-of-chicago-financial-statements.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Chicago/FY24.pdf (text: FY24.txt)",
+      "pages": "Statement of Activities PDF p.6; Schedule 2 consolidating PDF p.56; affiliated organizations PDF p.54"
+    },
+    {
+      "label": "FY23 audited consolidated financial statements (June 30, 2023 and 2022)",
+      "url": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/fna/financial-services/accounting-and-treasury/audited-financial-statements/2022-2023-the-university-of-chicago-financial-statements.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/University_of_Chicago/FY23.pdf (text: FY23.txt)",
+      "pages": "Statement of Activities PDF p.6; consolidating schedule PDF p.51; affiliated organizations PDF p.49. URL followed the site's naming pattern and returned the FY23 statements."
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 3678678000,
+      "sw_combined_with_benefits": 4517817000,
+      "employee_benefits": 839139000,
+      "total_operating_expenses": 8283042000,
+      "depreciation": 401386000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 215170000,
+      "interest_in_opex": true,
+      "core_opex": 7666486000,
+      "core_opex_arithmetic": "8,283,042,000 - 401,386,000 (D&A/depreciation) - 215,170,000 (interest) = 7,666,486,000. No separate amortization line appears in operating expenses, so amortization is null.",
+      "evidence": {
+        "salaries_and_wages": "Academic salaries 923,520 + Staff salaries 2,755,158 = 3,678,678 (thousands), 2025 column, under Expenses > Compensation on the Consolidated Statements of Activities (Benefits shown separately at 839,139). FY25 report, printed p.4 (PDF p.6). Consolidated, so includes UChicago Medical Center staff salaries.",
+        "total_operating_expenses": "'Total operating expenses 8,283,042' (thousands), 2025 column, Operating section of Consolidated Statements of Activities. FY25 report, printed p.4 (PDF p.6).",
+        "depreciation": "'Depreciation 401,386' (thousands) under Other operating expenses. FY25 report, printed p.4 (PDF p.6).",
+        "interest_expense": "'Interest 215,170' (thousands) under Other operating expenses. FY25 report, printed p.4 (PDF p.6).",
+        "note": "FY24 comparative in FY25 report: S&W, benefits, depreciation, interest, and total operating expenses agree with the FY24 report. Two FY24 lines were reclassified in the FY25 report (Utilities, alterations, and repairs 135,326 -> 197,555; Supplies, services, and other 2,764,303 -> 2,702,074; sum unchanged 2,899,629); Note 1(o) 'Certain 2024 amounts have been reclassified'. No effect on the fields here."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": 3385931000,
+      "sw_combined_with_benefits": 4212873000,
+      "employee_benefits": 826942000,
+      "total_operating_expenses": 7730566000,
+      "depreciation": 401599000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 216465000,
+      "interest_in_opex": true,
+      "core_opex": 7112502000,
+      "core_opex_arithmetic": "7,730,566,000 - 401,599,000 (D&A/depreciation) - 216,465,000 (interest) = 7,112,502,000. No separate amortization line appears in operating expenses, so amortization is null.",
+      "evidence": {
+        "salaries_and_wages": "Academic salaries 873,712 + Staff salaries 2,512,219 = 3,385,931 (thousands), 2024 column, under Expenses > Compensation on the Consolidated Statements of Activities (Benefits shown separately at 826,942). FY24 report, printed p.4 (PDF p.6). Consolidated, so includes UChicago Medical Center staff salaries.",
+        "total_operating_expenses": "'Total operating expenses 7,730,566' (thousands), 2024 column, Operating section of Consolidated Statements of Activities. FY24 report, printed p.4 (PDF p.6).",
+        "depreciation": "'Depreciation 401,599' (thousands) under Other operating expenses. FY24 report, printed p.4 (PDF p.6).",
+        "interest_expense": "'Interest 216,465' (thousands) under Other operating expenses. FY24 report, printed p.4 (PDF p.6).",
+        "note": "Identical in FY24 report and FY25 report comparative (only utilities/supplies split was reclassified)."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": 3033100000,
+      "sw_combined_with_benefits": 3662513000,
+      "employee_benefits": 629413000,
+      "total_operating_expenses": 6779655000,
+      "depreciation": 363977000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 199853000,
+      "interest_in_opex": true,
+      "core_opex": 6215825000,
+      "core_opex_arithmetic": "6,779,655,000 - 363,977,000 (D&A/depreciation) - 199,853,000 (interest) = 6,215,825,000. No separate amortization line appears in operating expenses, so amortization is null.",
+      "evidence": {
+        "salaries_and_wages": "Academic salaries 799,601 + Staff salaries 2,233,499 = 3,033,100 (thousands), 2023 column, under Expenses > Compensation on the Consolidated Statements of Activities (Benefits shown separately at 629,413). FY23 report, printed p.4 (PDF p.6). Consolidated, so includes UChicago Medical Center staff salaries.",
+        "total_operating_expenses": "'Total operating expenses 6,779,655' (thousands), 2023 column, Operating section of Consolidated Statements of Activities. FY23 report, printed p.4 (PDF p.6).",
+        "depreciation": "'Depreciation 363,977' (thousands) under Other operating expenses. FY23 report, printed p.4 (PDF p.6).",
+        "interest_expense": "'Interest 199,853' (thousands) under Other operating expenses. FY23 report, printed p.4 (PDF p.6).",
+        "note": "Identical in FY23 report and FY24 report comparative."
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": true,
+    "health_system_expense": {
+      "FY25": 5159515000,
+      "FY24": 4514222000,
+      "FY23": 3719074000,
+      "basis": "Medical Center (UChicago Medicine) column 'Total operating expenses' in Schedule 2 Consolidating Statement of Activities, BEFORE eliminations. FY25 report PDF p.55 (5,159,515 thousand; consolidated-level eliminations of (748,969) are not allocated by column); FY24 report PDF p.56 (4,514,222; eliminations (153,367)); FY23 report PDF p.51 (3,719,074; eliminations (132,141)).",
+      "medical_center_salaries": {
+        "FY25_staff_salaries": 1727968000,
+        "FY24_staff_salaries": 1569645000,
+        "FY23_staff_salaries": 1379551000,
+        "note": "All Medical Center salaries are shown as 'Staff salaries'; academic salaries are 0 in the Medical Center column."
+      },
+      "alt_measure_functional_healthcare_service": {
+        "FY25": 4177756000,
+        "FY24": 3978458000,
+        "note": "Functional expense classification 'Healthcare service' total, FY25 report PDF p.52 (after eliminations)."
+      },
+      "health_system_share_of_consolidated_total_FY25_pct_pre_elimination_basis": 62.3
+    },
+    "ffrdc": "Argonne National Laboratory (UChicago Argonne LLC) and Fermilab (member of Fermi Research Alliance) are NOT consolidated: 'expenditures under the respective contracts and the related reimbursements ... are not included in the consolidated statements of activities.' Disclosed expenditures/reimbursements: ANL 1,247,313,000 and Fermilab 731,552,000 in FY25; ANL 1,221,143,000 and Fermilab 735,699,000 in FY24; ANL 1,283,947,000 and Fermilab 607,795,000 in FY23 (FY25 report Note 15 PDF p.53; FY24 report PDF p.54; FY23 report PDF p.49). Excluded from all figures above.",
+    "other": "Marine Biological Laboratory (MBL) consolidated (FY25 opex 54,599,000). The Medical Center holds a controlling (51%) interest in AdventHealth Great Lakes Region, consolidated via member substitution (the FY25 report's cash flow statement shows the related net-asset contribution, 302,379,000, in the 2024 column, so FY24 is the year it entered; it likely contributes to the FY23-to-FY24 growth in Medical Center expense). NORC is an affiliate not consolidated. Operating expenses include a non-controlling interest in a consolidated joint venture (net loss (13,270,000) FY25 shown below the operating total, not removed from it)."
+  },
+  "calibration_fy23": {
+    "ref_sw": 3033100000,
+    "ref_core_opex": 6779655000,
+    "sw_diff_pct": 0.0,
+    "core_opex_diff_pct": -8.32,
+    "explanation": "S&W: exact match. Academic salaries 799,601 + Staff salaries 2,233,499 = 3,033,100 thousand = the reference 3,033,100,000 (0.0% diff), benefits excluded and Medical Center staff included. Core opex: the reference 6,779,655,000 equals FY23 TOTAL operating expenses exactly (6,779,655 thousand). Against the SPEC definition (total minus depreciation 363,977,000 minus interest 199,853,000 = 6,215,825,000) the reference is 8.3% higher, because the original analysis did not deduct depreciation or interest."
+  },
+  "student_counts_in_official_docs": "None. The audited statements state that the University enrolls undergraduate, graduate and professional students (Note 1) but give no enrollment counts.",
+  "caveats": [
+    "Salaries and wages = Academic salaries + Staff salaries (two lines); benefits (FY25 839,139,000) are separate. Consolidated S&W includes UChicago Medicine staff salaries (FY25 1,727,968,000 in Schedule 2) and MBL.",
+    "Health-system expense given before consolidation eliminations (FY25 eliminations 748,969,000 at consolidated total level vs 153,367,000 in FY24 and 132,141,000 in FY23), so Medical Center expense is not strictly like-for-like across years and overstates the amount inside the consolidated total. The FY24-to-FY25 jump in eliminations suggests a broader intercompany elimination in FY25; the FY25 report does not present a 2024 consolidating column to compare.",
+    "FY24 line items 'Utilities, alterations, and repairs' and 'Supplies, services, and other' were reclassified between the FY24 report and the FY25 comparative (sum unchanged, total opex unchanged).",
+    "Total operating expenses is the Operating section total; the nonoperating net periodic benefit credit other than service cost ((13,787,000) FY25) is outside it. The functional-expense table total (8,269,255,000) is after that credit and is not used.",
+    "Interest is presented inside operating expenses (not nonoperating). No separate amortization line in operating expenses; amortization is null.",
+    "Argonne and Fermilab expenditures (about 2.0B in FY25) are excluded from the consolidated statements by design; not in any figure here."
+  ],
+  "blocked_hosts": []
+}

@@ -1,0 +1,122 @@
+{
+  "institution": "Rice University (William Marsh Rice University)",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited consolidated financial statements (auditor's report dated October 30, 2025)",
+      "url": "https://rice.app.box.com/index.php?rm=box_download_shared_file&shared_name=kuzehuzf01j84ezzqwg3zlll1qc6fq4n&file_id=f_2033251676859 (Box file 'FY 2025 Audited Financial Statements - William Marsh Rice University.pdf', linked as 'Fiscal Year 2025' from https://budgetandfinance.rice.edu/financial-statements via https://rice.box.com/s/kuzehuzf01j84ezzqwg3zlll1qc6fq4n)",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Rice_University/fy25_fs.pdf",
+      "pages": "26 pp. Statement of Activities PDF p6 (printed p.4); cash flows p7; debt/interest note p21; Note 14 functional/natural expenses p25 (printed p.23)"
+    },
+    {
+      "label": "FY24 audited consolidated financial statements (auditor's report dated October 30, 2024)",
+      "url": "https://budgetandfinance.rice.edu/sites/g/files/bxs3451/files/inline-files/FY24%20Signed%20Financial%20Statement.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Rice_University/fy24_fs.pdf",
+      "pages": "29 pp. Statement of Activities PDF p6 (printed p.4); debt note p24; functional/natural expense tables p27-28"
+    },
+    {
+      "label": "FY23 audited consolidated financial statements (auditor's report dated October 31, 2023)",
+      "url": "https://budgetandfinance.rice.edu/sites/g/files/bxs3451/files/inline-files/FY23_William_Marsh_Rice_Financial_Statement.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Rice_University/fy23_fs.pdf",
+      "pages": "29 pp. Statement of Activities PDF p6 (printed p.4); functional/natural expense tables p28"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 515800000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 123330000,
+      "total_operating_expenses": 1087937000,
+      "depreciation": 82255000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 45396000,
+      "interest_in_opex": true,
+      "dep_amort_note": "Rice reports ONE combined operating line 'Depreciation and amortization'; the value is entered under 'depreciation' and 'amortization' is null because it is not separated. The cash flow statement shows the same amount as 'Depreciation of property and equipment' (FY25 82,255; FY24 81,932), so amortization is at most immaterial. Interest line is 'Interest and bond costs'.",
+      "core_opex": 960286000,
+      "core_opex_arithmetic": "total 1,087,937,000 - dep&amort 82,255,000 - interest 45,396,000 = 960,286,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 515,800 - 515,800 466,056' (Consolidated Statements of Activities, operating expenses; $ thousands; columns: without donor restr., with donor restr., 2025 total, 2024 total). FY25 audited statements PDF p6 (printed p.4); also natural/functional note 14, PDF p25 (printed p.23): 'Salaries and wages ... Total 515,800'.",
+        "total_operating_expenses": "'Total operating expenses 1,087,937 - 1,087,937 1,053,413' (Statement of Activities, FY25 PDF p6, printed p.4). Natural-classification sum (515,800+123,330+35,543+82,255+45,396+20,755+264,858) = 1,087,937 = face total; note 14 total also 1,087,937 (PDF p25).",
+        "depreciation": "'Depreciation and amortization 82,255 - 82,255 81,932' (Statement of Activities, PDF p6); cash flow 'Depreciation of property and equipment 82,255 81,932' (PDF p7).",
+        "interest_expense": "'Interest and bond costs 45,396 - 45,396 40,922' (Statement of Activities, PDF p6); note: 'Interest and bonds costs of $45,396 and $40,922 were charged to operations in 2025 and 2024, respectively. Interest and bond costs of $4,836 and $3,731 were capitalized' (PDF p21)."
+      },
+      "fy24_comparative_source": "FY25 report comparative column (restated, see caveats)"
+    },
+    "FY24": {
+      "salaries_and_wages": 466056000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 109471000,
+      "total_operating_expenses": 1053413000,
+      "depreciation": 81932000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 40922000,
+      "interest_in_opex": true,
+      "dep_amort_note": "Rice reports ONE combined operating line 'Depreciation and amortization'; the value is entered under 'depreciation' and 'amortization' is null because it is not separated. The cash flow statement shows the same amount as 'Depreciation of property and equipment' (FY25 82,255; FY24 81,932), so amortization is at most immaterial. Interest line is 'Interest and bond costs'.",
+      "core_opex": 930559000,
+      "core_opex_arithmetic": "total 1,053,413,000 - dep&amort 81,932,000 - interest 40,922,000 = 930,559,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 466,056' in the 2024 column of the FY25 Statement of Activities (PDF p6) and the 2024 column of the FY24 statements (PDF p6, printed p.4): 'Salaries and wages 466,056 - 466,056 421,781'. Identical in both reports.",
+        "total_operating_expenses": "FY25 report comparative column: 'Total operating expenses ... 1,053,413' (PDF p6). FY24 report as originally issued: 'Total operating expenses 1,052,827 - 1,052,827 959,377' (FY24 PDF p6). Difference 586 = Scholarships (72,656 originally vs 73,242 restated). Value used here is the restated one from the FY25 report; original-report value is in 'fy24_as_originally_reported'.",
+        "depreciation": "'Depreciation and amortization 81,932' in both the FY24 report (PDF p6) and the FY25 report 2024 column (PDF p6).",
+        "interest_expense": "'Interest and bond costs 40,922' on the face of both the FY24 report (PDF p6) and FY25 report (PDF p6); FY25 note (PDF p21): 'Interest and bonds costs of $45,396 and $40,922 were charged to operations in 2025 and 2024'. NOTE: the FY24 report's debt note (PDF p24) says '$37,853 and $39,338 were charged to operations in 2024 and 2023'; face value 40,922 is used (the 37,853 appears to be 41,584 less 3,731 capitalized)."
+      },
+      "fy24_as_originally_reported": {
+        "total_operating_expenses": 1052827000,
+        "scholarships": 72656000,
+        "core_opex": 929973000,
+        "core_opex_arithmetic": "total 1,052,827,000 - dep&amort 81,932,000 - interest 40,922,000 = 929,973,000"
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": 421781000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 95908000,
+      "total_operating_expenses": 959377000,
+      "depreciation": 78849000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 39338000,
+      "interest_in_opex": true,
+      "dep_amort_note": "Rice reports ONE combined operating line 'Depreciation and amortization'; the value is entered under 'depreciation' and 'amortization' is null because it is not separated. The cash flow statement shows the same amount as 'Depreciation of property and equipment' (FY25 82,255; FY24 81,932), so amortization is at most immaterial. Interest line is 'Interest and bond costs'.",
+      "core_opex": 841190000,
+      "core_opex_arithmetic": "total 959,377,000 - dep&amort 78,849,000 - interest 39,338,000 = 841,190,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 466,056 - 466,056 421,781' (FY24 report PDF p6, 2023 column) and 'Salaries and wages 421,781 - 421,781 382,699' (FY23 report PDF p6, printed p.4).",
+        "total_operating_expenses": "'Total operating expenses 959,377 - 959,377 835,735' (FY23 report PDF p6); FY24 report 2023 column also 959,377 (PDF p6). Natural sum (421,781+95,908+64,162+78,849+39,338+20,516+238,823) = 959,377.",
+        "depreciation": "'Depreciation and amortization 78,849' (FY24 report PDF p6, 2023 column); FY23 report PDF p6 also 78,849 (cash flow line shows 78,850 in FY23/FY24 reports, rounding).",
+        "interest_expense": "'Interest and bond costs 39,338' (FY23 report PDF p6; FY24 report 2023 column PDF p6); FY24 note: 'Interest expense and bonds costs of $37,853 and $39,338 were charged to operations in 2024 and 2023' (PDF p24)."
+      },
+      "fy23_source": "FY24 report 2023 column, cross-checked to the FY23 report as issued"
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Statements consolidate 'all academic and administrative departments of the University and affiliated organizations that are controlled by the University' (Note 1, FY25 PDF p8). No hospital/health system and no FFRDC appears in the statements. Operating expenses are also shown by function (Note 14): FY25 academic programs & research 718,958; auxiliary enterprises 97,291; general administration 243,301; fundraising 28,387 ($ thousands)."
+  },
+  "calibration_fy23": {
+    "ref_sw": 421781000,
+    "ref_core_opex": 959377000,
+    "extracted_sw": 421781000,
+    "extracted_core_opex": 841190000,
+    "sw_diff_pct": 0.0,
+    "core_opex_diff_pct": -12.32,
+    "explanation": "S&W matches the original analysis exactly (421,781 thousand = 'Salaries and wages', benefits excluded). The reference 'core operating expenses' (959,377 thousand) equals Rice's reported TOTAL operating expenses for FY23 to the dollar, i.e. the original analysis did NOT remove depreciation & amortization (78,849) or interest (39,338). Under the SPEC definition (total - dep/amort - interest) FY23 core is 841,190 thousand, 12.3% below the reference. Definitional difference only; extraction not adjusted."
+  },
+  "student_counts_in_official_docs": "None found: the FY23-FY25 audited financial statements contain no enrollment/headcount (searched text for enrollment, students, headcount). Only dollar amounts of student aid appear (e.g., Note 11).",
+  "caveats": [
+    "FY24 restatement: the FY25 report shows FY24 total operating expenses of 1,053,413 (Scholarships 73,242) and operating revenues of 1,117,047, versus 1,052,827 (Scholarships 72,656) and 1,116,461 in the FY24 report as issued; +586 on both sides, net operating income unchanged at 63,634. S&W (466,056), benefits (109,471), D&A (81,932) and interest (40,922) are identical in both. The FY25 report also states 'management revised its functional expense presentation approach' and reclassified 2024 (Note 14, PDF p25).",
+    "FY25 Scholarships expense fell to 35,543 from 73,242 while 'scholarship and fellowship awards applied to tuition and fees' (contra-revenue; student financial aid note, FY25 PDF p24) rose to 240,007 from 179,971 (FY24 report as issued: 187,565) and net tuition revenue fell to 280,603 from 294,027: a change in how aid is split between contra-revenue and expense. This makes FY25 total operating expenses and core opex not strictly comparable with FY24 (aid-related expense presentation shifted); S&W is unaffected.",
+    "FY25 S&W rose 10.7% (515,800 vs 466,056) and benefits 12.7%; taken as reported, no explanation given in the notes I read. Worth a sanity check if this growth looks too large for the leadership slide.",
+    "FY24 report debt note says interest and bond costs charged to operations were $37,853 for 2024, but the face of the FY24 statement, the FY25 statement and the FY25 note all show 40,922; 40,922 used.",
+    "'Depreciation and amortization' is a single combined line; amortization not separable.",
+    "All amounts in the source are $ thousands; the JSON is converted to whole dollars (x1,000)."
+  ],
+  "blocked_hosts": []
+}
