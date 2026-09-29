@@ -39,7 +39,7 @@ lines = [
     ("Slide 3", "S3_FY25: FY25 audited statements (plus Form 990 / MD&A where the audited statements combine salaries and benefits). S3_Sensitivity, S3_FY23_Recalc and S3_Enrollment test the assumptions."),
     ("Evidence", "Verbatim source rows and document links for each FY25 figure."),
     ("Checks", "Every test run and every disconnect found, with status."),
-    ("Data_needed", "What is still open (optional: Penn / Stanford consolidated salaries and wages; Princeton CDS; Harvard FY23 report for calibration)."),
+    ("Data_needed", "What is still open (optional: Penn / Stanford consolidated salaries and wages; Princeton CDS)."),
 ]
 for i, (a, b) in enumerate(lines, 4):
     put(ws, i, 1, a, bold=True); put(ws, i, 2, b, wrap=True)
@@ -140,7 +140,7 @@ notes = {"Yale": "Yale reports depreciation, amortization and interest as ONE op
          "MIT": "Includes Lincoln Laboratory (S&W not disclosed separately). 'Total expenses before depreciation and interest' = core. Net periodic benefit income of $170M is outside operating expenses.",
          "Chicago": "Includes UChicago Medicine; Argonne and Fermilab are not consolidated.",
          "Princeton": "Includes the Plasma Physics Laboratory ($246.9M expense). Students from the Report of the Treasurer (CDS host not reachable).",
-         "Harvard": "Separate S&W and benefits lines in the FY25 audited Financial Report (supplied by Northeastern; Statement of Changes in Net Assets, PDF p.18). Depreciation and interest are separate operating lines; nine natural-classification lines sum to total operating expenses. No hospital consolidated. CDS students exclude the Harvard Extension School although expenses include it (S3_Sensitivity E)."}
+         "Harvard": "Separate S&W and benefits lines in the FY25 audited Financial Report (supplied by Northeastern; Statement of Changes in Net Assets, PDF p.18). Depreciation and interest are separate operating lines; nine natural-classification lines sum to total operating expenses. No hospital consolidated. Students = CDS 21,189 + Extension School degree students 3,630 (Fact Book, fall 2024) = 24,819, because expenses include the Division of Continuing Education (S3_Sensitivity E)."}
 r = first
 pos = {}
 for short in ORDER:
@@ -193,7 +193,7 @@ for i, (b, s, note) in enumerate([("Common Data Set 2024-25 (used on slide)", 39
                                   ("Northeastern Facts and Figures fall 2024", 48812, "Excludes non-degree students; adds co-op students as an extra column")], 6):
     put(ws2, i, 1, b); put(ws2, i, 2, s, "#,##0"); put(ws2, i, 3, f"=S3_FY25!C{nr}/B{i}", '"$"#,##0'); put(ws2, i, 4, f"=S3_FY25!L{nr}/B{i}", '"$"#,##0'); put(ws2, i, 5, note)
 put(ws2, 10, 1, "B. S&W per student: CDS fall 2024 vs IPEDS fall 2023 headcount", bold=True)
-header(ws2, 11, ["Institution", "CDS fall 2024", "IPEDS fall 2023", "S&W per student (CDS)", "S&W per student (IPEDS F23)", "Rank low-to-high (CDS)", "Rank low-to-high (IPEDS)", "IPEDS F23 vs CDS F24 (%)"])
+header(ws2, 11, ["Institution", "Students used (CDS fall 2024; Harvard + Extension)", "IPEDS fall 2023", "S&W per student (used)", "S&W per student (IPEDS F23)", "Rank low-to-high (CDS)", "Rank low-to-high (IPEDS)", "IPEDS F23 vs CDS F24 (%)"])
 ipeds = json.load(open("inputs/ipeds_fall_total.json"))["2023"]
 ipk = {"Boston University": "Boston University", "MIT": "MIT"}
 rr = 12
@@ -222,13 +222,14 @@ put(ws2, q + 1, 1, "The 35% assumption sits above every observed rate, so the Pe
 
 hr = pos["Harvard"]
 q += 3
-put(ws2, q, 1, "E. Harvard S&W per student by student-count basis (CDS excludes the Harvard Extension School; expenses include it)", bold=True)
+put(ws2, q, 1, "E. Harvard S&W per student by student-count basis (CDS excludes the Harvard Extension School; the expenses include it)", bold=True)
 header(ws2, q + 1, ["Basis", "Students", "S&W per student", "Core opex per student", "Note"])
-for k, (b, sv, note) in enumerate([("Common Data Set 2024-25 (used on slide)", 21189, "B1 grand total all students, degree schools only; matches the FY25 report's own 'approximately 7,000 undergraduate and 14,000 graduate students'"),
-                                   ("Harvard OIRA Fact Book fall 2023 degree students incl. Extension", 24596, "Fact Book 2023-24 enrollment page: 24,596 degree students (includes 3,595 Extension degree candidates); fall 2024 not used because not opened"),
-                                   ("IPEDS fall 2023 total", 30386, "Includes non-degree and Extension students; broadest count")], q + 2):
-    put(ws2, k, 1, b); put(ws2, k, 2, sv, "#,##0"); put(ws2, k, 3, f"=S3_FY25!C{hr}/B{k}", '"$"#,##0'); put(ws2, k, 4, f"=S3_FY25!L{hr}/B{k}", '"$"#,##0'); put(ws2, k, 5, note)
-put(ws2, q + 5, 1, "Harvard stays well above Northeastern ($26K) on every basis.", color="6B6B70")
+for k, (b_, sv, note) in enumerate([("CDS 2024-25 + Extension School degree students, fall 2024 (USED on slide)", "=21189+3630", "CDS B1 grand total 21,189 (degree schools only) + Extension undergraduate 621 + graduate 3,009 (Harvard OIRA Fact Book 2025-26, 'as of October 15 of the academic year')"),
+                                    ("Fact Book University total degree headcount, fall 2024", 24519, "Distinct students; some Extension students are also registered in another school, so this is 300 below the sum above"),
+                                    ("CDS 2024-25 only (excludes Extension School)", 21189, "The count used in the first FY25 draft; expenses include Continuing Education, so S&W per student is overstated on this basis"),
+                                    ("IPEDS fall 2023 total", 30386, "Adds non-degree Extension course takers (not in the Fact Book); fall 2024 IPEDS not yet posted")], q + 2):
+    put(ws2, k, 1, b_); put(ws2, k, 2, sv, "#,##0"); put(ws2, k, 3, f"=S3_FY25!C{hr}/B{k}", '"$"#,##0'); put(ws2, k, 4, f"=S3_FY25!L{hr}/B{k}", '"$"#,##0'); put(ws2, k, 5, note)
+put(ws2, q + 6, 1, "Harvard stays well above Northeastern ($26K) on every basis.", color="6B6B70")
 
 # ============================================================== S3_FY23_Recalc
 ws3 = wb.create_sheet("S3_FY23_Recalc")
@@ -259,7 +260,7 @@ for short in ["Rice", "Vanderbilt", "Northwestern", "Princeton", "Harvard", "Yal
         if y.get("sw_combined_with_benefits"):
             put(ws3, rr_, 11, y["sw_combined_with_benefits"], "#,##0"); put(ws3, rr_, 12, f"=B{rr_}/K{rr_}", "0.0000")
     else:
-        put(ws3, rr_, 4, "FY23 not in the FY25 report (FY24 comparative: S&W 2,631,642,000)", color=RED)
+        put(ws3, rr_, 4, "no FY23 statement", color=RED)
     put(ws3, rr_, 13, ipeds_fin[short][0], "#,##0"); put(ws3, rr_, 14, ipeds_fin[short][1], "#,##0")
     rr_ += 1
 put(ws3, rr_ + 1, 1, "Reading it: column H is ~0% for every school with data: the original 'core operating expenses' equal audited total operating expenses (depreciation and interest were never removed). "
@@ -288,7 +289,7 @@ for short in ORDER:
     src = (e.get("fall_2024") or {}).get("source_url") or "Princeton Report of the Treasurer FY25: 5,726 undergraduates + 3,324 graduate students (term not named; CDS host not reachable)"
     put(ws4, rr_, 10, src)
     rr_ += 1
-put(ws4, rr_ + 1, 1, "Reading it: Harvard (CDS excludes Extension School), Penn (CDS counts degree-seeking traditional programs only), Chicago (CDS ~12-14% below IPEDS) and Northeastern (CDS ~24% ABOVE IPEDS) do not match IPEDS; "
+put(ws4, rr_ + 1, 1, "Reading it: Harvard (CDS excludes Extension School; the slide adds it back), Penn (CDS counts degree-seeking traditional programs only), Chicago (CDS ~12-14% below IPEDS) and Northeastern (CDS ~24% ABOVE IPEDS) do not match IPEDS; "
                     "the original slide mixed fall 2021 (Rice), fall 2022 (Vanderbilt), degree-seeking counts (Harvard, Penn) and round estimates (Emory 16,000, Northwestern 23,000).", color="6B6B70")
 
 # ============================================================== Evidence
@@ -323,7 +324,7 @@ C = [
     ("2", "2025 and 2026", "The three-group item was not asked. Trustees-only statement: 74% (2025, n=169, +/-7%) and 79% (2026, n=213, +/-6%). Plotted as separate open markers. No faculty or senior-administrator values exist for these years.", "Info"),
     ("2", "Comparability of the series", "Fielded by Gallup in the earlier editions and by Hanover Research from 2021 (n=133 in 2021; 273-416 earlier; 169-238 for 2022-2026). No margin of error is stated for 2015-2022 (6-7% for 2023-2026). Year-to-year moves of a few points are within sampling error.", "Caveat"),
     ("2", "Who is asked", "Business officers rating other groups (Sr. Administrators includes their own peers); not faculty's own view.", "Fixed (labeled)"),
-    ("3", "Definition of 'core operating expenses'", "The original values equal audited total operating expenses to the dollar for every school checked (Rice, Vanderbilt, Northwestern, Princeton, Yale, Chicago, Duke, Emory, Penn, Stanford), and equal the IPEDS FY23 'total expenses' field for Rice, Vanderbilt, Northwestern, Princeton, Harvard, Duke and Penn. Depreciation, amortization and interest were never removed although the axis says they were. FY25 now follows the axis; FY23 restated is 5-15% lower (S3_FY23_Recalc).", "Finding / fixed"),
+    ("3", "Definition of 'core operating expenses'", "The original values equal audited total operating expenses to the dollar for every school checked (Rice, Vanderbilt, Northwestern, Princeton, Harvard, Yale, Chicago, Duke, Emory, Penn, Stanford), and equal the IPEDS FY23 'total expenses' field for Rice, Vanderbilt, Northwestern, Princeton, Harvard, Duke and Penn. Depreciation, amortization and interest were never removed although the axis says they were. FY25 now follows the axis; FY23 restated is 5-15% lower (S3_FY23_Recalc).", "Finding / fixed"),
     ("3", "Origin of the original S&W for Penn, Stanford, Northwestern", "Exactly 72.800% of each school's audited combined salaries and benefits: an undisclosed assumption. Schools that report both lines run 74.8%-81.4%, so 72.8% understates S&W by 3-10%. Northwestern is now actual (Form 990 ties to the audited line); Penn and Stanford are flagged estimates.", "Finding / fixed"),
     ("3", "S&W not separately reported in audited statements", "Northeastern, Northwestern, Penn, Stanford, Vanderbilt combine salaries and benefits. Northeastern and Northwestern use Form 990 S&W; Vanderbilt uses the MD&A expense chart. Penn and Stanford (grey markers) use S&W = combined / 1.35, a 35% fringe benefit rate assumed per Northeastern's direction (74.1% S&W share).", "Decided / caveat"),
     ("3", "35% fringe rate vs observed rates", "Schools that report both lines have fringe rates (benefits / S&W) of 22.8% to 33.8% (Chicago 22.8%, Duke 23.6%, Emory 23.9%, Rice 23.9%, Harvard 27.4%, Princeton 30.3%, BU 31.5%, Yale 31.5%, MIT 33.8%). 35% is above all of them, so the Penn and Stanford estimates lean low: using each school's own Form 990 S&W share instead would raise S&W per student by about 4% (Penn) and 8% (Stanford) (S3_Sensitivity C). Neither changes the ranking of Penn or Stanford or any conclusion about Northeastern.", "Caveat"),
@@ -334,9 +335,9 @@ C = [
     ("3", "FY23 to FY24 comparability", "Duke's FY24 includes the July 1, 2023 physician-practice acquisition (S&W +29.5%); FY25 is unaffected. Rice's FY25 scholarship presentation changed (total and core not strictly comparable with FY24). Emory FY25 includes three months of Houston Healthcare. Northeastern FY25 includes two weeks of Marymount Manhattan College.", "Info"),
     ("3", "Entities inside the numbers", "Consolidated: hospitals at Chicago, Duke, Emory, Penn, Stanford; Lincoln Laboratory (MIT), Plasma Physics Laboratory (Princeton), SLAC (Stanford). Not consolidated: Northwestern Medicine, VUMC, Yale New Haven Hospital, Boston Medical Center, Argonne, Fermilab. Footnoted on the slide.", "Handled"),
     ("3", "Arithmetic", "For every school, core = total - depreciation - amortization - interest (formula), S&W per student = x * y (column Q = 0), and the natural-classification lines sum to total operating expenses in every year (as reported by the extraction). Key rows for Northeastern, BU and MIT re-checked against the PDFs.", "Pass"),
-    ("3", "Harvard", "Added from the FY25 audited Financial Report supplied by Northeastern (finance.harvard.edu blocks automated access). S&W $2,758.6M and benefits $755.9M are separate lines (benefits 27.4% of S&W); total operating expenses $6,794.4M - depreciation $459.0M - interest $262.5M = core $6,072.8M; the nine natural-classification lines sum to the total in FY25 and FY24 (Note 17). S&W share 45.4%; 21,189 students -> $130K S&W per student, next to Princeton ($128K) with a lower S&W share. No hospital consolidated.", "Pass"),
-    ("3", "Harvard student count", "CDS (21,189) matches the FY25 report's own 'approximately 7,000 undergraduate and 14,000 graduate students' but excludes the Harvard Extension School, whose costs are in the expenses (Division of Continuing Education). With Extension degree students (24,596 in fall 2023) S&W per student would be about $112K; with IPEDS 30,386, $91K (S3_Sensitivity E). No effect on Northeastern's ranking.", "Caveat"),
-    ("3", "Harvard FY23 calibration", "FY23 statements not supplied, so Harvard is not on S3_FY23_Recalc. Sanity check only: FY24 core opex on the stated definition ($5,760M) is 2.6% below the original slide's FY23 'core opex' ($5,912M), consistent with the original using total operating expenses.", "Info"),
+    ("3", "Harvard", "Added from the FY25 audited Financial Report supplied by Northeastern (finance.harvard.edu blocks automated access). S&W $2,758.6M and benefits $755.9M are separate lines (benefits 27.4% of S&W); total operating expenses $6,794.4M - depreciation $459.0M - interest $262.5M = core $6,072.8M; the nine natural-classification lines sum to the total in FY25 and FY24 (Note 17). S&W share 45.4%; 24,819 students (CDS + Extension School degree students) -> $111K S&W per student, below Princeton ($128K) with a lower S&W share. No hospital consolidated.", "Pass"),
+    ("3", "Harvard student count", "Expenses include the Division of Continuing Education (Harvard Extension School) but the Common Data Set excludes it. Students on the slide = CDS 21,189 + Extension degree students 3,630 (621 undergraduate + 3,009 graduate, Harvard OIRA Fact Book 2025-26, fall 2024) = 24,819 -> $111K S&W per student. Alternatives (S3_Sensitivity E): CDS only 21,189 -> $130K; Fact Book distinct total 24,519 -> $113K; IPEDS fall 2023 30,386 (adds non-degree course takers) -> $91K. Harvard's own report: 'approximately 7,000 undergraduate and 14,000 graduate students' (Note 1). No effect on Northeastern's ranking.", "Handled / caveat"),
+    ("3", "Harvard FY23 calibration", "FY23 Financial Report (supplied by Northeastern): original slide S&W $2,421,076K equals the audited FY23 salaries and wages line to the dollar; the original 'core opex' $5,911,797K equals audited FY23 total operating expenses to the dollar. On the stated definition FY23 core is $5,278,398K (total less depreciation $424,809K and interest $208,590K), so the original x value was 12.0% too high. Same finding as for the other schools. Original 21,400 students = the report's 'approximately 7,200 undergraduate and 14,200 graduate' (Note 1). S&W grew 13.9% FY23 to FY25 ($2,421M to $2,759M).", "Pass / finding"),
     ("3", "Original chart construction", "The original plotted only the eight iso-lines; logos were hand-placed pictures, so positions did not come from data, and Stanford's x-value exceeded the axis maximum. Rebuilt with real data points.", "Fixed"),
 ]
 for i, (a, b, c, d_) in enumerate(C, 4):
@@ -348,8 +349,7 @@ for i, (a, b, c, d_) in enumerate(C, 4):
 ws7 = wb.create_sheet("Data_needed")
 title(ws7, "Still open")
 header(ws7, 3, ["Slide", "Item", "Why", "Action"], [7, 70, 80, 70])
-N = [("3", "Harvard FY23 Financial Report (optional)", "Only needed to add Harvard to the FY23 recalculation sheet; the FY25 chart does not depend on it.", "Upload the FY23 or FY24 Harvard Financial Report if you want the calibration row."),
-     ("3", "Penn and Stanford salaries and wages (optional)", "Estimated at combined salaries+benefits / 1.35 (35% fringe rate, per Northeastern). Audited statements combine the two lines; Form 990s cover a narrower scope.", "If either finance office can supply consolidated S&W, replace the grey estimate."),
+N = [("3", "Penn and Stanford salaries and wages (optional)", "Estimated at combined salaries+benefits / 1.35 (35% fringe rate, per Northeastern). Audited statements combine the two lines; Form 990s cover a narrower scope.", "If either finance office can supply consolidated S&W, replace the grey estimate."),
      ("3", "Princeton Common Data Set 2024-25 (optional)", "ir.princeton.edu is behind a bot challenge; the Treasurer's report count (9,050) is used.", "Upload the CDS PDF if you want the same instrument as the other schools."),
      ("3", "IPEDS fall 2024 enrollment and FY24 finance files", "Not yet posted on the IPEDS data center.", "Re-check when posted.")]
 for i, row_ in enumerate(N, 4):

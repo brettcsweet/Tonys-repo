@@ -85,8 +85,8 @@
    "amortization": null,
    "interest": 262546000,
    "core_opex": 6072794000,
-   "students": 21189,
-   "students_source": "Common Data Set 2024-25, B1 total all students (fall 2024)",
+   "students": 24819,
+   "students_source": "Common Data Set 2024-25 B1 total all students (21,189) plus Harvard Extension School degree students, fall 2024 (3,630; Harvard OIRA Fact Book 2025-26)",
    "health_system": null,
    "fy_end": "June 30, 2025"
   },

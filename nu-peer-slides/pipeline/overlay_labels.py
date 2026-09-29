@@ -34,7 +34,7 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
         it = items[k]; cl = []
         for (r, rp) in radii:
             if r > it.get("max_r", 9) or r < it.get("min_r", 0): continue
-            for d in DIRS:
+            for d in it.get("dirs", DIRS):
                 b = candidate(it["px"], it["py"], it["w"], it["h"], d, r, it.get("ms", ms))
                 if b[0] < bounds[0] or b[1] < bounds[1] or b[0] + b[2] > bounds[2] or b[1] + b[3] > bounds[3]:
                     continue

@@ -1,42 +1,66 @@
 {
-  "institution": "Harvard University",
+ "institution": "Harvard University",
+ "fall_2024": {
+  "total_all_students": 21189,
+  "undergraduate_total": 7038,
+  "graduate_professional_total": 14151,
+  "source_url": "https://oira.harvard.edu/files/2025/06/HarvardUniversity_CDS_2024-2025.pdf",
+  "document": "CDS 2024-25",
+  "section_page": "B1 Institutional Enrollment (PDF p.3)",
+  "evidence": "Total undergraduate Students 3,275 3,763 0 0 / Total Graduate Students 6493 7658 0 0 / Total all students 9,768 11,421 0 0 / Total all undergraduates 7,038 / Total all graduate 14151 / GRAND TOTAL ALL STUDENTS 21,189",
+  "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+ },
+ "fall_2023": {
+  "total_all_students": 21278,
+  "undergraduate_total": 7110,
+  "graduate_professional_total": 14168,
+  "source_url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/6/210/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf",
+  "document": "CDS 2023-24",
+  "section_page": "B1 Institutional Enrollment (PDF pp.3-4; no all-students line, total = UG + graduate)",
+  "evidence": "Total of all undergraduate students enrolled 7,110 / Total of all graduate students enrolled 14,168 / sum = 21,278 (also = 3,349+3,761 + 6,012+444+7,059+653)",
+  "as_of": "as of ... October 15, 2023"
+ },
+ "fall_2022": {
+  "total_all_students": 21613,
+  "undergraduate_total": 7240,
+  "graduate_professional_total": 14373,
+  "source_url": "https://oira.harvard.edu/files/2023/06/harvard_cds_2022-2023.pdf",
+  "document": "CDS 2022-23",
+  "section_page": "B1 Institutional Enrollment (PDF p.3)",
+  "evidence": "Total all students 9,641 10,943 0 427 602 0 / Total all undergraduates 7,240 / Total all graduate 14373 / GRAND TOTAL ALL STUDENTS 21,613",
+  "as_of": "as of ... October 19, 2022"
+ },
+ "definition_notes": "Harvard's CDS B1 covers the degree-granting schools: Harvard College, GSAS and the professional schools (Business, Dental, Design, Divinity, Education, Government, Law, Medical, Public Health). It does NOT include the Harvard Extension School. The IPEDS EF total for Fall 2023 (30,386) is ~30% larger. Harvard OIRA 2023-24 Fact Book (opened; https://oira.harvard.edu/2023-24-fact-book/2023-24-fact-book-enrollment/) shows Fall 2023 degree-student headcount of 24,596 for the University (Oct 15, 2023), which includes Extension School degree candidates (692 undergraduate + 2,903 graduate = 3,595); 24,596 less 3,595 = 21,001, close to the CDS 21,278 (School rows overlap for cross-registered students, so it is only approximate). The remaining ~5,800 between 24,596 and IPEDS 30,386 is presumably non-degree/other students (mainly Extension) that the Fact Book excludes; that last step is an inference, not shown in a document I opened.",
+ "gap_vs_ipeds_fall_2023_pct": -29.97,
+ "caveats": [
+  "Large definitional gap vs IPEDS (-30.0%): CDS excludes Harvard Extension School students. Decide with Brett whether to use the CDS (degree schools, ~21.2K) or a broader count (24.6K degree incl. Extension, or IPEDS 30K incl. non-degree).",
+  "Fall 2024 vs Fall 2023: -0.4% (CDS basis).",
+  "CDS 2023-24 has no 'Total all students' line: total computed from the two totals rows.",
+  "Fall 2022 CDS says 'as of October 19, 2022' (as printed). Harvard 2024-25 PDF byte-identical (md5) on oira.harvard.edu and the wpmucdn copy."
+ ],
+ "blocked_hosts": [],
+ "extension_school": {
   "fall_2024": {
-    "total_all_students": 21189,
-    "undergraduate_total": 7038,
-    "graduate_professional_total": 14151,
-    "source_url": "https://oira.harvard.edu/files/2025/06/HarvardUniversity_CDS_2024-2025.pdf",
-    "document": "CDS 2024-25",
-    "section_page": "B1 Institutional Enrollment (PDF p.3)",
-    "evidence": "Total undergraduate Students 3,275 3,763 0 0 / Total Graduate Students 6493 7658 0 0 / Total all students 9,768 11,421 0 0 / Total all undergraduates 7,038 / Total all graduate 14151 / GRAND TOTAL ALL STUDENTS 21,189",
-    "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+   "undergraduate": 621,
+   "graduate": 3009,
+   "total_degree_students": 3630
   },
   "fall_2023": {
-    "total_all_students": 21278,
-    "undergraduate_total": 7110,
-    "graduate_professional_total": 14168,
-    "source_url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/6/210/files/2024/05/CDS_2023-2024-Final-4755619e875b1241.pdf",
-    "document": "CDS 2023-24",
-    "section_page": "B1 Institutional Enrollment (PDF pp.3-4; no all-students line, total = UG + graduate)",
-    "evidence": "Total of all undergraduate students enrolled 7,110 / Total of all graduate students enrolled 14,168 / sum = 21,278 (also = 3,349+3,761 + 6,012+444+7,059+653)",
-    "as_of": "as of ... October 15, 2023"
+   "undergraduate": 692,
+   "graduate": 2903,
+   "total_degree_students": 3595
   },
-  "fall_2022": {
-    "total_all_students": 21613,
-    "undergraduate_total": 7240,
-    "graduate_professional_total": 14373,
-    "source_url": "https://oira.harvard.edu/files/2023/06/harvard_cds_2022-2023.pdf",
-    "document": "CDS 2022-23",
-    "section_page": "B1 Institutional Enrollment (PDF p.3)",
-    "evidence": "Total all students 9,641 10,943 0 427 602 0 / Total all undergraduates 7,240 / Total all graduate 14373 / GRAND TOTAL ALL STUDENTS 21,613",
-    "as_of": "as of ... October 19, 2022"
+  "university_total_degree_headcount": {
+   "fall_2024": 24519,
+   "fall_2023": 24596
   },
-  "definition_notes": "Harvard's CDS B1 covers the degree-granting schools: Harvard College, GSAS and the professional schools (Business, Dental, Design, Divinity, Education, Government, Law, Medical, Public Health). It does NOT include the Harvard Extension School. The IPEDS EF total for Fall 2023 (30,386) is ~30% larger. Harvard OIRA 2023-24 Fact Book (opened; https://oira.harvard.edu/2023-24-fact-book/2023-24-fact-book-enrollment/) shows Fall 2023 degree-student headcount of 24,596 for the University (Oct 15, 2023), which includes Extension School degree candidates (692 undergraduate + 2,903 graduate = 3,595); 24,596 less 3,595 = 21,001, close to the CDS 21,278 (School rows overlap for cross-registered students, so it is only approximate). The remaining ~5,800 between 24,596 and IPEDS 30,386 is presumably non-degree/other students (mainly Extension) that the Fact Book excludes; that last step is an inference, not shown in a document I opened.",
-  "gap_vs_ipeds_fall_2023_pct": -29.97,
-  "caveats": [
-    "Large definitional gap vs IPEDS (-30.0%): CDS excludes Harvard Extension School students. Decide with Brett whether to use the CDS (degree schools, ~21.2K) or a broader count (24.6K degree incl. Extension, or IPEDS 30K incl. non-degree).",
-    "Fall 2024 vs Fall 2023: -0.4% (CDS basis).",
-    "CDS 2023-24 has no 'Total all students' line: total computed from the two totals rows.",
-    "Fall 2022 CDS says 'as of October 19, 2022' (as printed). Harvard 2024-25 PDF byte-identical (md5) on oira.harvard.edu and the wpmucdn copy."
-  ],
-  "blocked_hosts": []
+  "source_url": "https://oira.harvard.edu/files/2026/01/enrollment_historical_headcount_Fact-Book-2025-26.pdf",
+  "document": "Harvard OIRA Fact Book 2025-26, 'Degree Student Enrollment Headcount by School and Academic Year'",
+  "evidence": "'Extension Undergraduate 802 845 865 841 894 850 795 692 621 584 / Graduate 1,718 2,072 2,344 2,577 2,749 3,063 3,100 2,903 3,009 3,120 / University Total 22,434 22,947 23,336 23,731 22,273 25,126 25,266 24,596 24,519 24,317' (columns 2016-17 ... 2025-26). Source: School Registrars, as of October 15 of the academic year (2024-25 = fall 2024). Fall 2023 values match the 2023-24 Fact Book cited earlier.",
+  "note": "Degree candidates only; Extension non-degree course takers are not in the Fact Book and are included only in the IPEDS total."
+ },
+ "fall_2024_used_on_slide": {
+  "total_all_students": 24819,
+  "basis": "CDS 2024-25 B1 grand total (21,189, excludes Extension School) + Extension School degree students fall 2024 (3,630)"
+ }
 }

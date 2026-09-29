@@ -13,7 +13,7 @@ def fmt_k(v): return f"${v/1000:,.0f}K"
 
 
 def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draft_tag=None, notes_text=None,
-                 focus=None, health_system=(), xmax=None, frame_bottom=FRAME_BOTTOM, iso_levels=ISO_LEVELS, foot_marks=None):
+                 focus=None, health_system=(), xmax=None, frame_bottom=FRAME_BOTTOM, iso_levels=ISO_LEVELS, foot_marks=None, hints=None):
     """rows: list of dict(name, sw, opex, students). SW/student, opex/student, SW% are derived here."""
     for r in rows:
         r["x"] = r["opex"] / r["students"]
@@ -105,6 +105,8 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
     for k, it_ in items.items():
         near = [k2 for k2, (mx, my) in pts.items() if k2 != k and math.hypot(mx - it_['px'], my - it_['py']) < 0.16]
         if near: it_['min_r'] = 0.30
+    for k, h in (hints or {}).items():      # per-label placement hints, e.g. {'Harvard': dict(dirs=[(0, 1)], max_r=0.45)}
+        if k in items: items[k].update(h)
     bounds = (IL + 0.02, IT + 0.02, IL + iw - 0.02, IT + ih - 0.02)
     caption_box = (IL + iw + 0.05, Y(0.8) - 0.05, 1.25, 0.34)
     RADII_ALL = [(0.06, 0.0), (0.22, 0.6), (0.42, 1.4), (0.65, 2.5), (0.95, 4.0), (1.3, 6.0)]

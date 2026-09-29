@@ -7,6 +7,12 @@
    "url": "https://finance.harvard.edu/sites/g/files/omnuum12671/files/2025-10/fy25-financial-report.pdf",
    "local_file": "scratchpad/data/fin/Harvard_University/hu_fy25.pdf (text: hu_fy25.txt)",
    "pages": "Statement of changes in net assets with GOA detail: PDF p.18 (printed p.17); Note 17 functional and natural classification of operating expenses: PDF p.43 (FY25) and p.44 (FY24), printed pp.42-43"
+  },
+  {
+   "label": "Harvard University Financial Report, Fiscal Year 2023 (audited consolidated financial statements; supplied by Brett Sweet, file fy23_harvard_financial_report.pdf, 47 pages)",
+   "url": "https://finance.harvard.edu/ (Financial Reports; FY23 report)",
+   "local_file": "scratchpad/data/fin/Harvard_University/hu_fy23.pdf (text: hu_fy23.txt)",
+   "pages": "Statement of changes in net assets: PDF p.19 (printed p.18); Note 1 (students): PDF p.22 (printed p.21); Note 17: PDF p.44 (printed p.43)"
   }
  ],
  "years": {
@@ -53,20 +59,24 @@
    }
   },
   "FY23": {
-   "salaries_and_wages": null,
+   "salaries_and_wages": 2421076000,
    "sw_combined_with_benefits": null,
-   "employee_benefits": null,
-   "total_operating_expenses": null,
-   "depreciation": null,
-   "depreciation_in_opex": null,
+   "employee_benefits": 628304000,
+   "total_operating_expenses": 5911797000,
+   "depreciation": 424809000,
+   "depreciation_in_opex": true,
    "amortization": null,
    "amortization_in_opex": null,
-   "interest_expense": null,
-   "interest_in_opex": null,
-   "core_opex": null,
-   "core_opex_arithmetic": null,
+   "interest_expense": 208590000,
+   "interest_in_opex": true,
+   "dep_amort_note": "Harvard's operating expense lines are 'Depreciation (Note 7)' and 'Interest (Note 10)'; no separate amortization line appears among operating expenses (the only 'amortiz' hits in the report concern investment accounting, bond premium and lease terms), so amortization is null.",
+   "core_opex": 5278398000,
+   "core_opex_arithmetic": "total 5,911,797,000 - depreciation 424,809,000 - interest 208,590,000 = 5,278,398,000",
    "evidence": {
-    "note": "FY23 is not in the FY25 report (it shows FY25 and FY24 only). The FY24 or FY23 Financial Report has not been supplied, so FY23 is not extracted and no FY23 calibration is claimed."
+    "salaries_and_wages": "'Salaries and wages 2,421,076' (FY23 Financial Report, Consolidated Statements of Changes in Net Assets with GOA detail, PDF p.19 (printed p.18); $ thousands; columns: without donor restrictions, with donor restrictions, 2023 total, 2022 total). Same figure in Note 17 natural classification, PDF p.44 (printed p.43).",
+    "total_operating_expenses": "'TOTAL OPERATING EXPENSES 5,911,797' (FY23 Financial Report, Consolidated Statements of Changes in Net Assets with GOA detail, PDF p.19 (printed p.18); $ thousands; columns: without donor restrictions, with donor restrictions, 2023 total, 2022 total). The nine natural-classification lines (2,421,076 + 628,304 + 791,941 + 424,809 + 394,079 + 283,323 + 208,590 + 181,295 + 578,380) sum to 5,911,797; Note 17 total also 5,911,797.",
+    "depreciation": "'Depreciation (Note 7) 424,809' (FY23 Financial Report, Consolidated Statements of Changes in Net Assets with GOA detail, PDF p.19 (printed p.18); $ thousands; columns: without donor restrictions, with donor restrictions, 2023 total, 2022 total); Note 17 'Depreciation ... 424,809'.",
+    "interest_expense": "'Interest (Note 10) 208,590' (FY23 Financial Report, Consolidated Statements of Changes in Net Assets with GOA detail, PDF p.19 (printed p.18); $ thousands; columns: without donor restrictions, with donor restrictions, 2023 total, 2022 total); Note 17 'Interest ... 208,590'."
    }
   }
  },
@@ -79,19 +89,19 @@
  "calibration_fy23": {
   "ref_sw": 2421076000,
   "ref_core_opex": 5911797000,
-  "sw_diff_pct": null,
-  "core_opex_diff_pct": null,
-  "explanation": "FY23 not extracted (FY23 is not in the FY25 report). Only a sanity check is possible: FY24 S&W from the FY25 report is $2,631,642K, +8.7% above the original slide's FY23 figure of $2,421,076K; FY24 core opex under our definition ($5,760,249K) is 2.6% BELOW the original slide's FY23 'core opex' of $5,911,797K, which is consistent with the original slide having used total operating expenses (depreciation and interest left in) rather than the stated definition, the same issue found for the other institutions."
+  "sw_diff_pct": 0.0,
+  "core_opex_diff_pct": 12.0,
+  "explanation": "Original slide S&W ($2,421,076,000) equals the audited FY23 'Salaries and wages' line to the dollar (0.0%). Original 'core operating expenses' ($5,911,797,000) equals audited FY23 TOTAL operating expenses to the dollar; on the stated definition (less depreciation $424.8M and interest $208.6M) FY23 core is $5,278,398,000, so the original x value was 12.0% too high. Same finding as for the other schools. Original student count 21,400 = the report's 'approximately 7,200 undergraduate and 14,200 graduate students in fiscal year 2023' (Note 1, PDF p.22)."
  },
- "student_counts_in_official_docs": "FY25 Financial Report, Note 1, PDF p.21 (printed p.20): 'approximately 7,000 undergraduate and 14,000 graduate students in fiscal year 2025, as compared to 7,100 undergraduate and 13,900 graduate students in fiscal year 2024' = about 21,000 in each year; consistent with the CDS 2024-25 grand total of 21,189 used on the slide.",
+ "student_counts_in_official_docs": "FY25 Financial Report, Note 1, PDF p.21 (printed p.20): 'approximately 7,000 undergraduate and 14,000 graduate students in fiscal year 2025, as compared to 7,100 undergraduate and 13,900 graduate students in fiscal year 2024' = about 21,000 in each year; consistent with the CDS 2024-25 grand total of 21,189 used on the slide. FY23 report, Note 1, PDF p.22 (printed p.21): 'approximately 7,200 undergraduate and 14,200 graduate students in fiscal year 2023, as compared to 7,100 undergraduate and 14,100 graduate students in fiscal year 2022' (the original slide's 21,400).",
  "caveats": [
   "Provided by the user, not downloaded: finance.harvard.edu returns Akamai 403 to non-browser clients, so the audited PDF was supplied by Brett. All figures were read from that PDF (pdftotext -layout) and tie: the nine natural-classification lines sum to total operating expenses in both years ($6,794,371K FY25; $6,426,911K FY24).",
-  "Students: 21,189 is the Common Data Set fall 2024 grand total, which excludes the Harvard Extension School (Division of Continuing Education), while the expenses include Continuing Education. The FY25 report's own count (about 7,000 + 14,000 = 21,000) matches the CDS. Adding Extension degree students (about 3,600 in fall 2023 per the OIRA fact book) would lower S&W per student by roughly 14%; see the S3_Sensitivity sheet.",
+  "Students: the slide uses the Common Data Set fall 2024 total (21,189, degree schools only) PLUS Harvard Extension School degree students in fall 2024 (621 undergraduate + 3,009 graduate = 3,630, Harvard OIRA Fact Book 2025-26, historical headcount table, 'As of October 15 of the academic year') = 24,819, because the expenses include the Division of Continuing Education. Alternatives: Fact Book University total degree headcount 24,519 (distinct students); IPEDS fall 2023 total 30,386 (adds non-degree Extension students). See the S3_Sensitivity sheet, section E.",
   "Harvard's S&W and benefits lines are clean, separate lines (benefits are 27.4% of S&W in FY25, 26.2% in FY24), so no assumed fringe rate is needed.",
   "Interest ($262.5M) and depreciation ($459.0M) are separate operating lines; 'Fixed asset impairments' ($20.9M FY25) sit inside Other expenses and are NOT removed (the definition removes only depreciation, amortization and interest).",
   "Harvard's total operating expenses are before non-operating items; the FY25 operating deficit is $112.6M (general operating account basis)."
  ],
  "blocked_hosts": [
-  "finance.harvard.edu (Akamai 403 to curl and headless browser; the PDF was supplied by the user)"
+  "finance.harvard.edu (Akamai 403 to curl and headless browser; both PDFs were supplied by the user)"
  ]
 }

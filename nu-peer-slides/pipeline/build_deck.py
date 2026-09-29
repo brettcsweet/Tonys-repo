@@ -108,7 +108,7 @@ s3_title = (f"Northeastern\u2019s S&W per student is ${neu3['swps']/1000:,.0f}K,
 s3_notes = ["(1) Consolidates a health care system: Chicago, Duke, Emory, Penn, Stanford.  (2) Consolidates a federal laboratory: MIT (Lincoln Laboratory), Princeton (Plasma Physics Laboratory), Stanford (SLAC).",
             "(3) Audited statements report salaries and benefits combined; S&W from IRS Form 990 (Northeastern, Northwestern) or the MD&A expense chart (Vanderbilt).  (4) Grey: Penn and Stanford S&W estimated from combined salaries and benefits, assuming a 35% fringe benefit rate (S&W = combined \u00f7 1.35).",
             "Note: FY25 audited financial statements (fiscal years end June 30; Emory, Northwestern, Stanford August 31). Core operating expenses = total operating expenses less depreciation, amortization and interest. Students = fall 2024 total enrollment"
-            " per Common Data Set 2024\u201325 (Princeton: Report of the Treasurer); Harvard\u2019s count excludes Extension School students." + (f" {', '.join(missing_names)}: FY25 report not yet available." if missing_names else "")]
+            " per Common Data Set 2024\u201325 (Princeton: Report of the Treasurer); Harvard\u2019s count includes Extension School degree students." + (f" {', '.join(missing_names)}: FY25 report not yet available." if missing_names else "")]
 s3_source = "Source: University FY25 audited financial statements, IRS Form 990 filings, Common Data Sets; Northeastern analysis."
 sens = {k: neu3["sw"] / v for k, v in (("CDS 2024-25 (used)", neu3["students"]), ("IPEDS-style 32,553", 32553), ("Facts and Figures 48,812", 48812))}
 s3_speaker = f"""WHAT CHANGED FROM THE ORIGINAL
@@ -125,7 +125,7 @@ NORTHEASTERN
 OTHER CHECKS AND CAVEATS
 - Rice FY25 S&W +10.7% and scholarship presentation change; Duke FY24 includes the physician-practice acquisition (FY23-FY24 not comparable; FY25 is fine); Emory FY25 includes three months of the Houston Healthcare acquisition; Northeastern FY25 includes two weeks of Marymount Manhattan College; Yale reports depreciation, amortization and interest as one combined line; Vanderbilt S&W is from a chart at $M precision.
 - Chicago's CDS headcount (16,221) is 12% below IPEDS-style counts.
-- Harvard (FY25 Financial Report, supplied by Northeastern; audited, unqualified opinion): S&W $2,759M and employee benefits $756M are separate lines (benefits = 27.4% of S&W), total operating expenses $6,794M less depreciation $459M and interest $263M = core $6,073M; S&W share 45.4%, $130K S&W per student on 21,189 students. The nine natural-classification lines sum to total operating expenses in both FY25 and FY24. The report's own headcount ('approximately 7,000 undergraduate and 14,000 graduate students') matches the CDS. The CDS excludes Harvard Extension School students while the expenses include the Division of Continuing Education; using the Harvard Fact Book's 24,596 degree students (which include about 3,600 Extension degree candidates, fall 2023) would lower Harvard to about $112K per student. No hospital is consolidated. Harvard sits almost on top of Princeton ($128K) on S&W per student but with a lower S&W share (45% vs 51%).
+- Harvard (FY25 and FY23 Financial Reports, supplied by Northeastern; audited, unqualified opinions): S&W $2,759M and employee benefits $756M are separate lines (benefits = 27.4% of S&W), total operating expenses $6,794M less depreciation $459M and interest $263M = core $6,073M; S&W share 45.4%. The nine natural-classification lines sum to total operating expenses in FY25, FY24 and FY23. Students: 24,819 = Common Data Set fall 2024 total 21,189 (degree schools only) plus 3,630 Extension School degree students (621 undergraduate + 3,009 graduate, Harvard OIRA Fact Book 2025-26, as of Oct 15, 2024), added because Harvard's expenses include the Division of Continuing Education. $111K S&W per student and $245K core expense per student. Without the Extension count it would be $130K; the Fact Book's distinct-student total (24,519) gives $113K; IPEDS (30,386 in fall 2023, adds non-degree Extension course takers) gives $91K. FY23 tie-out: the original slide's Harvard S&W ($2,421,076K) equals the audited FY23 line to the dollar and its 'core' ($5,911,797K) equals audited FY23 total operating expenses; on the stated definition FY23 core is $5,278M. S&W grew 13.9% FY23 to FY25. No hospital is consolidated. Harvard sits just below Princeton ($128K) on S&W per student and 5 points lower on S&W share (45% vs 51%).
 """
 
 def ordinal(n):
@@ -151,7 +151,8 @@ build_slide2(prs, s2, years, title="Is there a dangerous disconnect in perceptio
 build_slide3(prs, rows3, "FY25", title=s3_title,
              subtitle="Core operating expense per student and S&W share of that expense; dashed lines mark constant S&W per student",
              notes_paras=s3_notes, source=s3_source, draft_tag=tag3, notes_text=s3_speaker, focus="Northeastern", health_system=HEALTH,
-             frame_bottom=6.05, foot_marks=foot_marks)
+             frame_bottom=6.05, foot_marks=foot_marks,
+             hints={"Harvard": dict(dirs=[(0, 1), (1, 1), (-1, 1)], min_r=0.2, max_r=0.5)})
 
 prs.core_properties.title = "Peer comparison: return on investment, perceptions and salaries per student"
 import datetime

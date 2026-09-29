@@ -33,6 +33,8 @@ for short, f in ORDER:
     st = (en.get("fall_2024") or {}).get("total_all_students")
     st_src = "Common Data Set 2024-25, B1 total all students (fall 2024)"
     if st is None and short in CDS_OVERRIDE: st, st_src = CDS_OVERRIDE[short]
+    if en.get("fall_2024_used_on_slide"):   # Harvard: CDS total plus Extension School degree students (its expenses include the Division of Continuing Education)
+        st, st_src = en["fall_2024_used_on_slide"]["total_all_students"], "Common Data Set 2024-25 B1 total all students (21,189) plus Harvard Extension School degree students, fall 2024 (3,630; Harvard OIRA Fact Book 2025-26)"
     core, tot = y.get("core_opex"), y.get("total_operating_expenses")
     sw, basis, sw_src = y.get("salaries_and_wages"), "audited", "audited statements (separate salaries and wages line)"
     comb = y.get("sw_combined_with_benefits")
