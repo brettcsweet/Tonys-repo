@@ -94,6 +94,7 @@ def new_slide(prs, title, subtitle, notes_paras, source, draft_tag=None, notes_t
         p = tf.paragraphs[0]; p.alignment = PP_ALIGN.RIGHT
         r = p.add_run(); r.text = draft_tag
         r.font.size = Pt(8); r.font.bold = True; r.font.name = FONT; r.font.color.rgb = rgb(RED)
+    add_slide_number(s)
     if notes_text:
         s.notes_slide.notes_text_frame.text = notes_text
     return s, content_top
@@ -361,3 +362,18 @@ def annotate_workbook(chart, notes):
     for addr, txt in notes.items(): ws[addr].value = txt
     bio = io.BytesIO(); wb.save(bio)
     wbpart.update_from_xlsx_blob(bio.getvalue())
+
+
+def add_slide_number(slide):
+    """Instantiate the layout's slide-number placeholder on the slide (python-pptx does not copy it)."""
+    spTree = slide.shapes._spTree
+    ids = [int(x) for x in spTree.xpath(".//p:cNvPr/@id")]
+    nid = max(ids) + 1
+    xml = (
+        '<p:sp xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" '
+        'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">'
+        f'<p:nvSpPr><p:cNvPr id="{nid}" name="Slide Number Placeholder"/><p:cNvSpPr><a:spLocks noGrp="1"/></p:cNvSpPr>'
+        '<p:nvPr><p:ph type="sldNum" sz="quarter" idx="12"/></p:nvPr></p:nvSpPr><p:spPr/>'
+        '<p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:fld id="{B6F15528-21DE-4FAA-801E-634DDDAF4B2B}" type="slidenum">'
+        '<a:rPr lang="en-US"/><a:t>\u2039#\u203a</a:t></a:fld><a:endParaRPr lang="en-US"/></a:p></p:txBody></p:sp>')
+    spTree.append(etree.fromstring(xml))
