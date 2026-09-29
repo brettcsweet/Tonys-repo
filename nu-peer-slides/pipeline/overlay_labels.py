@@ -39,6 +39,11 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
                 if b[0] < bounds[0] or b[1] < bounds[1] or b[0] + b[2] > bounds[2] or b[1] + b[3] > bounds[3]:
                     continue
                 cl.append((b, rp + DIR_PREF[d], r))
+        for eb in it.get("extra", []):      # explicit candidate boxes (x, y, w, h) supplied by the caller
+            if eb[0] < bounds[0] or eb[1] < bounds[1] or eb[0] + eb[2] > bounds[2] or eb[1] + eb[3] > bounds[3]:
+                continue
+            ex, ey = nearest_on_box(eb, it["px"], it["py"])
+            cl.append((eb, 0.0, max(0.0, math.hypot(ex - it["px"], ey - it["py"]) - it.get("ms", ms) / 2)))
         cand[k] = cl
     dens = {}
     for k in keys:
@@ -78,6 +83,7 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
             if k2 == k or cand[k2][ci2][2] <= 0.12: continue
             sg2 = seg_of(b2, *marker_pts[k2])
             c += seg_hits(sg2, bi) * 6.0
+            if cand[k][ci][2] > 0.12 and segs_cross(seg_of(b, mx0, my0), sg2): c += 40.0      # two leaders must not cross
         # own marker must not sit under the label
         mx, my = marker_pts[k]
         c += overlap(b, (mx - 0.03, my - 0.03, 0.06, 0.06)) * 4000
@@ -102,6 +108,13 @@ def place(items, cloud_xy, bounds, fixed=(), marker_pts=None, ms=0.06, passes=10
         b, ci = placed[k]
         out[k] = (b, cand[k][ci][2] > 0.12, cost_of(k, ci, placed))
     return out
+
+def segs_cross(s1, s2):
+    """True if segments (x1,y1,x2,y2) properly intersect."""
+    def orient(ax, ay, bx, by, cx, cy): return (bx - ax) * (cy - ay) - (by - ay) * (cx - ax)
+    a = orient(s1[0], s1[1], s1[2], s1[3], s2[0], s2[1]); b = orient(s1[0], s1[1], s1[2], s1[3], s2[2], s2[3])
+    c = orient(s2[0], s2[1], s2[2], s2[3], s1[0], s1[1]); d = orient(s2[0], s2[1], s2[2], s2[3], s1[2], s1[3])
+    return (a * b < 0) and (c * d < 0)
 
 def nearest_on_box(b, px, py):
     x = min(max(px, b[0]), b[0] + b[2]); y = min(max(py, b[1]), b[1] + b[3])

@@ -108,10 +108,13 @@ def build_slide3(prs, rows, fy_label, title, subtitle, notes_paras, source, draf
                                px=px, py=py, leader_color=col, alpha=80, size=9)
     for k, it_ in items.items():
         near = [k2 for k2, (mx, my) in pts.items() if k2 != k and math.hypot(mx - it_['px'], my - it_['py']) < 0.16]
-        if near: it_['min_r'] = 0.30
+        it_['min_r'] = 0.30 if near else 0.16      # every label sits off its marker and is tied to it by a leader line
     for k, h in (hints or {}).items():      # per-label placement hints, e.g. {'Harvard': dict(dirs=[(0, 1)], max_r=0.45)}
         if k in items: items[k].update(h)
     bounds = (IL + 0.02, IT + 0.02, IL + iw - 0.02, IT + ih - 0.02)
+    if focus and focus in items:        # focus label: below and to the left of its marker, clear of the neighbours' leaders
+        fx_, fy_ = pts[focus]; fw_, fh_ = items[focus]["w"], items[focus]["h"]
+        items[focus].update(dirs=[], extra=[(bounds[0] + sx, fy_ + dy, fw_, fh_) for dy in (0.30, 0.40, 0.52) for sx in (0.0, 0.06, 0.12)])
     RADII_ALL = [(0.06, 0.0), (0.22, 0.6), (0.42, 1.4), (0.65, 2.5), (0.95, 4.0), (1.3, 6.0)]
     if focus and focus in items:
         fi = {focus: dict(items[focus], max_r=9, min_r=0.20)}
