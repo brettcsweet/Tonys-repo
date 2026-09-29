@@ -1,0 +1,120 @@
+{
+  "institution": "Princeton University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited consolidated financial statements, June 30, 2025 and 2024",
+      "url": "https://finance.princeton.edu/sites/g/files/toruqf151/files/documents/Financial%20Statements%20FY2025.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Princeton_University/fs_fy2025.pdf",
+      "pages": "34 pp. Statement of Activities FY25 p5, FY24 p6; cash flows p7; Note 1 (Nature of Operations, student body) p8; Note 15 natural x functional p30-31"
+    },
+    {
+      "label": "Report of the Treasurer 2024-25 (includes the audited FY25/FY24 statements; highlights table with enrollment on PDF p2; MD&A printed p.30-31)",
+      "url": "https://finance.princeton.edu/sites/g/files/toruqf8101/files/documents/2024-25%20Report%20of%20the%20Treasurer%20Final.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Princeton_University/treasurer_fy25.pdf",
+      "pages": "74 pp. Highlights p2; Statement of Activities p42 (FY25) and p43 (FY24); cash flows p44; Note 15 tables p68; Note 1 p45"
+    },
+    {
+      "label": "Report of the Treasurer 2023-24 (includes audited consolidated financial statements for June 30, 2024 and 2023; Report of Independent Auditors at PDF p37)",
+      "url": "https://finance.princeton.edu/sites/g/files/toruqf151/files/documents/2024%20Report%20of%20the%20Treasurer%20WEB.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Princeton_University/treasurer_fy24.pdf",
+      "pages": "72 pp. Statement of Activities FY24 p40, FY23 p41; cash flows p42; Note 15 natural x functional tables p66"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 1162823000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 351760000,
+      "total_operating_expenses": 2744548000,
+      "depreciation": 231467000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "amortization_note": "No separate amortization line in operating expenses. Amortization of bond issuance costs and premiums appears only in the cash flow statement (FY25 (51,368); FY24 (18,480); FY23 (19,465), a negative adjustment i.e. premium amortization) and is presumably netted within 'Interest on indebtedness'; the statements do not say. Left null.",
+      "interest_expense": 221826000,
+      "interest_in_opex": true,
+      "core_opex": 2291255000,
+      "core_opex_arithmetic": "total 2,744,548,000 - depreciation 231,467,000 - interest on indebtedness 221,826,000 = 2,291,255,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 1,162,823 - 1,162,823' (Consolidated Statements of Activities, Year ended June 30, 2025, operating expenses, $ thousands; FY25 audited statements PDF p5; also Report of the Treasurer 2024-25 PDF p42). Note 15 natural x functional table: 'Salaries and wages $ 705,059 $ 96,485 $ 258,040 $ 103,239 $ 1,162,823' (PDF p31).",
+        "total_operating_expenses": "'Total operating expenses 2,744,548 - 2,744,548' (PDF p5). Natural sum 1,162,823+351,760+551,402+113,819+111,451+231,467+221,826 = 2,744,548. Note 15 total also 2,744,548. Excluded from operating: 'Net periodic benefit cost other than service cost' 11,110 (nonoperating; Note 15 total incl. nonoperating 2,755,658).",
+        "depreciation": "'Depreciation 231,467 - 231,467' (PDF p5); cash flow 'Depreciation expense 231,467 210,883' (PDF p7).",
+        "interest_expense": "'Interest on indebtedness 221,826 - 221,826' (PDF p5). Cash flow supplemental: 'Interest paid $ 233,141 $ 166,293' (PDF p7). Report of the Treasurer 2024-25 (printed p.30): 'Depreciation and interest grew 10 percent and 67 percent, respectively, due to the opening of new facilities and increased borrowing to fund the capital plan.'"
+      },
+      "independent_operations_PPPL_expense": 246870000
+    },
+    "FY24": {
+      "salaries_and_wages": 1070545000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 306068000,
+      "total_operating_expenses": 2468072000,
+      "depreciation": 210883000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "amortization_note": "No separate amortization line in operating expenses. Amortization of bond issuance costs and premiums appears only in the cash flow statement (FY25 (51,368); FY24 (18,480); FY23 (19,465), a negative adjustment i.e. premium amortization) and is presumably netted within 'Interest on indebtedness'; the statements do not say. Left null.",
+      "interest_expense": 132856000,
+      "interest_in_opex": true,
+      "core_opex": 2124333000,
+      "core_opex_arithmetic": "total 2,468,072,000 - depreciation 210,883,000 - interest on indebtedness 132,856,000 = 2,124,333,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 1,070,545 - 1,070,545' (FY25 statements PDF p6, Year ended June 30, 2024) and the same in the FY24 Report of the Treasurer PDF p40. No restatement.",
+        "total_operating_expenses": "'Total operating expenses 2,468,072 - 2,468,072' (FY25 statements PDF p6; FY24 Treasurer report PDF p40).",
+        "depreciation": "'Depreciation 210,883 - 210,883' (FY25 statements PDF p6; FY24 Treasurer PDF p40).",
+        "interest_expense": "'Interest on indebtedness 132,856 - 132,856' (FY25 statements PDF p6; FY24 Treasurer PDF p40)."
+      },
+      "independent_operations_PPPL_expense": 214815000
+    },
+    "FY23": {
+      "salaries_and_wages": 969089000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 274041000,
+      "total_operating_expenses": 2263259000,
+      "depreciation": 216182000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": null,
+      "amortization_note": "No separate amortization line in operating expenses. Amortization of bond issuance costs and premiums appears only in the cash flow statement (FY25 (51,368); FY24 (18,480); FY23 (19,465), a negative adjustment i.e. premium amortization) and is presumably netted within 'Interest on indebtedness'; the statements do not say. Left null.",
+      "interest_expense": 132980000,
+      "interest_in_opex": true,
+      "core_opex": 1914097000,
+      "core_opex_arithmetic": "total 2,263,259,000 - depreciation 216,182,000 - interest on indebtedness 132,980,000 = 1,914,097,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 969,089 - 969,089' (Consolidated Statements of Activities, Year ended June 30, 2023, $ thousands; Report of the Treasurer 2023-24 PDF p41, which reproduces the audited FY24/FY23 statements; auditor's report at PDF p37). Note table: 'Salaries and wages $ 580,319 $ 82,216 $ 223,055 $ 83,499 $ 969,089' (PDF p66).",
+        "total_operating_expenses": "'Total operating expenses 2,263,259 - 2,263,259' (PDF p41). Natural sum 969,089+274,041+472,515+99,656+98,796+216,182+132,980 = 2,263,259.",
+        "depreciation": "'Depreciation 216,182 - 216,182' (PDF p41); cash flow 'Depreciation expense 210,883 216,182' (PDF p42).",
+        "interest_expense": "'Interest on indebtedness 132,980 - 132,980' (PDF p41)."
+      },
+      "fy23_source": "FY24 Report of the Treasurer (contains audited statements); standalone FY24 statements PDF not retrievable (see caveats)",
+      "independent_operations_PPPL_expense": 196430000
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": "Princeton Plasma Physics Laboratory (PPPL), 'operated by the University on behalf of the U.S. Department of Energy' and 'classified as an independent operation' (Note 15, FY25 statements PDF p30). Its expenses are inside consolidated operating expenses: functional column 'Independent Operations' total operating expenses 246,870 thousand FY25, 214,815 FY24, 196,430 FY23 (of which salaries and wages 103,239 / 92,729 / 83,499 and benefits 35,999 / 30,685 / 27,707; Note 15 tables, FY25 statements PDF p31; FY24 Treasurer PDF p66). About 9% of operating expenses (Treasurer 2024-25 Figure 8, PDF p35).",
+    "other": "Consolidated statements also carry noncontrolling interests (263 thousand at June 30, 2025 vs 172,354 thousand at June 30, 2024; change in noncontrolling interests (172,091) is a non-operating item). No hospital or health system."
+  },
+  "calibration_fy23": {
+    "ref_sw": 969089000,
+    "ref_core_opex": 2263259000,
+    "extracted_sw": 969089000,
+    "extracted_core_opex": 1914097000,
+    "sw_diff_pct": 0.0,
+    "core_opex_diff_pct": -15.43,
+    "explanation": "S&W matches exactly (969,089 thousand; benefits excluded). The reference 'core operating expenses' (2,263,259 thousand) equals Princeton's reported TOTAL operating expenses for FY23 to the dollar, i.e. the original analysis did not remove depreciation (216,182) or interest on indebtedness (132,980). Under the SPEC definition core FY23 = 1,914,097 thousand, 15.4% below the reference. Definitional difference only; extraction not adjusted."
+  },
+  "student_counts_in_official_docs": "Report of the Treasurer 2024-25, Highlights (PDF p2), 'Students / Enrollment' with columns headed 2025 and 2024 (fiscal years ending June 30; census term not stated): Undergraduate students 5,726 (2025) / 5,598 (2024); Graduate students 3,324 / 3,251. Note 1 Nature of Operations (FY25 statements PDF p8; Treasurer 2024-25 PDF p45): 'The student body numbers 5,726 undergraduates and 3,324 graduate students'. Degrees conferred (2025/2024): bachelor's 1,337 / 1,324; advanced and other 1,115 / 1,058. Faculty 'approximately 1,313, including visitors and part-time appointments'.",
+  "caveats": [
+    "FY25 interest on indebtedness jumped 67% (221,826 vs 132,856); the Treasurer's report attributes it to 'the opening of new facilities and increased borrowing to fund the capital plan' (printed p.30-31, PDF p33). Interest is now 8.1% of total operating expenses (was 5.4%), so core opex growth (7.9%) is well below total opex growth (11.2%). Interest paid was 233,141 (cash flow).",
+    "The standalone FY24 consolidated financial statements (https://finance.princeton.edu/document/6571, found by web search) sit behind a Cloudflare challenge (HTTP 403 to curl); not bypassed. FY24/FY23 figures are taken from the audited statements reproduced in the Report of the Treasurer 2023-24 (auditor's report on PDF p37), and FY24 agrees line by line with the FY25 statements' prior-year column (no restatement).",
+    "Interest on indebtedness (Princeton) is a natural line inside operating expenses; bond premium/issuance cost amortization is shown only in the cash flow statement and is not separated.",
+    "Excluded non-operating expense-like items: 'Net periodic benefit cost other than service cost' (11,110 FY25; 8,445 FY24; 5,806 FY23) and FY24 'Other nonoperating' 37,844; these are outside operating expenses.",
+    "S&W includes PPPL staff (Independent Operations S&W 103,239 thousand in FY25). Excluding PPPL would be a different definition than the original analysis, which (per the exact FY23 match) included it.",
+    "All amounts in the source are $ thousands (the net-assets-by-purpose table on PDF p30 is in $ millions); JSON is whole dollars (x1,000)."
+  ],
+  "blocked_hosts": [
+    "finance.princeton.edu (WebFetch tool reported EGRESS_BLOCKED for the HTML page; curl downloads of PDFs under /sites/g/files/... worked; HTML pages under finance.princeton.edu return a Cloudflare 'Just a moment' 403 to curl, not bypassed)"
+  ]
+}

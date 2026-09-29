@@ -1,0 +1,140 @@
+{
+  "institution": "Duke University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 Duke University audited consolidated financial statements (Financial Statements 2024/2025)",
+      "url": "https://resources.finance.duke.edu/resources/docs/Financial_Reports2024-25.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Duke_University/FY25.pdf (text: FY25.txt)",
+      "pages": "Statements of Activities printed p.14 (PDF p.16); functional expenses note printed p.36 (PDF p.38); Statistical Highlights printed p.9 (PDF p.11); Schedule 2 University-only statements of activities printed p.40 (PDF p.42)"
+    },
+    {
+      "label": "FY24 Duke University audited consolidated financial statements (Financial Statements 2023/2024)",
+      "url": "https://resources.finance.duke.edu/resources/docs/Financial_Reports2023-24.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Duke_University/FY24.pdf (text: FY24.txt)",
+      "pages": "Statements of Activities printed p.16 (PDF p.18); Schedule 2 University-only PDF p.46; MD&A DUHS discussion PDF pp.7-8"
+    },
+    {
+      "label": "FY23 Duke University audited consolidated financial statements (Financial Statements 2022/2023)",
+      "url": "https://resources.finance.duke.edu/resources/docs/Financial_Reports2022-23.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Duke_University/FY23.pdf (text: FY23.txt)",
+      "pages": "Statements of Activities printed p.16 (PDF p.18); Schedule 2 University-only PDF p.46"
+    },
+    {
+      "label": "FY25 Duke University Health System, Inc. and Affiliates issued consolidated financial statements (health-system-only, used for health-system expense)",
+      "url": "https://corporate.dukehealth.org/sites/default/files/2025-10/FY25DUHSIssuedConsolidatedFinancialStatementsADA.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Duke_University/FY25_DUHS.pdf (text: FY25_DUHS.txt)",
+      "pages": "Consolidated Statements of Operations printed p.4 (PDF p.6)"
+    },
+    {
+      "label": "FY24 Duke University Health System, Inc. and Affiliates issued consolidated financial statements (used for FY23 health-system expense)",
+      "url": "https://corporate.dukehealth.org/sites/default/files/2024-10/FY24DUHSIssuedConsolidatedFinancialStatementsADA%20Compliant.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Duke_University/FY24_DUHS.pdf (text: FY24_DUHS.txt)",
+      "pages": "Consolidated Statements of Operations printed p.4 (PDF p.6)"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 5041664000,
+      "sw_combined_with_benefits": 6230712000,
+      "employee_benefits": 1189048000,
+      "total_operating_expenses": 10953208000,
+      "depreciation": 471677000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 161512000,
+      "interest_in_opex": true,
+      "core_opex": 10320019000,
+      "core_opex_arithmetic": "10,953,208,000 - 471,677,000 (D&A/depreciation) - 161,512,000 (interest) = 10,320,019,000. Duke reports 'Depreciation and amortization' as one combined line, so amortization is inside the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 5,041,664' (thousands), 2025 column, Operating expenses on the Consolidated Statements of Activities; 'Employee benefits 1,189,048' is a separate line. FY25 report (Financial Statements 2024/2025), printed p.14 (PDF p.16). Consolidated with DUHS, so includes health system staff.",
+        "total_operating_expenses": "'Total operating expenses 10,953,208' (thousands), 2025 column. FY25 report (Financial Statements 2024/2025), printed p.14 (PDF p.16).",
+        "depreciation": "'Depreciation and amortization 471,677' (thousands), 2025 column, in Operating expenses. FY25 report (Financial Statements 2024/2025), printed p.14 (PDF p.16).",
+        "interest_expense": "'Interest expense 161,512' (thousands), 2025 column, in Operating expenses. FY25 report (Financial Statements 2024/2025), printed p.14 (PDF p.16).",
+        "note": "FY24 comparative column in FY25 report agrees with the FY24 report on every line."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": 4762823000,
+      "sw_combined_with_benefits": 5945384000,
+      "employee_benefits": 1182561000,
+      "total_operating_expenses": 10317041000,
+      "depreciation": 470471000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 163804000,
+      "interest_in_opex": true,
+      "core_opex": 9682766000,
+      "core_opex_arithmetic": "10,317,041,000 - 470,471,000 (D&A/depreciation) - 163,804,000 (interest) = 9,682,766,000. Duke reports 'Depreciation and amortization' as one combined line, so amortization is inside the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 4,762,823' (thousands), 2024 column, Operating expenses on the Consolidated Statements of Activities; 'Employee benefits 1,182,561' is a separate line. FY24 report (Financial Statements 2023/2024), printed p.16 (PDF p.18). Consolidated with DUHS, so includes health system staff.",
+        "total_operating_expenses": "'Total operating expenses 10,317,041' (thousands), 2024 column. FY24 report (Financial Statements 2023/2024), printed p.16 (PDF p.18).",
+        "depreciation": "'Depreciation and amortization 470,471' (thousands), 2024 column, in Operating expenses. FY24 report (Financial Statements 2023/2024), printed p.16 (PDF p.18).",
+        "interest_expense": "'Interest expense 163,804' (thousands), 2024 column, in Operating expenses. FY24 report (Financial Statements 2023/2024), printed p.16 (PDF p.18).",
+        "note": "Identical in FY24 report and FY25 report comparative."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": 3676675000,
+      "sw_combined_with_benefits": 4568399000,
+      "employee_benefits": 891724000,
+      "total_operating_expenses": 8431382000,
+      "depreciation": 487619000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": 147882000,
+      "interest_in_opex": true,
+      "core_opex": 7795881000,
+      "core_opex_arithmetic": "8,431,382,000 - 487,619,000 (D&A/depreciation) - 147,882,000 (interest) = 7,795,881,000. Duke reports 'Depreciation and amortization' as one combined line, so amortization is inside the D&A figure and shown as null separately.",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages 3,676,675' (thousands), 2023 column, Operating expenses on the Consolidated Statements of Activities; 'Employee benefits 891,724' is a separate line. FY23 report (Financial Statements 2022/2023), printed p.16 (PDF p.18). Consolidated with DUHS, so includes health system staff.",
+        "total_operating_expenses": "'Total operating expenses 8,431,382' (thousands), 2023 column. FY23 report (Financial Statements 2022/2023), printed p.16 (PDF p.18).",
+        "depreciation": "'Depreciation and amortization 487,619' (thousands), 2023 column, in Operating expenses. FY23 report (Financial Statements 2022/2023), printed p.16 (PDF p.18).",
+        "interest_expense": "'Interest expense 147,882' (thousands), 2023 column, in Operating expenses. FY23 report (Financial Statements 2022/2023), printed p.16 (PDF p.18).",
+        "note": "Identical in FY23 report and FY24 report comparative (no restatement). NOTE: FY23 to FY24 is not comparable, see caveats (PDC acquisition July 1, 2023)."
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": true,
+    "health_system_expense": {
+      "FY25": 7105720000,
+      "FY24": 6619243000,
+      "FY23": 4989330000,
+      "basis": "Duke University Health System, Inc. and Affiliates 'Total expenses' on its separately issued Consolidated Statements of Operations (health-care-organization presentation: FY25 7,105,720 and FY24 6,619,243 thousand from FY25 DUHS report PDF p.6; FY23 4,989,330 from FY24 DUHS report PDF p.6). Cross-check: Duke consolidated total operating expenses minus 'The University (supplementary information, exclusive of DUHS)' Schedule 2 total = FY25 10,953,208-3,858,371 = 7,094,837,000; FY24 10,317,041-3,699,686 = 6,617,355,000; FY23 8,431,382-3,440,506 = 4,990,876,000 (within 0.2% of the DUHS-issued figures). Duke's consolidated statements reclassify some DUHS nonoperating items as operating, so the two bases differ slightly.",
+      "dep_interest_within_health_system_FY25": {
+        "DUHS_depreciation_and_amortization": 203402000,
+        "DUHS_interest": 74703000
+      },
+      "university_only_S_W": {
+        "FY25": 1968591000,
+        "FY24": 1847455000,
+        "FY23": 1653224000,
+        "note": "Schedule 2 'The University (exclusive of DUHS)': consolidated S&W minus these = health system and other S&W: FY25 3,073,073,000; FY24 2,915,368,000; FY23 2,023,451,000."
+      },
+      "health_system_share_of_consolidated_opex_FY25_pct": 64.8
+    },
+    "ffrdc": null,
+    "other": "Duke Health Integrated Practice (DHIP) acquired the Private Diagnostic Clinic (PDC) physician practice July 1, 2023 (most physicians and staff became DUHS employees; FY24 first full year). Duke Health Lake Norman Hospital acquired April 1, 2025. No FFRDC."
+  },
+  "calibration_fy23": {
+    "ref_sw": 3676675000,
+    "ref_core_opex": 8431382000,
+    "sw_diff_pct": 0.0,
+    "core_opex_diff_pct": -7.54,
+    "explanation": "S&W: exact match to the consolidated (with DUHS) 'Salaries and wages' 3,676,675 thousand (FY23), benefits excluded. Core opex: the reference 8,431,382,000 equals FY23 TOTAL operating expenses exactly (8,431,382 thousand). Against the SPEC definition (total minus D&A 487,619,000 minus interest 147,882,000 = 7,795,881,000) the reference is 7.5% higher, because the original analysis did not deduct depreciation/amortization or interest."
+  },
+  "student_counts_in_official_docs": "Yes. Statistical Highlights (FY25 report printed p.9, PDF p.11), 'Total fall enrollment': column 2025 = 17,992 (undergraduate 7,109; graduate and professional 10,883); 2024 = 17,543 (7,034; 10,509); 2023 = 18,009 (7,018; 10,991); 2022 = 17,430; 2021 = 15,793. The table labels its columns by fiscal year (2025 ... 2021) and does not say which fall term is meant (most likely the fall that starts the fiscal year, i.e. Fall 2024 for the 2025 column; confirm before use). Same table gives Faculty and staff: total regular rank faculty 4,230; University staff 27,870; DUHS staff 31,964; total employees 64,064 (2025 column).",
+  "caveats": [
+    "FY23 to FY24 is NOT comparable: Duke's S&W jumps from 3,676,675,000 to 4,762,823,000 (+29.5%) and total operating expenses from 8,431,382,000 to 10,317,041,000 (+22.4%) mainly because DUHS acquired the PDC physician practice on July 1, 2023 (FY24 MD&A: $1.1 billion of DUHS revenue growth from the acquisition, plus $578 million from HASP/340B; HASP also added provider assessments as expense). FY23 was not restated. Use FY24 and FY25 for a like-for-like base; DUHS staff rose from 27,708 (2023) to 30,470 (2024).",
+    "Depreciation and amortization is one combined line, so amortization is null; the whole D&A line is subtracted in core opex.",
+    "Duke consolidates DUHS under college-and-university presentation, which differs from DUHS's own issued statements: certain DUHS nonoperating components are reclassified as operating in Duke's statements (Duke's FY25 statements include $160 million of net income from DUHS operations versus $179 million operating income in the DUHS-issued statements, per MD&A).",
+    "State provider assessments (HASP) expense is inside operating expenses via DUHS (DUHS-issued FY25 333,992,000; FY24 355,865,000; FY23 101,188,000), which inflates FY24-25 opex versus earlier years.",
+    "Student aid (FY25 61,432,000) is a separate operating expense line, not S&W or benefits.",
+    "Fall enrollment column labeling ambiguity (see student_counts)."
+  ],
+  "blocked_hosts": []
+}

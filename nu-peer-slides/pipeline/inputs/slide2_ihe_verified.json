@@ -1,0 +1,197 @@
+{
+ "basis": "All institutions; % somewhat + strongly agree (4 or 5 on 5-point scale). Values verified against the report PDFs (detail tables / narrative).",
+ "years": {
+  "2015": {
+   "faculty": 32,
+   "trustees": 79,
+   "senior_administrators": 88,
+   "item": "aware_of_and_understand",
+   "note": "FIRST edition with 'aware of and understand' (2014 = 'realistic about'). Minor variant: the faculty item says 'their institution', the other two say 'my institution'. Leftover: the report's Foreword (p.6) still frames the question as 'Do business officers believe senior administrators, trustees and faculty members are realistic about the financial challenges confronting their institutions?' but the actual survey items in Table 13 (pp.27-29) and the p.9 infographic use 'aware of and understand'.",
+   "source_url": "https://www.insidehighered.com/news/survey/closure-concerns-and-financial-strategies-survey-college-business-officers",
+   "page": "Detail table 13 (PDF/printed pp.27-29): senior admins p.27, trustees p.28, faculty p.29. Narrative p.27 and 'Snapshot of findings' p.7. Infographic on p.9 (chart).",
+   "n": 403,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 33,
+    "trustees": 79,
+    "senior_administrators": 88
+   }
+  },
+  "2016": {
+   "faculty": 27,
+   "trustees": 74,
+   "senior_administrators": 86,
+   "item": "faculty_item_differs",
+   "note": "Faculty item in this edition: 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' Trustees and senior administrators use the standard wording.",
+   "source_url": "https://www.insidehighered.com/news/survey/foundering-finances-faculty-role-survey-business-officers",
+   "page": "Senior admins and trustees: table on p.18 (narrative p.17). Faculty: table on p.20 (narrative p.19), and a split table p.21 by whether faculty play a meaningful budget role.",
+   "n": 386,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 27,
+    "trustees": 74,
+    "senior_administrators": 86
+   }
+  },
+  "2017": {
+   "faculty": 32,
+   "trustees": 77,
+   "senior_administrators": 85,
+   "item": "faculty_item_differs",
+   "note": "Faculty item in this edition: 'Faculty members understand the financial challenges my institution faces when they participate in college-wide budget discussions.' Trustees and senior administrators use the standard wording.",
+   "source_url": "https://www.insidehighered.com/news/survey/rose-colored-glasses-come-survey-business-officers",
+   "page": "Senior admins and trustees: table p.13 (narrative p.12). Faculty: table p.20 (narrative p.19).",
+   "n": 409,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 32,
+    "trustees": 77,
+    "senior_administrators": 85
+   }
+  },
+  "2018": {
+   "faculty": 44,
+   "trustees": 78,
+   "senior_administrators": 80,
+   "item": "aware_of_and_understand",
+   "note": "Faculty item is back to the unconditional 'Faculty members are aware of and understand the financial challenges confronting my institution.' (this wording holds 2018-2024).",
+   "source_url": "https://www.insidehighered.com/news/survey/peril-private-colleges-survey-business-officers",
+   "page": "Tables on p.30 (senior admins), p.31 (trustees), p.32 (faculty); narrative p.29.",
+   "n": 415,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 44,
+    "trustees": 78,
+    "senior_administrators": 80
+   }
+  },
+  "2019": {
+   "faculty": 32,
+   "trustees": 78,
+   "senior_administrators": 90,
+   "item": "aware_of_and_understand",
+   "note": "Unconditional 'aware of and understand' wording for all three groups.",
+   "source_url": "https://www.insidehighered.com/news/survey/challenges-regional-publics-survey-business-officers",
+   "page": "Chart-tables on p.14 (trustees, senior admins) and p.15 (faculty); narrative p.13. Read visually from rendered PNGs because pdftotext scrambles the chevron chart labels.",
+   "n": 416,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 32,
+    "trustees": 78,
+    "senior_administrators": 90
+   }
+  },
+  "2020": {
+   "faculty": 34,
+   "trustees": 84,
+   "senior_administrators": 90,
+   "item": "aware_of_and_understand",
+   "note": "Unconditional 'aware of and understand' wording for all three groups.",
+   "source_url": "https://www.insidehighered.com/news/survey/covid-19s-forceful-financial-hit-survey-business-officers",
+   "page": "Chart-tables on p.19 (trustees, senior admins; narrative also p.19) and p.20 (faculty). Read visually from rendered PNGs.",
+   "n": 273,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 31,
+    "trustees": 87,
+    "senior_administrators": 93
+   }
+  },
+  "2021": {
+   "faculty": 50,
+   "trustees": 85,
+   "senior_administrators": 90,
+   "item": "aware_of_and_understand",
+   "note": "Unconditional 'aware of and understand' wording for all three groups (chart on p.27; appendix tables pp.49-50). Note the method change: Hanover Research (not Gallup), labeled 5-point agree scale (Strongly disagree / Somewhat disagree / Neither agree nor disagree / Somewhat agree / Strongly agree), stem 'Please indicate the extent to which you agree or disagree with the following statements.'",
+   "source_url": "https://www.insidehighered.com/news/survey/college-business-officers-surprisingly-upbeat-about-their-finances",
+   "page": "Stacked-bar chart p.27 (rendered and read); appendix detail tables pp.49-50 ('All' column).",
+   "n": 133,
+   "margin_of_error": "not stated in the report",
+   "original_slide": {
+    "faculty": 50,
+    "trustees": 85,
+    "senior_administrators": 90
+   }
+  },
+  "2022": {
+   "faculty": 53,
+   "trustees": 90,
+   "senior_administrators": 91,
+   "item": "aware_of_and_understand",
+   "note": "SLIDE MISMATCH. Slide 28/91/91 matches the p.28 chart as printed (faculty 16+12=28, trustees 32+59=91, senior admins 32+59=91). That chart is internally inconsistent: its last three rows are mislabeled (the row labeled 'Faculty members...' carries 22/33/17/16/12, which is the detail table's governance-structure distribution; the row labeled 'lack of data' carries 9/25/13/42/11, which is the detail table's faculty distribution). The chart's trustees row (2/5/2/32/59) also duplicates the senior-admin row, while the table gives 2/5/4/36/54. The detailed tables, the IHE article text ('about half' for faculty; trustees 90%, 54% strongly) and the 2023 to 2024 trend (53 to 45 to 39) all agree, so 53/90/91 is the defensible set. Recommend citing the detailed tables (pp.47-48).",
+   "source_url": "https://www.insidehighered.com/news/survey/college-business-officers-upbeat-despite-worrisome-outlook",
+   "page": "PDF p.47 (faculty table) and p.48 (senior admin and trustees tables) = source of the values above; p.28 'Financial Management' chart (misaligned, see notes); p.3 methodology",
+   "n": 238,
+   "margin_of_error": null,
+   "original_slide": {
+    "faculty": 28,
+    "trustees": 91,
+    "senior_administrators": 91
+   }
+  },
+  "2023": {
+   "faculty": 45,
+   "trustees": 86,
+   "senior_administrators": 91,
+   "item": "aware_of_and_understand",
+   "note": "Slide values 45/86/91 CONFIRMED (all institutions).",
+   "source_url": "https://www.insidehighered.com/reports/2023/07/12/2023-survey-college-and-university-business-officers",
+   "page": "PDF p.19 'Institutional Change: Governance and Mindset' (narrative + chart); p.47 (faculty table); p.48 (senior admin and trustees tables); p.3 methodology",
+   "n": 217,
+   "margin_of_error": "6 percent",
+   "original_slide": {
+    "faculty": 45,
+    "trustees": 86,
+    "senior_administrators": 91
+   }
+  },
+  "2024": {
+   "faculty": 39,
+   "trustees": 79,
+   "senior_administrators": 88,
+   "item": "aware_of_and_understand",
+   "note": "SLIDE MISMATCH: the slide's 44/91/95 equals the PRIVATE NONPROFIT column (faculty 35+9=44, trustees 50+41=91, senior admins 47+48=95), not all institutions. All-institution values are 39/79/88.",
+   "source_url": "https://www.insidehighered.com/reports/2024/07/16/2024-survey-college-and-university-chief-business-officers",
+   "page": "PDF p.34 'Financial Responsibility: Responsiveness and Mindset' (narrative + chart); p.58 (faculty table); p.60 (senior admin and trustees tables); p.5 methodology",
+   "n": 224,
+   "margin_of_error": "6.14 percent (n=224)",
+   "original_slide": {
+    "faculty": 44,
+    "trustees": 91,
+    "senior_administrators": 95
+   }
+  },
+  "2025": {
+   "faculty": null,
+   "trustees": 74,
+   "senior_administrators": null,
+   "item": "trustees_only",
+   "note": "Item not asked for faculty or senior administrators. Trustees-only item: 'Trustees understand the financial challenges confronting my institution.'",
+   "source_url": "https://www.insidehighered.com/reports/2025/07/17/2025-survey-college-and-university-chief-business-officers",
+   "page": "PDF p.27 'Leadership and Governance: Agency, Shared Governance and Political Interference'; p.59 Detailed Tables; p.3 methodology",
+   "n": 169,
+   "margin_of_error": "7 percent (n=169)",
+   "original_slide": {
+    "faculty": null,
+    "trustees": null,
+    "senior_administrators": null
+   }
+  },
+  "2026": {
+   "faculty": null,
+   "trustees": 79,
+   "senior_administrators": null,
+   "item": "trustees_only",
+   "note": "Item not asked for faculty or senior administrators. Trustees-only item: 'Trustees understand the financial challenges confronting my institution.'",
+   "source_url": "https://www.insidehighered.com/reports/2026/07/15/2026-survey-college-and-university-chief-business-officers",
+   "page": "PDF p.33 'Leadership and Governance: On the Job'; p.6 Key Findings; p.62 Detailed Tables; p.3 methodology",
+   "n": 213,
+   "margin_of_error": "6 percent (N=213)",
+   "original_slide": {
+    "faculty": null,
+    "trustees": null,
+    "senior_administrators": null
+   }
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+  "institution": "Stanford University",
+  "fiscal_year_end_fy25": "August 31, 2025",
+  "documents": [
+    {
+      "label": "FY25 Stanford Annual Financial Report (audited consolidated financial statements of Stanford University, Stanford Health Care and Lucile Packard Children's Hospital; FY25 and FY24 columns)",
+      "url": "https://bondholder-information.stanford.edu/sites/g/files/sbiybj21416/files/media/file/fy25-annual-financial-report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Stanford/fy25.pdf",
+      "pages": "PDF p.11 (selected financial data, enrollment, 5-yr opex), p.15 (statement of activities), p.18 (organization note incl. SLAC), p.44 (interest note), p.55 (expenses by functional and natural classification), p.68 (lease cost), p.75 (consolidating statement of activities)"
+    },
+    {
+      "label": "FY24 Stanford Annual Financial Report (FY24 and FY23 columns)",
+      "url": "https://bondholder-information.stanford.edu/sites/g/files/sbiybj21416/files/media/file/fy24-annual-financial-report_0.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Stanford/fy24.pdf",
+      "pages": "PDF p.10 (enrollment), p.14 (statement of activities), p.43 (interest note), p.75 (consolidating statement of activities)"
+    },
+    {
+      "label": "FY23 Stanford Annual Financial Report (FY23 and FY22 columns)",
+      "url": "https://bondholder-information.stanford.edu/sites/g/files/sbiybj21416/files/media/file/fy23-stanford-annual-financial-report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Stanford/fy23.pdf",
+      "pages": "PDF p.11 (selected data), p.15 (statement of activities), p.45 (interest note), p.76 (consolidating statement)"
+    },
+    {
+      "label": "Stanford bondholder-information site, Annual Reports page (source of the three PDFs)",
+      "url": "https://bondholder-information.stanford.edu/financials/annual-reports",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Stanford/financials_annual-reports.html",
+      "pages": "n/a"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 11647045000,
+      "employee_benefits": null,
+      "total_operating_expenses": 18935447000,
+      "depreciation": 930917000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 278763000,
+      "interest_in_opex": true,
+      "core_opex": 17725767000,
+      "core_opex_arithmetic": "18,935,447,000 - 930,917,000 (depreciation) - 278,763,000 (interest) = 17,725,767,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. Statement of activities row: 'Salaries and benefits  11,647,045  10,757,678' (thousands), FY25 report PDF p.15. Note (p.55) also shows only 'SALARIES AND BENEFITS'.",
+        "total_operating_expenses": "'TOTAL OPERATING EXPENSES  18,935,447  17,708,990' (thousands), FY25 report PDF p.15.",
+        "depreciation": "'Depreciation  930,917  907,913' (thousands), operating expenses section, FY25 report PDF p.15 (statement of cash flows shows 933,674, which includes depreciation not in operating expenses).",
+        "interest_expense": "Interest note, FY25 report PDF p.44: 'INTEREST EXPENSE, NET  $169,091 $79,348 $30,324 $278,763' (University, SHC, LPCH, Consolidated; thousands). Note states interest expense 'is recorded in \"Other operating expenses\"'. Gross was 296,202 (less 7,382 interest income on unspent proceeds, 6,501 capitalized, 3,556 classified as investment expense)."
+      },
+      "notes": "Amortization: no amortization line in operating expenses. Amortization of bond premiums/discounts/issuance costs is part of interest expense per the interest note. Finance-lease ROU amortization of 15,179 (thousands, lease note PDF p.68) is not separately shown on the statement of activities and was not deducted.",
+      "natural_classification_check": "Salaries and benefits 11,647,045,000 + Depreciation 930,917,000 + Other operating expenses 6,357,485,000 = 18,935,447,000 = total operating expenses (ties)"
+    },
+    "FY24": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 10757678000,
+      "employee_benefits": null,
+      "total_operating_expenses": 17708990000,
+      "depreciation": 907913000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 272175000,
+      "interest_in_opex": true,
+      "core_opex": 16528902000,
+      "core_opex_arithmetic": "17,708,990,000 - 907,913,000 (depreciation) - 272,175,000 (interest) = 16,528,902,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salaries and benefits  11,647,045  10,757,678' (thousands), FY25 report PDF p.15; same 10,757,678 in FY24 report PDF p.14.",
+        "total_operating_expenses": "'TOTAL OPERATING EXPENSES  18,935,447  17,708,990' FY25 report p.15; FY24 report p.14 shows '17,708,990  16,053,362' (agrees, no restatement).",
+        "depreciation": "'Depreciation  930,917  907,913' FY25 report p.15; FY24 report p.14 '907,913  853,821' (agrees).",
+        "interest_expense": "'INTEREST EXPENSE, NET ... $272,175' for 2024 (consolidated, thousands): FY25 report PDF p.44 and FY24 report PDF p.43 (agree). Gross 289,663."
+      },
+      "natural_classification_check": "Salaries and benefits 10,757,678,000 + Depreciation 907,913,000 + Other operating expenses 6,043,399,000 = 17,708,990,000 = total operating expenses (ties)"
+    },
+    "FY23": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 9761082000,
+      "employee_benefits": null,
+      "total_operating_expenses": 16053362000,
+      "depreciation": 853821000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 263153000,
+      "interest_in_opex": true,
+      "core_opex": 14936388000,
+      "core_opex_arithmetic": "16,053,362,000 - 853,821,000 (depreciation) - 263,153,000 (interest) = 14,936,388,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salaries and benefits  10,757,678  9,761,082' (thousands), FY24 report PDF p.14; FY23 report p.15 '9,761,082  8,881,869'.",
+        "total_operating_expenses": "'TOTAL OPERATING EXPENSES  17,708,990  16,053,362' FY24 report p.14; FY23 report p.15 '16,053,362  14,597,442' (agrees).",
+        "depreciation": "'Depreciation  907,913  853,821' FY24 report p.14; FY23 report p.15 '853,821  851,818' (agrees).",
+        "interest_expense": "'INTEREST EXPENSE, NET ... $263,153' for 2023 (consolidated, thousands): FY24 report PDF p.43 and FY23 report PDF p.45 (agree). Gross 278,657."
+      },
+      "natural_classification_check": "Salaries and benefits 9,761,082,000 + Depreciation 853,821,000 + Other operating expenses 5,438,459,000 = 16,053,362,000 = total operating expenses (ties)"
+    }
+  },
+  "entities_included": {
+    "health_system": true,
+    "health_system_expense": 11938650000,
+    "ffrdc": "SLAC National Accelerator Laboratory (DOE-owned FFRDC managed and operated by the University): its revenues and expenditures are in the Consolidated Statements of Activities; SLAC employees are University employees. SLAC total expense is not separately disclosed. DOE-funded direct-cost revenue recognized (which equals costs incurred): $757,016,000 FY25, $635,865,000 FY24 (p.15). 'SLAC construction' functional expense: $175,669,000 FY25 (p.55).",
+    "other": "Consolidated statements include Stanford University (incl. Stanford Management Company, institutes and research centers), Stanford Health Care (SHC), Lucile Salter Packard Children's Hospital at Stanford (LPCH, aka Stanford Medicine Children's Health) and other majority-owned/controlled entities (FY25 report PDF p.18). health_system_expense = SHC total expenses 8,992,835,000 + LPCH total expenses 2,945,815,000 = 11,938,650,000 for FY25 (PDF p.55, 75), before 2,154,356,000 of inter-entity eliminations that also involve the University. SHC + LPCH salaries and benefits FY25 = 4,225,659,000 + 1,457,688,000 = 5,683,347,000 (about 49% of the consolidated 11,647,045,000). Consolidated 'Health care services' functional expense FY25 = 10,471,422,000 (includes School of Medicine health-care activity). FY23 comparison: SHC 7,456,840,000 and LPCH 2,583,359,000 total operating expenses; S&B 3,575,799,000 and 1,298,188,000 (FY24 report PDF p.75)."
+  },
+  "calibration_fy23": {
+    "ref_sw": 7106067696,
+    "ref_core_opex": 16053362000,
+    "sw_diff_pct": null,
+    "sw_combined_diff_pct": 37.36,
+    "core_opex_diff_pct": -6.96,
+    "total_opex_diff_pct": 0.0,
+    "explanation": "(1) Reference 'core operating expenses' 16,053,362,000 equals Stanford's FY23 TOTAL operating expenses to the dollar; D&A and interest were NOT removed in the reference. On the SPEC definition core opex FY23 = 16,053,362,000 - 853,821,000 (depreciation) - 263,153,000 (net interest) = 14,936,388,000, which is 6.96% below the reference; the whole gap is depreciation plus interest. (2) S&W is not reported by Stanford (only 'Salaries and benefits' 9,761,082,000 in FY23), so no like-for-like S&W exists to compare; the combined figure is 37.4% above the reference S&W. The reference 7,106,067,696 is exactly 72.80% of 9,761,082,000 (ratio 0.728000), and Northwestern's reference is exactly 72.80% of its combined figure as well, which indicates the reference S&W was derived by applying an assumed 72.8% wages share to combined salaries-and-benefits rather than read from a statement. That is an inference from the arithmetic; the audited statements do not contain it. The reference S&W covers the same consolidated scope as the statements (University + SHC + LPCH + SLAC), since 72.8% of the consolidated S&B reproduces it exactly; University-only S&B was 4,887,095,000 in FY23 (FY23 report consolidating statement)."
+  },
+  "student_counts_in_official_docs": "FY25 report PDF p.11 'ENROLLMENT: (B) Undergraduate 7,289 (2025), 7,554 (2024), 7,841 (2023); Graduate 10,025, 9,933, 9,688'; footnote (B) 'Fall quarter immediately following fiscal year-end', so FY25 = fall 2025: 7,289 undergraduate + 10,025 graduate = 17,314. Fall 2024 (FY24) = 7,554 + 9,933 = 17,487; fall 2023 (FY23) = 7,841 + 9,688 = 17,529 (FY24 report PDF p.10 and FY23 report PDF p.11).",
+  "caveats": [
+    "Stanford reports only 'Salaries and benefits' (combined) in every year and note; salaries_and_wages is null. Benefits cannot be separated from the audited statements.",
+    "Interest expense: used 'INTEREST EXPENSE, NET' (278,763 FY25) because the note says interest expense is recorded in Other operating expenses and net is after deducting capitalized interest, interest income on unspent proceeds and the part classified as investment expense. Using gross interest (296,202 FY25; 289,663 FY24; 278,657 FY23) would lower core opex by 17,439,000 / 17,488,000 / 15,504,000 respectively.",
+    "Interest is embedded inside 'Other operating expenses' and is not a separate line on the face of the statement; depreciation is a separate line.",
+    "The consolidated total includes SHC and LPCH gross of inter-entity eliminations of 2,154,356,000 (FY25), which are already netted in the 18,935,447,000 total.",
+    "SLAC expense is not separately disclosed; the DOE direct-cost revenue line is given only as a proxy.",
+    "PDF page numbers are physical page positions in the downloaded files (printed page numbers match on the statement pages)."
+  ],
+  "blocked_hosts": []
+}

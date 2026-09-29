@@ -1,0 +1,142 @@
+{
+  "institution": "Yale University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "Yale University Financial Report 2024-2025 (audited consolidated financial statements; issued October 23, 2025)",
+      "url": "https://your.yale.edu/media/3134/download?inline=",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Yale_University/fy25_report.pdf",
+      "pages": "64 pp. Statement of Activities PDF p24 (printed p.22); cash flows p25; leases p46; other assets p47; LBE p48; debt/interest p52; Note 14 natural/functional p61; enrollment table p3; MD&A PDF p9-14"
+    },
+    {
+      "label": "Yale University Financial Report 2023-2024 (audited consolidated financial statements)",
+      "url": "https://your.yale.edu/sites/default/files/2025-04/fy24_annual_financial_report.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Yale_University/fy24_report.pdf",
+      "pages": "64 pp. Statement of Activities PDF p24 (printed p.22); leases p46; other assets/LBE p47; debt/interest p51; Note 14 p61"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 2737371000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 861635000,
+      "total_operating_expenses": 5807911000,
+      "depreciation": null,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": null,
+      "interest_in_opex": true,
+      "depreciation_amortization_interest_combined": 504923000,
+      "dai_note": "Yale's statement of activities presents a single operating line 'Depreciation, amortization and interest'. Individual amounts are therefore left null; the combined line is what is deducted. Component amounts disclosed in the notes are listed under 'dai_components_from_notes' for information only; they do not tie exactly to the combined line (see caveats).",
+      "core_opex": 5302988000,
+      "core_opex_arithmetic": "total 5,807,911,000 - depreciation, amortization and interest (combined line) 504,923,000 = 5,302,988,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages $ 2,737,371 $ - $ 2,737,371 $ 2,546,768' (Yale University Consolidated Statement of Activities, year ended June 30, 2025, $ thousands; FY25 Financial Report PDF p24 = printed p.22). Same figure in Note 14 (PDF p61).",
+        "total_operating_expenses": "'Total expenses 5,807,911 - 5,807,911 5,412,254' (operating section, 'Expenses:', FY25 report PDF p24). Sum of natural lines 2,737,371+861,635+504,923+1,703,982 = 5,807,911. Note 14 'Total operating expenses $ 5,807,911' (PDF p61). MD&A: 'Operating expenses totaled $5.8 billion for 2025'.",
+        "depreciation": "Not separate on the face. Combined row: 'Depreciation, amortization and interest 504,923 - 504,923 470,601' (PDF p24). Note 8: 'Depreciation expense included in operating expenses amounted to $344.8 million and $328.9 million in 2025 and 2024' (PDF p48, printed p.46).",
+        "interest_expense": "Not separate on the face (combined row above). Note 10: 'Total interest expense incurred on indebtedness was $108.3 million and $111.3 million in 2025 and 2024, respectively. Interest capitalized to land, buildings and equipment totaled $14.4 million and $9.9 million ... Amortization expense related to bond issue costs included in operating expenses amounted to $3.0 million and $3.7 million' (PDF p52). Note 6: financing lease 'Interest on lease liabilities Depreciation, amortization and interest 12,877 6,213' (PDF p46)."
+      },
+      "dai_components_from_notes": {
+        "depreciation_land_buildings_equipment": 344800000,
+        "amortization_other_assets_software": 25900000,
+        "amortization_financing_lease_rou_assets": 15082000,
+        "amortization_bond_issue_costs": 3000000,
+        "interest_expense_incurred_on_indebtedness_gross": 108300000,
+        "interest_capitalized_to_LBE": 14400000,
+        "interest_on_financing_lease_liabilities": 12877000,
+        "cash_flow_statement_depreciation_and_amortization": 387277000
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": 2546768000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 799156000,
+      "total_operating_expenses": 5412254000,
+      "depreciation": null,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": null,
+      "interest_in_opex": true,
+      "depreciation_amortization_interest_combined": 470601000,
+      "dai_note": "Yale's statement of activities presents a single operating line 'Depreciation, amortization and interest'. Individual amounts are therefore left null; the combined line is what is deducted. Component amounts disclosed in the notes are listed under 'dai_components_from_notes' for information only; they do not tie exactly to the combined line (see caveats).",
+      "core_opex": 4941653000,
+      "core_opex_arithmetic": "total 5,412,254,000 - depreciation, amortization and interest (combined line) 470,601,000 = 4,941,653,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages $ 2,546,768 $ - $ 2,546,768 $ 2,328,136' (FY24 Financial Report Statement of Activities, PDF p24 = printed p.22); same 2024 column in FY25 report PDF p24: '... $ 2,546,768'.",
+        "total_operating_expenses": "'Total expenses 5,412,254 - 5,412,254 4,936,268' (FY24 report PDF p24); FY25 report 2024 column 5,412,254 (PDF p24). No restatement.",
+        "depreciation": "Combined row 'Depreciation, amortization and interest 470,601 - 470,601 441,202' (FY24 report PDF p24; identical in FY25 report 2024 column). Note 8: 'Depreciation expense included in operating expenses amounted to $328.9 million and $312.4 million in 2024 and 2023' (FY24 report PDF p47).",
+        "interest_expense": "Combined row as above. FY24 report debt note: 'Total interest expense incurred on indebtedness was $111.3 million and $93.8 million in 2024 and 2023 ... Interest capitalized ... $9.9 million and $5.6 million ... bond issue costs $3.7 million and $3.6 million' (PDF p51)."
+      },
+      "dai_components_from_notes": {
+        "depreciation_land_buildings_equipment": 328900000,
+        "amortization_other_assets_software": 13100000,
+        "amortization_financing_lease_rou_assets": 13259000,
+        "amortization_bond_issue_costs": 3700000,
+        "interest_expense_incurred_on_indebtedness_gross": 111300000,
+        "interest_capitalized_to_LBE": 9900000,
+        "interest_on_financing_lease_liabilities": 6213000,
+        "cash_flow_statement_depreciation_and_amortization": 357618000
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": 2328136000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 744823000,
+      "total_operating_expenses": 4936268000,
+      "depreciation": null,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": true,
+      "interest_expense": null,
+      "interest_in_opex": true,
+      "depreciation_amortization_interest_combined": 441202000,
+      "dai_note": "Yale's statement of activities presents a single operating line 'Depreciation, amortization and interest'. Individual amounts are therefore left null; the combined line is what is deducted. Component amounts disclosed in the notes are listed under 'dai_components_from_notes' for information only; they do not tie exactly to the combined line (see caveats).",
+      "core_opex": 4495066000,
+      "core_opex_arithmetic": "total 4,936,268,000 - depreciation, amortization and interest (combined line) 441,202,000 = 4,495,066,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages $ 2,546,768 $ - $ 2,546,768 $ 2,328,136' (FY24 Financial Report, PDF p24, 2023 column, $ thousands); Note 14 in FY24 report (PDF p61): 'Salaries and wages ... $ 2,328,136'.",
+        "total_operating_expenses": "'Total expenses 5,412,254 - 5,412,254 4,936,268' (FY24 report PDF p24, 2023 column). Sum of natural lines 2,328,136+744,823+441,202+1,422,107 = 4,936,268. FY25 report five-year table: Operating expenses 2023 = 4,936.",
+        "depreciation": "Combined row 'Depreciation, amortization and interest ... 441,202' (FY24 report PDF p24, 2023 column). Note 8: depreciation $312.4 million in 2023 (FY24 PDF p47).",
+        "interest_expense": "Combined row as above. Note: $93.8 million interest incurred on indebtedness in 2023, $5.6 million capitalized, $3.6 million bond issue cost amortization (FY24 report PDF p51)."
+      },
+      "fy23_source": "FY24 report 2023 column only (FY23 report not opened)",
+      "dai_components_from_notes": {
+        "depreciation_land_buildings_equipment": 312400000,
+        "amortization_other_assets_software": 14600000,
+        "amortization_financing_lease_rou_assets": 10279000,
+        "amortization_bond_issue_costs": 3600000,
+        "interest_expense_incurred_on_indebtedness_gross": 93800000,
+        "interest_capitalized_to_LBE": 5600000,
+        "interest_on_financing_lease_liabilities": 7462000,
+        "cash_flow_statement_depreciation_and_amortization": 349607000
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Yale New Haven Hospital / Yale New Haven Health System are NOT consolidated (they are an affiliated counterparty: the university 'recognized $720.3 million in revenue and incurred $143.4 million in expenses related to activities with YNHHS' in FY25, FY25 PDF p44). Yale Medicine (the School of Medicine faculty practice) IS consolidated: 'Medical services income, net' of $1,680,905 thousand in FY25 (27% of operating revenue) and a functional category 'Patient care and other related services' with operating expenses of $1,336,811 thousand in FY25 ($1,233,702 thousand FY24; salaries and wages within it $798,453 thousand FY25 / $751,189 thousand FY24; Note 14, FY25 PDF p61). No FFRDC."
+  },
+  "calibration_fy23": {
+    "ref_sw": 2328136000,
+    "ref_core_opex": 4936268000,
+    "extracted_sw": 2328136000,
+    "extracted_core_opex": 4495066000,
+    "sw_diff_pct": 0.0,
+    "core_opex_diff_pct": -8.94,
+    "explanation": "S&W matches exactly (2,328,136 thousand; benefits excluded). The reference 'core operating expenses' (4,936,268 thousand) equals Yale's reported TOTAL expenses for FY23 to the dollar, i.e. the original analysis did not remove depreciation, amortization and interest. Under the SPEC definition core FY23 = 4,936,268 - 441,202 = 4,495,066 thousand, 8.9% below the reference. Definitional difference only; extraction not adjusted."
+  },
+  "student_counts_in_official_docs": "FY25 report, five-year enrollment table (PDF p3, printed p.1), column '2025' (the MD&A refers to the 2024-2025 academic year; the table does not name a census date): Yale College 6,814; Graduate and professional schools 8,750; Total 15,564 (2024 column: 6,818 / 8,263 / 15,081). Note 1k (PDF p32): 'enrolled student population of approximately 15,600 and 15,100 in 2025 and 2024'. MD&A (PDF p9): 6,814 undergraduates at Yale College, 3,682 at the Graduate School of Arts and Sciences and 4,372 in professional schools during the 2024-2025 academic year. Personnel headcount (PDF p14) is stated 'as of fall 2024': 5,735 faculty, 1,957 postdoctoral and postgraduate associates, 6,264 M&P staff, 8,305 clerical/technical/service/maintenance including 2,722 graduate student workers.",
+  "caveats": [
+    "Only the combined line 'Depreciation, amortization and interest' is presented in operating expenses, so depreciation, amortization and interest are not separately reported on the face; core opex deducts the combined line. Yale's audited notes disclose components (depreciation $344.8M, other-asset amortization $25.9M, financing-lease ROU amortization $15.1M, bond issue cost amortization $3.0M, interest incurred $108.3M of which $14.4M capitalized, lease interest $12.9M in FY25) but these sum to about $510M (gross interest) or $496M (net of capitalized), versus the $504.9M combined line, so they cannot be reconciled exactly (FY24 gap about +5.9M gross; FY23 about +0.9M gross). The combined line is authoritative.",
+    "Yale also publishes a non-GAAP 'Management View' (total expenses $5,889,805 thousand FY25, with 'Interest, CRC and other amortization' 435,960 and depreciation excluded/replaced by a capital replacement charge). Not used; GAAP statement of activities is the source.",
+    "Yale's total expenses are all in the operating section; there is no separate non-operating expense block (non-operating section contains only revenues/gains/other changes).",
+    "Health care: Yale Medicine clinical practice is inside these expenses (Patient care and other related services 1,336,811 thousand FY25) but the hospital itself (YNHH) is not consolidated, so S&W excludes hospital staff.",
+    "No restatement of FY24 between the FY24 and FY25 reports (all line items identical).",
+    "All amounts in the source are $ thousands; the JSON is whole dollars (x1,000)."
+  ],
+  "blocked_hosts": []
+}

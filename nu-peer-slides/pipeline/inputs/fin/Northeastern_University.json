@@ -1,0 +1,114 @@
+{
+  "institution": "Northeastern University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited consolidated financial statements (June 30, 2025 and 2024; PwC opinion dated Oct 29, 2025)",
+      "url": "https://finance.northeastern.edu/wp-content/uploads/Northeastern-University-Financial-Statements-FY25-Final.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/Northeastern-University-Financial-Statements-FY25-Final.pdf",
+      "pages": "Statement of Activities = PDF p6 (printed p4); Note 14 FY25 table = PDF p28 (printed p26), FY24 table = PDF p29 (printed p27); Note 6 (PP&E) depreciation = PDF p20; Note 8 interest = PDF p23; Note 1 = PDF p8"
+    },
+    {
+      "label": "FY24 audited consolidated financial statements (June 30, 2024 and 2023)",
+      "url": "https://finance.northeastern.edu/wp-content/uploads/2024-Financial-Statements.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/2024-Financial-Statements.pdf",
+      "pages": "Statement of Activities = PDF p6; Note 14 FY24 table = PDF p29, FY23 table = PDF p30; depreciation note PDF p20; interest note PDF p23"
+    },
+    {
+      "label": "FY23 audited consolidated financial statements (June 30, 2023 and 2022)",
+      "url": "https://finance.northeastern.edu/wp-content/uploads/Northeastern-University-FY23-Financial-Statements.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/Northeastern-University-FY23-Financial-Statements.pdf",
+      "pages": "Statement of Activities = PDF p6; Note 14 FY23 table = PDF p28; depreciation note PDF p19; interest note PDF p22"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1341049000,
+      "employee_benefits": null,
+      "total_operating_expenses": 2388249000,
+      "depreciation": 151250000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 49862000,
+      "interest_in_opex": true,
+      "core_opex": 2187137000,
+      "core_opex_arithmetic": "2,388,249,000 - 151,250,000 - 0 (no separately reported amortization) - 49,862,000 = 2,187,137,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. Only 'Salary and benefits  1,341,049' (thousands) on the Consolidated Statement of Activities, 2025 column, and Note 14 total row 'Total $1,341,049 $846,088 $151,250 $49,862 $2,388,249'. FY25 report PDF p6 (printed p4) and PDF p28 (printed p26).",
+        "total_operating_expenses": "'Total operating expenses (Notes 6, 8 and 14)  2,388,249  -  2,388,249  2,224,534' (thousands). FY25 report, Statement of Activities, PDF p6 (printed p4).",
+        "depreciation": "'Depreciation  151,250  -  151,250  134,195'. FY25 report PDF p6; Note 6 text: 'Depreciation expense amounted to $151,250,000 and $134,195,000 for the years ended June 30, 2025 and 2024' (PDF p20).",
+        "interest_expense": "'Interest  49,862  -  49,862  35,970' (operating expenses section). FY25 report PDF p6. Note 8 (PDF p23) separately says 'Interest expense on bonds and notes payable totaled $60,042,000 and $40,936,000'."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1236189000,
+      "employee_benefits": null,
+      "total_operating_expenses": 2224534000,
+      "depreciation": 134195000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 35970000,
+      "interest_in_opex": true,
+      "core_opex": 2054369000,
+      "core_opex_arithmetic": "2,224,534,000 - 134,195,000 - 0 (no separately reported amortization) - 35,970,000 = 2,054,369,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salary and benefits  1,236,189' (thousands), 2024 column of FY25 report Statement of Activities (PDF p6) and FY24 report Statement of Activities (PDF p6); Note 14 FY24 table (FY25 report PDF p29; FY24 report PDF p29).",
+        "total_operating_expenses": "'Total operating expenses (Notes 6, 8 and 14)  2,224,534' (thousands) in FY25 report 2024 column and in FY24 report 2024 column; both agree.",
+        "depreciation": "'Depreciation  134,195' in both reports; FY24 report Note 6: 'Depreciation expense amounted to $134,195,000 ...' (PDF p20).",
+        "interest_expense": "'Interest  35,970' in both reports. Debt note: 'Interest expense on bonds and notes payable totaled $40,936,000 and $53,367,000' for FY24 and FY23 (FY24 report PDF p23)."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": null,
+      "sw_combined_with_benefits": 1050908000,
+      "employee_benefits": null,
+      "total_operating_expenses": 1949746000,
+      "depreciation": 122090000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 41452000,
+      "interest_in_opex": true,
+      "core_opex": 1786204000,
+      "core_opex_arithmetic": "1,949,746,000 - 122,090,000 - 0 (no separately reported amortization) - 41,452,000 = 1,786,204,000",
+      "evidence": {
+        "salaries_and_wages": "Not separately reported. 'Salary and benefits  1,050,908' (thousands), FY23 report Statement of Activities 2023 column (PDF p6) and FY24 report comparative column (PDF p6); Note 14 (FY23 report PDF p28; FY24 report PDF p30).",
+        "total_operating_expenses": "'Total operating expenses (Notes 6, 8 and 14)  1,949,746' (thousands), FY23 report PDF p6 and FY24 report PDF p6 comparative; agree.",
+        "depreciation": "'Depreciation  122,090'; FY23 report Note 6: 'Depreciation expense amounted to $122,090,000 and $93,594,000' (PDF p19).",
+        "interest_expense": "'Interest  41,452' (FY23 report PDF p6). Debt note (FY23 report PDF p22): 'Interest expense on bonds and notes payable totaled $53,367,000 and $38,872,000'."
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "No hospital or health system and no FFRDC is mentioned anywhere in the statements (text search for hospital/health/affiliat returned only the Maine Health and Higher Educational Facilities Authority bond issuer and post-retirement medical plan). Consolidated subsidiaries named in Note 1 (Basis of Presentation): Kostas Research Institute, New College of the Humanities (UK) and Marymount Manhattan College (MMC). Global campus system: Note 1 says 14 campuses across the U.S., U.K. and Canada; all consolidated. MMC became a Northeastern-controlled entity on June 16, 2025 (accounted for as an acquisition, ASC 958-805), so FY25 opex includes only about two weeks of MMC operations; MMC's opex is not disclosed. Inherent contribution recognized (nonoperating) $202,690,000."
+  },
+  "calibration_fy23": {
+    "ref_sw": null,
+    "ref_core_opex": null,
+    "sw_diff_pct": null,
+    "core_opex_diff_pct": null,
+    "explanation": "No reference values were supplied for Northeastern, so the calibration block is skipped. For later comparison: FY23 S&W is not separable (only combined 'Salary and benefits' $1,050,908,000); FY23 core opex under the SPEC definition is $1,786,204,000."
+  },
+  "student_counts_in_official_docs": "None. The FY25, FY24 and FY23 audited statements contain no enrollment or student-count figures (text search for 'enrollment' returned nothing; 'students' appears only in descriptive text).",
+  "caveats": [
+    "Northeastern reports only a combined 'Salary and benefits' line (statement of activities and Note 14), so salaries_and_wages is null and sw_combined_with_benefits carries the figure in all three years. No split is disclosed anywhere. The only partial benefit disclosure is the retirement plan contribution cost (Note 9): $65,412,000 FY25, $56,900,000 FY24, $44,915,000 FY23 (FY23 figure appears in both the FY24 report and the FY23 report Note 9). Other benefits (health, payroll tax, tuition remission) are not disclosed, so an S&W-only figure cannot be derived from the statements.",
+    "Amortization: no amortization line exists in operating expenses. Note 14 says functional categories 'include allocations of ... depreciation and amortization expense' but the natural columns are only Salary and Benefits, Other Operating Expenses, Depreciation and Interest. Amortization (if any, e.g. right-of-use assets or debt premium) is therefore embedded in Other operating expenses or Interest and is not separable. amortization set to null / amortization_in_opex false.",
+    "Interest: the statement-of-activities Interest line (the figure used, per SPEC) is lower than the 'Interest expense on bonds and notes payable' disclosed in the debt note: FY25 $49,862,000 vs $60,042,000 (gap $10,180,000); FY24 $35,970,000 vs $40,936,000 (gap $4,966,000, same in FY24 report); FY23 $41,452,000 vs $53,367,000 (gap $11,915,000). The statements do not explain the gap (no capitalized-interest disclosure found; swap settlements are mentioned for FY23/FY24 cash paid). If the debt-note figure were the right interest number, FY25 core opex would be about $10.2M (0.5%) lower. Kept the operating-expense line as shown.",
+    "Operating lease cost is not a separate line, so it presumably sits inside 'Other operating expenses' and is not removed: total rental expense on operating leases (incl. short-term and variable) was $156,462,000 FY25 and $140,120,000 FY24 (FY25 report, Note 7 Leases, PDF p21-22).",
+    "Cross-check: natural-classification totals in Note 14 equal total operating expenses on the statement of activities in all three years (FY25 2,388,249; FY24 2,224,534; FY23 1,949,746, thousands). Salary and benefits + other operating + depreciation + interest sums verified.",
+    "FY24 figures taken from the FY25 report and from the FY24 report agree exactly (1,236,189 / 134,195 / 35,970 / 2,224,534). FY23 figures in the FY24 report and in the FY23 report agree exactly. No restatement found.",
+    "FY25 comparability: Marymount Manhattan College joined June 16, 2025 (about two weeks of MMC operations in FY25 opex). All campuses in the 14-campus global system (U.S., U.K., Canada) are inside the consolidated totals; no per-campus expense split is disclosed.",
+    "The finance.northeastern.edu HTML page (financial-statements/) returned a Cloudflare 403 to curl and WebFetch reported it as blocked by the egress proxy, so the statements index page could not be read. PDF URLs were found through web search and downloaded successfully with curl and a browser User-Agent (HTTP 200, valid PDFs). The FY24 report is titled '2024-Financial-Statements.pdf' on that site.",
+    "FY25 statements were issued October 29, 2025 (auditor's report date), so FY25 is available and final."
+  ],
+  "blocked_hosts": [
+    "finance.northeastern.edu (HTML index page only: Cloudflare 403 to curl; WebFetch reported egress block; PDF files under /wp-content/uploads/ downloaded fine)"
+  ]
+}

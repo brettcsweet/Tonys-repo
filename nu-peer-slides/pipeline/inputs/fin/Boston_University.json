@@ -1,0 +1,117 @@
+{
+  "institution": "Boston University",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 Consolidated Financial Report, June 30, 2025 and 2024 (KPMG opinion; issued Sept 25, 2025)",
+      "url": "https://www.bu.edu/cfo/files/2025/09/FY25-Boston-University-Consolidated-Financial-Report_Final_9.25.25.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Boston_University/BU_FY25.pdf",
+      "pages": "Select Financial & Statistical Data (incl. student FTE) = PDF p6 (printed p4); Statements of Activities 2025 = PDF p18 (printed p16), 2024 = PDF p19 (printed p17); Note 1 (BMC not consolidated) = PDF p21; depreciation note = PDF p24 (printed p22); Note 12 functional classification = PDF p45 (printed p43)"
+    },
+    {
+      "label": "FY24 Consolidated Financial Statements, June 30, 2024 and 2023",
+      "url": "https://www.bu.edu/cfo/files/2024/09/FY24-Boston-University-Financial-Statements-9.26.24-FINAL.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Boston_University/BU_FY24.pdf",
+      "pages": "Statements of Activities 2024 = PDF p20, 2023 (restated presentation) = PDF p21; Note 1 BMC = PDF p23; depreciation note = PDF p26; Note 12 = PDF p46"
+    },
+    {
+      "label": "FY23 Consolidated Financial Report, June 30, 2023 and 2022 (as originally reported)",
+      "url": "https://www.bu.edu/cfo/files/2023/09/Boston-University-Audited-Financial-Statements-6-30-23-9.14.23.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Boston_University/BU_FY23.pdf",
+      "pages": "Statements of Activities 2023 = PDF p18; Note 1 BMC = PDF p21; depreciation note = PDF p24; Note 12 = PDF p44"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 1238476000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 389796000,
+      "total_operating_expenses": 2719848000,
+      "depreciation": 160697000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 81689000,
+      "interest_in_opex": true,
+      "core_opex": 2477462000,
+      "core_opex_arithmetic": "2,719,848,000 - 160,697,000 - 0 (no separately reported amortization) - 81,689,000 = 2,477,462,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages  1,238,476' ($000), OPERATING EXPENSES, Consolidated Statements of Activities 2025 total column. FY25 report PDF p18 (printed p16); also Note 12 PDF p45 (printed p43).",
+        "total_operating_expenses": "'Total operating expenses  2,719,848' ($000). FY25 report PDF p18 (printed p16).",
+        "depreciation": "'Depreciation  160,697'. FY25 report PDF p18; Note 1: 'Depreciation expense for the years ended June 30, 2025 and 2024 was $160,697,000 and $156,577,000' (PDF p24).",
+        "interest_expense": "'Interest  81,689' in OPERATING EXPENSES. FY25 report PDF p18."
+      }
+    },
+    "FY24": {
+      "salaries_and_wages": 1164784000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 360857000,
+      "total_operating_expenses": 2530881000,
+      "depreciation": 156577000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 79839000,
+      "interest_in_opex": true,
+      "core_opex": 2294465000,
+      "core_opex_arithmetic": "2,530,881,000 - 156,577,000 - 0 (no separately reported amortization) - 79,839,000 = 2,294,465,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages  1,164,784' ($000). FY25 report 2024 statement PDF p19 (printed p17) and FY24 report PDF p20; agree.",
+        "total_operating_expenses": "'Total operating expenses  2,530,881' ($000). FY25 report PDF p19; FY24 report PDF p20; agree.",
+        "depreciation": "'Depreciation  156,577'. FY24 report Note 1: 'Depreciation expense for the years ended June 30, 2024 and 2023 was $156,577,000 and $153,273,000' (PDF p26).",
+        "interest_expense": "'Interest  79,839' in OPERATING EXPENSES, FY25 report PDF p19 and FY24 report PDF p20."
+      }
+    },
+    "FY23": {
+      "salaries_and_wages": 1084496000,
+      "sw_combined_with_benefits": null,
+      "employee_benefits": 338916000,
+      "total_operating_expenses": 2403477000,
+      "depreciation": 153273000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 72713000,
+      "interest_in_opex": true,
+      "core_opex": 2177491000,
+      "core_opex_arithmetic": "2,403,477,000 - 153,273,000 - 0 (no separately reported amortization) - 72,713,000 = 2,177,491,000",
+      "evidence": {
+        "salaries_and_wages": "'Salaries and wages  1,084,496' ($000), 2023 column, FY24 report Statements of Activities PDF p21 (latest presentation, after salaries/benefits reclassification). As originally reported in FY23 report PDF p18: 1,096,356.",
+        "total_operating_expenses": "'Total operating expenses  2,403,477' ($000). FY24 report PDF p21 and FY23 report PDF p18; agree.",
+        "depreciation": "'Depreciation  153,273'. FY23 report Note 1: 'Depreciation expense for the years ended June 30, 2023 and 2022 was $153,273,000 and $145,617,000' (PDF p24).",
+        "interest_expense": "'Interest  72,713' in OPERATING EXPENSES, FY24 report PDF p21 and FY23 report PDF p18."
+      },
+      "fy23_as_originally_reported": {
+        "salaries_and_wages": 1096356000,
+        "employee_benefits": 327056000,
+        "source": "FY23 report PDF p18"
+      }
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": null,
+    "other": "Boston Medical Center (BMC), the primary teaching hospital affiliate of the BU Chobanian & Avedisian School of Medicine, is 'a separately governed legal entity organized as a 501(c)(3) and is not consolidated' (Note 1, FY25 report PDF p21; same wording in FY24 and FY23 reports). BU's financial support to BMC ($9,240,000 FY25; $8,859,000 FY24) is 'reflected in the operating expenses of the University'. The Faculty Practice Foundation (Boston University Medical Group, over 1,100 physicians and clinicians) is described as a separate nonprofit foundation; the statements say only that the consolidation includes 'the University and its wholly owned subsidiaries', and do not state that the FPF is consolidated (treated as not consolidated; not confirmed explicitly). The Medical Campus itself (medical and dental schools) is part of the University and fully consolidated. No FFRDC. Three campuses: Charles River, Fenway, Medical Campus. Sponsored programs-direct revenue $504.8M FY25 is ordinary sponsored research."
+  },
+  "calibration_fy23": {
+    "ref_sw": null,
+    "ref_core_opex": null,
+    "sw_diff_pct": null,
+    "core_opex_diff_pct": null,
+    "explanation": "No reference values were supplied for Boston University, so the calibration block is skipped. For later comparison: FY23 S&W on the latest (FY24 report) presentation is $1,084,496,000 (originally reported $1,096,356,000); FY23 core opex under the SPEC definition is $2,177,491,000."
+  },
+  "student_counts_in_official_docs": "FY25 report, 'Select Financial & Statistical Data' (unaudited), PDF p6 (printed p4), 'Student full-time equivalent (FTE)*' with footnote '*End of fall semester full-time equivalent enrollment'. Columns are labelled by fiscal year 2021-2025 (undergraduate / graduate): 2021 16,222 / 10,455; 2022 17,355 / 11,818; 2023 17,558 / 11,994; 2024 17,783 / 11,661; 2025 18,090 / 11,542. The report does not say which fall the FY2025 column represents (presumably fall 2024, start of the 2024-25 academic year; this is an inference, not stated). Also lists applications 78,769 for the 2025 column.",
+  "caveats": [
+    "BU reports Salaries and wages and Employee benefits as separate lines on the face of the statement of activities, so salaries_and_wages is directly available in all three years (employee_benefits also reported).",
+    "RESTATEMENT of FY23 split: the FY23 report shows S&W $1,096,356,000 and benefits $327,056,000; the FY24 report's 2023 comparative column shows S&W $1,084,496,000 and benefits $338,916,000 (a $11,860,000 shift from salaries to benefits; total unchanged), explained in FY24 Note 1 'Reclassifications: Certain 2023 balances previously reported have been reclassified between salaries and benefits to conform to the 2024 presentation.' The FY23 entry below uses the later (FY24 report) basis so all three years are on the same definition; the original is recorded in fy23_as_originally_reported. Total opex, depreciation, interest and core opex are identical in both.",
+    "FY24 numbers taken from the FY25 report and from the FY24 report agree exactly (S&W 1,164,784; benefits 360,857; total 2,530,881; dep 156,577; interest 79,839). FY25 Note 1 says certain 2024 balances 'have been combined to other financial statement line items to conform to the 2025 presentation', but the six natural-classification lines shown for 2024 are the same in both reports.",
+    "Cross-check: the natural-classification lines (S&W, benefits, supplies and services, utilities/rent/repairs, depreciation, interest) sum to total operating expenses in each year, and Note 12 functional-classification totals equal the statement totals (2,719,848 / 2,530,881 / 2,403,477 thousand).",
+    "Amortization: not presented as a line in operating expenses. The cash flow statement lists 'Amortization of right-of-use assets-operating' (13,864 FY25; 13,430 FY24; 14,643 FY23, thousands) and '-financing' (1,207; 1,491; 1,693), and 'Amortization of debt premium and issuance costs, net' (a credit of 3,123 FY25; 2,977 FY24; 4,192 FY23). These are embedded in Utilities/rent/repairs and Interest, not separable on the face. amortization set to null, amortization_in_opex false. Sensitivity: removing ROU amortization (15,071 FY25) would lower FY25 core opex by 0.6%; not done, since the SPEC only strips amortization that is reported inside operating expenses.",
+    "Interest: the operating-expense Interest line ($81,689,000 FY25) may include finance-lease interest (Note 10 lease cost table: 'Interest on lease liabilities' $3,432,000 FY25, $3,408,000 FY24; the statements do not say which line it is booked to) Cash interest paid was $80,560,000 in FY25, 'net of capitalized interest of $1,231 and $1,518' (thousands, FY25 and FY24; cash flow supplemental disclosure), so capitalized interest is small.",
+    "Page footers in all three BU PDFs (FY23, FY24, FY25) read 'DRAFT, <date> <time>', even though the files are the ones BU posts as the final consolidated financial reports (file names contain 'Final'; KPMG opinion included; FY25 dated Sept 25, 2025). Treated as an artifact of the PDF template; all amounts agree with the following year's comparative columns. The FY25 auditor's report page text in the PDF is overprinted (double text layer) but the opinion is readable.",
+    "FY25 is available (issued September 25, 2025), so no fallback to older data was needed. muniOS.com was not needed and was not opened: the university's own audited statements were downloaded directly from bu.edu/cfo, and a muniOS search did not return a BU Series 2025A official statement.",
+    "BU support to BMC, and FY25 dependence on Medical Campus: Personnel costs are 'more than 60%' of opex per MD&A; salaries rose $74M (6.3%) and benefits $29M (8.0%) in FY25 (MD&A, FY25 report PDF p8), which matches the statement lines."
+  ],
+  "blocked_hosts": []
+}

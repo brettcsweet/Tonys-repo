@@ -1,0 +1,38 @@
+{
+  "institution": "Stanford University",
+  "fall_2024": {
+    "total_all_students": 18625,
+    "undergraduate_total": 7904,
+    "graduate_professional_total": 10721,
+    "source_url": "https://drive.google.com/file/d/12MjIqdzzHiECf6hfRlbU3RmmIy14hl1H/view (posted at https://irds.stanford.edu/data-findings/cds)",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.5",
+    "evidence": "Total undergraduate Students 3,840 4,064 | Total Graduate Students 5,827 4,894 | Total all students 9,667 8,958 0 0 | Total all undergraduates 7,904 | Total all graduate 10,721 | GRAND TOTAL ALL STUDENTS 18,625"
+  },
+  "fall_2023": {
+    "total_all_students": 18446,
+    "undergraduate_total": 8054,
+    "graduate_professional_total": 10392,
+    "source_url": "https://drive.google.com/file/d/11t0SaMg7GHtBV_rAz82AqbLWLFkI5--H/view",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment, PDF pp.5-6 (no grand-total line; total = UG + graduate lines)",
+    "evidence": "Total of all undergraduate students enrolled 8,054 | Total of all graduate students enrolled 10,392 | sum = 18,446"
+  },
+  "fall_2022": {
+    "total_all_students": 18283,
+    "undergraduate_total": 8049,
+    "graduate_professional_total": 10234,
+    "source_url": "https://drive.google.com/file/d/11t39wJIScOdjw1TxUDX_C0WfRzIK29Tg/view",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.5",
+    "evidence": "Total all undergraduates 8,049 | Total all graduate 10,234 | GRAND TOTAL ALL STUDENTS 18,283"
+  },
+  "definition_notes": "CDS B1 grand total = all UG (degree-seeking plus part-time 'other undergraduates enrolled in credit courses', 350 in Fall 2024) plus all graduate students including graduate students enrolled in credit courses outside a degree (Fall 2024 part-time 'All other graduates enrolled in credit courses' 478 men + 182 women), full- and part-time, headcount as of the official fall date. The CDS 2023-24 has no grand-total line, so the total is the sum of the UG (8,054) and graduate (10,392) lines.",
+  "gap_vs_ipeds_fall_2023_pct": 0.0,
+  "caveats": [
+    "CDS matches IPEDS: Fall 2023 18,446 vs 18,446; Fall 2022 18,283 vs 18,283.",
+    "Original-slide FY23 count was 17,529; the CDS Fall 2022 figure is 18,283, so the slide understated Stanford by 754 (4.1%).",
+    "Stanford CDS PDFs are hosted on Google Drive links from the IRDS page; the 2023-24 file is 48 pages and 2022-23 is 34 pages (layout differs by year) but all three are titled Stanford University Common Data Set for the correct year."
+  ],
+  "blocked_hosts": []
+}

@@ -1,0 +1,41 @@
+{
+  "institution": "Northeastern University",
+  "fall_2024": {
+    "total_all_students": 39774,
+    "undergraduate_total": 22695,
+    "graduate_professional_total": 17079,
+    "source_url": "https://uds.northeastern.edu/wp-content/uploads/2026/03/CDS-2024-25.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.3",
+    "evidence": "Total undergraduate Students 9,705 12,944 46 | Total Graduate Students 8,989 8,002 88 | Total all students 18,694 20,946 0 134 | Total all undergraduates 22,695 | Total all graduate 17,079 | GRAND TOTAL ALL STUDENTS 39,774"
+  },
+  "fall_2023": {
+    "total_all_students": 38760,
+    "undergraduate_total": 21330,
+    "graduate_professional_total": 17430,
+    "source_url": "https://uds.northeastern.edu/wp-content/uploads/2026/03/CDS-2023-24.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment, PDF p.3 (no grand-total line; total = UG + graduate lines)",
+    "evidence": "Total of all undergraduate students enrolled 21,330 | Total of all graduate students enrolled 17,430 | sum = 38,760"
+  },
+  "fall_2022": {
+    "total_all_students": 36806,
+    "undergraduate_total": 20980,
+    "graduate_professional_total": 15826,
+    "source_url": "https://uds.northeastern.edu/wp-content/uploads/2026/03/CDS-2022-23.pdf",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment - Men and Women, PDF p.3",
+    "evidence": "Total all undergraduates 20,980 | Total all graduate 15,826 | GRAND TOTAL ALL STUDENTS 36,806"
+  },
+  "definition_notes": "CDS B1 total: all UG (99.5% degree-seeking in Fall 2024; 106 non-degree credit students) plus all graduate students. Northeastern's CDS reports its whole graduate population on the 'All other graduates enrolled in credit courses' line (no degree-seeking / first-time split), so it cannot be separated into degree vs non-degree from the CDS. The CDS 2023-24 has no grand-total line, so the total is the sum of the UG (21,330) and graduate (17,430) lines. Three published Northeastern totals exist and they do not agree: (1) CDS B1 (this file): 36,806 / 38,760 / 39,774. (2) IPEDS via College Navigator (Fall 2024): 32,553 total, 17,432 UG, 15,121 graduate; the spec's IPEDS table gives 30,013 (Fall 2022) and 31,159 (Fall 2023). (3) Northeastern's own Facts and Figures (facts.northeastern.edu, excludes non-degree students, and lists co-op students as an extra column added to full-time): Fall 2022 45,468 (UG 23,057 + grad 22,411); Fall 2023 47,770 (23,692 + 24,078); Fall 2024 48,812 (25,095 + 23,717).",
+  "gap_vs_ipeds_fall_2023_pct": 24.39,
+  "caveats": [
+    "CDS is +24.4% above the spec's IPEDS Fall 2023 figure (38,760 vs 31,159) and +22.6% for Fall 2022 (36,806 vs 30,013); CDS Fall 2024 is +22.2% above College Navigator's IPEDS Fall 2024 (39,774 vs 32,553). The gap is mostly undergraduate: CDS UG 22,695 vs IPEDS UG 17,432 (Fall 2024). NO document I opened explains the gap. The CDS has no campus or co-op note. Unverified possibilities, not confirmed: the CDS counts all campuses/locations and co-op-status students while the IPEDS record does not; Northeastern's Facts and Figures shows 5,057 UG co-op students in Fall 2024. Recommend Brett confirm with University Decision Support which count Northeastern treats as official.",
+    "Northeastern's own Facts and Figures totals (48,812 in Fall 2024) are 22.7% higher than the CDS (39,774), so CDS is not Northeastern's largest published count either. Pick one basis and label it on the slide.",
+    "Northeastern's UDS website (uds.northeastern.edu HTML pages) returns a Cloudflare 403 to curl; the CDS PDFs downloaded fine over https. The three CDS URLs above came from a web search result and the UDS CDS index page could not be opened to confirm the listing.",
+    "uds.northeastern.edu: my first attempts for the 2023-24 and 2022-23 CDS used http:// URLs copied from a search result and the proxy answered 'Host not in allowlist'; I then retried the same paths over https and they downloaded with HTTP 200 (the 2024-25 file was fetched over https on the first try). Flagging in case that retry should have been treated as a block."
+  ],
+  "blocked_hosts": [
+    "uds.northeastern.edu over plain http:// only ('Host not in allowlist'); https:// PDF downloads returned HTTP 200 and were used. HTML pages on this host return a Cloudflare 403 to curl and were not used."
+  ]
+}

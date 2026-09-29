@@ -1,0 +1,41 @@
+{
+  "institution": "Northwestern University",
+  "fall_2024": {
+    "total_all_students": 23431,
+    "undergraduate_total": 9060,
+    "graduate_professional_total": 14371,
+    "source_url": "https://enrollment.northwestern.edu/data/2024-2025.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment (PDF p.4)",
+    "evidence": "Total All Undergraduates: 9,060 / Total All Graduate Students: 14,371 / Grand Total All Students: 23,431",
+    "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+  },
+  "fall_2023": {
+    "total_all_students": 22801,
+    "undergraduate_total": 8846,
+    "graduate_professional_total": 13955,
+    "source_url": "https://enrollment.northwestern.edu/data/2023-2024.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment (PDF p.4)",
+    "evidence": "Total All Undergraduates: 8,846 / Total All Graduate Students: 13,955 / Grand Total All Students: 22,801",
+    "as_of": "as of ... October 15, 2023"
+  },
+  "fall_2022": {
+    "total_all_students": 22732,
+    "undergraduate_total": 8659,
+    "graduate_professional_total": 14073,
+    "source_url": "https://enrollment.northwestern.edu/data/2022-23.pdf",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment (PDF p.3)",
+    "evidence": "Total All Undergraduates: 8,659 / Total All Graduate Students: 14,073 / Grand Total All Students: 22,732",
+    "as_of": "as of ... October 19, 2022"
+  },
+  "definition_notes": "Northwestern's own CDS B1 'Grand Total All Students' (UG + graduate/professional, full- and part-time, all levels including professional schools). Row sums re-checked (e.g. FY2022 UG 3,951+4,576+1+67+63+1=8,659; grad 4,896+5,659+35+1,642+1,840+1=14,073). CDS totals run 1.7% (Fall 2023) and 1.9% (Fall 2022) below IPEDS, within the 5% tolerance (IPEDS likely also counts a few non-degree/other enrollees).",
+  "gap_vs_ipeds_fall_2023_pct": -1.73,
+  "caveats": [
+    "Fall 2022 CDS 2022-23 says 'official fall reporting date or as of October 19, 2022' (as printed).",
+    "The CDS 2022-23 file is at .../data/2022-23.pdf (the 2022-2023.pdf guess 404s); found via https://enrollment.northwestern.edu/data/common-data-set.html.",
+    "Fall 2024 is +2.8% vs Fall 2023: UG +214, grad +416."
+  ],
+  "blocked_hosts": []
+}

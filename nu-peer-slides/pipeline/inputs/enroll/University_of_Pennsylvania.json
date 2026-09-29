@@ -1,0 +1,38 @@
+{
+  "institution": "University of Pennsylvania",
+  "fall_2024": {
+    "total_all_students": 24023,
+    "undergraduate_total": 10013,
+    "graduate_professional_total": 14010,
+    "source_url": "https://upenn.box.com/s/ckv4frz37rzxa4u6bdiv2h4yzykqm4ef",
+    "document": "CDS 2024-25 (UPenn-Common-Data-Set-2024-25-June-2025.pdf, linked from https://ira.upenn.edu/penn-numbers/common-data-set)",
+    "section_page": "B1 Institutional Enrollment, PDF p.5",
+    "evidence": "Total of all undergraduate degree-seeking students 10,013 | Total of all graduate degree-seeking students 14,010 | GRAND TOTAL ALL STUDENTS 24,023 | Note: Institutional enrollment headcounts include degree-seeking students enrolled in traditional programs."
+  },
+  "fall_2023": {
+    "total_all_students": 23790,
+    "undergraduate_total": 9995,
+    "graduate_professional_total": 13795,
+    "source_url": "https://upenn.box.com/s/0btxxmu1lmxgj1dc2pfzqewoun6miyn4",
+    "document": "CDS 2023-24 (UPenn-Common-Data-Set-2023-24-June-2024.pdf)",
+    "section_page": "B1 Institutional Enrollment, PDF p.5",
+    "evidence": "Total of all undergraduate degree-seeking students 9,995 | Total of all graduate degree-seeking students 13,795 | GRAND TOTAL ALL STUDENTS 23,790 | Note: Institutional enrollment headcounts include degree-seeking students enrolled in traditional programs."
+  },
+  "fall_2022": {
+    "total_all_students": 23374,
+    "undergraduate_total": 9760,
+    "graduate_professional_total": 13614,
+    "source_url": "https://upenn.box.com/s/75jr7yip7279rcsfic0946o1pkr8okrt",
+    "document": "CDS 2022-23 (UPenn-Common-Data-Set-2022-23-Jul-2023.pdf)",
+    "section_page": "B1 Institutional Enrollment, PDF p.5",
+    "evidence": "Total all undergraduates 9,760 | Total all graduate 13,614 | GRAND TOTAL ALL STUDENTS 23,374"
+  },
+  "definition_notes": "Penn's CDS B1 reports only what Penn calls its 'adjusted total enrollment': degree-seeking students in traditional programs (UG in SAS/ENG/NUR/WH; graduate degree programs). Per Penn's Quick Facts documentation (Fall 2023 edition) it excludes non-traditional students in the School of Liberal & Professional Studies, the Wharton Evening Program, the Accelerated Nursing Program and stand-alone certificate programs; the Fall 2024 edition says it excludes online, non-traditional and non-credential-seeking students. Penn's own all-credit-bearing 'Enrollment Total' in Quick Facts is 28,201 (Fall 2022), 28,711 (Fall 2023) and 29,109 (Fall 2024), which equal IPEDS. The CDS counts equal Penn's own adjusted totals (Fall 2024: UG 10,013 + graduate 14,010 = 24,023; Fall 2023: 9,995 + 13,795 = 23,790).",
+  "gap_vs_ipeds_fall_2023_pct": -17.14,
+  "caveats": [
+    "Gap vs IPEDS is -17.1% in Fall 2023 (23,790 vs 28,711) and -17.5% vs Penn Quick Facts Fall 2024 (24,023 vs 29,109). Explained by Penn's own documentation: IPEDS/Quick Facts 'Enrollment Total' counts all credit-bearing students (Fall 2024: 1,465 'Other Undergraduate' and 3,621 other graduate students beyond the adjusted total); the CDS counts only traditional degree-seeking students. Quick Facts PDFs saved in the Penn folder.",
+    "Original-slide FY23 count 23,374 equals the CDS Fall 2022 figure exactly, so the slide series was already on this narrower CDS/adjusted basis. If Brett wants all-enrolled students (IPEDS basis) the Penn numbers are 28,201 / 28,711 / 29,109.",
+    "Penn Quick Facts Fall 2024 documentation table header reads 'Enrollment Total (Fall 2023)' but the values (10,013 and 14,010) are Fall 2024; a typo in the source, values match the CDS 2024-25."
+  ],
+  "blocked_hosts": []
+}

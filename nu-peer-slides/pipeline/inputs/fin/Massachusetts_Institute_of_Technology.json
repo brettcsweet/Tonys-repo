@@ -1,0 +1,122 @@
+{
+  "institution": "Massachusetts Institute of Technology",
+  "fiscal_year_end_fy25": "June 30, 2025",
+  "documents": [
+    {
+      "label": "FY25 audited financial statements (Report of the Treasurer 2025; PwC audit)",
+      "url": "https://vpf.mit.edu/sites/default/files/downloads/TreasurersReport/MITTreasurersReport2025.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Massachusetts_Institute_of_Technology/MITTreasurersReport2025.pdf (text: MIT2025.txt)",
+      "pages": "Statement of Activities printed p.12 (PDF p.16); MD&A operating expense discussion incl. Lincoln S&W growth, depreciation and interest printed p.6 (PDF p.10); Note A depreciation (Table 1) printed p.15 (PDF p.19); Note H Table 18 functional expenses printed p.32 (PDF p.36); Five-Year Trend Analysis: Lincoln sponsored support printed p.48 (PDF p.52), students/faculty printed p.49 (PDF p.53)"
+    },
+    {
+      "label": "FY24 audited financial statements (Report of the Treasurer 2024)",
+      "url": "https://vpf.mit.edu/sites/default/files/downloads/TreasurersReport/MITTreasurersReport2024.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Massachusetts_Institute_of_Technology/MITTreasurersReport2024.pdf (text: MIT2024.txt)",
+      "pages": "Statement of Activities printed p.12 (PDF p.16); MD&A on Lincoln S&W growth (14.7%) printed p.6 (PDF p.10)"
+    },
+    {
+      "label": "FY23 audited financial statements (Report of the Treasurer 2023)",
+      "url": "https://vpf.mit.edu/sites/default/files/downloads/TreasurersReport/MITTreasurersReport2023.pdf",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Massachusetts_Institute_of_Technology/MITTreasurersReport2023.pdf (text: MIT2023.txt)",
+      "pages": "Statement of Activities printed p.12 (PDF p.16)"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "salaries_and_wages": 2090862000,
+      "sw_combined_with_benefits": 2796822000,
+      "employee_benefits": 705960000,
+      "total_operating_expenses": 5117184000,
+      "depreciation": 289575000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 170489000,
+      "interest_in_opex": true,
+      "core_opex": 4657120000,
+      "core_opex_arithmetic": "5,117,184,000 - 289,575,000 (depreciation) - 0 (no separate amortization line) - 170,489,000 (interest) = 4,657,120,000; equals MIT's reported 'Total expenses before depreciation and interest' of 4,657,120,000",
+      "evidence": {
+        "salaries_and_wages": "Salaries and wages  $ 2,090,862 (total 2025 column; 2024 comparative 1,993,165) | FY25 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16)",
+        "total_operating_expenses": "Total expenses before depreciation and interest 4,657,120; Depreciation 289,575; Interest 170,489 (in thousands) => operating expense total 5,117,184; check: Total revenues 5,372,823 less Results of operations 255,639 = 5,117,184 | FY25 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16)",
+        "depreciation": "Depreciation 289,575 (2024: 266,510) | FY25 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16) | also Note A: 'Depreciation expense was $289.6 million in fiscal 2025 and $266.5 million in fiscal 2024' (printed p.15)",
+        "interest_expense": "Interest 170,489 (2024: 163,079) | FY25 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16)"
+      },
+      "note_employee_benefits": "Employee benefits (705,960,000) is a separate line; sw_combined_with_benefits is the arithmetic sum of S&W and Employee benefits, provided for convenience only (S&W is reported separately, so salaries_and_wages is populated).",
+      "functional_table_18_total_expenses": 4946908000,
+      "net_periodic_benefit_income_other_than_service_cost_outside_opex": 170276000
+    },
+    "FY24": {
+      "salaries_and_wages": 1993165000,
+      "sw_combined_with_benefits": 2629995000,
+      "employee_benefits": 636830000,
+      "total_operating_expenses": 4782692000,
+      "depreciation": 266510000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 163079000,
+      "interest_in_opex": true,
+      "core_opex": 4353103000,
+      "core_opex_arithmetic": "4,782,692,000 - 266,510,000 (depreciation) - 0 (no separate amortization line) - 163,079,000 (interest) = 4,353,103,000; equals MIT's reported 'Total expenses before depreciation and interest' of 4,353,103,000",
+      "evidence": {
+        "salaries_and_wages": "Salaries and wages  $ 1,993,165 (2024 total; 2023 comparative 1,839,997) [FY24 report]; FY25 report prior-year column also shows 1,993,165 | FY24 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY25 report",
+        "total_operating_expenses": "Total expenses before depreciation and interest 4,353,103; Depreciation 266,510; Interest 163,079 (in thousands) => 4,782,692; check: Total revenues 5,070,848 less Results of operations 288,156 = 4,782,692 | FY24 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY25 report",
+        "depreciation": "Depreciation 266,510 (2023: 244,168) [FY24 report]; agrees with FY25 report comparative | FY24 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY25 report",
+        "interest_expense": "Interest 163,079 (2023: 170,760) [FY24 report]; agrees with FY25 report comparative | FY24 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY25 report"
+      },
+      "note_employee_benefits": "Employee benefits (636,830,000) is a separate line; sw_combined_with_benefits is the arithmetic sum of S&W and Employee benefits, provided for convenience only (S&W is reported separately, so salaries_and_wages is populated).",
+      "functional_table_18_total_expenses": 4586189000,
+      "net_periodic_benefit_income_other_than_service_cost_outside_opex": 196503000
+    },
+    "FY23": {
+      "salaries_and_wages": 1839997000,
+      "sw_combined_with_benefits": 2446879000,
+      "employee_benefits": 606882000,
+      "total_operating_expenses": 4511098000,
+      "depreciation": 244168000,
+      "depreciation_in_opex": true,
+      "amortization": null,
+      "amortization_in_opex": false,
+      "interest_expense": 170760000,
+      "interest_in_opex": true,
+      "core_opex": 4096170000,
+      "core_opex_arithmetic": "4,511,098,000 - 244,168,000 (depreciation) - 0 (no separate amortization line) - 170,760,000 (interest) = 4,096,170,000; equals MIT's reported 'Total expenses before depreciation and interest' of 4,096,170,000",
+      "evidence": {
+        "salaries_and_wages": "Salaries and wages  $ 1,839,997 (2023 total; 2022 comparative 1,700,986) [FY23 report]; FY24 report prior-year column also shows 1,839,997 | FY23 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY24 report",
+        "total_operating_expenses": "Total expenses before depreciation and interest 4,096,170; Depreciation 244,168; Interest expense 170,760 (in thousands) => 4,511,098; check: Total revenues 4,655,404 less Results of operations 144,306 = 4,511,098 | FY23 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY24 report",
+        "depreciation": "Depreciation 244,168 (2022: 223,364) [FY23 report] | FY23 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY24 report",
+        "interest_expense": "Interest expense 170,760 (2022: 156,807) [FY23 report] | FY23 Report of the Treasurer, Consolidated Statement of Activities, printed p.12 (PDF p.16); same figures appear as the prior-year column in the FY24 report"
+      },
+      "note_employee_benefits": "Employee benefits (606,882,000) is a separate line; sw_combined_with_benefits is the arithmetic sum of S&W and Employee benefits, provided for convenience only (S&W is reported separately, so salaries_and_wages is populated).",
+      "functional_table_18_total_expenses": 4338274000,
+      "net_periodic_benefit_income_other_than_service_cost_outside_opex": 172824000
+    }
+  },
+  "entities_included": {
+    "health_system": false,
+    "health_system_expense": null,
+    "ffrdc": "MIT Lincoln Laboratory (FFRDC; the FY24 report calls them 'federally funded research and development centers (FFRDCs)') is consolidated in all operating expense lines. Lincoln Laboratory operating expense and Lincoln S&W are NOT disclosed in dollars in the Reports of the Treasurer (FY23-FY25). Only disclosed: (a) Lincoln direct sponsored REVENUE in the Statement of Activities: FY25 $1,407,807,000; FY24 $1,305,146,000; FY23 $1,166,956,000 (revenue, not expense; 'almost all' Lincoln revenue is from exchange contracts per Note A), (b) total Lincoln Laboratory sponsored support including F&A/adjustments in the unaudited Five-Year Trend Analysis: FY25 $1,476,092,000; FY24 $1,367,228,000; FY23 $1,220,625,000, (c) growth rates only: FY25 report says Lincoln S&W expense grew 6.3% (campus 4.3%; overall Institute S&W +4.9% to $2,090.9M); FY24 report says Lincoln S&W grew 14.7% (campus +5.9%). Dollar S&W for Lincoln cannot be backed out from rounded growth rates with any reliability, so it is left undisclosed (null).",
+    "other": "Singapore-MIT Alliance for Research and Technology (SMART) is included (SMART direct sponsored revenue $26,669,000 in FY25). No hospital/health system. MIT Investment Management Co. and other subsidiaries are consolidated ('Massachusetts Institute of Technology and its subsidiaries')."
+  },
+  "calibration_fy23": {
+    "ref_sw": null,
+    "ref_core_opex": null,
+    "sw_diff_pct": null,
+    "core_opex_diff_pct": null,
+    "explanation": "No FY23 reference values exist for MIT in the original analysis, so no calibration is possible. Extracted FY23 (definitions per SPEC): S&W $1,839,997,000; total operating expenses $4,511,098,000; core opex $4,096,170,000."
+  },
+  "student_counts_in_official_docs": "FY25 Report of the Treasurer, Five-Year Trend Analysis (Unaudited), printed p.49 (PDF p.53), column labeled '2025' (the report does not state which fall term; it is the first column of a five-year table 2025..2021): Undergraduate full-time 4,489, part-time 46; Graduate full-time 7,194, part-time 157 (FTE not given). Same table, column '2024': UG FT 4,543 / PT 33; Grad FT 7,163 / PT 181; column '2023': UG FT 4,601 / PT 56; Grad FT 7,024 / PT 177. Faculty 1,090 and Staff and fellows 16,400 (2025 column; headcount as of October 31, includes main campus- and Lincoln Laboratory-based personnel affiliated with MIT, including individuals with unpaid appointments). Because the FY25 report was published in October 2025 the '2025' student column may reflect fall 2024 enrollment; confirm the term against MIT Facts before use.",
+  "caveats": [
+    "Amounts in the source are in thousands of dollars; all JSON figures are converted to whole dollars (x1,000).",
+    "Total operating expenses = Total expenses before depreciation and interest + Depreciation + Interest, as MIT does not print a single 'total operating expenses' row. Verified against Total revenues minus Results of operations for all three years (FY25 5,117,184K; FY24 4,782,692K; FY23 4,511,098K).",
+    "Natural-classification cross-check: Note H Table 18 (functional/natural) totals of $4,946,908K (FY25), $4,586,189K (FY24), $4,338,274K (FY23) equal total operating expenses less 'Net periodic benefit income other than service cost' ($170,276K, $196,503K, $172,824K), which MIT presents BELOW 'Results of operations' (outside operating expenses) but nets into Compensation in Table 18. Table 18 Compensation = S&W + Employee benefits - that income (FY25: 2,090,862+705,960-170,276 = 2,626,546); Other operating = Supplies and services + Subrecipient agreements; Space-related = Utilities, rent, and repairs + Depreciation + Interest. All three tie exactly in all three years.",
+    "Core opex as defined by SPEC (total operating expenses minus depreciation minus amortization minus interest) equals MIT's reported 'Total expenses before depreciation and interest'. It does NOT deduct the net periodic benefit income (~$170M FY25) that MIT reports outside operating expenses; if an analyst nets that income into compensation as MIT's own 'Expenses' line does, core would be lower by that amount.",
+    "Amortization: MIT reports no amortization line in operating expenses (only 'Depreciation' and 'Interest'; the cash flow statement shows 'Amortization of bond premiums and discounts and other adjustments' of (8,353)K in FY25, which is a non-cash adjustment inside interest/other, not a separate opex line). amortization set to null, amortization_in_opex false.",
+    "Interest is as reported net of capitalized interest ($9.8M FY25; $12.9M FY24 per Note A). In the FY23 report the row is labeled 'Interest expense'; FY24/FY25 label it 'Interest'.",
+    "Employee benefits line in the statement excludes the non-service-cost components of net periodic benefit cost; MIT's MD&A 'employee benefit expenses' of $535.7M in FY25 includes those components (net of the $170.3M income), so do not mix the two.",
+    "No restatements: FY24 figures in the FY25 report equal those in the FY24 report; FY23 figures in the FY24 report equal those in the FY23 report (S&W, benefits, supplies, subrecipient, utilities, depreciation, interest all agree).",
+    "Lincoln Laboratory is a very large, non-student enterprise: Lincoln direct sponsored revenue ($1.408B FY25) is about 26% of consolidated operating revenue ($5.373B) and MIT says Lincoln S&W grew 6.3% in FY25 with FTEs up 3.4%. Any per-student expense or S&W metric using consolidated MIT will be inflated by Lincoln; the reports give no dollar Lincoln expense to strip out. Lincoln direct revenue can serve only as a rough proxy for Lincoln total cost (mostly cost-reimbursement contracts) and is not an audited expense figure.",
+    "Campus-only S&W cannot be derived precisely; MIT reports only growth rates for campus vs Lincoln."
+  ],
+  "blocked_hosts": []
+}

@@ -1,0 +1,320 @@
+{
+  "institution": "Northeastern University",
+  "ein": "04-1679980",
+  "purpose": "Salaries and wages separated from benefits, using Form 990 Part IX column (A), to complement the audited statements which only show combined 'Salary and benefits'.",
+  "which_year_obtained": "FY25 (tax year July 1, 2024 - June 30, 2025) Form 990 IS filed and was read (IRS submission date 2026-05-15). FY24 and FY23 990s were also read, so all three years reconcile.",
+  "documents": [
+    {
+      "label": "FY25 Form 990 (tax period 07-01-2024 to 06-30-2025), IRS e-file render on ProPublica Nonprofit Explorer",
+      "object_id": "202621359349305267",
+      "url": "https://projects.propublica.org/nonprofits/organizations/41679980/202621359349305267/full",
+      "render_url": "https://projects.propublica.org/nonprofits/full_text/202621359349305267/IRS990",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/990/ft_202621359349305267_IRS990.txt (text) and ft_202621359349305267_IRS990_raw.html / .raw (rendered HTML)"
+    },
+    {
+      "label": "FY24 Form 990 (tax period 07-01-2023 to 06-30-2024), IRS e-file render on ProPublica Nonprofit Explorer",
+      "object_id": "202541349349312564",
+      "url": "https://projects.propublica.org/nonprofits/organizations/41679980/202541349349312564/full",
+      "render_url": "https://projects.propublica.org/nonprofits/full_text/202541349349312564/IRS990",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/990/ft_202541349349312564_IRS990.txt (text) and ft_202541349349312564_IRS990_raw.html / .raw (rendered HTML)"
+    },
+    {
+      "label": "FY23 Form 990 (tax period 07-01-2022 to 06-30-2023), IRS e-file render on ProPublica Nonprofit Explorer",
+      "object_id": "202441369349310964",
+      "url": "https://projects.propublica.org/nonprofits/organizations/41679980/202441369349310964/full",
+      "render_url": "https://projects.propublica.org/nonprofits/full_text/202441369349310964/IRS990",
+      "local_file": "/tmp/claude-0/-home-user-Tonys-repo/db0313db-3752-590a-93a4-1acae6a49f8a/scratchpad/data/fin/Northeastern_University/990/ft_202441369349310964_IRS990.txt (text) and ft_202441369349310964_IRS990_raw.html / .raw (rendered HTML)"
+    }
+  ],
+  "years": {
+    "FY25": {
+      "tax_period": "07-01-2024 to 06-30-2025",
+      "form_label_on_render": "TY 2024 Form 990",
+      "irs_object_id": "202621359349305267",
+      "irs_submission_date": "2026-05-15",
+      "part_ix_form_page": 10,
+      "lines": {
+        "l5": {
+          "label": "5 Compensation of current officers, directors, trustees, and key employees",
+          "col_A_total": 18472782,
+          "col_B_program": 5511379,
+          "col_C_mgmt_general": 11487696,
+          "col_D_fundraising": 1473707,
+          "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 18,472,782 | 5,511,379 | 11,487,696 | 1,473,707  (columns A | B | C | D, blanks omitted)"
+        },
+        "l6": {
+          "label": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+          "col_A_total": 2552813,
+          "col_B_program": 2552813,
+          "col_C_mgmt_general": null,
+          "col_D_fundraising": null,
+          "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 2,552,813 | 2,552,813  (columns A | B | C | D, blanks omitted)"
+        },
+        "l7": {
+          "label": "7 Other salaries and wages",
+          "col_A_total": 1024109583,
+          "col_B_program": 934763145,
+          "col_C_mgmt_general": 68878630,
+          "col_D_fundraising": 20467808,
+          "verbatim_row_as_rendered": "7 Other salaries and wages ...... 1,024,109,583 | 934,763,145 | 68,878,630 | 20,467,808  (columns A | B | C | D, blanks omitted)"
+        },
+        "l8": {
+          "label": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+          "col_A_total": 66202389,
+          "col_B_program": 59720966,
+          "col_C_mgmt_general": 5091381,
+          "col_D_fundraising": 1390042,
+          "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 66,202,389 | 59,720,966 | 5,091,381 | 1,390,042  (columns A | B | C | D, blanks omitted)"
+        },
+        "l9": {
+          "label": "9 Other employee benefits",
+          "col_A_total": 126133813,
+          "col_B_program": 113784914,
+          "col_C_mgmt_general": 10288086,
+          "col_D_fundraising": 2060813,
+          "verbatim_row_as_rendered": "9 Other employee benefits ...... 126,133,813 | 113,784,914 | 10,288,086 | 2,060,813  (columns A | B | C | D, blanks omitted)"
+        },
+        "l10": {
+          "label": "10 Payroll taxes",
+          "col_A_total": 60110372,
+          "col_B_program": 54225309,
+          "col_C_mgmt_general": 4622919,
+          "col_D_fundraising": 1262144,
+          "verbatim_row_as_rendered": "10 Payroll taxes ...... 60,110,372 | 54,225,309 | 4,622,919 | 1,262,144  (columns A | B | C | D, blanks omitted)"
+        },
+        "l25": {
+          "label": "25 Total functional expenses. Add lines 1 through 24e",
+          "col_A_total": 3055043076,
+          "col_B_program": 2775459030,
+          "col_C_mgmt_general": 233409587,
+          "col_D_fundraising": 46174459,
+          "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 3,055,043,076 | 2,775,459,030 | 233,409,587 | 46,174,459  (columns A | B | C | D, blanks omitted)"
+        }
+      },
+      "salaries_and_wages_l5_l6_l7": 1045135178,
+      "salary_and_benefits_l5_to_l10": 1297581752,
+      "benefits_l8_l9_l10": 252446574,
+      "sw_share_of_salary_and_benefits_pct": 80.54,
+      "benefits_over_sw_pct": 24.15,
+      "audited": {
+        "salary_and_benefits": 1341049000,
+        "total_operating_expenses": 2388249000,
+        "financial_aid_netted_against_tuition": 642503000
+      },
+      "reconciliation": {
+        "990_l5_to_l10_minus_audited_salary_and_benefits": -43467248,
+        "990_l5_to_l10_vs_audited_pct": -3.24,
+        "990_l25_minus_audited_total_opex": 666794076,
+        "990_l25_vs_audited_total_opex_pct": 27.92,
+        "990_l25_less_l2_grants_to_domestic_individuals": 2414016986,
+        "990_l25_less_l2_vs_audited_total_opex_pct": 1.08,
+        "990_l2_grants_to_domestic_individuals": 641026090,
+        "note": "The audited statement of activities reports tuition net of financial aid, so scholarship aid is not in audited operating expenses, while 990 Part IX line 2 (grants to domestic individuals) counts it as an expense. Removing line 2 from line 25 is shown only as a reconciling comparison, not as an estimate of anything.",
+        "990_l20_interest_vs_audited_interest_pct": -0.97,
+        "990_l22_dep_amort_vs_audited_depreciation_pct": -3.83,
+        "990_l20": 49380632,
+        "990_l22": 145456449,
+        "audited_interest": 49862000,
+        "audited_depreciation": 151250000
+      }
+    },
+    "FY24": {
+      "tax_period": "07-01-2023 to 06-30-2024",
+      "form_label_on_render": "TY 2023 Form 990",
+      "irs_object_id": "202541349349312564",
+      "irs_submission_date": "2025-05-14",
+      "part_ix_form_page": 10,
+      "lines": {
+        "l5": {
+          "label": "5 Compensation of current officers, directors, trustees, and key employees",
+          "col_A_total": 16019628,
+          "col_B_program": 6101833,
+          "col_C_mgmt_general": 8518269,
+          "col_D_fundraising": 1399526,
+          "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 16,019,628 | 6,101,833 | 8,518,269 | 1,399,526  (columns A | B | C | D, blanks omitted)"
+        },
+        "l6": {
+          "label": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+          "col_A_total": 1733450,
+          "col_B_program": 1733450,
+          "col_C_mgmt_general": null,
+          "col_D_fundraising": null,
+          "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 1,733,450 | 1,733,450  (columns A | B | C | D, blanks omitted)"
+        },
+        "l7": {
+          "label": "7 Other salaries and wages",
+          "col_A_total": 956721553,
+          "col_B_program": 867350920,
+          "col_C_mgmt_general": 70238465,
+          "col_D_fundraising": 19132168,
+          "verbatim_row_as_rendered": "7 Other salaries and wages ...... 956,721,553 | 867,350,920 | 70,238,465 | 19,132,168  (columns A | B | C | D, blanks omitted)"
+        },
+        "l8": {
+          "label": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+          "col_A_total": 57606551,
+          "col_B_program": 51736193,
+          "col_C_mgmt_general": 4656436,
+          "col_D_fundraising": 1213922,
+          "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 57,606,551 | 51,736,193 | 4,656,436 | 1,213,922  (columns A | B | C | D, blanks omitted)"
+        },
+        "l9": {
+          "label": "9 Other employee benefits",
+          "col_A_total": 104886605,
+          "col_B_program": 94198204,
+          "col_C_mgmt_general": 9414066,
+          "col_D_fundraising": 1274335,
+          "verbatim_row_as_rendered": "9 Other employee benefits ...... 104,886,605 | 94,198,204 | 9,414,066 | 1,274,335  (columns A | B | C | D, blanks omitted)"
+        },
+        "l10": {
+          "label": "10 Payroll taxes",
+          "col_A_total": 56846804,
+          "col_B_program": 51053881,
+          "col_C_mgmt_general": 4595014,
+          "col_D_fundraising": 1197909,
+          "verbatim_row_as_rendered": "10 Payroll taxes ...... 56,846,804 | 51,053,881 | 4,595,014 | 1,197,909  (columns A | B | C | D, blanks omitted)"
+        },
+        "l25": {
+          "label": "25 Total functional expenses. Add lines 1 through 24e",
+          "col_A_total": 2758750001,
+          "col_B_program": 2493507338,
+          "col_C_mgmt_general": 220299506,
+          "col_D_fundraising": 44943157,
+          "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 2,758,750,001 | 2,493,507,338 | 220,299,506 | 44,943,157  (columns A | B | C | D, blanks omitted)"
+        }
+      },
+      "salaries_and_wages_l5_l6_l7": 974474631,
+      "salary_and_benefits_l5_to_l10": 1193814591,
+      "benefits_l8_l9_l10": 219339960,
+      "sw_share_of_salary_and_benefits_pct": 81.63,
+      "benefits_over_sw_pct": 22.51,
+      "audited": {
+        "salary_and_benefits": 1236189000,
+        "total_operating_expenses": 2224534000,
+        "financial_aid_netted_against_tuition": 546820000
+      },
+      "reconciliation": {
+        "990_l5_to_l10_minus_audited_salary_and_benefits": -42374409,
+        "990_l5_to_l10_vs_audited_pct": -3.43,
+        "990_l25_minus_audited_total_opex": 534216001,
+        "990_l25_vs_audited_total_opex_pct": 24.01,
+        "990_l25_less_l2_grants_to_domestic_individuals": 2212455053,
+        "990_l25_less_l2_vs_audited_total_opex_pct": -0.54,
+        "990_l2_grants_to_domestic_individuals": 546294948,
+        "note": "The audited statement of activities reports tuition net of financial aid, so scholarship aid is not in audited operating expenses, while 990 Part IX line 2 (grants to domestic individuals) counts it as an expense. Removing line 2 from line 25 is shown only as a reconciling comparison, not as an estimate of anything.",
+        "990_l20_interest_vs_audited_interest_pct": -2.17,
+        "990_l22_dep_amort_vs_audited_depreciation_pct": -2.46,
+        "990_l20": 35187899,
+        "990_l22": 130889151,
+        "audited_interest": 35970000,
+        "audited_depreciation": 134195000
+      }
+    },
+    "FY23": {
+      "tax_period": "07-01-2022 to 06-30-2023",
+      "form_label_on_render": "TY 2022 Form 990",
+      "irs_object_id": "202441369349310964",
+      "irs_submission_date": "2024-05-15",
+      "part_ix_form_page": 10,
+      "lines": {
+        "l5": {
+          "label": "5 Compensation of current officers, directors, trustees, and key employees",
+          "col_A_total": 12342621,
+          "col_B_program": 3572178,
+          "col_C_mgmt_general": 7479350,
+          "col_D_fundraising": 1291093,
+          "verbatim_row_as_rendered": "5 Compensation of current officers, directors, trustees, and key employees ...... 12,342,621 | 3,572,178 | 7,479,350 | 1,291,093  (columns A | B | C | D, blanks omitted)"
+        },
+        "l6": {
+          "label": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B)",
+          "col_A_total": 2028073,
+          "col_B_program": 2028073,
+          "col_C_mgmt_general": null,
+          "col_D_fundraising": null,
+          "verbatim_row_as_rendered": "6 Compensation not included above, to disqualified persons (as defined under section 4958(f)(1)) and persons described in section 4958(c)(3)(B) ...... 2,028,073 | 2,028,073  (columns A | B | C | D, blanks omitted)"
+        },
+        "l7": {
+          "label": "7 Other salaries and wages",
+          "col_A_total": 818588708,
+          "col_B_program": 744252507,
+          "col_C_mgmt_general": 57372745,
+          "col_D_fundraising": 16963456,
+          "verbatim_row_as_rendered": "7 Other salaries and wages ...... 818,588,708 | 744,252,507 | 57,372,745 | 16,963,456  (columns A | B | C | D, blanks omitted)"
+        },
+        "l8": {
+          "label": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions)",
+          "col_A_total": 45445245,
+          "col_B_program": 40912669,
+          "col_C_mgmt_general": 3536457,
+          "col_D_fundraising": 996119,
+          "verbatim_row_as_rendered": "8 Pension plan accruals and contributions (include section 401(k) and 403(b) employer contributions) ...... 45,445,245 | 40,912,669 | 3,536,457 | 996,119  (columns A | B | C | D, blanks omitted)"
+        },
+        "l9": {
+          "label": "9 Other employee benefits",
+          "col_A_total": 88017703,
+          "col_B_program": 79234406,
+          "col_C_mgmt_general": 7839780,
+          "col_D_fundraising": 943517,
+          "verbatim_row_as_rendered": "9 Other employee benefits ...... 88,017,703 | 79,234,406 | 7,839,780 | 943,517  (columns A | B | C | D, blanks omitted)"
+        },
+        "l10": {
+          "label": "10 Payroll taxes",
+          "col_A_total": 48514103,
+          "col_B_program": 43672930,
+          "col_C_mgmt_general": 3777799,
+          "col_D_fundraising": 1063374,
+          "verbatim_row_as_rendered": "10 Payroll taxes ...... 48,514,103 | 43,672,930 | 3,777,799 | 1,063,374  (columns A | B | C | D, blanks omitted)"
+        },
+        "l25": {
+          "label": "25 Total functional expenses. Add lines 1 through 24e",
+          "col_A_total": 2460539353,
+          "col_B_program": 2213793916,
+          "col_C_mgmt_general": 205767501,
+          "col_D_fundraising": 40977936,
+          "verbatim_row_as_rendered": "25 Total functional expenses. Add lines 1 through 24e ...... 2,460,539,353 | 2,213,793,916 | 205,767,501 | 40,977,936  (columns A | B | C | D, blanks omitted)"
+        }
+      },
+      "salaries_and_wages_l5_l6_l7": 832959402,
+      "salary_and_benefits_l5_to_l10": 1014936453,
+      "benefits_l8_l9_l10": 181977051,
+      "sw_share_of_salary_and_benefits_pct": 82.07,
+      "benefits_over_sw_pct": 21.85,
+      "audited": {
+        "salary_and_benefits": 1050908000,
+        "total_operating_expenses": 1949746000,
+        "financial_aid_netted_against_tuition": 505746000
+      },
+      "reconciliation": {
+        "990_l5_to_l10_minus_audited_salary_and_benefits": -35971547,
+        "990_l5_to_l10_vs_audited_pct": -3.42,
+        "990_l25_minus_audited_total_opex": 510793353,
+        "990_l25_vs_audited_total_opex_pct": 26.2,
+        "990_l25_less_l2_grants_to_domestic_individuals": 1955932060,
+        "990_l25_less_l2_vs_audited_total_opex_pct": 0.32,
+        "990_l2_grants_to_domestic_individuals": 504607293,
+        "note": "The audited statement of activities reports tuition net of financial aid, so scholarship aid is not in audited operating expenses, while 990 Part IX line 2 (grants to domestic individuals) counts it as an expense. Removing line 2 from line 25 is shown only as a reconciling comparison, not as an estimate of anything.",
+        "990_l20_interest_vs_audited_interest_pct": -2.09,
+        "990_l22_dep_amort_vs_audited_depreciation_pct": -1.67,
+        "990_l20": 40586928,
+        "990_l22": 120052117,
+        "audited_interest": 41452000,
+        "audited_depreciation": 122090000
+      }
+    }
+  },
+  "stability": {
+    "FY25": 80.54,
+    "FY24": 81.63,
+    "FY23": 82.07
+  },
+  "caveats": [
+    "Source is ProPublica Nonprofit Explorer's 'Full Filing' render of the IRS e-file XML for the Form 990 (same IRS object IDs as on IRS TEOS). The raw XML download link on ProPublica returned an HTTP 403 'Security Check' page to curl (a ProPublica bot check, not the egress proxy); I did not try to bypass it and used the site's openly served rendered pages instead. The IRS TEOS XML was not separately pulled. Part IX sits on page 10 of the Form 990 (the render's page header 'Form 990 (2024) Page 10' precedes Part IX for FY25; 'Form 990 (2023) Page 10' and '(2022) Page 10' for FY24 and FY23).",
+    "Tax-year labels: the IRS form is labelled by the calendar year in which the tax year begins. 'TY 2024 Form 990' = July 1, 2024 - June 30, 2025 = FY25 (submitted 2026-05-15). 'TY 2023' = FY24 (submitted 2025-05-14). 'TY 2022' = FY23 (submitted 2024-05-15). Beginning and ending dates were read from the header of each return. ProPublica also lists separate Form 990-T filings for each year; those were not used.",
+    "Column sums check: for every line read, column A equals B + C + D in all three years.",
+    "Scope difference: the 990 is filed by Northeastern University (Boston, EIN 04-1679980). Part IV lines 12a and 12b of the FY25 990 show it obtained no separate audit (12a No) and was included in consolidated independent audited statements (12b Yes). The audited statements consolidate subsidiaries (Kostas Research Institute, New College of the Humanities UK and, from June 16, 2025, Marymount Manhattan College). Plausible reasons the 990 S&B is below the audited line are entities and campuses outside the 990 filer, plus accrual/timing and classification differences (for example pension accruals in 990 line 8 versus audited expense); the filings do not itemize the gap, so no cause is asserted.",
+    "The 990 total expenses (line 25) are far above audited total operating expenses because the 990 counts scholarship aid gross (line 2, $641.0M FY25) while the audited statements net financial aid ($642.5M FY25) against tuition revenue. After removing line 2 the FY25 gap is small (see reconciliation).",
+    "Interest and D&A corroboration (bonus, from Part IX lines 20 and 22): 990 interest ($49.4M FY25) is within about 1% of the audited operating Interest line ($49.9M), which supports using the operating-expense Interest line (and not the $60.0M debt-note figure) in the core opex calculation. 990 D&A ($145.5M) is about 3.8% below audited Depreciation ($151.25M) in FY25.",
+    "No estimate is applied: the S&W ratio is reported for stability only. To carry S&W into the audited framework the audited 'Salary and benefits' line would have to be split, which neither source does; the 990 S&W (lines 5+6+7) is the directly reported number; the 990 lines 5-10 total is 3.2% to 3.4% below audited Salary and benefits in each of the three years."
+  ],
+  "blocked_hosts": [],
+  "stability_summary": "S&W share of (lines 5-10): FY23 82.07%, FY24 81.63%, FY25 80.54%; range 1.53 points. 990 lines 5-10 vs audited Salary and benefits: FY23 -3.42%, FY24 -3.43%, FY25 -3.24%."
+}

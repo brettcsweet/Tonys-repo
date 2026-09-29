@@ -1,0 +1,43 @@
+{
+  "institution": "University of Chicago",
+  "fall_2024": {
+    "total_all_students": 16221,
+    "undergraduate_total": 7519,
+    "graduate_professional_total": 8702,
+    "source_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2025/08/CDS_2024-2025_to_publish.pdf",
+    "document": "CDS 2024-25",
+    "section_page": "B1 Institutional Enrollment (PDF p.3)",
+    "evidence": "Total all students 8,798 7,423 0 0 / Total all undergraduates 7,519 / Total all graduate 8,702 / GRAND TOTAL ALL STUDENTS 16,221",
+    "as_of": "as of the institution's official fall reporting date or as of October 15, 2024"
+  },
+  "fall_2023": {
+    "total_all_students": 15763,
+    "undergraduate_total": 7489,
+    "graduate_professional_total": 8274,
+    "source_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2024/06/UChicago_CDS_2023-24.pdf",
+    "document": "CDS 2023-24",
+    "section_page": "B1 Institutional Enrollment (PDF p.3)",
+    "evidence": "Total all students 6,647 6,076 0 / Total all undergraduates 7,489 / Total all graduate 8274 / GRAND TOTAL ALL STUDENTS 15,763",
+    "as_of": "as of ... October 15, 2023"
+  },
+  "fall_2022": {
+    "total_all_students": 15946,
+    "undergraduate_total": 7470,
+    "graduate_professional_total": 8476,
+    "source_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2024/06/UChicago_CDS_2022-23.pdf",
+    "document": "CDS 2022-23",
+    "section_page": "B1 Institutional Enrollment (PDF p.3)",
+    "evidence": "Total all students 6,492 5,960 0 2,080 1,414 0 / Total all undergraduates 7,470 / Total all graduate 8476 / GRAND TOTAL ALL STUDENTS 15,946",
+    "as_of": "as of ... October 15, 2022"
+  },
+  "definition_notes": "UChicago's CDS B1 grand total (UG + graduate/professional, full- and part-time). The CDS runs ~14% below both IPEDS (18,339 for Fall 2023) and UChicago's own institutional headline count. Evidence: UChicago Institutional Analysis 'Students' page (opened, https://data.uchicago.edu/data-students/, all figures Fall 2025) shows grand total 19,140 = undergraduates 7,496 + graduate students 11,236 + non-degree and other 408, whereas the Fall 2025 CDS (CDS 2025-26, opened) reports UG 7,453 + graduate 8,953 = 16,406. So UG agrees but the CDS graduate count is ~2,300 below the university's own graduate count and excludes the ~400 non-degree/other. The CDS does not explain the difference; a plausible cause (inference, not documented) is that the CDS counts only graduate students enrolled in credit courses and leaves out students registered without coursework (e.g. dissertation/continuing status).",
+  "gap_vs_ipeds_fall_2023_pct": -14.05,
+  "caveats": [
+    "Gap vs IPEDS -14.0% (>5%): definitional, concentrated in graduate students (see definition_notes). Decide whether to use the CDS (15.8K/16.2K) or an IPEDS-type total (18.3K for Fall 2023).",
+    "CDS 2023-24 'Total all students' row (6,647 men / 6,076 women) is a full-time-only figure (4,003+2,644 and 3,485+2,591), not all students: use the printed GRAND TOTAL 15,763 (= UG 7,489 + graduate 8,274), which reconciles to the UG and graduate rows.",
+    "Fall 2024 vs Fall 2023: +2.9%. Fall 2022 to Fall 2023 was -1.1% (15,946 to 15,763).",
+    "Source PDFs were fetched from the wpmucdn CDN URLs that the official Institutional Analysis CDS page (https://data.uchicago.edu/common-data-set/) links as data.uchicago.edu/files/...; the first curl attempts for 2024-25 and 2022-23 hit 'connection reset by peer' and succeeded on a single retry.",
+    "UChicago Registrar census report (uchicago.box.com/v/2024-4AUT-Census) returned 404 to curl, so the registrar count could not be opened."
+  ],
+  "blocked_hosts": []
+}
