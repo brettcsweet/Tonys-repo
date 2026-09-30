@@ -1,7 +1,7 @@
 import math, random, base64, os
 
 random.seed(11)
-W, H = 2400, 1500
+W, H = 2880, 1620
 SP = os.path.dirname(os.path.abspath(__file__))
 
 # ---------- palette ----------
@@ -59,7 +59,7 @@ def txt(x, y, s, size=24, fill=CH, weight=700, anchor="start", ls=0, op=1, extra
             f'fill="{fill}" text-anchor="{anchor}" letter-spacing="{ls}" opacity="{op}" {extra}>{s}</text>')
 
 
-def label(x, y, title, sub, anchor="middle", tcol=CH, scol=G5, rule=RED, size=27):
+def label(x, y, title, sub, anchor="middle", tcol=RED, scol=G5, rule="#000", size=27):
     if anchor == "middle":
         rx = x - 27
     elif anchor == "start":
@@ -69,6 +69,28 @@ def label(x, y, title, sub, anchor="middle", tcol=CH, scol=G5, rule=RED, size=27
     s = f'<rect x="{rx}" y="{y - 40}" width="54" height="5" fill="{rule}"/>'
     s += txt(x, y, title.upper(), size, tcol, 900, anchor, 3.4)
     s += txt(x, y + 32, sub, 22, scol, 400, anchor, 0.3)
+    return s
+
+
+def husky(cx, cy, s=1.0):
+    """Stylized husky head (front view) - an illustration, not the official mark."""
+    g = f'<g transform="translate({cx},{cy}) scale({s})" stroke-linejoin="round">'
+    g += f'<path d="M-52,-6 L-49,-64 L-16,-40 Q0,-46 16,-40 L49,-64 L52,-6 Q60,32 32,54 Q0,68 -32,54 Q-60,32 -52,-6 Z" fill="{CH}" stroke="#fff" stroke-width="4"/>'
+    g += '<path d="M-42,-14 L-41,-48 L-24,-34 Z M42,-14 L41,-48 L24,-34 Z" fill="#E3E6E9"/>'
+    g += '<path d="M0,-34 L-9,-14 Q-36,-6 -37,20 Q-36,46 -16,54 Q0,60 16,54 Q36,46 37,20 Q36,-6 9,-14 Z" fill="#fff"/>'
+    g += f'<ellipse cx="-21" cy="-2" rx="15" ry="12" fill="{CH}"/><ellipse cx="21" cy="-2" rx="15" ry="12" fill="{CH}"/>'
+    for ex in (-21, 21):
+        g += f'<circle cx="{ex}" cy="-2" r="7.5" fill="#fff"/><circle cx="{ex}" cy="-2" r="5" fill="{B1}"/><circle cx="{ex}" cy="-2" r="2.4" fill="#000"/>'
+    g += '<path d="M-9,26 Q0,20 9,26 Q6,36 0,38 Q-6,36 -9,26 Z" fill="#000"/>'
+    g += f'<path d="M0,38 L0,46 M-11,49 Q0,56 11,49" stroke="{CH}" stroke-width="3" fill="none" stroke-linecap="round"/>'
+    return g + '</g>'
+
+
+def label2(x, y, lines, sub, tcol=RED, scol=G5, rule="#000", size=27):
+    s = f'<rect x="{x - 27}" y="{y - 40}" width="54" height="5" fill="{rule}"/>'
+    for i, ln in enumerate(lines):
+        s += txt(x, y + i * 34, ln.upper(), size, tcol, 900, "middle", 3.4)
+    s += txt(x, y + (len(lines) - 1) * 34 + 32, sub, 22, scol, 400, "middle", 0.3)
     return s
 
 
@@ -132,8 +154,8 @@ add('</defs>')
 # background: sky, hills
 # =====================================================================
 add(f'<rect width="{W}" height="{H}" fill="url(#sky)"/>')
-add(f'<path d="M0,860 L0,770 Q160,700 330,752 T640,744 T980,770 T1420,748 T1780,736 T2100,742 T2400,712 L2400,860 Z" fill="#C3D0DB"/>')
-add(f'<path d="M0,860 L0,806 Q220,760 420,800 T820,790 T1250,808 T1650,782 T2050,800 T2400,770 L2400,860 Z" fill="#AEBFCD"/>')
+add(f'<path d="M0,860 L0,770 Q160,700 330,752 T640,744 T980,770 T1420,748 T1780,736 T2100,742 T2400,712 T2640,730 T2880,702 L2880,860 Z" fill="#C3D0DB"/>')
+add(f'<path d="M0,860 L0,806 Q220,760 420,800 T820,790 T1250,808 T1650,782 T2050,800 T2400,770 T2640,784 T2880,764 L2880,860 Z" fill="#AEBFCD"/>')
 
 # =====================================================================
 # institutional uncertainty : storm clouds
@@ -166,7 +188,9 @@ add(f'<g stroke="{B1}" stroke-width="3" stroke-linecap="round" opacity=".55">{ra
 # lightning
 add(f'<path d="M1010,214 L972,292 L1000,292 L962,376 L1052,270 L1022,270 L1056,214 Z" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2.5" stroke-linejoin="round"/>')
 add(f'<path d="M1428,222 L1398,282 L1420,282 L1394,346 L1462,268 L1440,268 L1466,222 Z" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2.5" stroke-linejoin="round" opacity=".85"/>')
-add(txt(1200, 128, "INSTITUTIONAL UNCERTAINTY", 31, "#FFFFFF", 900, "middle", 5))
+add('<rect x="880" y="82" width="640" height="68" fill="#fff"/>')
+add('<rect x="880" y="82" width="640" height="5" fill="#000"/>')
+add(txt(1200, 128, "INSTITUTIONAL UNCERTAINTY", 31, RED, 900, "middle", 5))
 
 # =====================================================================
 # ground, cliff, road
@@ -174,12 +198,12 @@ add(txt(1200, 128, "INSTITUTIONAL UNCERTAINTY", 31, "#FFFFFF", 900, "middle", 5)
 add(f'<rect x="0" y="850" width="{W}" height="{H - 850}" fill="url(#ground)"/>')
 add(f'<rect x="0" y="850" width="{W}" height="3" fill="{G3}"/>')
 # faint ground planes for perspective
-for i, yy in enumerate((905, 985, 1085, 1215, 1370)):
+for i, yy in enumerate((905, 985, 1085, 1215, 1370, 1500)):
     add(f'<rect x="0" y="{yy}" width="{W}" height="2" fill="{G3}" opacity="{0.35 - i * .05:.2f}"/>')
 
 # ----- cliff -----
-cliff_edge = [(585, 850), (566, 900), (603, 962), (574, 1030), (612, 1112), (584, 1194), (622, 1282), (594, 1364), (632, 1500)]
-cliff_pts = [(0, 850)] + cliff_edge + [(0, 1500)]
+cliff_edge = [(585, 850), (566, 900), (603, 962), (574, 1030), (612, 1112), (584, 1194), (622, 1282), (594, 1364), (632, 1500), (602, 1562), (640, 1620)]
+cliff_pts = [(0, 850)] + cliff_edge + [(0, H)]
 add(f'<polygon points="{pts_str([(x + 26, y) for x, y in cliff_edge] + [(x + 60, y + 30) for x, y in reversed(cliff_edge)])}" fill="#000" opacity=".10" filter="url(#soft2)"/>')
 add(f'<polygon points="{pts_str(cliff_pts)}" fill="url(#cliff)"/>')
 # strata
@@ -194,11 +218,12 @@ add(strata)
 add(f'<path d="M0,850 L585,850 L582,866 L0,866 Z" fill="{G5}"/>')
 add(f'<path d="M0,850 L585,850" stroke="{G4}" stroke-width="3"/>')
 # label on the cliff face
-add(f'<rect x="70" y="940" width="54" height="5" fill="{RED}"/>')
-add(txt(70, 984, "DEMOGRAPHIC CLIFF", 27, "#FFFFFF", 900, "start", 3.4))
-add(txt(70, 1016, "Fewer college-age students each year", 22, G3, 400, "start", .3))
+add('<rect x="50" y="916" width="440" height="130" fill="#fff"/>')
+add('<rect x="50" y="916" width="440" height="5" fill="#000"/>')
+add(txt(74, 972, "DEMOGRAPHIC CLIFF", 27, RED, 900, "start", 3.4))
+add(txt(74, 1006, "Fewer college-age students each year", 22, G5, 400, "start", .3))
 # mist at the cliff base
-add(f'<clipPath id="cliffclip"><polygon points="{pts_str(cliff_pts)}"/></clipPath><rect x="0" y="1360" width="700" height="140" fill="url(#mist)" clip-path="url(#cliffclip)"/>')
+add(f'<clipPath id="cliffclip"><polygon points="{pts_str(cliff_pts)}"/></clipPath><rect x="0" y="{H - 140}" width="700" height="140" fill="url(#mist)" clip-path="url(#cliffclip)"/>')
 
 # ----- pictogram columns (students) -----
 def student(x, y, s=1.0, fill=B1, op=1.0, ghost=False, bag=False):
@@ -237,7 +262,7 @@ add(f'<polygon points="668,1046 646,1002 690,1002" fill="{RED}"/>')
 add(txt(92, 566, "PEAK", 19, G5, 700, "middle", 3))
 
 # ----- road -----
-center = catmull([(1200, 1545), (1120, 1440), (940, 1345), (930, 1240), (1130, 1170), (1420, 1140), (1500, 1050),
+center = catmull([(1200, 1700), (1200, 1545), (1120, 1440), (940, 1345), (930, 1240), (1130, 1170), (1420, 1140), (1500, 1050),
                   (1330, 985), (1110, 950), (1120, 900), (1200, 862)], 30)
 def hw(y):
     return 34 + (y - 862) / (1545 - 862) * 92
@@ -544,12 +569,69 @@ add(badge(2200, 1138, hat, "Apprenticeships"))
 add(label(2010, 1322, "Alternative Pathways", "Credentials, online learning, trades"))
 
 # =====================================================================
+# federal research funding landscape
+# =====================================================================
+fx, by = 2630, 560
+add(f'<ellipse cx="{fx}" cy="{by + 8}" rx="180" ry="13" fill="#000" opacity=".12" filter="url(#soft)"/>')
+for x0 in (fx - 178, fx + 100):
+    add(f'<rect x="{x0}" y="{by - 88}" width="78" height="76" fill="url(#stone)" stroke="{G4}" stroke-width="2"/>')
+    add(f'<rect x="{x0 - 6}" y="{by - 96}" width="90" height="10" fill="{CH3}"/>')
+    for wx in (x0 + 14, x0 + 46):
+        add(f'<rect x="{wx}" y="{by - 72}" width="18" height="34" fill="{B1}" stroke="{CH3}" stroke-width="2"/>')
+add(f'<rect x="{fx - 40}" y="{by - 196}" width="80" height="92" fill="url(#stone)" stroke="{G4}" stroke-width="2"/>')
+add(f'<path d="M{fx - 48},{by - 196} A48,50 0 0 1 {fx + 48},{by - 196} Z" fill="url(#dome)" stroke="{GOLD3}" stroke-width="2.5"/>')
+add(f'<rect x="{fx - 6}" y="{by - 262}" width="12" height="20" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2"/>')
+add(f'<circle cx="{fx}" cy="{by - 268}" r="6" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2"/>')
+add(f'<rect x="{fx - 100}" y="{by - 108}" width="200" height="96" fill="url(#stone)" stroke="{G4}" stroke-width="2"/>')
+add(f'<polygon points="{fx - 112},{by - 106} {fx},{by - 146} {fx + 112},{by - 106}" fill="url(#stone)" stroke="{G4}" stroke-width="2.5" stroke-linejoin="round"/>')
+add(f'<rect x="{fx - 94}" y="{by - 104}" width="188" height="88" fill="#4A5058"/>')
+for i in range(6):
+    cxx = fx - 80 + i * 32
+    add(f'<rect x="{cxx - 7}" y="{by - 102}" width="14" height="86" fill="url(#stone)" stroke="{G4}" stroke-width="2"/>')
+add(f'<rect x="{fx - 112}" y="{by - 14}" width="224" height="14" fill="{G2}" stroke="{G4}" stroke-width="2"/>')
+add(f'<rect x="{fx - 124}" y="{by}" width="248" height="12" fill="{G3}" stroke="{G4}" stroke-width="2"/>')
+# the pipeline: valve nearly closed, funding reduced to drips
+py0 = by + 12
+add(f'<rect x="{fx - 11}" y="{py0}" width="22" height="122" fill="{CH2}" stroke="{CH}" stroke-width="3"/>')
+for fy in (py0, py0 + 112):
+    add(f'<rect x="{fx - 19}" y="{fy}" width="38" height="10" fill="{CH}"/>')
+add(f'<rect x="{fx - 17}" y="{py0 + 44}" width="34" height="26" rx="4" fill="{CH}"/>')
+add(f'<line x1="{fx + 17}" y1="{py0 + 57}" x2="{fx + 44}" y2="{py0 + 57}" stroke="{CH}" stroke-width="7"/>')
+add(f'<g transform="translate({fx + 56},{py0 + 57})"><circle r="21" fill="none" stroke="{RED}" stroke-width="7"/><line x1="-21" y1="0" x2="21" y2="0" stroke="{RED}" stroke-width="5"/><line x1="0" y1="-21" x2="0" y2="21" stroke="{RED}" stroke-width="5"/><circle r="5" fill="{RED}"/></g>')
+add(f'<path d="M{fx - 11},{py0 + 122} L{fx - 4},{py0 + 146} L{fx + 4},{py0 + 146} L{fx + 11},{py0 + 122} Z" fill="{CH}"/>')
+for dy, r, op in ((py0 + 172, 12, .95), (py0 + 216, 9.5, .6), (py0 + 250, 7.5, .35)):
+    add(f'<g opacity="{op}"><circle cx="{fx}" cy="{dy}" r="{r}" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2.5"/><circle cx="{fx}" cy="{dy}" r="{r * .62:.1f}" fill="none" stroke="{GOLD3}" stroke-width="1.6"/></g>')
+# the lab: beaker with a low level against the dashed prior level, flask, microscope
+bt, bb = 858, 1000
+add(f'<ellipse cx="{fx}" cy="{bb + 5}" rx="200" ry="12" fill="#000" opacity=".12" filter="url(#soft)"/>')
+add(f'<path d="M{fx - 52},{bt} L{fx - 52},{bb - 10} Q{fx - 52},{bb} {fx - 42},{bb} L{fx + 42},{bb} Q{fx + 52},{bb} {fx + 52},{bb - 10} L{fx + 52},{bt}" fill="#fff" fill-opacity=".45" stroke="{B1}" stroke-width="5" stroke-linecap="round"/>')
+add(f'<path d="M{fx - 47},{bb - 40} L{fx + 47},{bb - 40} L{fx + 47},{bb - 11} Q{fx + 47},{bb - 5} {fx + 41},{bb - 5} L{fx - 41},{bb - 5} Q{fx - 47},{bb - 5} {fx - 47},{bb - 11} Z" fill="{GOLD2}" opacity=".85"/>')
+for ty in range(bt + 40, bb - 44, 24):
+    add(f'<line x1="{fx - 47}" y1="{ty}" x2="{fx - 32}" y2="{ty}" stroke="{B1}" stroke-width="3"/>')
+add(f'<line x1="{fx - 68}" y1="{bt + 26}" x2="{fx + 68}" y2="{bt + 26}" stroke="{RED}" stroke-width="4" stroke-dasharray="10 7"/>')
+add(f'<line x1="{fx + 84}" y1="{bt + 26}" x2="{fx + 84}" y2="{bb - 52}" stroke="{RED}" stroke-width="5" stroke-linecap="round"/>')
+add(f'<polygon points="{fx + 84},{bb - 32} {fx + 72},{bb - 54} {fx + 96},{bb - 54}" fill="{RED}"/>')
+fk = fx - 142
+add(f'<path d="M{fk - 12},{bb - 100} L{fk + 12},{bb - 100} L{fk + 12},{bb - 62} L{fk + 46},{bb - 8} Q{fk + 50},{bb} {fk + 40},{bb} L{fk - 40},{bb} Q{fk - 50},{bb} {fk - 46},{bb - 8} L{fk - 12},{bb - 62} Z" fill="#fff" fill-opacity=".45" stroke="{B1}" stroke-width="5" stroke-linejoin="round"/>')
+add(f'<path d="M{fk - 28},{bb - 30} L{fk + 28},{bb - 30} L{fk + 41},{bb - 8} Q{fk + 44},{bb - 4} {fk + 36},{bb - 4} L{fk - 36},{bb - 4} Q{fk - 44},{bb - 4} {fk - 41},{bb - 8} Z" fill="{RED}" opacity=".75"/>')
+add(f'<rect x="{fk - 16}" y="{bb - 106}" width="32" height="8" rx="3" fill="{B1}"/>')
+mx = fx + 138
+g = f'<g transform="translate({mx},{bb})">'
+g += f'<rect x="-36" y="-12" width="72" height="12" rx="3" fill="{CH2}"/>'
+g += f'<path d="M18,-12 C46,-34 46,-92 10,-122" fill="none" stroke="{CH2}" stroke-width="13" stroke-linecap="round"/>'
+g += f'<rect x="-30" y="-40" width="44" height="7" rx="2" fill="{CH2}"/>'
+g += f'<g transform="rotate(-22 -6 -100)"><rect x="-13" y="-128" width="26" height="70" rx="4" fill="{B1}" stroke="{CH}" stroke-width="3"/><rect x="-9" y="-146" width="18" height="20" rx="3" fill="{CH2}"/><rect x="-7" y="-58" width="14" height="14" fill="{CH}"/></g>'
+add(g + '</g>')
+add(label2(fx, 1078, ["Federal Research", "Funding Landscape"], "Research dollars under pressure"))
+
+# =====================================================================
 # Northeastern wordmark (supplied by Brett, placed unmodified on white with clear space)
 # =====================================================================
 logo_b64 = base64.b64encode(open(os.path.join(SP, "northeastern-wordmark.png"), "rb").read()).decode()
 LOGO_W = 300; LOGO_H = LOGO_W * 84 / 500
 LOGO_P = []
-PX, PY, PW, PH = 1970, 1378, 380, 102
+PW, PH = 380, 102
+PX, PY = W - 30 - PW, H - 20 - PH
 LOGO_P.append(f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" fill="#fff" stroke="{G3}" stroke-width="2"/>')
 LOGO_P.append(f'<image x="{PX + (PW - LOGO_W) / 2:.1f}" y="{PY + (PH - LOGO_H) / 2:.1f}" width="{LOGO_W}" height="{LOGO_H:.1f}" href="data:image/png;base64,{logo_b64}"/>')
 
@@ -629,14 +711,13 @@ add(f'<path d="M-66,-548 Q-62,-520 -40,-508" stroke="#C99476" stroke-width="3.5"
 
 add('</g>')
 # ----- shield (in front of left arm) -----
-add(f'<path d="M-350,-500 L-180,-500 L-180,-390 Q-180,-300 -265,-258 Q-350,-300 -350,-390 Z" fill="{CH2}" stroke="{CH}" stroke-width="6" stroke-linejoin="round"/>')
+add(f'<path d="M-350,-500 L-180,-500 L-180,-390 Q-180,-300 -265,-258 Q-350,-300 -350,-390 Z" fill="{RED}" stroke="{CH}" stroke-width="6" stroke-linejoin="round"/>')
 add('<g clip-path="url(#shieldclip)">')
-add(f'<polygon points="-292,-505 -238,-505 -238,-250 -292,-250" fill="{RED}"/>')
-add(f'<polygon points="-350,-440 -180,-440 -180,-418 -350,-418" fill="{RED}"/>')
-add(f'<path d="M-350,-500 L-180,-500 L-180,-470 L-350,-440 Z" fill="#fff" opacity=".08"/>')
+add(f'<path d="M-350,-500 L-180,-500 L-180,-462 L-350,-424 Z" fill="#fff" opacity=".10"/>')
+add(f'<path d="M-265,-505 L-180,-505 L-180,-300 L-265,-258 Z" fill="#000" opacity=".10"/>')
 add('</g>')
 add(f'<path d="M-338,-488 L-192,-488 L-192,-392 Q-192,-312 -265,-274 Q-338,-312 -338,-392 Z" fill="none" stroke="{GOLD2}" stroke-width="5" stroke-linejoin="round"/>')
-add(f'<circle cx="-265" cy="-429" r="17" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="3.5"/>')
+add(husky(-274, -418, 0.9))
 # hand on the shield
 add(f'<circle cx="-196" cy="-408" r="21" fill="{SKIN}" stroke="{CH}" stroke-width="4"/>')
 add(f'<path d="M-208,-420 q-2,10 4,18 M-198,-424 q-2,12 4,22" stroke="{SKIN2}" stroke-width="3.5" fill="none" stroke-linecap="round"/>')

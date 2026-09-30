@@ -2,8 +2,9 @@ const { chromium } = require('playwright-core');
 const fs = require('fs'); const path = require('path');
 (async () => {
   const svg = fs.readFileSync(path.join(__dirname, 'higher_ed_challenges.svg'), 'utf8');
+  const [, VW, VH] = svg.match(/viewBox="0 0 (\d+) (\d+)"/).map(Number);
   const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--no-sandbox'] });
-  const page = await browser.newPage({ viewport: { width: 2400, height: 1500 } });
+  const page = await browser.newPage({ viewport: { width: VW, height: VH } });
   await page.setContent(`<html><body style="margin:0">${svg}</body></html>`);
   await page.evaluate(() => document.fonts.ready);
   const res = await page.evaluate(() => {
@@ -16,7 +17,7 @@ const fs = require('fs'); const path = require('path');
     out.logo = { x0: img.left, y0: img.top, x1: img.right, y1: img.bottom };
     return out;
   });
-  const T = res.texts, W = 2400, H = 1500, M = 20;
+  const T = res.texts, W = VW, H = VH, M = 20;
   console.log('Lato loaded:', res.fontOk, '| text elements:', T.length);
   let issues = 0;
   T.forEach(t => {
