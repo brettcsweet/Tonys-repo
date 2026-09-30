@@ -198,7 +198,7 @@ add(f'<rect x="70" y="940" width="54" height="5" fill="{RED}"/>')
 add(txt(70, 984, "DEMOGRAPHIC CLIFF", 27, "#FFFFFF", 900, "start", 3.4))
 add(txt(70, 1016, "Fewer college-age students each year", 22, G3, 400, "start", .3))
 # mist at the cliff base
-add(f'<rect x="0" y="1360" width="700" height="140" fill="url(#mist)"/>')
+add(f'<clipPath id="cliffclip"><polygon points="{pts_str(cliff_pts)}"/></clipPath><rect x="0" y="1360" width="700" height="140" fill="url(#mist)" clip-path="url(#cliffclip)"/>')
 
 # ----- pictogram columns (students) -----
 def student(x, y, s=1.0, fill=B1, op=1.0, ghost=False, bag=False):
@@ -452,7 +452,7 @@ for k in range(4):
     add(f'<g transform="translate(-50,{-14 - k * 15})"><ellipse cx="0" cy="8" rx="30" ry="10" fill="{GOLD3}"/><ellipse cx="0" cy="0" rx="30" ry="10" fill="{GOLD2}" stroke="{GOLD3}" stroke-width="2.5"/></g>')
 for k in range(4):
     add(f'<g transform="translate({26 + k * 2},{-10 - k * 17})"><rect x="-6" y="-14" width="76" height="34" fill="{mix(B3, B2, k / 3)}" stroke="{CH2}" stroke-width="3"/><circle cx="32" cy="3" r="9" fill="none" stroke="{CH2}" stroke-width="2.5"/></g>')
-add(txt(60, -66, "$", 30, CH, 900, "middle"))
+add(txt(64, -52.5, "$", 15, CH, 900, "middle"))
 add(f'<g transform="translate(-58,-92)"><circle r="19" fill="{RED}" stroke="{DDRED}" stroke-width="3"/>{txt(0, 9, "$", 26, "#fff", 900, "middle")}</g>')
 add('</g>')
 add(pan(pr[0], pr[1]))
@@ -467,7 +467,8 @@ def bubble(x, y, w, h, text, tail="down", size=27, fill="#fff"):
         tp = f"{x + w * .75:.0f},{y + h - 2} {x + w * .82:.0f},{y + h + 26} {x + w * .52:.0f},{y + h - 2}"
     s = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{fill}" stroke="{CH}" stroke-width="3.5"/>'
     s += f'<polygon points="{tp}" fill="{fill}" stroke="{CH}" stroke-width="3.5" stroke-linejoin="round"/>'
-    s += f'<rect x="{x + 6}" y="{y + h - 8}" width="{w - 12}" height="10" fill="{fill}"/>'
+    mx = x + w * (.25 if tail == "down" else .52) + 3
+    s += f'<rect x="{mx:.1f}" y="{y + h - 4}" width="{w * .23 - 6:.1f}" height="7.5" fill="{fill}"/>'
     s += txt(x + w / 2, y + h / 2 + size * .35, text, size, CH, 900, "middle")
     return s
 
@@ -543,10 +544,14 @@ add(badge(2200, 1138, hat, "Apprenticeships"))
 add(label(2010, 1322, "Alternative Pathways", "Credentials, online learning, trades"))
 
 # =====================================================================
-# logo placeholder
+# Northeastern wordmark (supplied by Brett, placed unmodified on white with clear space)
 # =====================================================================
-add(f'<rect x="1980" y="1388" width="370" height="90" fill="#fff" stroke="{CH2}" stroke-width="3" stroke-dasharray="14 9"/>')
-add(txt(2165, 1444, "LOGO HERE", 32, G4, 900, "middle", 7))
+logo_b64 = base64.b64encode(open(os.path.join(SP, "northeastern-wordmark.png"), "rb").read()).decode()
+LOGO_W = 300; LOGO_H = LOGO_W * 84 / 500
+LOGO_P = []
+PX, PY, PW, PH = 1970, 1378, 380, 102
+LOGO_P.append(f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" fill="#fff" stroke="{G3}" stroke-width="2"/>')
+LOGO_P.append(f'<image x="{PX + (PW - LOGO_W) / 2:.1f}" y="{PY + (PH - LOGO_H) / 2:.1f}" width="{LOGO_W}" height="{LOGO_H:.1f}" href="data:image/png;base64,{logo_b64}"/>')
 
 # =====================================================================
 # THE PRESIDENT (cartoon)
@@ -668,6 +673,7 @@ add('</g>')
 # =====================================================================
 add(f'<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>')
 add(f'<rect width="{W}" height="{H}" filter="url(#grain)" style="mix-blend-mode:multiply"/>')
+P.extend(LOGO_P)
 add('</svg>')
 
 svg = "\n".join(P)
