@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-28",
+  "asOf": "2026-10-02",
   "universe": "U.S. News & World Report 2027 Best National Universities (released Sept 22, 2026), top 50 including ties at the boundary rank (No. 49), n=51. Public and private.",
   "fiscalYear": "FY26 = fiscal year ending on or about June 30, 2026; exceptions in fyEnd (MM-DD).",
   "units": {
@@ -13,15 +13,15 @@
       "short": "MIT",
       "control": "private",
       "fyEnd": "06-30",
-      "fy26Return": null,
+      "fy26Return": 10.3,
       "fy26Return5yr": null,
-      "fy26Return10yr": null,
+      "fy26Return10yr": 11.7,
       "spacexPts": null,
       "fy25M": 27400,
-      "fy26M": null,
-      "returnBasis": null,
-      "notes": "FY25: MIT News (Oct 2025), $27.4B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "fy26M": 29200,
+      "returnBasis": "reported",
+      "notes": "FY25: MIT News (Oct 2025), $27.4B. FY26: MIT News 'MIT releases financials and endowment figures for 2026' (Oct 2, 2026): pooled investments returned 10.3%; 10-yr annualized 11.7%; endowment funds $29.2B excluding pledges. 5-yr not stated.",
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 2,
@@ -37,7 +37,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Princeton Alumni Weekly (Oct 2025), 11% FY25 return, $36.4B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 3,
@@ -53,7 +53,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Harvard Magazine (Oct 2025), 11.9% FY25 return, $56.9B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 4,
@@ -69,7 +69,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Yale News (Oct 2025), 11.1% FY25 return, $44.1B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 5,
@@ -85,7 +85,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 (FYE 9/30/25): Caltech Endowment Report, 9.9% return, $4.5B. Caltech FYE = Sept 30, not June 30; true FY26 just closed 9/30/26, not yet reported.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 5,
@@ -101,7 +101,7 @@
       "fy26M": 61500,
       "returnBasis": "reported",
       "notes": "FY26: Stanford Report (Sept 2026), 31.7% return, Merged Pool $61.5B as of 8/31/26 (Stanford FYE = Aug 31, not June 30). FY25 return 14.3%. FY26 5-yr annualized 10.3%, 10-yr annualized 12.5% (Stanford Report, Sept 2026).",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 7,
@@ -117,7 +117,7 @@
       "fy26M": 31100,
       "returnBasis": "reported",
       "notes": "FY26: Daily Pennsylvanian (Sept 24, 2026), 27.4% return, $24.8B→$31.1B, largest single-year gain on record.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 8,
@@ -133,7 +133,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: P&I, 9% FY25 return, $12.3B (NACUBO-style). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 9,
@@ -149,7 +149,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Forbes/NACUBO-style compilation, $13.7B. No official return % disclosed by JHU. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 9,
@@ -165,7 +165,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Northwestern financial update (Jan 2026), 11.3% return (12mo to 6/30/25), $15.3B as of 8/31/25. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 9,
@@ -181,7 +181,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: P&I/CIO (Oct 2025), 10.2% FY25 return, $10.9B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 12,
@@ -197,7 +197,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Columbia IMC, 12.4% return, $15.9B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 12,
@@ -213,7 +213,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: AI-CIO, 10.8% return, $9.0B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 14,
@@ -229,7 +229,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: CMU Annual Report, 10.9% return, $3.484B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 14,
@@ -245,7 +245,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Cornell Statements (Oct 2025), 12.3% return, $11.8B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 16,
@@ -261,7 +261,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Brown Univ. (Oct 2025), 11.9% return, $8.0B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 16,
@@ -277,7 +277,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Rice Mgmt Co. report, 11.4% return, $8.5B total endowment ($7.9B investment pool). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 16,
@@ -293,7 +293,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Vanderbilt Hustler (Dec 2025), 9.9% return, $10.9B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 16,
@@ -309,7 +309,7 @@
       "fy26M": null,
       "returnBasis": "reported",
       "notes": "FY26: Bloomberg (Sept 25, 2026), 37.3% return driven by legacy SpaceX stake. FY26 dollar value not yet disclosed; FY25 value ($13.4B) is estimated.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 20,
@@ -325,7 +325,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UC Berkeley Foundation FY25: P&I, 10.0% return, $3.39B (campus foundation, not UC system-wide pool). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 20,
@@ -341,7 +341,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UCLA Foundation FY25: P&I, 11.6% return, $4.77B (campus foundation, not UC system-wide pool). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 20,
@@ -357,7 +357,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: Notre Dame Annual Report, 13.6% return, $25.4B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 23,
@@ -373,7 +373,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 (FYE 8/31/25): Emory audit report, $8.93B. No official % return disclosed by Emory. FY26 (FYE 8/31/26) closed but not yet reported.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 23,
@@ -389,7 +389,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "No reliable primary-source FY25 dollar figure or return % located (~$4B cited generally in 2025 CIO-hire coverage).",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 25,
@@ -405,7 +405,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: The University Record (Oct 2025), 15.5% return, $21.2B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 26,
@@ -421,7 +421,7 @@
       "fy26M": 18800,
       "returnBasis": "reported",
       "notes": "FY26: Cavalier Daily (Sept 19, 2026), UVIMCO 27% return vs. 9.8% benchmark, $15.5B→$18.8B. 10-yr annualized approximately 12% ('approximately 12 percent annually' over the past 10 years), per UVIMCO CEO/CIO Robert Durden at the Sept 2026 Finance Committee meeting (Cavalier Daily); stated as an approximate figure, not to a decimal. No FY26 5-yr figure reported yet.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 27,
@@ -437,7 +437,7 @@
       "fy26M": 17000,
       "returnBasis": "reported",
       "notes": "FY26: Bloomberg (Sept 19, 2026), 37.8% return, UNC Investment Fund $12.5B→$17.0B, driven by legacy SpaceX stake (about half of FY26 growth, per UNC Management Company president Stefan Strein). (UNC-CH Foundation portion: $6.04B→$8.16B.) 5-yr annualized 12.5%, 10-yr annualized 13.5% (Bloomberg/WRAL/Investing.com/Hoodline, Sept 19-22, 2026).",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 27,
@@ -453,7 +453,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: USC Endowment Report, 14.0% return, $9.03B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 29,
@@ -469,7 +469,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "Georgia Tech Foundation FY25: P&I, 11.1% return, ~$3B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 29,
@@ -485,7 +485,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UC San Diego Foundation FY25 audited financials, 13.0% return, ~$1.75-1.79B. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 31,
@@ -501,7 +501,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 return ~12% (Boston Globe); standalone audited FY25 dollar value not confirmed. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 31,
@@ -517,7 +517,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 value ~$6B per third-party AUM tracker (unconfirmed vs. primary source). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 31,
@@ -533,7 +533,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: P&I, 10% return; dollar value ~$3B AUM unconfirmed vs. primary source. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -549,7 +549,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: BU Consolidated Financial Report, 14.8% return (P&I), $4.046B (audited). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -565,7 +565,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UC system pool ~$1.8B at 6/30/25; UC GEP-wide FY25 return 12.2%. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -581,7 +581,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UC system pool ~$650M at 6/30/25 (GEP FY25 +12.2%); separate UC Irvine Foundation ~$1B, 11.2% FY25 return. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -597,7 +597,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UF Foundation/UFICO FY25 return 12.1% (P&I); FY25 dollar value not confirmed from primary source. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -613,7 +613,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "University of Illinois Foundation FY25: $3.06B, 3.3% return (notably below benchmark). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -629,7 +629,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UTIMCO (PUF/GEF, FYE Aug 31) FY25 return 10% (P&I); dollar value not confirmed. FY26 (FYE 8/31/26) not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -645,7 +645,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "WFAA FY25 return cited as exceeding 16%; ~$4.9B in endowed funds (dollar figure unconfirmed vs. primary source). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 34,
@@ -661,7 +661,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "New to top 50 in 2027 US News edition. FY25 (FYE 6/30/25): Wake Forest Consolidated Financial Statements, $2.150B combined (Reynolda Campus $1,235.8M + WFUHS $913.9M). No officially stated FY25/FY26 return % disclosed (statements report investment gains in dollar terms only). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 42,
@@ -677,7 +677,7 @@
       "fy26M": null,
       "returnBasis": "management estimate",
       "notes": "FY25: Northeastern FY2025 Consolidated Financial Statements (audited), $2,110.2M (up from $1,906.2M in FY24, incl. $33.7M from Marymount Manhattan acquisition). FY26 return of 16% per management estimate; FY26 dollar value not yet published.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 42,
@@ -693,7 +693,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "New to top 50 in 2027 US News edition. FY25 (FYE 5/31/25, Villanova's fiscal year runs June-May): Villanova Financial Statements, $1.415B (up from $1.313B in FY24). No officially stated return % disclosed. FY26 (ending 5/31/26) not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 44,
@@ -709,7 +709,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "New to top 50 in 2027 US News edition. FY25 (FYE 6/30/25): CWRU Endowment Report / Pensions & Investments, ~$2.5B, 8.53% FY25 return (vs 9.58% policy benchmark) — this is the FY25 return, not FY26. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 44,
@@ -725,7 +725,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: P&I, 10.4% return, ~$2.00B (NACUBO-style, unconfirmed vs. primary source). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 44,
@@ -741,7 +741,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "Rutgers Finance & Admin, ~$2.058B (latest published, may be FY24). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 44,
@@ -757,7 +757,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25: NACUBO-TIAA study / P&I, 11.8% return, $8.62B (not independently confirmed vs. OSU's own statements). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 44,
@@ -773,7 +773,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UC system pool only, ~$285.4M at 6/30/25 (GEP FY25 +12.2%); UCSB Foundation assets not confirmed separately. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 49,
@@ -789,7 +789,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "UMCP Foundation FY25 Endowment Report: $1.24B, +8.2% return (below 10.9% benchmark). FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 49,
@@ -805,7 +805,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 Endowment Report (unaudited): $3.8B, 12.0% net return. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     },
     {
       "usNewsRank": 49,
@@ -821,7 +821,7 @@
       "fy26M": null,
       "returnBasis": null,
       "notes": "FY25 return 12.4% (P&I); dollar figure not independently confirmed. FY26 not yet released.",
-      "lastChecked": "2026-09-28"
+      "lastChecked": "2026-10-02"
     }
   ]
 }
